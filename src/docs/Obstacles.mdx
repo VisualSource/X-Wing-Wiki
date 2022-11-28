@@ -1,0 +1,134 @@
+<Header title="obstacles"/>
+
+[Asteroids](#asteroid "id") |
+[Debris Clouds](#debris-cloud "id") |
+[Loose Cargo](#loose-cargo "id") |
+[Cargo Drift](#cargo-drift "id") |
+[Gas Clouds](#gas-cloud "id") |
+[Spare Parts](#spare-parts "id") |
+[Electro-Chaff Cloud](#electro-chaff-cloud "id") |
+[Range 0](#range-0 "id") |
+[Additionally](#additionally "id")
+
+
+Obstacles act as hazards that can disrupt and damage ships. A ship can suffer
+effects by [moving through](/article/Move), [overlapping](/article/Overlap), or while being at [range 0](/article/Range) of obstacles.
+
+If a ship moves through or overlaps an obstacle, it suffers an effect based on
+the type of obstacle after resolving its move:
+
+### **Asteroid** 
+
+The ship suffers one <Hit/> damage. Roll one attack die. On a
+<Hit/> or <Crit/> result, the ship suffers an additional <Hit/> damage.
+
+<ImgCenter src="/images/Asteroids.webp" alt="Asteroids"/>
+<TextCenter text="These are three examples of asteroids."/>
+
+#### Cargo drift
+
+Cargo drift is an asteroid.
+
+<ImgCenter src="/images/Cargo_Drift.webp" alt="Cargo Drift"/>
+
+### **Blaze** 
+
+Roll one attack die. On a <Hit/> or <Crit/> result, the ship suffers one
+<Hit/> damage; on a <Focus/> result, it gains one stress token. Then the ship
+skips its Perform Action step this round.
+
+### **Debris Cloud** 
+
+The ship is assigned one stress token. Roll one attack
+die. On a <Hit/> result, the ship suffers one <Hit/> damage. On a <Crit/> result, the
+ship suffers one <Crit/> damage.
+
+<ImgCenter src="/images/Debris_Clouds.webp" alt="Debris Clouds"/>
+<TextCenter text="These are three examples of debris clouds."/>
+
+### **Electro-Chaff Cloud** 
+
+The ship breaks all its locks and all locks on it
+and then is assigned one jam token. Roll one attack die. On a <Hit/> or <Crit/>
+result, the ship is assigned one stress token.
+
+During the End Phase, remove each electro-chaff cloud
+with no fuse markers, then remove one fuse marker from
+each electro-chaff cloud. An electro-chaff cloud can never
+have more than one fuse token.
+
+An electro-chaff cloud is a device and an obstacle.
+
+<ImgCenter src="/images/Electro_Chaff_Cloud.webp"/>
+
+
+### **Gas Cloud** 
+
+The ship breaks all its locks and all locks on it and then is
+assigned one strain token. Roll one attack die. On a <Hit/> result, the ship
+is assigned one ion token. On a <Crit/> result, the ship is assigned three ion
+tokens.
+
+Gas clouds are new obstacles, and players may select them instead of asteroids or debris clouds.
+
+<ImgCenter src="/images/Gas_Clouds.webp" alt="Gas Clouds"/>
+<TextCenter text="These are three examples of gas clouds."/>
+
+### **Loose Cargo** 
+
+The ship is assigned one strain token. Roll one attack
+die. On a <Hit/> or <Crit/> result, the ship is assigned one stress token.
+
+Loose cargo is a [Debris cloud](#debris-cloud "id") (obstacle).
+
+<ImgCenter src="/images/Loose_Cargo.webp" alt="Loose Cargo"/>
+
+
+### **Spare Parts** 
+
+The ship is assigned one strain token. Roll one attack
+die. On a <Hit/> or <Crit/> result, the ship is assigned one stress token.
+* If a ship ends a maneuver overlapping an obstacle, it skips its Perform
+Action step.
+
+Spare Parts is a [Debris cloud](#debris-cloud "id") (obstacle).
+
+<ImgCenter src="/images/Spare_Parts.webp" alt="Spare Parts"/>
+
+
+## Range 0
+
+While a ship is at range 0 of an obstacle it may suffer different effects.
+
+* **Asteroid:** The ship cannot perform attacks.
+* **Debris Cloud:** The ship cannot perform attacks.
+* **Electro-Chaff Cloud:** The ship cannot acquire locks and cannot be
+locked.
+* **Gas Cloud:** The ship cannot acquire locks and cannot be locked. The
+ship cannot perform attacks.
+
+While a ship performs an attack, if the attack is [obstructed](/article/Obstructed) by an obstacle,
+the defender rolls one additional defense die.
+
+## Additionally
+
+* Obstacles are placed during the Place Obstacles step of setup.
+
+* Some cards can also place obstacles during the game in the same
+manner as devices (see [Device](/article/Device)).
+* If an obstacle is placed such that one or more ships overlap it, those ship
+resolve any effects of overlapping it.
+* A ship that is overlapping an obstacle can still perform actions granted
+from other game effects.
+* For the purpose of overlapping obstacles, if a ship partially executes a
+maneuver, only the portion of the template that is between the starting
+and final positions of the ship is counted. Ignore the portion of the
+template that the ship moved backward along to resolve the overlap.
+* If a ship moves through or overlaps more than one obstacle, it suffers the
+effects of each obstacle, starting with the obstacle that was closest to
+the ship in its starting position and proceeding along the template.
+* Before a ship moves, if it is at range 0 of an obstacle, it does not suffer
+the effects of that obstacle unless it overlaps that obstacle again.
+* Before a ship moves, if it is overlapping an obstacle, it does not suffer the
+effects of moving through that obstacle.
+* Huge ships have separate rules related to obstacles (see [Appendix: Huge Ships](/article/Huge_Ships)).

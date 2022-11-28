@@ -1,0 +1,33 @@
+<Header title="ion"/>
+
+A ship is **IONIZED** while it has a number of ion tokens relative to
+its [size](/article/Size): one or more for a small ship, two or more for a medium
+ship, and three or more for a large ship. Ion tokens are red
+[tokens](/article/Tokens).
+
+<ImgCenter alt="Ion Token" src="/images/Ion_Token.webp"/>
+<TextCenter text="Ion Token"/>
+
+A ship that is ionized cannot acquire or maintain locks. When a ship becomes
+ionized, it breaks all locks it is maintaining.
+During the [Activation Phase](/article/Activation_Phase), an ionized ship activates as follows:
+
+1. The ionized ship reveals its dial as normal.
+2. During the Execute Maneuver step, the ionized ship executes an **ION MANEUVER** 
+with the same direction shown on its dial. An ion maneuver
+is a blue speed 1 bank or straight [<LeftBank/>, <Straight/>, <RightBank/>] [maneuver](/article/Maneuver).
+* If an ionized ship's dial shows a stop [<Stationary/>] maneuver, they perform their ion
+maneuver as a [1 <Straight/>] maneuver.
+* The [bearing](/article/Bearing), [difficulty](/article/Difficulty), and [speed](/article/Speed) of this maneuver cannot be changed
+unless an ability explicitly affects the ion maneuver.
+3. During the Perform Action step, the ship can perform only the <Focus/> action.
+4. At the end of a ship's activation, if it executed an ion maneuver, it removes
+all of its ion tokens.
+
+Additionally:
+
+* An ionized ship cannot perform any action except the <Focus/> action.
+* Ships cannot use abilities that trigger from an ionized ship revealing its
+dial.
+* If a ship that was ionized during the Planning Phase is no longer ionized at
+the beginning of its activation, it activates as normal.

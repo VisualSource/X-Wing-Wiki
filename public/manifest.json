@@ -1,0 +1,23 @@
+{
+    "name": "X-Wing Wiki",
+    "short_name": "X-Wing Wiki",
+    "description": "Star Wars: X-Wing miniatures game searchable rules and reference",
+    "lang": "en",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#1e293b",
+    "background_color": "#333333",
+    "icons": [
+        {
+            "src": "/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ]
+  }
