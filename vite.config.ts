@@ -13,7 +13,8 @@ export default defineConfig({
     rehypePlugins: [rehypeSlug]
   }),
   VitePWA({
-    registerType: 'autoUpdate'
+    registerType: 'autoUpdate',
+    manifest: false
   })
 ]
 })
