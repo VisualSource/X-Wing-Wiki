@@ -1,4 +1,2 @@
 # Star Wars: X-Wing Wiki
-----
-
-A searchable wiki for rules, errata, scenarios, and ban list for X-Wing
+A small app to quickly search the rules of the Star Wars: X-Wing Miniatures game. 
