@@ -78,7 +78,7 @@ function Loadout() {
                                     <div className='text-md md:text-xl gap-1 md:gap-4 w-full grid grid-rows-2 grid-cols-2 mt-4 font-eurostile'>
                                         {Object.entries(pilots[0]?.upgrades ?? []).map(([key,text],i)=>
                                             text.map((upgrade,idx)=>{
-                                                const icon = key === "force-power" ? "ForcePowerU": Uppercase(key);
+                                                const icon = key === "force-power" ? "ForcePowerU" : key === "tactical-relay" ? "TacticalRelay" : Uppercase(key);
                                                 const Icon = (Icons as any)[icon];
                                                 if(!Icon) return <span key={`${i}-${idx}`} className='flex gap-2 items-center'>NO ICON: {key}</span>
                                                 return (

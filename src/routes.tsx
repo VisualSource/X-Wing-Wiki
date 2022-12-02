@@ -28,7 +28,7 @@ const search: RouteObject = {
             search = localStorage.getItem("search_type") ?? "reference";
         }
 
-        localStorage.set("search_type",search);
+        localStorage.setItem("search_type",search);
 
         return defer({
             query,
