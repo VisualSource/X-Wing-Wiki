@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useDebounce } from 'use-debounce';
 import { useState, useEffect, useRef } from "react";
 import { HiSearch } from 'react-icons/hi';
-import SearchList from '../assets/documents';
 import { Uppercase } from '../utils/Uppercase';
 
 export interface FormState {
@@ -12,10 +11,10 @@ export interface FormState {
 }
 
 interface SearchBarProps {
-    className: string;
+   readonly data: any[];
 }
 
-const searchConfig = { 
+export const searchConfig = { 
     isCaseSensitive: false, 
     keys: [
         { 
@@ -30,30 +29,27 @@ const searchConfig = {
 }
 
 export default function SearchBar(props: SearchBarProps){
-    const [isFocused,setIsFocused] = useState<boolean>(false);
-    const fuse = useRef(new Fuse(SearchList,searchConfig));
+    const fuse = useRef(new Fuse(props.data,searchConfig));
     const navigate = useNavigate();
-    const [searchTerms,setSearchTerms] = useState<string[]>([]);
+    const [isFocused,setIsFocused] = useState<boolean>(false);
+    const [searchResults,setSearchResults] = useState<string[]>([]);
     const [sujestionsOpen, setSujestionsOpen] = useState<boolean>(false);
     const [searchState, setSearchState] = useState<string>("");
-  
     const [search] = useDebounce(searchState,200);
 
     useEffect(()=>{
-        if(isFocused && search.length > 0) {
-            setSujestionsOpen(true);
-        } else {
-            setSujestionsOpen(false);
-        }
-    },[isFocused,search]);
+        fuse.current.setCollection(props.data);
+    },[props.data]);
 
     useEffect(()=>{
-        if(!isFocused) return;
-        if(search.length > 0) {
+        if(isFocused && search.length > 0) {
             const result = fuse.current.search(searchState);
-            setSearchTerms(result.map(value=>value.item.title).slice(0, result.length > 9 ? 9 : result.length));
+            setSearchResults(result.map(value=>value.item.title).slice(0, result.length > 9 ? 9 : result.length));
+            if(result.length > 0) setSujestionsOpen(true);
+            return;
         }
-    },[search]);
+        setSujestionsOpen(false);
+    },[isFocused,search]);
 
     const onSubmit = (ev: React.FormEvent) => {
         ev.preventDefault();
@@ -62,9 +58,9 @@ export default function SearchBar(props: SearchBarProps){
     };
     
     return (
-        <form onSubmit={onSubmit} className={`flex justify-center bg-gray-700 h-11 ${props.className} items-center pl-2 group shadow-2xl relative text-zinc-400 ${sujestionsOpen ? "rounded-t" : "rounded"}`}>
+        <form onSubmit={onSubmit} className={`flex justify-center bg-gray-700 h-11 w-full items-center pl-2 group shadow-2xl relative text-zinc-400 ${sujestionsOpen ? "rounded-t" : "rounded"}`}>
             <input type="text" autoComplete='off' value={searchState} onFocus={()=>setIsFocused(true)} onBlur={()=>setIsFocused(false)} onChange={(ev)=>setSearchState(ev.target.value)} className='w-full h-2/3 bg-transparent outline-none text-zinc-400 border-none focus:ring-transparent'/>
-            <div className="absolute top-11 left-0 w-full">
+            <div className="absolute top-11 left-0 w-full z-10">
                 <Transition 
                     show={sujestionsOpen}
                     enter="transition duration-100 ease-out" 
@@ -75,7 +71,7 @@ export default function SearchBar(props: SearchBarProps){
                     leaveTo="transform scale-95 opacity-0"
                 >
                    <div className="bg-gray-700 rounded-b border-t border-slate-800 w-full pb-1 flex flex-col">
-                        {searchTerms.map((value,i)=>(
+                        {searchResults.map((value,i)=>(
                             <Link to={`/search?q=${encodeURIComponent(value)}`} key={i} className="cursor-pointer hover:bg-gray-600 pl-3 py-4 md:py-2">
                                 {Uppercase(value)}
                             </Link>
