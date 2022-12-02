@@ -60,8 +60,8 @@ function Loadout() {
             <main className='flex justify-center h-full'>
                 <div className="container mx-auto flex justify-center">
                     <div role="card" className="flex flex-col items-center w-full sm:w-3/4 md:w-1/3 my-1 md:my-6 rounded-lg bg-slate-900 shadow-2xl">
-                        <header className='flex bg-gray-900 w-full justify-center rounded-t-lg'>
-                            <h1 className="text-2xl md:text-4xl py-4 font-bank">{loadout.default.ship}</h1>
+                        <header className='flex bg-gray-900 w-full justify-center rounded-t-lg items-center'>
+                            <h1 className="text-2xl md:text-4xl py-4 font-bank text-center w-full">{loadout.default.ship}</h1>
                         </header>
                        <div className='bg-gray-900 flex flex-col h-full w-11/12 border mb-6 px-4 rounded-lg border-gray-800'>
                             {loadout.default.builds.slice(offset.start,offset.end).map(({ pilots, threat },i,data)=>(
