@@ -29,11 +29,14 @@ const Search = () => {
     const fuse = useRef(new Fuse<SearchState>(SearchData.default,searchConfig))
     const [searchState,setSearchState] = useState<SearchState[]>(SearchData.default);
     const { query, search } = useLoaderData() as { query: string; search: string; };
-
     const virtualizer = useWindowVirtualizer({
         count: searchState.length,
         estimateSize: (index) => searchState[index].tags.length > 12 ? 1400 : 700,
     });
+
+    useEffect(()=>{
+        fuse.current.setCollection(SearchData.default);
+    },[SearchData]);
 
     useEffect(()=>{
         const data = fuse.current.search(query);
@@ -67,7 +70,7 @@ const Search = () => {
             <div className='container'>
                     <div style={{ height: `${virtualizer.getTotalSize()}px` }} className="relative w-full flex flex-col items-center">
                         { virtualizer.getVirtualItems().map((row)=>(
-                            <div data-index={row.index} key={row.key} ref={virtualizer.measureElement} className="prose prose-invert absolute w-full h-max" style={{ transform: `translateY(${row.start}px)` }}>
+                            <div data-index={row.index} key={row.key} ref={virtualizer.measureElement} className="prose prose-invert absolute w-full h-max animate-fade" style={{ transform: `translateY(${row.start}px)` }}>
                                <Link to={`/${search === "reference" ? "article" : "loadout"}/${searchState[row.index].id}`} className="no-underline">
                                     <div className='p-2 h-max'>
                                         <h2 className='mb-1 mt-2 font-bank'>{searchState[row.index].title}</h2>

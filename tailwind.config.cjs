@@ -12,6 +12,19 @@ module.exports = {
       "eurostile-demi": ["Eurostile Demi"]
     },
     extend: {
+      animation: {
+        fade: 'fadeIn 500ms ease-in',
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { 
+              opacity: "0%"
+           },
+           "100%": {
+            opacity: '100%'
+           }
+        }
+      },
       listStyleType: {
         "alpha": "lower-alpha",
         "circle": "circle"

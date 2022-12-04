@@ -24,10 +24,10 @@ function App() {
 
   return (
     <div className="bg-slate-800 h-full flex flex-col gap-4 justify-center items-center">
-        <div className='w-11/12 sm:w-2/12'>
+        <div className='w-11/12 sm:w-2/12 animate-fade'>
           <SearchBar data={searchData}/>
         </div>
-        <div className='w-11/12 sm:w-2/12 flex justify-center text-zinc-400'>
+        <div className='w-11/12 sm:w-2/12 flex justify-center text-zinc-400 animate-fade'>
           <Menu as="div" className="relative w-2/3 z-0">
             <Menu.Button className="p-2 border-b border-zinc-400 w-full flex-grow flex items-center z-0 text-sm">
               Search: {Uppercase(searchType)} <HiChevronDown className="ml-auto -mr-1 h-5 w-5"/>
