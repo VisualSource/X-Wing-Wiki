@@ -1,7 +1,7 @@
 {
   "name": "x-wing-wiki",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "engines": {
     "node": ">=18.*.*"
@@ -12,14 +12,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.4",
-    "@tanstack/react-virtual": "^3.0.0-beta.23",
+    "@headlessui/react": "^1.7.5",
+    "@tanstack/react-virtual": "^3.0.0-beta.30",
     "fuse.js": "^6.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.6.0",
-    "react-router-dom": "^6.4.3",
-    "use-debounce": "^8.0.4"
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.4.5",
+    "use-debounce": "^9.0.2"
   },
   "devDependencies": {
     "@mdx-js/rollup": "^2.1.5",

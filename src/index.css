@@ -46,6 +46,11 @@ html  {
 }
 html::-webkit-scrollbar { 
     width: 0;
+    height: 0;
+}
+
+.chrome-scrollbar::-webkit-scrollbar {
+    height: 0;
 }
 
 .scrollbar-none {

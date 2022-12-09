@@ -31,22 +31,22 @@ export default function Sidenav(props: { show: boolean, setShow: (value: boolean
                       <Link onClick={()=>props.setShow(false)} to="/search?t=loadout" className="border-b p-4 border-slate-500 w-full hover:bg-slate-800">Search: Loadouts</Link>
                   </li>
                   <li className='flex'>
-                      <Link to="https://www.atomicmassgames.com/s/SWZ_Ship_Points_11252022.pdf" className="p-4 w-full hover:bg-slate-800">Rules: PDF</Link>
+                      <a target="_blank" href="https://www.atomicmassgames.com/s/SWZ_RulesReference_v144.pdf" className="p-4 w-full hover:bg-slate-800">Rules: PDF</a>
                   </li>
                   <li className='flex'>
-                      <Link to="https://www.atomicmassgames.com/s/SWZ_Errata_16.pdf" className="p-4 w-full hover:bg-slate-800">Errata: PDF</Link>
+                      <a target="_blank" href="https://www.atomicmassgames.com/s/SWZ_Errata_16.pdf" className="p-4 w-full hover:bg-slate-800">Errata: PDF</a>
                   </li>
                   <li className='flex'>
-                      <Link to="https://www.atomicmassgames.com/s/SWZ_Ship_Points_11252022.pdf" className="p-4 w-full hover:bg-slate-800">Ship Points: PDF</Link>
+                      <a target="_blank" href="https://www.atomicmassgames.com/s/SWZ_Ship_Points_11252022.pdf" className="p-4 w-full hover:bg-slate-800">Ship Points: PDF</a>
                   </li>
                   <li className='flex'>
-                      <Link to="https://www.atomicmassgames.com/s/SWZ_Upgrade_Points_10282022.pdf" className="p-4 w-full hover:bg-slate-800">Upgrade Points: PDF</Link>
+                      <a target="_blank" href="https://www.atomicmassgames.com/s/SWZ_Upgrade_Points_10282022.pdf" className="p-4 w-full hover:bg-slate-800">Upgrade Points: PDF</a>
                   </li>
                   <li className='flex'>
-                      <Link to="https://www.atomicmassgames.com/s/SWZ_Scenarios_072022-9lee.pdf" className="p-4 w-full hover:bg-slate-800">Secenarios: PDF</Link>
+                      <a target="_blank" href="https://www.atomicmassgames.com/s/SWZ_Scenarios_072022-9lee.pdf" className="p-4 w-full hover:bg-slate-800">Secenarios: PDF</a>
                   </li>
                   <li className='flex'>
-                      <Link to="https://www.atomicmassgames.com/s/SWZ_BanRestricted_List_142.pdf" className="p-4 w-full hover:bg-slate-800">Ban List: PDF</Link>
+                      <a target="_blank" href="https://www.atomicmassgames.com/s/SWZ_BanRestricted_List_142.pdf" className="p-4 w-full hover:bg-slate-800">Ban List: PDF</a>
                   </li>
               </ul>
           </div>

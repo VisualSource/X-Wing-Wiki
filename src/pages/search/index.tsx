@@ -58,7 +58,7 @@ const Search = () => {
                 <div className='w-11/12 md:w-8/12 lg:w-4/12'>
                     <SearchBar data={SearchData.default}/>
                 </div>
-                <div className='font-bank flex font-bold w-11/12 md:w-8/12 lg:w-4/12 items-center gap-2 overflow-hidden text-lg overflow-x-scroll scrollbar-none'>
+                <div className='chrome-scrollbar font-bank flex font-bold w-11/12 md:w-8/12 lg:w-4/12 items-center gap-2 overflow-hidden text-lg overflow-x-scroll scrollbar-none'>
                     { (search === "reference" ? ReferenceCategory : LoadoutCategory).map(value=>(
                         <button onClick={()=>setSearchFilter(value)} key={value} className={`pb-1 transition-all ${searchFilter === value ? "text-blue-600 border-b border-blue-600 hover:text-blue-500 hover:border-blue-500" : "hover:text-zinc-300"}`}>
                             {Uppercase(value).replace("-","\\")}
