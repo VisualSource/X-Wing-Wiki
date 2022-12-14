@@ -25,6 +25,9 @@ export default function Sidenav(props: { show: boolean, setShow: (value: boolean
                       <Link to="/" className="border-b p-4 border-slate-500 w-full hover:bg-slate-800">Home</Link>
                   </li>
                   <li className='flex'>
+                      <Link onClick={()=>props.setShow(false)} to="/deck" className="border-b p-4 border-slate-500 w-full hover:bg-slate-800">Quick Builder</Link>
+                  </li>
+                  <li className='flex'>
                       <Link onClick={()=>props.setShow(false)} to="/search?t=reference" className="border-b p-4 border-slate-500 w-full hover:bg-slate-800">Search: Rules Reference</Link>
                   </li>
                   <li className='flex'>

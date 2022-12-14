@@ -17,7 +17,11 @@ export default defineConfig(({ command, mode })=>{
       }),
       VitePWA({
         registerType: 'autoUpdate',
-        manifest: false
+        manifest: false,
+        minify: true,
+        workbox: {
+          globPatterns: ["**\/*.{js,css,html,webp,png,jpg,ttf,otf}"]
+        }
       })
   ]
 

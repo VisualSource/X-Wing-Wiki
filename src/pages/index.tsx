@@ -1,8 +1,10 @@
-import SearchBar from '../components/SearchBar';
+import { Fragment, useState, useEffect} from 'react';
 import { useAsyncValue } from 'react-router-dom';
 import { Menu, Transition } from '@headlessui/react';
-import { HiChevronDown, HiCheck } from 'react-icons/hi';
-import { Fragment, useState, useEffect} from 'react';
+import { HiChevronDown, HiCheck, HiMenu } from 'react-icons/hi';
+
+import SearchBar from '../components/SearchBar';
+import Sidenav from '../components/Sidenav';
 import { Uppercase } from '../utils/Uppercase';
 import LoadingWrapper from '../components/LoadingWrapper';
 
@@ -12,7 +14,7 @@ export default LoadingWrapper(App);
 
 function App() {
   const [Rules,Loadouts] = useAsyncValue() as [{ default: any[] },{ default: any[] }];
-
+  const [show,setShow] = useState<boolean>(false);
   const [searchData,setSearchData] = useState<any[]>(localStorage.getItem("search_type") === "reference" ? Rules.default : Loadouts.default);
   const [searchType,setSearchType] = useState<SearchType>(localStorage.getItem("search_type") as SearchType|null ?? "reference");
 
@@ -23,7 +25,12 @@ function App() {
   },[searchType]);
 
   return (
-    <div className="bg-slate-800 h-full flex flex-col gap-4 justify-center items-center">
+    <div className="bg-slate-800 h-full flex flex-col gap-4 justify-center items-center text-zinc-400">
+        <div className='absolute top-4 right-4 text-zinc-400'>
+          <button type="button" onClick={()=>setShow(true)}>
+              <HiMenu className="text-4xl"/>
+          </button>
+        </div>
         <div className='w-11/12 sm:w-2/12 animate-fade'>
           <SearchBar data={searchData}/>
         </div>
@@ -50,6 +57,7 @@ function App() {
            </Transition>
           </Menu>
         </div>
+        <Sidenav show={show} setShow={setShow}/>
     </div>
   )
 }

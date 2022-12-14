@@ -75,9 +75,48 @@ const home: RouteObject = {
     }
 }
 
+const deck: RouteObject = {
+    path: "/deck",
+    element: <LazyComponent data={()=>import("./pages/deck")}/>,
+    errorElement: <ErrorPage/>,
+    loader: async () => {
+        return defer({
+            data: import("./assets/search/full_loadouts")
+        });
+    }
+}
+
+const fetchloadout = async (id: string[]) => {
+    const request = await fetch(`/pilots/${id[0]}.json`);
+    if(!request.ok) throw request;
+    const data = await request.json();
+    const ship = Object.values(data).find((value: any)=>value.xws === id[1]) as { xws: string; pilots: { xws: string;}[] };
+    if(!ship) throw new Error(`Failed to find ship ${id[1]}`);
+    const pilot = ship.pilots.find((pilot)=>pilot.xws === id[2]);
+    if(!pilot) throw new Error(`Failed to fined pilot ${id[2]}`)
+    delete (ship as any).pilots;
+    (ship as any).pilots = pilot;
+    return ship;
+}
+
+const fullLoadout: RouteObject = {
+    path: "full-loadout/:id/*",
+    element: <LazyComponent data={()=>import("./pages/loadouts/full")}/>,
+    errorElement: <ErrorPage/>,
+    loader: async ({ params }) => {
+        const id = params.id?.split(":");
+        if(!id) throw new Error("Failed to parse id");
+        return defer({
+            data: fetchloadout(id),
+        })
+    }
+}
+
 export default [
     loadout,
     home,
     article,
-    search
+    search,
+    deck,
+    fullLoadout
 ] as RouteObject[];
