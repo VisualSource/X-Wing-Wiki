@@ -16,10 +16,10 @@ export default defineConfig(({ command, mode })=>{
         rehypePlugins: [rehypeSlug]
       }),
       VitePWA({
-        registerType: 'autoUpdate',
         manifest: false,
         minify: true,
         workbox: {
+          sourcemap: true,
           globPatterns: ["**\/*.{js,css,html,webp,png,jpg,ttf,otf}"]
         }
       })
@@ -27,5 +27,10 @@ export default defineConfig(({ command, mode })=>{
 
   if(process.env?.ANALYZE === "TRUE") plugins.push(visualizer({ open: true }));
 
-  return { plugins };
+  return { 
+    plugins,
+    build: {
+      sourcemap: true
+    }
+  };
 });
