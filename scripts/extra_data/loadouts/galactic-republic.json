@@ -1,0 +1,21 @@
+{
+    "$schema": "../schema/loadouts.json",
+    "quick-builds": [
+        {
+            "threat": 9,
+            "pilots": [
+                {
+                    "id": "republicjudiciary",
+                    "upgrades": {
+                        "command-crew": ["strategiccommander"],
+                        "hardpoint": ["targetingbattery","turbolaserbattery"],
+                        "crew": ["seasonednavigator"],
+                        "gunner": ["agilegunner"],
+                        "team": ["damagecontrolteam","gunneryspecialists"],
+                        "cargo": ["boostedscanners"]
+                    }
+                }
+            ]
+        }
+    ]
+}

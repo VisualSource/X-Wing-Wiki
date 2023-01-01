@@ -1,0 +1,23 @@
+{
+    "$schema": "../schema/loadouts.json",
+    "quick-builds": [
+        {
+            "threat": 6,
+            "pilots": [
+                {
+                    "id": "separatistprivateers",
+                    "upgrades": {
+                        "command-crew": ["stalwartcaptain"],
+                        "hardpoint": ["turbolaserbattery"],
+                        "cannon": ["heavylasercannon"],
+                        "turret": ["dorsalturret"],
+                        "missile": ["clustermissiles"],
+                        "team": ["bombardmentspecialists"],
+                        "cargo": ["boostedscanners","tibannareserves"],
+                        "configuration": ["corsairrefit"]
+                    }
+                }
+            ]
+        }
+    ]
+}

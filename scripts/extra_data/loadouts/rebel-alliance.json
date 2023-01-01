@@ -1,0 +1,75 @@
+{
+    "$schema": "../schema/loadouts.json",
+    "quick-builds": [
+        {
+            "threat": 4,
+            "pilots": [
+                {
+                    "id": "echobaseevacuees",
+                    "upgrades": {
+                        "command-crew": ["carlistrieekan"],
+                        "hardpoint": ["pointdefensebattery"],
+                        "crew": ["novicetechnician"],
+                        "cargo": ["adaptiveshields","optimizedpowercore"],
+                        "title": ["brighthope"]
+                    }
+                }
+            ]
+        },
+        {
+            "threat": 9,
+            "pilots": [
+                {
+                    "id": "alderaanianguard",
+                    "upgrades": {
+                        "command-crew": ["jandodonna"],
+                        "hardpoint": ["ioncannonbattery","turbolaserbattery"],
+                        "crew": ["torynfarr"],
+                        "team": ["commsteam","sensorexperts"],
+                        "cargo": ["boostedscanners"],
+                        "title": ["dodonnaspride"]
+                    }
+                }
+            ]
+        },
+        {
+            "threat": 3,
+            "pilots": [
+                {
+                    "id": "fennrau-rebel-fang",
+                    "upgrades": {
+                        "talent": ["clantraining"],
+                        "modification": ["afterburners"],
+                        "torpedo": ["iontorpedoes"]
+                    }
+                },
+                {
+                    "id": "bodicavenj",
+                    "upgrades": {
+                        "talent": ["outmaneuver"],
+                        "modification": ["beskarreinforcedplating","mandalorianoptics"]
+                    }
+                },
+                {
+                    "id": "dirkullodin",
+                    "upgrades": {
+                        "talent": ["clantraining"],
+                        "torpedo": ["protontorpedoes"],
+                        "modification": ["hullupgrade","mandalorianoptics"]
+                    }
+                }
+            ]
+        },
+        {
+            "threat": 2,
+            "pilots": [
+                {
+                    "id": "clanwrenvolunteer",
+                    "upgrades": {
+                        "talent": ["predator"]
+                    }
+                }
+            ]
+        }
+    ]
+}

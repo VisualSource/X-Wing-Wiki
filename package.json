@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:loadouts": "deno run --allow-net --allow-read --allow-write .\\scripts\\fetch_loadouts.ts"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.5",

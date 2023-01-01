@@ -29,6 +29,30 @@ const color: { [key: number]: string } = {
     5: "bg-purple-800"
 }
 
+const parseIcon = (icon: string): null | string[] => {
+    if(icon.startsWith("command")) {
+        const [command,secondary] = icon.split("-");
+
+        const image = (Icons as any )[Uppercase(secondary)];
+
+        if(!image) return null;
+
+        return [
+            (Icons as any )[Uppercase(command)],
+            image
+        ];
+    }
+
+    if(icon === "force-power") return [(Icons as any)["ForcePowerU"]];
+    if(icon === "tactical-relay") return [(Icons as any)["TacticalRelay"]];
+
+    const image = (Icons as any )[Uppercase(icon)];
+
+    if(!image) return null;
+
+    return [image];
+}
+
 function Loadout() {
     const loadout = useAsyncValue() as Loadout;
     const [offset,setOffset] = useState<{ start: number; end: number }>({ start: 0, end: 3 });
@@ -67,23 +91,26 @@ function Loadout() {
                             {loadout.default.builds.slice(offset.start,offset.end).map(({ pilots, threat },i,data)=>(
                                 <section key={i} className='flex-grow flex justify-center items-center flex-col'>
                                     <h3 className="text-lg md:text-2xl py-4 font-bank">{pilots[0].id}</h3>
-                                    <span role="threat" className='flex gap-2 w-1/3'>
-                                        {Array.from({ length: threat }).map((_,idx)=>(
-                                            <div key={idx} className={`h-2 w-full flex-grow rounded-sm ${color[threat]}`}></div>
-                                        ))}
-                                        {Array.from({ length: 5 - threat }).map((_,i)=>(
-                                             <div key={i} className="h-2 w-full flex-grow rounded-sm border border-gray-800"></div>
-                                        ))}
+                                    <span role="threat" className='flex gap-2 w-1/3'> 
+                                        { threat > 5 ? (
+                                                <span className="text-red-600 text-center w-full font-kimberley">Threat {threat}</span>
+                                        ) : (<>
+                                            {Array.from({ length: threat }).map((_,idx)=>(
+                                                <div key={idx} className={`h-2 w-full flex-grow rounded-sm ${color[threat]}`}></div>
+                                            ))}
+                                            {Array.from({ length: 5 - threat }).map((_,i)=>(
+                                                <div key={i} className="h-2 w-full flex-grow rounded-sm border border-gray-800"></div>
+                                            ))}
+                                        </>)}
                                     </span>
                                     <div className='text-md md:text-xl gap-1 md:gap-4 w-full grid grid-rows-2 grid-cols-2 mt-4 font-eurostile'>
                                         {Object.entries(pilots[0]?.upgrades ?? []).map(([key,text],i)=>
                                             text.map((upgrade,idx)=>{
-                                                const icon = key === "force-power" ? "ForcePowerU" : key === "tactical-relay" ? "TacticalRelay" : Uppercase(key);
-                                                const Icon = (Icons as any)[icon];
-                                                if(!Icon) return <span key={`${i}-${idx}`} className='flex gap-2 items-center'>NO ICON: {key}</span>
+                                                const icons = parseIcon(key);
+                                                if(!icons) return <span key={`${i}-${idx}`} className='flex gap-2 items-center'>NO ICON: {key}</span>
                                                 return (
                                                     <span key={`${i}-${idx}`} className='flex gap-2 items-center'>
-                                                        <Icon/>{upgrade}
+                                                        {icons.map((Icon,i)=><Icon key={i}/>)} {upgrade}
                                                     </span>
                                                 );
                                             }).flat(1)

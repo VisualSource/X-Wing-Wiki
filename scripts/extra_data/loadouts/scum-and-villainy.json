@@ -1,0 +1,40 @@
+{
+    "$schema": "../schema/loadouts.json",
+    "quick-builds": [
+        {
+            "threat": 5,
+            "pilots": [
+                {
+                    "id": "syndicatesmugglers",
+                    "upgrades": {
+                        "command-crew": ["azmorigan"],
+                        "hardpoint": ["pointdefensebattery"],
+                        "turret": ["dorsalturret"],
+                        "crew": ["novicetechnician"],
+                        "team": ["commsteam","igrmdroids"],
+                        "cargo": ["adaptiveshields","tibannareserves"],
+                        "illicit": ["quickreleaselocks"],
+                        "title": ["merchantone"]
+                    }
+                }
+            ]
+        },
+        {
+            "threat": 2,
+            "pilots": [
+                {
+                    "id": "mandalorianroyalguard",
+                    "upgrades": {
+                        "modification": ["afterburners","beskarreinforcedplating"]
+                    }
+                },
+                {
+                    "id": "mandalorianroyalguard",
+                    "upgrades": {
+                        "modification": ["clantraining","mandalorianoptics"]
+                    }
+                }
+            ]
+        }
+    ]
+}

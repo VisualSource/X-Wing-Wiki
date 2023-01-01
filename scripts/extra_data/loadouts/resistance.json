@@ -1,0 +1,20 @@
+{
+    "$schema": "../schema/loadouts.json",
+    "quick-builds": [
+        {
+            "threat": 4,
+            "pilots": [
+                {
+                    "id": "newrepublicvolunteers",
+                    "upgrades": {
+                        "command-crew": ["stalwartcaptain"],
+                        "hardpoint": ["ioncannonbattery"],
+                        "turret": ["dorsalturret"],
+                        "team": ["sensorexperts"],
+                        "cargo": ["boostedscanners","tibannareserves"]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,404 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1672600263.json", 
+	"title": "Root", 
+	"type": "object",
+	"properties": {
+		"quick-builds": {
+			"$id": "#root/quick-builds", 
+			"title": "Quick-builds", 
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/quick-builds/items", 
+				"title": "Items", 
+				"type": "object",
+                "required": ["threat","pilots"],
+				"properties": {
+					"threat": {
+						"$id": "#root/quick-builds/items/threat", 
+						"title": "Threat", 
+						"type": "integer",
+						"examples": [
+							3
+						],
+						"default": 0
+					},
+					"pilots": {
+						"$id": "#root/quick-builds/items/pilots", 
+						"title": "Pilots", 
+						"type": "array",
+						"default": [],
+                        "required": ["id"],
+						"items":{
+							"$id": "#root/quick-builds/items/pilots/items", 
+							"title": "Items", 
+							"type": "object",
+							"properties": {
+								"id": {
+									"$id": "#root/quick-builds/items/pilots/items/id", 
+									"title": "Id", 
+									"type": "string",
+									"default": "",
+									"examples": [
+										"oddball-arc170starfighter"
+									],
+									"pattern": "^.*$"
+								},
+								"upgrades": {
+									"$id": "#root/quick-builds/items/pilots/items/upgrades", 
+									"title": "Upgrades", 
+									"type": "object",
+									"properties": {
+										"command-crew": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/command-crew", 
+											"title": "Command Crew", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/command-crew/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"device": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/device", 
+											"title": "Device", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/device/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"hyperdrive": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/hyperdrive", 
+											"title": "Hyperdrive", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/hyperdrive/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"sensor": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/sensor", 
+											"title": "Sensor", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/sensor/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"torpedo": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/torpedo", 
+											"title": "Torpedo", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/torpedo/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"missile": {
+											"$id": "#root/quick-builds/items/pilots/items/missile/device", 
+											"title": "Missile", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/missile/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"force-power": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/force-power", 
+											"title": "Force Power", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/force-power/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"astromech": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/astromech", 
+											"title": "Astromech", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/astromech/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"command": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/command", 
+											"title": "Command", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/command/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"team": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/team", 
+											"title": "Team", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/team/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													"ordnanceteam",
+													"commsteam",
+													"sensorexperts"
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"hardpoint": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/hardpoint", 
+											"title": "Hardpoint", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/hardpoint/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													"ioncannonbattery",
+													"pointdefensebattery",
+													"ordnancetubes",
+													"turbolaserbattery"
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"title": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/title", 
+											"title": "Title", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/title/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+												
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"tech": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/team", 
+											"title": "Tech", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/tech/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													"ordnanceteam"
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"talent": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/talent", 
+											"title": "Talent", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/talent/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													"elusive"
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"gunner": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/gunner", 
+											"title": "Gunner", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/gunner/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													"clonecommandercody"
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"crew": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/crew", 
+											"title": "Crew", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/crew/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													"seasonednavigator",
+													"novicetechnician"
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"cargo": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/cargo", 
+											"title": "Cargo", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/cargo/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													"adaptiveshields",
+													"optimizedpowercore",
+													"boostedscanners"
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"cannon": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/cannon", 
+											"title": "Cannon", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/cannon/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"illicit": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/illicit", 
+											"title": "Cannon", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/illicit/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [],
+												"pattern": "^.*$"
+											}
+										},
+										"turret": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/turret", 
+											"title": "Turret", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/turret/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": ["dorsalturret"],
+												"pattern": "^.*$"
+											}
+										},
+										"modification": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/modification", 
+											"title": "Modification", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/modification/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													"shieldupgrade",
+													"hullupgrade",
+													"afterburners"
+												],
+												"pattern": "^.*$"
+											}
+										},
+										"configuration": {
+											"$id": "#root/quick-builds/items/pilots/items/upgrades/configuration", 
+											"title": "Configuration", 
+											"type": "array",
+											"default": [],
+											"items":{
+												"$id": "#root/quick-builds/items/pilots/items/upgrades/configuration/items", 
+												"title": "Items", 
+												"type": "string",
+												"default": "",
+												"examples": [
+													
+												],
+												"pattern": "^.*$"
+											}
+										}
+									}
+								}
+
+							}
+						}
+
+					}
+				}
+			}
+
+		}
+	}
+}
