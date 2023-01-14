@@ -33,7 +33,9 @@ const parseIcon = (icon: string): null | string[] => {
     if(icon.startsWith("command")) {
         const [command,secondary] = icon.split("-");
 
-        const image = (Icons as any )[Uppercase(secondary)];
+        if(!secondary) return [(Icons as any )[Uppercase(command)]];
+
+        const image = (Icons as any)[Uppercase(secondary)];
 
         if(!image) return null;
 

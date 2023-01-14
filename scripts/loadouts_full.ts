@@ -215,7 +215,7 @@ const main = async () => {
 
         const ficon = factions.find(value=>value.xws === faction);
 
-        const data = {};
+        const data: { [key: string]: any } = {};
         
         for(const [ship,pilots] of ships.entries()) {
 

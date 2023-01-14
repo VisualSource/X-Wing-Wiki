@@ -2,6 +2,9 @@
     "gozanticlasscruiser": {
         "en": "Gozanti-class Cruiser"
     },
+    "tridentclassassaultship": {
+        "en": "Trident-class Assault Ship"
+    },
     "tierbheavy": {
         "en": "TIE/rb Heavy"
     },
@@ -16,6 +19,9 @@
     },
     "croccruiser": {
         "en": "C-ROC Cruiser"
+    },
+    "colicoiddestroyer": {
+        "en": "Colicoid Destroyer"
     },
     "outerrimpatrol": {
         "en": "Outer Rim Patrol"
@@ -70,5 +76,38 @@
     },
     "mandalorianoptics": {
         "en": "Mandalorian Optics"
+    },
+    "rifftamson": {
+        "en": "Riff Tamson"
+    },
+    "protoncannonbattery": {
+        "en": "Proton Cannon Battery"
+    },
+    "neimoidiangrasp": {
+        "en": "Neimoidian Grasp"
+    },
+    "droidcrew": {
+        "en": "Droid Crew"
+    },
+    "tractortentacles": {
+        "en": "Tractor Tentacles"
+    },
+    "drillbeak": {
+        "en": "Drill Beak"
+    },
+    "corsaircrew": {
+        "en": "Corsair Crew"
+    },
+    "tractortechnicians": {
+        "en": "Tractor Technicians"
+    },
+    "grappler": {
+        "en": "Grappler"
+    },
+    "zealouscaptain": {
+        "en": "Zealous Captain"
+    },
+    "nautolansrevenge": {
+        "en": "Nautolan's Revenge"
     }
 }

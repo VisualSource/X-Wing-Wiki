@@ -55,11 +55,27 @@ const loadout: RouteObject = {
     element: <LazyComponent data={()=>import("./pages/loadouts")}/>,
     errorElement: <ErrorPage/>,
     loader: async ({params: { id }}) => {
-        const modules = import.meta.glob("/src/assets/loadouts/*.json");
-        const module = modules[`/src/assets/loadouts/${id}.json`];
-        if(!module) throw new Error("Not Found");
+        if(!id) throw new Error("Not Found");
+        const [faction, ship] = id.split("-");
+
         return defer({
-            data: module()
+            data: new Promise(async (ok,rej)=>{
+                try {
+                    const request = await fetch(`/loadouts/${faction}.json`);
+
+                    if(!request.ok) throw request;
+
+                    const data = await request.json() as any[];
+
+                    const content = data.find(x=>x.xws===ship);
+
+                    if(!content) throw new Error("Not Found");
+
+                    return ok({ default: content });
+                } catch (error) {
+                    rej(error)
+                }
+            })
         })
     }
 } 

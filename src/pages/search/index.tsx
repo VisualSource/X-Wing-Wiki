@@ -20,7 +20,7 @@ interface SearchState {
 }
 
 const ReferenceCategory: Category[] = ["all","rules","ships","points", "errata","upgrades","appendix","scenarios","banned-restricted"];
-const LoadoutCategory = ["all","ship","pilot"];
+const LoadoutCategory = ["all","ship","pilot","scum","rebel","separatist","firstorder","republic","empire"];
 
 const Search = () => {
     const [show,setShow] = useState<boolean>(false);
@@ -41,7 +41,9 @@ const Search = () => {
     useEffect(()=>{
         const data = fuse.current.search(query);
         if(searchFilter === "all") return setSearchState(data.map(value=>value.item));
-        setSearchState(data.filter(value=>value.item.category.includes(searchFilter.toUpperCase())).map(value=>value.item));
+
+        const filter = searchFilter.toUpperCase();
+        setSearchState(data.filter(value=>value.item.category.some(cat=>cat.includes(filter))).map(value=>value.item));
     },[searchFilter,query]);
 
     return (

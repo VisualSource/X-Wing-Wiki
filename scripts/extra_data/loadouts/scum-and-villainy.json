@@ -2,6 +2,37 @@
     "$schema": "../schema/loadouts.json",
     "quick-builds": [
         {
+            "threat": 10,
+            "pilots": [
+                {
+                    "id": "lawlesspirates",
+                    "upgrades": {
+                        "command-crew": ["hondoohnaka"],
+                        "hardpoint": ["tractortentacles","drillbeak"],
+                        "crew": ["seasonednavigator"],
+                        "team": ["gunneryspecialists","corsaircrew"],
+                        "cargo": ["boostedscanners"],
+                        "title": ["grappler"]
+                    }
+                }
+            ]
+        },
+        {
+            "threat": 9,
+            "pilots": [
+                {
+                    "id": "lawlesspirates",
+                    "upgrades": {
+                        "command-crew": ["zealouscaptain"],
+                        "hardpoint": ["tractortentacles","protoncannonbattery"],
+                        "crew": ["novicetechnician"],
+                        "team": ["tibannareserves"],
+                        "title": ["nautolansrevenge"]      
+                    }
+                }
+            ]
+        },
+        {
             "threat": 5,
             "pilots": [
                 {
