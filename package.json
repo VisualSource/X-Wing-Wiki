@@ -10,6 +10,8 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "lint": "prettier --check ./src",
+    "fix": "pretter --write ./src",
     "build:loadouts": "deno run --allow-net --allow-read --allow-write .\\scripts\\fetch_loadouts.ts"
   },
   "dependencies": {
@@ -32,6 +34,7 @@
     "@vitejs/plugin-react": "^3.0.1",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
     "rollup-plugin-visualizer": "^5.9.0",
