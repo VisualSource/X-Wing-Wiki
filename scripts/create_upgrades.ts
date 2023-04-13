@@ -20,6 +20,7 @@ for (const [_, upgrades] of Object.entries(upgrade_list)) {
             delete side.image;
             delete side.slots;
             delete side.type;
+            delete side.artwork;
         }
     }
 }

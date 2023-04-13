@@ -11,33 +11,42 @@ const loader = async ({ params }: LoaderFunctionArgs) => {
     return defer({
         data: new Promise<object>(async (ok, reject) => {
 
-            const requestPilotData = await fetch(`/loadouts/${factionId}.json`);
+            const [pilotData, upgradeData] = await Promise.all([
+                fetch(`/std_loadouts/${factionId}.json`).then(value => value.json()) as Promise<[string, { ship: { xws: string; }, pilots: { standardLoadout?: Record<string, string[]>; xws: string; }[] }][]>,
+                fetch(`/upgrades.json`).then(value => value.json()) as Promise<Record<string, { xws: string; sides: { ability?: string; }[] }[]>>
+            ]);
+            const builds = pilotData.find(ship => ship[0] === shipType);
+            if (!builds) return reject("Failed to find ship.");
 
-            if (!requestPilotData.ok) return reject("Failed to get pilot data");
+            const [_, data] = builds;
+            const pilot = data.pilots.find(pilot => pilot.xws === pilotId);
+            if (!pilot) return reject("Failed to find ship pilot.");
 
-            const pilotData = await requestPilotData.json() as { xws: string; builds: { threat: number; pilots: { xws: string; }[] }[] }[];
+            let upgrades: { xws: string; sides: { ability?: string; }[] }[] = [];
 
-            const builds = pilotData.find(ship => ship.xws === shipType);
+            if (pilot?.standardLoadout) {
+                upgrades = Object.entries(pilot.standardLoadout).reduce((acc, [key, items]) => {
+                    const updateType = upgradeData[key];
+                    if (!updateType) return acc;
 
-            if (!builds) return reject("Failed to get loadout");
+                    for (const item of items) {
+                        const fullupgrade = updateType.find(value => value.xws === item);
+                        if (!fullupgrade) continue;
+                        acc.push(fullupgrade);
+                    }
+                    return acc;
+                }, [] as { xws: string; sides: { ability?: string; }[] }[]);
 
-            let loadoutData;
-
-            for (const build of builds.builds) {
-                for (const pilot of build.pilots) {
-                    if (pilotId !== pilot.xws) continue;
-                    loadoutData = pilot;
-                    break;
-                }
-                if (!loadoutData) continue;
-                break;
+                upgrades.sort((a, b) => a.sides.reduce((acc, c) => (c?.ability?.length ?? 0) + acc, 0) - b.sides.reduce((acc, c) => (c?.ability?.length ?? 0) + acc, 0))
             }
 
+            delete pilot?.standardLoadout;
 
-
-
-
-
+            ok({
+                ship: data.ship,
+                pilot: pilot,
+                standardLoadout: upgrades
+            });
         })
     })
 }

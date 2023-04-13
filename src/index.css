@@ -6,55 +6,57 @@
 
 /* Pilot/Ship name*/
 @font-face {
-    font-family: "Bank";
-    src: url(/fonts/BankGthd.ttf);
+  font-family: "Bank";
+  src: url(/fonts/BankGthd.ttf);
 }
 /* Abblity and or flavor text*/
 @font-face {
-    font-family: "Eurostile Demi";
-    src: url(/fonts/Eurostile-LT-Std-Demi-Oblique.ttf);
-    font-style: oblique;
+  font-family: "Eurostile Demi";
+  src: url(/fonts/Eurostile-LT-Std-Demi-Oblique.ttf);
+  font-style: oblique;
 }
 
 @font-face {
-    font-family: "Eurostile";
-    src: url(/fonts/Eurostile-LT-Std-Oblique.ttf);
-    font-style: oblique;
+  font-family: "Eurostile";
+  src: url(fonts/Eurostile-LT-Std-Oblique.ttf);
+  font-style: oblique;
 }
 
 @font-face {
-    font-family: "W-Wing Loadout";
-    src: url(/fonts/xwing-miniatures.ttf);
+  font-family: "W-Wing Loadout";
+  src: url(/fonts/xwing-miniatures.ttf);
 }
 /* Numbers */
 @font-face {
-    font-family: "Kimberley";
-    src: url(/fonts/kimberley.otf);
+  font-family: "Kimberley";
+  src: url(/fonts/kimberley.otf);
 }
 
-html,body,#root {
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    scroll-behavior: smooth;
+html,
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
 }
 
-html  {
-    --tw-bg-opacity: 1;
-    scrollbar-width: none;
+html {
+  --tw-bg-opacity: 1;
+  scrollbar-width: none;
 }
-html::-webkit-scrollbar { 
-    width: 0;
-    height: 0;
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .chrome-scrollbar::-webkit-scrollbar {
-    height: 0;
+  height: 0;
 }
 
 .scrollbar-none {
-    scrollbar-width: none;
+  scrollbar-width: none;
 }
 
 .visually-hidden,
@@ -71,10 +73,7 @@ html::-webkit-scrollbar {
 }
 
 .spinner-border {
-    vertical-align: -0.125em;
-    border: 0.25em solid currentColor;
-    border-right-color: transparent;
+  vertical-align: -0.125em;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
 }
-
-
-

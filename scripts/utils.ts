@@ -94,6 +94,11 @@ export interface Ship {
         caption?: string;
         initiative: number;
         limited?: number;
+        text?: string;
+        shipActions?: {
+            difficulty: string; type: string;
+        }[]
+        charges?: { value: number; recovers: number; };
         cost: number;
         loadout: number;
         xws: string;
@@ -172,15 +177,12 @@ export const loadTranslations = async (): Promise<Translation> => {
     }
 }
 
-export const loadListLoadouts = async (routes: string) => Promise<Map<string, Loadout>> => {
-
-
-
-
+export const loadShip = async (route: string): Promise<Ship> => {
+    return await FetchJson<Ship>(`${ROOT}/${route}`);
 }
 
-export const loadLoadouts = async (route: string): Promise<Loadout> => {
-    const { exteral, internal } = await loadData<Loadout>(route, `loadouts/${route.replace("data/quick-builds/", "")}`, { "quick-builds": [] });
+export const loadLoadouts = async (route: string): Promise<QuickBuilds> => {
+    const { exteral, internal } = await loadData<QuickBuilds>(route, `loadouts/${route.replace("data/quick-builds/", "")}`, { "quick-builds": [] });
     return {
         "quick-builds": [...exteral["quick-builds"], ...internal["quick-builds"]]
     };
@@ -216,3 +218,6 @@ export const loadData = async <T>(external_data: string, internal_data: string, 
         internal: internal.status === "rejected" ? defaultValue : internal.value
     }
 }
+
+
+export const loadFactions = (route: string): Promise<Faction[]> => FetchJson<Faction[]>(`${ROOT}/${route}`);

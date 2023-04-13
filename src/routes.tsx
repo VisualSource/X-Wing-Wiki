@@ -98,7 +98,7 @@ const deck: RouteObject = {
     errorElement: <ErrorPage />,
     loader: async () => {
         return defer({
-            data: import("./assets/search/full_loadouts")
+            data: import("./assets/search/std_loadouts")
         });
     }
 }

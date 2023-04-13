@@ -20,4 +20,55 @@ module Ships {
         }[]
     }
 
+    export type UpgradeItemSide = {
+        title: string;
+        ability: string;
+        force?: { value: number; recovers: number; }
+        charges?: { value: number; recovers: number; }
+        actions?: { type: string; difficulty: Difficulty; linked: { type: string; difficulty: Difficulty; } }[];
+        grants?: {
+            type: string;
+            value: {
+                type: string;
+                difficulty: Difficulty;
+                linked: { type: string; difficulty: Difficulty; }
+            }
+        }[]
+    }
+    export type UpgradeItem = {
+        name: string;
+        limited: number;
+        xws: string;
+        sides: UpgradeItemSide[];
+    }
+
+    type Difficulty = "Red" | "White" | "Blue" | "Purple";
+    interface StdShip {
+        name: string,
+        xws: string,
+        stats: { type: "attack" | "agility" | "shields", value: number; arc?: string; }[],
+        actions: { difficulty: Difficulty; type: string; linked?: { difficulty: Difficulty; type: string; } }[],
+        icon: string,
+    }
+
+    interface StdPilot {
+        threat: number,
+        standardLoadout: Record<Upgrade, string[]>,
+        name: string;
+        initiative: number,
+        limited: number,
+        xws: string,
+        text?: string,
+        shipAbility?: {
+            name: string;
+            text: string;
+        },
+        artwork?: string,
+        force?: { value: number; recovers: number; }
+        caption?: string,
+        ability?: string,
+        shipActions?: { difficulty: Difficulty; type: string; linked?: { difficulty: Difficulty; type: string; } }[],
+        charges?: { value: number; recovers: number; }
+    }
+
 }
