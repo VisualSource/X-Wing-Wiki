@@ -75,7 +75,7 @@ function STDLoadout() {
 
 
     return (
-        <div className='flex-1 bg-neutral-100'>
+        <div className='flex flex-col flex-1 bg-neutral-100'>
             <header className="bg-slate-900 py-2 flex items-center justify-center sticky top-0 gap-2 z-10 text-white">
                 <div className='flex w-11/12 md:w-8/12 lg:w-4/12 gap-4 items-center'>
                     <button onClick={() => setShow(true)}>
