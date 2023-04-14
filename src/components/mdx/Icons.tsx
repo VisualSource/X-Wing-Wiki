@@ -46,7 +46,7 @@ const icons = {
     TurnLeft: () => <i className="font-turnleft"></i>,
     RightTurn: () => <i className='font-turnright'></i>,
     TurnRight: () => <i className='font-turnright'></i>,
-    KTurn: () => <i className='font-kturn'></i>,
+    KTurn: ({ className = "" }: IconProps) => <i className={`font-kturn ${className}`}></i>,
     TallonRight: () => <i className='font-trollright'></i>,
     TallonLeft: () => <i className='font-trollleft'></i>,
     SegnorLeft: () => <i className='font-sloopleft'></i>,
@@ -88,6 +88,7 @@ export type IconNames = keyof typeof icons;
 (icons as unknown as (IconNames & { BullseyeArc: (props: IconProps) => JSX.Element; })).BullseyeArc = icons.BullsEyeArc;
 (icons as unknown as (IconNames & { CriticalHit: () => JSX.Element; })).CriticalHit = icons.Crit;
 (icons as unknown as (IconNames & { Force: (props: IconProps) => JSX.Element; })).Force = icons.Forcecharge;
+(icons as unknown as (IconNames & { KoiogranTurn: (props: IconProps) => JSX.Element; })).KoiogranTurn = icons.KTurn
 
 
 export default icons;
