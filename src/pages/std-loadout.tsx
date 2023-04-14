@@ -23,16 +23,30 @@ const StatColor = {
     "shields": "text-cyan-200",
     "charges": "text-yellow-600",
     "force": "text-purple-200",
-    "hull": "text-yellow-400"
+    "hull": "text-yellow-400",
+    "energy": "text-pink-500"
 }
 
 type TypeDifficultyColor = keyof typeof DifficultyColor;
+
+const Recovers = ({ value }: { value: number }) => {
+    switch (value) {
+        case 1:
+            return (<Icons.Recurring className="text-3xl" />);
+        case 2:
+            return (<Icons.DoubleRecurring className="text-3xl" />);
+        default:
+            return null;
+    }
+}
 
 function STDLoadout() {
     const [show, setShow] = useState<boolean>(false);
     const navigate = useNavigate()
     const wrapper = useRef<HTMLDivElement>(null)
     const data = useAsyncValue() as { ship: Ships.StdShip, pilot: Ships.StdPilot, standardLoadout: Ships.UpgradeItem[] };
+
+    console.log(data);
 
     const shipStats = useCallback(() => {
         const stats = [...data.ship.stats];
@@ -96,7 +110,7 @@ function STDLoadout() {
                             <img className="h-full w-full object-contain" src={data.pilot.artwork} alt="Ship artwork" />
                         </div>
 
-                        <section data-area="stats" className='flex flex-wrap gap-2 justify-center'>
+                        <section data-area="stats" className='flex flex-wrap gap-6 justify-center'>
                             {shipStats().map((stat, i) => {
                                 const Icon = stat.arc ? Icons[stat.arc.replaceAll(" ", "") as IconNames] : null;
 
@@ -112,11 +126,14 @@ function STDLoadout() {
                                                     <Icons.Hull className="text-3xl pt-1" />
                                                 ) : stat.type === "shields" ? (
                                                     <Icons.Shield className="text-3xl pt-1" />
+                                                ) : stat.type === "energy" ? (
+                                                    <Icons.Energy className="text-3xl pt-1" />
                                                 ) : null}
                                             </span>
                                         </div>
                                         <div className="font-kimberley z-10 flex justify-center items-center bg-gray-800 text-lg h-9 text-center pl-3 px-1 pr-2 rounded-r-md absolute left-9 border-2 border-gray-300">
                                             <span>{stat.value}</span>
+                                            {stat.recovers ? (<Recovers value={stat.recovers} />) : null}
                                         </div>
                                     </div>
                                 );
@@ -131,9 +148,7 @@ function STDLoadout() {
                                     <div className="flex font-kimberley z-10  items-center bg-gray-800 text-lg h-9 pl-3 pr-2 rounded-r-md absolute left-9 border-2 border-gray-300">
                                         <span>{data.pilot.charges.value}</span>
                                         <span className="ml-0.5">
-                                            {data.pilot.charges.recovers === 0 ? null :
-                                                data.pilot.charges.recovers === 1 ? (<Icons.Recurring className="text-3xl" />) :
-                                                    data.pilot.charges.recovers === 2 ? (<Icons.DoubleRecurring className="text-3xl" />) : null}
+                                            <Recovers value={data.pilot.charges.recovers} />
                                         </span>
                                     </div>
                                 </div>

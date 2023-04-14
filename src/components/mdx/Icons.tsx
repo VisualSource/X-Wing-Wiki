@@ -35,7 +35,7 @@ const icons = {
     Calculate: () => <i className='font-calculate'></i>,
     Charge: ({ className = "" }: IconProps) => <i className={`font-charge ${className}`.trim()}></i>,
     Shield: ({ className = "" }: IconProps) => <i className={`font-shield ${className}`.trim()}></i>,
-    Energy: () => <i className="font-energy"></i>,
+    Energy: ({ className = "" }: IconProps) => <i className={`font-energy ${className}`}></i>,
     Cloak: () => <i className="font-cloak"></i>,
     RotateArc: () => <i className="font-rotatearc uppercase"></i>,
     LeftBank: () => <i className='font-bankleft'></i>,
