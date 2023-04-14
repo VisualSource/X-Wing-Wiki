@@ -88,7 +88,7 @@ export type IconNames = keyof typeof icons;
 (icons as unknown as (IconNames & { BullseyeArc: (props: IconProps) => JSX.Element; })).BullseyeArc = icons.BullsEyeArc;
 (icons as unknown as (IconNames & { CriticalHit: () => JSX.Element; })).CriticalHit = icons.Crit;
 (icons as unknown as (IconNames & { Force: (props: IconProps) => JSX.Element; })).Force = icons.Forcecharge;
-(icons as unknown as (IconNames & { Force: (props: IconProps) => JSX.Element; })).KoiogranTurn = icons.KTurn
+(icons as unknown as (IconNames & { KoiogranTurn: (props: IconProps) => JSX.Element; })).KoiogranTurn = icons.KTurn
 
 
 export default icons;
