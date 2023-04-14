@@ -1,6 +1,8 @@
 /// <reference types="vite/client" />
 /// <reference types="vite-plugin-pwa/client" />
 
+declare module "dom-to-image-next";
+
 declare module "virtual:pwa-register/react" {
     export interface RegisterSWOptions {
         immediate?: boolean
@@ -22,7 +24,7 @@ declare module "virtual:pwa-register/react" {
         onRegisteredSW?: (swScriptUrl: string, registration: ServiceWorkerRegistration | undefined) => void
         onRegisterError?: (error: any) => void
     }
-    
+
     export function useRegisterSW(options?: RegisterSWOptions): {
         needRefresh: [boolean, React.Dispatch<SetStateAction<boolean>>]
         offlineReady: [boolean, React.Dispatch<SetStateAction<boolean>>]

@@ -1,0 +1,2655 @@
+[
+  [
+    "tielnfighter",
+    {
+      "ship": {
+        "name": "TIE/ln Fighter",
+        "xws": "tielnfighter",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 3 },
+          { "type": "hull", "value": 3 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Evade" },
+          { "difficulty": "White", "type": "Barrel Roll" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png"
+      },
+      "pilots": [
+        {
+          "threat": 2,
+          "id": "62837659",
+          "standardLoadout": {
+            "talent": ["elusive"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Valen Rudor",
+          "initiative": 3,
+          "limited": 1,
+          "xws": "valenrudor",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/valenrudor.png",
+          "force": null,
+          "caption": "Braggadocious Baron",
+          "ability": "After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "c97c8ab5",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "modification": ["afterburners", "shieldupgrade"]
+          },
+          "name": "Black Squadron Ace",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "blacksquadronace",
+          "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 1,
+          "id": "24a0325e",
+          "standardLoadout": null,
+          "name": "Academy Pilot",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "academypilot",
+          "text": "The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/academypilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "12c4b013",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Iden Versio",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "idenversio",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/idenversio.png",
+          "force": null,
+          "caption": "Inferno Leader",
+          "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.",
+          "shipActions": null,
+          "charges": { "value": 1, "recovers": 0 }
+        },
+        {
+          "threat": 2,
+          "id": "f4dea0e4",
+          "standardLoadout": {
+            "talent": ["lonewolf"],
+            "torpedo": ["protontorpedoes"]
+          },
+          "name": "Iden Versio",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "idenversio",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/idenversio.png",
+          "force": null,
+          "caption": "Inferno Leader",
+          "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.",
+          "shipActions": null,
+          "charges": { "value": 1, "recovers": 0 }
+        },
+        {
+          "threat": 2,
+          "id": "b91b9668",
+          "standardLoadout": {
+            "talent": ["predator"],
+            "modification": ["hullupgrade", "shieldupgrade"]
+          },
+          "name": "“Night Beast”",
+          "initiative": 2,
+          "limited": 1,
+          "xws": "nightbeast",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nightbeast.png",
+          "force": null,
+          "caption": "Obsidian Two",
+          "ability": "After you fully execute a blue maneuver, you may perform a [Focus] action.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 1,
+          "id": "e0571f11",
+          "standardLoadout": null,
+          "name": "Obsidian Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "obsidiansquadronpilot",
+          "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obsidiansquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "38f0b924",
+          "standardLoadout": {
+            "talent": ["predator"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "“Scourge” Skutu",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "scourgeskutu",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scourgeskutu.png",
+          "force": null,
+          "caption": "Seasoned Veteran",
+          "ability": "While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "69ee5221",
+          "standardLoadout": {
+            "talent": ["crackshot"],
+            "modification": ["hullupgrade", "stealthdevice"]
+          },
+          "name": "“Wampa”",
+          "initiative": 1,
+          "limited": 1,
+          "xws": "wampa",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wampa.png",
+          "force": null,
+          "caption": "Black Eleven",
+          "ability": "While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].",
+          "shipActions": null,
+          "charges": { "value": 1, "recovers": 1 }
+        },
+        {
+          "threat": 2,
+          "id": "65cf7e7b",
+          "standardLoadout": {
+            "talent": ["crackshot"],
+            "modification": ["afterburners", "shieldupgrade"]
+          },
+          "name": "Black Squadron Ace",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "blacksquadronace",
+          "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "769ea454",
+          "standardLoadout": {
+            "talent": ["crackshot"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Gideon Hask",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "gideonhask",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gideonhask.png",
+          "force": null,
+          "caption": "Inferno Two",
+          "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "9fa4a5d7",
+          "standardLoadout": {
+            "talent": ["juke"],
+            "modification": ["stealthdevice"]
+          },
+          "name": "Del Meeko",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "delmeeko",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/delmeeko.png",
+          "force": null,
+          "caption": "Inferno Three",
+          "ability": "While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "d8cf234b",
+          "standardLoadout": {
+            "talent": ["juke"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "“Howlrunner”",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "howlrunner",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/howlrunner.png",
+          "force": null,
+          "caption": "Obsidian Leader",
+          "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "f4d73d77",
+          "standardLoadout": {
+            "talent": ["marksmanship"],
+            "modification": ["afterburners"]
+          },
+          "name": "Seyn Marana",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "seynmarana",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/seynmarana.png",
+          "force": null,
+          "caption": "Inferno Four",
+          "ability": "While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "44e95be4",
+          "standardLoadout": {
+            "talent": ["juke"],
+            "modification": ["stealthdevice"]
+          },
+          "name": "Black Squadron Ace",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "blacksquadronace",
+          "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "35631e53",
+          "standardLoadout": {
+            "talent": ["juke"],
+            "modification": ["stealthdevice"]
+          },
+          "name": "Black Squadron Ace",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "blacksquadronace",
+          "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "84fe2e5c",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Obsidian Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "obsidiansquadronpilot",
+          "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obsidiansquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "87093acc",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Obsidian Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "obsidiansquadronpilot",
+          "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obsidiansquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "3b680882",
+          "standardLoadout": null,
+          "name": "Academy Pilot",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "academypilot",
+          "text": "The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/academypilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "4db1ba7d",
+          "standardLoadout": null,
+          "name": "Academy Pilot",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "academypilot",
+          "text": "The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/academypilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "22269481",
+          "standardLoadout": {
+            "talent": ["deadeyeshot", "outmaneuver"],
+            "illicit": ["overtunedmodulator"],
+            "modification": ["hullupgrade"]
+          },
+          "name": "Moff Gideon",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "moffgideon",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png",
+          "force": null,
+          "caption": "Ruthless Remnant Leader",
+          "ability": "While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 [Charge] and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token.",
+          "shipActions": null,
+          "charges": { "value": 2, "recovers": 1 }
+        },
+        {
+          "threat": 2,
+          "id": "d128fd43",
+          "standardLoadout": {
+            "talent": ["ionlimiteroverride"],
+            "illicit": ["falsetranspondercodes"],
+            "modification": ["afterburners", "shieldupgrade"]
+          },
+          "name": "ISB Jingoist",
+          "initiative": 4,
+          "limited": 2,
+          "xws": "isbjingoist",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/isbjingoist.png",
+          "force": null,
+          "caption": "Heartless Enforcer",
+          "ability": "Before you engage, you may choose 1 enemy ship in your [Front Arc] at range 0-1. If you do, that ship gains 1 deplete or strain token of your choice unless it chooses to remove 1 green token.",
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tieadvancedx1",
+    {
+      "ship": {
+        "name": "TIE Advanced x1",
+        "xws": "tieadvancedx1",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 3 },
+          { "type": "hull", "value": 3 },
+          { "type": "shields", "value": 2 }
+        ],
+        "actions": [
+          {
+            "difficulty": "White",
+            "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+            "type": "Focus"
+          },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "White", "type": "Barrel Roll" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvanced.png"
+      },
+      "pilots": [
+        {
+          "threat": 4,
+          "id": "c5ffe667",
+          "standardLoadout": {
+            "force-power": ["supernaturalreflexes"],
+            "missile": ["clustermissiles"],
+            "sensor": ["firecontrolsystem"],
+            "modification": ["afterburners", "shieldupgrade"]
+          },
+          "name": "Darth Vader",
+          "initiative": 6,
+          "limited": 1,
+          "xws": "darthvader",
+          "text": null,
+          "shipAbility": {
+            "name": "Advanced Targeting Computer",
+            "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
+          "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+          "caption": "Black Leader",
+          "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "0f689465",
+          "standardLoadout": {
+            "talent": ["ruthless"],
+            "missile": ["clustermissiles"],
+            "sensor": ["firecontrolsystem"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Maarek Stele",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "maarekstele",
+          "text": null,
+          "shipAbility": {
+            "name": "Advanced Targeting Computer",
+            "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
+          "force": null,
+          "caption": "Servant of the Empire",
+          "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "0dc035f9",
+          "standardLoadout": { "sensor": ["firecontrolsystem"] },
+          "name": "Storm Squadron Ace",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "stormsquadronace",
+          "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.",
+          "shipAbility": {
+            "name": "Advanced Targeting Computer",
+            "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stormsquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "e5e73570",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "missile": ["clustermissiles"],
+            "sensor": ["firecontrolsystem"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Ved Foslo",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "vedfoslo",
+          "text": null,
+          "shipAbility": {
+            "name": "Advanced Targeting Computer",
+            "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vedfoslo.png",
+          "force": null,
+          "caption": "Ambitious Engineer",
+          "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "69eb3c50",
+          "standardLoadout": {
+            "talent": ["squadleader"],
+            "missile": ["clustermissiles"],
+            "sensor": ["firecontrolsystem"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Zertik Strom",
+          "initiative": 3,
+          "limited": 1,
+          "xws": "zertikstrom",
+          "text": null,
+          "shipAbility": {
+            "name": "Advanced Targeting Computer",
+            "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zertikstrom.png",
+          "force": null,
+          "caption": "Pitiless Administrator",
+          "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "2aa248a6",
+          "standardLoadout": { "missile": ["clustermissiles"] },
+          "name": "Tempest Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "tempestsquadronpilot",
+          "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.",
+          "shipAbility": {
+            "name": "Advanced Targeting Computer",
+            "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tempestsquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "lambdaclasst4ashuttle",
+    {
+      "ship": {
+        "name": "Lambda-class T-4a Shuttle",
+        "xws": "lambdaclasst4ashuttle",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 3 },
+          { "arc": "Rear Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 1 },
+          { "type": "hull", "value": 6 },
+          { "type": "shields", "value": 4 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Reinforce" },
+          { "difficulty": "White", "type": "Coordinate" },
+          { "difficulty": "Red", "type": "Jam" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Lambda.png"
+      },
+      "pilots": [
+        {
+          "threat": 3,
+          "id": "a3e33ae8",
+          "standardLoadout": {
+            "title": ["st321"],
+            "cannon": ["ioncannon"],
+            "sensor": ["collisiondetector"],
+            "crew": ["darthvader", "freelanceslicer"]
+          },
+          "name": "Colonel Jendon",
+          "initiative": 3,
+          "limited": 1,
+          "xws": "coloneljendon",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/coloneljendon.png",
+          "force": null,
+          "caption": "Darth Vader’s Shuttle Pilot",
+          "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, while friendly ships acquire locks this round, they must acquire locks beyond range 3 instead of at range 0-3.",
+          "shipActions": null,
+          "charges": { "value": 2, "recovers": 0 }
+        },
+        {
+          "threat": 3,
+          "id": "dcf6e063",
+          "standardLoadout": {
+            "cannon": ["tractorbeam"],
+            "sensor": ["collisiondetector"],
+            "crew": ["emperorpalpatine"],
+            "modification": ["shieldupgrade", "staticdischargevanes"]
+          },
+          "name": "Captain Kagi",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "captainkagi",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainkagi.png",
+          "force": null,
+          "caption": "The Emperor’s Shuttle Pilot",
+          "ability": "At the start of the Engagement Phase, you may choose 1 or more friendly ships at range 0-3. If you do, transfer all enemy lock tokens from the chosen ships to you.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "55617512",
+          "standardLoadout": {
+            "cannon": ["jammingbeam"],
+            "sensor": ["advancedsensors"],
+            "crew": ["cienaree", "gnkgonkdroid"]
+          },
+          "name": "Lieutenant Sai",
+          "initiative": 3,
+          "limited": 1,
+          "xws": "lieutenantsai",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantsai.png",
+          "force": null,
+          "caption": "Death Squadron Veteran",
+          "ability": "After you a perform a [Coordinate] action, if the ship you chose performed an action on your action bar, you may perform that action.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "811002da",
+          "standardLoadout": {
+            "cannon": ["jammingbeam"],
+            "crew": ["admiralsloane"]
+          },
+          "name": "Omicron Group Pilot",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "omicrongrouppilot",
+          "text": "Noted for its tri-wing design and advanced sensor suite, the Lambda-class shuttle serves a critical role as a light utility craft in the Imperial Navy.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/omicrongrouppilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tieagaggressor",
+    {
+      "ship": {
+        "name": "TIE/ag Aggressor",
+        "xws": "tieagaggressor",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 2 },
+          { "type": "hull", "value": 4 },
+          { "type": "shields", "value": 1 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Lock" },
+          {
+            "difficulty": "White",
+            "linked": { "difficulty": "Red", "type": "Evade" },
+            "type": "Barrel Roll"
+          }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAggressor.png"
+      },
+      "pilots": [
+        {
+          "threat": 2,
+          "id": "3a023e88",
+          "standardLoadout": {
+            "talent": ["elusive"],
+            "missile": ["barragerockets"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Lieutenant Kestal",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "lieutenantkestal",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantkestal.png",
+          "force": null,
+          "caption": "Innate Deadeye",
+          "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "9608dcef",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "missile": ["protonrockets"],
+            "turret": ["dorsalturret"]
+          },
+          "name": "Onyx Squadron Scout",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "onyxsquadronscout",
+          "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronscout.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "f8d98b63",
+          "standardLoadout": {
+            "turret": ["ioncannonturret"],
+            "missile": ["concussionmissiles"],
+            "gunner": ["hotshotgunner"]
+          },
+          "name": "“Double Edge”",
+          "initiative": 2,
+          "limited": 1,
+          "xws": "doubleedge",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/doubleedge.png",
+          "force": null,
+          "caption": "Contingency Planner",
+          "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "461733e6",
+          "standardLoadout": {
+            "turret": ["ioncannonturret"],
+            "missile": ["homingmissiles"],
+            "gunner": ["veteranturretgunner"],
+            "modification": ["hullupgrade"]
+          },
+          "name": "Sienar Specialist",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "sienarspecialist",
+          "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sienarspecialist.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tiephphantom",
+    {
+      "ship": {
+        "name": "TIE/ph Phantom",
+        "xws": "tiephphantom",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 3 },
+          { "type": "agility", "value": 2 },
+          { "type": "hull", "value": 3 },
+          { "type": "shields", "value": 2 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Evade" },
+          { "difficulty": "White", "type": "Barrel Roll" },
+          { "difficulty": "White", "type": "Cloak" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPhantom.png"
+      },
+      "pilots": [
+        {
+          "threat": 3,
+          "id": "ed9439ab",
+          "standardLoadout": {
+            "talent": ["juke"],
+            "sensor": ["advancedsensors"],
+            "crew": ["agentkallus"],
+            "modification": ["stealthdevice"]
+          },
+          "name": "“Whisper”",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "whisper",
+          "text": null,
+          "shipAbility": {
+            "name": "Stygium Array",
+            "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/whisper.png",
+          "force": null,
+          "caption": "Soft-Spoken Slayer",
+          "ability": "After you perform an attack that hits, gain 1 evade token.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "029392df",
+          "standardLoadout": {
+            "talent": ["predator"],
+            "sensor": ["advancedsensors"],
+            "crew": ["grandinquisitor"]
+          },
+          "name": "Sigma Squadron Ace",
+          "initiative": 4,
+          "limited": 0,
+          "xws": "sigmasquadronace",
+          "text": "Featuring a hyperdrive and shields, the TIE phantom is also equipped with five laser cannons, giving it substantial firepower for an Imperial fighter.",
+          "shipAbility": {
+            "name": "Stygium Array",
+            "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigmasquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "4fc2d347",
+          "standardLoadout": {
+            "talent": ["lonewolf"],
+            "sensor": ["collisiondetector"],
+            "crew": ["perceptivecopilot"],
+            "modification": ["stealthdevice"]
+          },
+          "name": "“Echo”",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "echo",
+          "text": null,
+          "shipAbility": {
+            "name": "Stygium Array",
+            "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/echo.png",
+          "force": null,
+          "caption": "Slippery Trickster",
+          "ability": "While you decloak, you must use the [2 [Bank Left]] or [2 [Bank Right]] template instead of the [2 [Straight]] template.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "5ccd9e64",
+          "standardLoadout": { "crew": ["moffjerjerrod"] },
+          "name": "Imdaar Test Pilot",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "imdaartestpilot",
+          "text": "The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom achieves what many thought was impossible: a small starfighter equipped with an advanced cloaking device.",
+          "shipAbility": {
+            "name": "Stygium Array",
+            "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/imdaartestpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tieskstriker",
+    {
+      "ship": {
+        "name": "TIE/sk Striker",
+        "xws": "tieskstriker",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 3 },
+          { "type": "agility", "value": 2 },
+          { "type": "hull", "value": 4 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Evade" },
+          { "difficulty": "White", "type": "Barrel Roll" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEStriker.png"
+      },
+      "pilots": [
+        {
+          "threat": 3,
+          "id": "684a5b44",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "device": ["connernets"],
+            "modification": ["afterburners", "hullupgrade"]
+          },
+          "name": "“Duchess”",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "duchess",
+          "text": null,
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/duchess.png",
+          "force": null,
+          "caption": "Urbane Ace",
+          "ability": "You may choose not to use your Adaptive Ailerons. You may use your Adaptive Ailerons even while stressed.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "04da23ee",
+          "standardLoadout": {
+            "talent": ["trickshot"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "“Duchess”",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "duchess",
+          "text": null,
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/duchess.png",
+          "force": null,
+          "caption": "Urbane Ace",
+          "ability": "You may choose not to use your Adaptive Ailerons. You may use your Adaptive Ailerons even while stressed.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "678efdde",
+          "standardLoadout": {
+            "talent": ["predator"],
+            "device": ["connernets"]
+          },
+          "name": "Black Squadron Scout",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "blacksquadronscout",
+          "text": "These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.",
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronscout.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "88e34791",
+          "standardLoadout": {
+            "gunner": ["skilledbombardier"],
+            "device": ["proximitymines"],
+            "modification": ["hullupgrade"]
+          },
+          "name": "Black Squadron Scout",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "blacksquadronscout",
+          "text": "These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.",
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronscout.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "dbeb8f96",
+          "standardLoadout": {
+            "talent": ["snapshot"],
+            "modification": ["targetingcomputer"]
+          },
+          "name": "Black Squadron Scout",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "blacksquadronscout",
+          "text": "These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.",
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronscout.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "b1148cfc",
+          "standardLoadout": {
+            "talent": ["elusive"],
+            "device": ["protonbombs"],
+            "gunner": ["skilledbombardier"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "“Countdown”",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "countdown",
+          "text": null,
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdown.png",
+          "force": null,
+          "caption": "Death Defier",
+          "ability": "While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "ffc11c25",
+          "standardLoadout": { "modification": ["shieldupgrade"] },
+          "name": "“Countdown”",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "countdown",
+          "text": null,
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdown.png",
+          "force": null,
+          "caption": "Death Defier",
+          "ability": "While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "6655f349",
+          "standardLoadout": {
+            "talent": ["trickshot"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "“Pure Sabacc”",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "puresabacc",
+          "text": null,
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/puresabacc.png",
+          "force": null,
+          "caption": "Confident Gambler",
+          "ability": "While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "ad38abb2",
+          "standardLoadout": { "modification": ["stealthdevice"] },
+          "name": "“Pure Sabacc”",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "puresabacc",
+          "text": null,
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/puresabacc.png",
+          "force": null,
+          "caption": "Confident Gambler",
+          "ability": "While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "c65ebdee",
+          "standardLoadout": {
+            "gunner": ["skilledbombardier"],
+            "device": ["protonbombs"],
+            "modification": ["hullupgrade"]
+          },
+          "name": "Planetary Sentinel",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "planetarysentinel",
+          "text": "To protect its many military installations, the Empire requires a swift and vigilant defense force.",
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/planetarysentinel.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "a8a04e90",
+          "standardLoadout": {
+            "talent": ["trickshot"],
+            "device": ["connernets"]
+          },
+          "name": "Planetary Sentinel",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "planetarysentinel",
+          "text": "To protect its many military installations, the Empire requires a swift and vigilant defense force.",
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/planetarysentinel.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "88e44070",
+          "standardLoadout": { "device": ["connernets"] },
+          "name": "Planetary Sentinel",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "planetarysentinel",
+          "text": "To protect its many military installations, the Empire requires a swift and vigilant defense force.",
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/planetarysentinel.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "3c63c30f",
+          "standardLoadout": { "device": ["connernets"] },
+          "name": "Planetary Sentinel",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "planetarysentinel",
+          "text": "To protect its many military installations, the Empire requires a swift and vigilant defense force.",
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/planetarysentinel.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "1d96f44b",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "device": ["protonbombs"],
+            "gunner": ["skilledbombardier"],
+            "modification": ["afterburners"]
+          },
+          "name": "“Vagabond”",
+          "initiative": 2,
+          "limited": 1,
+          "xws": "vagabond",
+          "text": null,
+          "shipAbility": {
+            "name": "Adaptive Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you must boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vagabond.png",
+          "force": null,
+          "caption": "Destitute Demolitionist",
+          "ability": "After you fully execute a maneuver using your Adaptive Ailerons, if you are not stressed, you may drop 1 device.",
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tieddefender",
+    {
+      "ship": {
+        "name": "TIE/D Defender",
+        "xws": "tieddefender",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 3 },
+          { "type": "agility", "value": 3 },
+          { "type": "hull", "value": 3 },
+          { "type": "shields", "value": 4 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Evade" },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "White", "type": "Barrel Roll" },
+          { "difficulty": "White", "type": "Boost" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEDefender.png"
+      },
+      "pilots": [
+        {
+          "threat": 4,
+          "id": "922b098b",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "modification": ["afterburners"]
+          },
+          "name": "Countess Ryad",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "countessryad",
+          "text": null,
+          "shipAbility": {
+            "name": "Full Throttle",
+            "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countessryad.png",
+          "force": null,
+          "caption": "Cutthroat Politico",
+          "ability": "While you would execute a [Straight] maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a [Koiogran Turn] maneuver instead.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "465739ea",
+          "standardLoadout": null,
+          "name": "Onyx Squadron Ace",
+          "initiative": 4,
+          "limited": 0,
+          "xws": "onyxsquadronace",
+          "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.",
+          "shipAbility": {
+            "name": "Full Throttle",
+            "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 4,
+          "id": "0ececeff",
+          "standardLoadout": {
+            "talent": ["juke"],
+            "sensor": ["collisiondetector"],
+            "missile": ["clustermissiles"]
+          },
+          "name": "Rexler Brath",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "rexlerbrath",
+          "text": null,
+          "shipAbility": {
+            "name": "Full Throttle",
+            "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rexlerbrath.png",
+          "force": null,
+          "caption": "Onyx Leader",
+          "ability": "After you perform an attack that hits, if you are evading, expose 1 of the defender's damage cards.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "66977e0a",
+          "standardLoadout": { "cannon": ["ioncannon"] },
+          "name": "Delta Squadron Pilot",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "deltasquadronpilot",
+          "text": "In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive.",
+          "shipAbility": {
+            "name": "Full Throttle",
+            "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deltasquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 4,
+          "id": "3930c9aa",
+          "standardLoadout": {
+            "talent": ["juke"],
+            "sensor": ["firecontrolsystem"],
+            "missile": ["clustermissiles"]
+          },
+          "name": "Colonel Vessery",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "colonelvessery",
+          "text": null,
+          "shipAbility": {
+            "name": "Full Throttle",
+            "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/colonelvessery.png",
+          "force": null,
+          "caption": "Contemplative Commander",
+          "ability": "While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 4,
+          "id": "a5ca2a68",
+          "standardLoadout": {
+            "talent": ["elusive"],
+            "sensor": ["advancedsensors"],
+            "missile": ["protonrockets"]
+          },
+          "name": "Onyx Squadron Ace",
+          "initiative": 4,
+          "limited": 0,
+          "xws": "onyxsquadronace",
+          "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.",
+          "shipAbility": {
+            "name": "Full Throttle",
+            "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tiesabomber",
+    {
+      "ship": {
+        "name": "TIE/sa Bomber",
+        "xws": "tiesabomber",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 2 },
+          { "type": "hull", "value": 6 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Lock" },
+          {
+            "difficulty": "White",
+            "linked": { "difficulty": "Red", "type": "Lock" },
+            "type": "Barrel Roll"
+          },
+          { "difficulty": "Red", "type": "Reload" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEBomber.png"
+      },
+      "pilots": [
+        {
+          "threat": 2,
+          "id": "ed050f2f",
+          "standardLoadout": {
+            "talent": ["crackshot"],
+            "torpedo": ["protontorpedoes"],
+            "device": ["protonbombs"]
+          },
+          "name": "Tomax Bren",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "tomaxbren",
+          "text": null,
+          "shipAbility": {
+            "name": "Nimble Bomber",
+            "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png",
+          "force": null,
+          "caption": "Brash Maverick",
+          "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "6751d0f4",
+          "standardLoadout": {
+            "missile": ["clustermissiles"],
+            "gunner": ["skilledbombardier"],
+            "device": ["seismiccharges", "proximitymines"],
+            "modification": ["electronicbaffle"]
+          },
+          "name": "“Deathfire”",
+          "initiative": 2,
+          "limited": 1,
+          "xws": "deathfire",
+          "text": null,
+          "shipAbility": {
+            "name": "Nimble Bomber",
+            "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png",
+          "force": null,
+          "caption": "Unflinching Diehard",
+          "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "9c591ae0",
+          "standardLoadout": {
+            "missile": ["clustermissiles"],
+            "talent": ["intimidation"],
+            "torpedo": ["advprotontorpedoes"]
+          },
+          "name": "Major Rhymer",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "majorrhymer",
+          "text": null,
+          "shipAbility": {
+            "name": "Nimble Bomber",
+            "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png",
+          "force": null,
+          "caption": "Scimitar Leader",
+          "ability": "While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "00dce9df",
+          "standardLoadout": {
+            "missile": ["ionmissiles"],
+            "device": ["protonbombs"]
+          },
+          "name": "Scimitar Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "scimitarsquadronpilot",
+          "text": "The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.",
+          "shipAbility": {
+            "name": "Nimble Bomber",
+            "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scimitarsquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "f29b57fd",
+          "standardLoadout": {
+            "missile": ["ionmissiles"],
+            "device": ["protonbombs"]
+          },
+          "name": "Scimitar Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "scimitarsquadronpilot",
+          "text": "The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.",
+          "shipAbility": {
+            "name": "Nimble Bomber",
+            "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scimitarsquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "cbe74e9a",
+          "standardLoadout": {
+            "torpedo": ["protontorpedoes"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Captain Jonus",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "captainjonus",
+          "text": null,
+          "shipAbility": {
+            "name": "Nimble Bomber",
+            "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png",
+          "force": null,
+          "caption": "Disciplined Instructor",
+          "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "aca0721b",
+          "standardLoadout": {
+            "missile": ["concussionmissiles"],
+            "gunner": ["skilledbombardier"],
+            "device": ["bombletgenerator"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Gamma Squadron Ace",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "gammasquadronace",
+          "text": "Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber's increased payload can carry enough firepower to destroy virtually any enemy target.",
+          "shipAbility": {
+            "name": "Nimble Bomber",
+            "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gammasquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tieadvancedv1",
+    {
+      "ship": {
+        "name": "TIE Advanced v1",
+        "xws": "tieadvancedv1",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 3 },
+          { "type": "hull", "value": 2 },
+          { "type": "shields", "value": 2 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Evade" },
+          { "difficulty": "White", "type": "Lock" },
+          {
+            "difficulty": "White",
+            "linked": { "difficulty": "Red", "type": "Focus" },
+            "type": "Barrel Roll"
+          },
+          {
+            "difficulty": "White",
+            "linked": { "difficulty": "Red", "type": "Focus" },
+            "type": "Boost"
+          }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvancedPrototype.png"
+      },
+      "pilots": [
+        {
+          "threat": 3,
+          "id": "64ce7b1f",
+          "standardLoadout": {
+            "force-power": ["supernaturalreflexes"],
+            "missile": ["concussionmissiles"]
+          },
+          "name": "Grand Inquisitor",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "grandinquisitor",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/grandinquisitor.png",
+          "force": { "value": 2, "recovers": 1, "side": ["dark"] },
+          "caption": "Master of the Inquisitorious",
+          "ability": "While you defend at attack range 1, you may spend 1 [Force] to prevent the range 1 bonus. While you perform an attack against a defender at attack range 2-3, you may spend 1 [Force] to apply the range 1 bonus.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "0416be3e",
+          "standardLoadout": {
+            "force-power": ["instinctiveaim"],
+            "missile": ["clustermissiles"],
+            "modification": ["munitionsfailsafe"]
+          },
+          "name": "Inquisitor",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "inquisitor",
+          "text": "The fearsome Inquisitors are given a great deal of autonomy and access to the Empire's latest technology, like the prototype TIE Advanced v1.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/inquisitor.png",
+          "force": { "value": 1, "recovers": 1, "side": ["dark"] },
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "6f21ac93",
+          "standardLoadout": {
+            "force-power": ["brilliantevasion"],
+            "modification": ["afterburners"]
+          },
+          "name": "Inquisitor",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "inquisitor",
+          "text": "The fearsome Inquisitors are given a great deal of autonomy and access to the Empire's latest technology, like the prototype TIE Advanced v1.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/inquisitor.png",
+          "force": { "value": 1, "recovers": 1, "side": ["dark"] },
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "c0c6a757",
+          "standardLoadout": { "missile": ["homingmissiles"] },
+          "name": "Seventh Sister",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "seventhsister",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/seventhsister.png",
+          "force": { "value": 2, "recovers": 1, "side": ["dark"] },
+          "caption": "Sadistic Interrogator",
+          "ability": "While you perform a primary attack, before the Neutralize Results step, you may spend 2 [Force] to cancel 1 [Evade] result.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "49fd68f9",
+          "standardLoadout": {
+            "missile": ["protonrockets"],
+            "talent": ["crackshot"],
+            "modification": ["stealthdevice"]
+          },
+          "name": "Baron of the Empire",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "baronoftheempire",
+          "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baronoftheempire.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "34b70f44",
+          "standardLoadout": {
+            "missile": ["magpulsewarheads"],
+            "talent": ["snapshot"]
+          },
+          "name": "Baron of the Empire",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "baronoftheempire",
+          "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baronoftheempire.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "d8ef7a63",
+          "standardLoadout": { "force-power": ["foresight"] },
+          "name": "Fifth Brother",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "fifthbrother",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fifthbrother.png",
+          "force": { "value": 2, "recovers": 1, "side": ["dark"] },
+          "caption": "Ruthless Brute",
+          "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.",
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tieininterceptor",
+    {
+      "ship": {
+        "name": "TIE/in Interceptor",
+        "xws": "tieininterceptor",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 3 },
+          { "type": "agility", "value": 3 },
+          { "type": "hull", "value": 3 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Evade" },
+          { "difficulty": "White", "type": "Barrel Roll" },
+          { "difficulty": "White", "type": "Boost" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEInterceptor.png"
+      },
+      "pilots": [
+        {
+          "threat": 3,
+          "id": "d31d34ff",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "modification": ["afterburners", "stealthdevice"]
+          },
+          "name": "Soontir Fel",
+          "initiative": 6,
+          "limited": 1,
+          "xws": "soontirfel",
+          "text": null,
+          "shipAbility": {
+            "name": "Autothrusters",
+            "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/soontirfel.png",
+          "force": null,
+          "caption": "Ace of Legend",
+          "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "5227d105",
+          "standardLoadout": { "modification": ["ablativeplating"] },
+          "name": "Alpha Squadron Pilot",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "alphasquadronpilot",
+          "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
+          "shipAbility": {
+            "name": "Autothrusters",
+            "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/alphasquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "e3080959",
+          "standardLoadout": { "modification": ["ablativeplating"] },
+          "name": "Alpha Squadron Pilot",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "alphasquadronpilot",
+          "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
+          "shipAbility": {
+            "name": "Autothrusters",
+            "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/alphasquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "31c5adb2",
+          "standardLoadout": {
+            "talent": ["daredevil"],
+            "modification": ["electronicbaffle"]
+          },
+          "name": "Turr Phennir",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "turrphennir",
+          "text": null,
+          "shipAbility": {
+            "name": "Autothrusters",
+            "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/turrphennir.png",
+          "force": null,
+          "caption": "Ambitious Ace",
+          "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "a4feaf3a",
+          "standardLoadout": {
+            "talent": ["predator"],
+            "modification": ["stealthdevice"]
+          },
+          "name": "Saber Squadron Ace",
+          "initiative": 4,
+          "limited": 0,
+          "xws": "sabersquadronace",
+          "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
+          "shipAbility": {
+            "name": "Autothrusters",
+            "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabersquadronace.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "alphaclassstarwing",
+    {
+      "ship": {
+        "name": "Alpha-class Star Wing",
+        "xws": "alphaclassstarwing",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 2 },
+          { "type": "hull", "value": 4 },
+          { "type": "shields", "value": 3 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "White", "type": "SLAM" },
+          { "difficulty": "White", "type": "Reload" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_AlphaStarwing.png"
+      },
+      "pilots": [
+        {
+          "threat": 2,
+          "id": "2e1374aa",
+          "standardLoadout": {
+            "talent": ["outmaneuver"],
+            "cannon": ["heavylasercannon"],
+            "configuration": ["xg1assaultconfiguration"],
+            "modification": ["advancedslam"]
+          },
+          "name": "Lieutenant Karsabi",
+          "initiative": 3,
+          "limited": 1,
+          "xws": "lieutenantkarsabi",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantkarsabi.png",
+          "force": null,
+          "caption": "Brash Noble",
+          "ability": "After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "0fd2c8c0",
+          "standardLoadout": {
+            "torpedo": ["protontorpedoes"],
+            "sensor": ["firecontrolsystem"],
+            "configuration": ["os1arsenalloadout"],
+            "modification": ["advancedslam"]
+          },
+          "name": "Nu Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "nusquadronpilot",
+          "text": "With a design inspired by other Cygnus Spaceworks vessels, the Alpha-class star wing is a versatile craft assigned to Imperial Navy specialist units that need a starfighter they can outfit for multiple roles.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nusquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "d8855fb1",
+          "standardLoadout": {
+            "missile": ["barragerockets"],
+            "talent": ["saturationsalvo"],
+            "configuration": ["os1arsenalloadout"],
+            "modification": ["advancedslam"]
+          },
+          "name": "Major Vynder",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "majorvynder",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorvynder.png",
+          "force": null,
+          "caption": "Pragmatic Survivor",
+          "ability": "While you defend, if you are disarmed, roll 1 additional defense die.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "a55ee872",
+          "standardLoadout": {
+            "missile": ["homingmissiles"],
+            "sensor": ["firecontrolsystem"],
+            "cannon": ["ioncannon"],
+            "configuration": ["xg1assaultconfiguration"],
+            "modification": ["advancedslam"]
+          },
+          "name": "Rho Squadron Pilot",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "rhosquadronpilot",
+          "text": "The elite pilots of Rho Squadron instill terror in the Rebellion, using both the Xg-1 assault configuration and Os-1 arsenal loadout of the Alpha-class star wing to devastating effect.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rhosquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tiecapunisher",
+    {
+      "ship": {
+        "name": "TIE/ca Punisher",
+        "xws": "tiecapunisher",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 1 },
+          { "type": "hull", "value": 6 },
+          { "type": "shields", "value": 3 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "Red", "type": "Barrel Roll" },
+          {
+            "difficulty": "White",
+            "linked": { "difficulty": "Red", "type": "Lock" },
+            "type": "Boost"
+          },
+          { "difficulty": "White", "type": "Reload" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png"
+      },
+      "pilots": [
+        {
+          "threat": 2,
+          "id": "519c6bd1",
+          "standardLoadout": {
+            "missile": ["homingmissiles"],
+            "sensor": ["trajectorysimulator"],
+            "device": ["bombletgenerator"],
+            "modification": ["ablativeplating"]
+          },
+          "name": "“Deathrain”",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "deathrain",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathrain.png",
+          "force": null,
+          "caption": "Dexterous Bombardier",
+          "ability": "After you drop or launch a device, you may perform an action.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "c3223484",
+          "standardLoadout": {
+            "missile": ["ionmissiles"],
+            "sensor": ["trajectorysimulator"],
+            "gunner": ["skilledbombardier"],
+            "device": ["protonbombs"]
+          },
+          "name": "Cutlass Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "cutlasssquadronpilot",
+          "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cutlasssquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "0c015e38",
+          "standardLoadout": {
+            "missile": ["clustermissiles"],
+            "talent": ["debrisgambit"]
+          },
+          "name": "“Redline”",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "redline",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redline.png",
+          "force": null,
+          "caption": "Adrenaline Junkie",
+          "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "a3286eec",
+          "standardLoadout": {
+            "missile": ["protonrockets"],
+            "sensor": ["advancedsensors"],
+            "device": ["connernets"]
+          },
+          "name": "Cutlass Squadron Pilot",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "cutlasssquadronpilot",
+          "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cutlasssquadronpilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "vt49decimator",
+    {
+      "ship": {
+        "name": "VT-49 Decimator",
+        "xws": "vt49decimator",
+        "stats": [
+          { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
+          { "type": "agility", "value": 0 },
+          { "type": "hull", "value": 12 },
+          { "type": "shields", "value": 4 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "White", "type": "Reinforce" },
+          { "difficulty": "White", "type": "Rotate Arc" },
+          { "difficulty": "Red", "type": "Coordinate" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Decimator.png"
+      },
+      "pilots": [
+        {
+          "threat": 4,
+          "id": "b1465ab8",
+          "standardLoadout": {
+            "talent": ["intimidation"],
+            "crew": ["grandmofftarkin"],
+            "title": ["dauntless"]
+          },
+          "name": "Captain Oicunn",
+          "initiative": 3,
+          "limited": 1,
+          "xws": "captainoicunn",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainoicunn.png",
+          "force": null,
+          "caption": "Inspired Tactician",
+          "ability": "While you perform an attack at attack range 0, treat it as an attack at attack range 1.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 4,
+          "id": "fd12a0ac",
+          "standardLoadout": {
+            "talent": ["swarmtactics"],
+            "crew": ["ministertua", "tacticalofficer"]
+          },
+          "name": "Rear Admiral Chiraneau",
+          "initiative": 5,
+          "limited": 1,
+          "xws": "rearadmiralchiraneau",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rearadmiralchiraneau.png",
+          "force": null,
+          "caption": "Advisor to Admiral Piett",
+          "ability": "While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Critical Hit] result.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 4,
+          "id": "b0885369",
+          "standardLoadout": {
+            "gunner": ["fifthbrother"],
+            "crew": ["informant", "seventhsister"]
+          },
+          "name": "Patrol Leader",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "patrolleader",
+          "text": "To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/patrolleader.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 3,
+          "id": "367b6366",
+          "standardLoadout": {
+            "modification": ["hullupgrade", "tacticalscrambler"]
+          },
+          "name": "Patrol Leader",
+          "initiative": 2,
+          "limited": 0,
+          "xws": "patrolleader",
+          "text": "To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/patrolleader.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 4,
+          "id": "62222b12",
+          "standardLoadout": {
+            "torpedo": ["plasmatorpedoes"],
+            "device": ["proximitymines"],
+            "crew": ["gnkgonkdroid"],
+            "modification": ["shieldupgrade"]
+          },
+          "name": "Morna Kee",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "mornakee",
+          "text": null,
+          "shipAbility": null,
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mornakee.png",
+          "force": null,
+          "caption": "Determined Attaché",
+          "ability": "During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.",
+          "shipActions": null,
+          "charges": { "value": 3, "recovers": 0 }
+        }
+      ]
+    }
+  ],
+  [
+    "tiereaper",
+    {
+      "ship": {
+        "name": "TIE Reaper",
+        "xws": "tiereaper",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 3 },
+          { "type": "agility", "value": 1 },
+          { "type": "hull", "value": 6 },
+          { "type": "shields", "value": 2 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Evade" },
+          { "difficulty": "Red", "type": "Coordinate" },
+          { "difficulty": "White", "type": "Jam" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEReaper.png"
+      },
+      "pilots": [
+        {
+          "threat": 2,
+          "id": "b028f572",
+          "standardLoadout": { "crew": ["directorkrennic"] },
+          "name": "“Vizier”",
+          "initiative": 2,
+          "limited": 1,
+          "xws": "vizier",
+          "text": null,
+          "shipAbility": {
+            "name": "Controlled Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you may boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vizier.png",
+          "force": null,
+          "caption": "Ruthless Tactician",
+          "ability": "After you move using your Controlled Ailerons ship ability, you may perform a [Coordinate] action. If you do, skip your Perform Action step.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "66502464",
+          "standardLoadout": {
+            "modification": ["shieldupgrade"],
+            "crew": ["deathtroopers"]
+          },
+          "name": "Scarif Base Pilot",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "scarifbasepilot",
+          "text": "The TIE reaper was designed to ferry elite troops to flashpoints on the battlefield, notably carrying Director Krennic's dreaded death troopers at the Battle of Scarif.",
+          "shipAbility": {
+            "name": "Controlled Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you may boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scarifbasepilot.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "a0ed9b3c",
+          "standardLoadout": {
+            "talent": ["swarmtactics"],
+            "crew": ["tacticalofficer"]
+          },
+          "name": "Major Vermeil",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "majorvermeil",
+          "text": null,
+          "shipAbility": {
+            "name": "Controlled Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you may boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorvermeil.png",
+          "force": null,
+          "caption": "Veteran of Scarif",
+          "ability": "While you perform an attack, if the defender does not have any green tokens, you may change 1 of your blank or [Focus] results to a [Hit] result.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "b23f2f0e",
+          "standardLoadout": {
+            "talent": ["swarmtactics"],
+            "crew": ["isbslicer"]
+          },
+          "name": "Captain Feroph",
+          "initiative": 3,
+          "limited": 1,
+          "xws": "captainferoph",
+          "text": null,
+          "shipAbility": {
+            "name": "Controlled Ailerons",
+            "text": "Before you reveal your dial, if you are not stressed, you may boost."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainferoph.png",
+          "force": null,
+          "caption": "Imperial Courier",
+          "ability": "While you defend, if the attacker does not have any green tokens, you may change 1 of your blank or [Focus] results to an [Evade] result.",
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "raiderclasscorvette",
+    {
+      "ship": {
+        "name": "Raider-class Corvette",
+        "xws": "raiderclasscorvette",
+        "stats": [
+          { "arc": "Full Front Arc", "type": "attack", "value": 4 },
+          { "type": "agility", "value": 0 },
+          { "type": "hull", "value": 20 },
+          { "type": "shields", "value": 8, "recovers": 2 },
+          { "type": "energy", "value": 6, "recovers": 2 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "White", "type": "Coordinate" },
+          { "difficulty": "White", "type": "Reinforce" },
+          { "difficulty": "White", "type": "Jam" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Raider.png"
+      },
+      "pilots": [
+        {
+          "threat": 9,
+          "id": "53c4dee6",
+          "standardLoadout": {
+            "command-crew": ["captainneeda"],
+            "hardpoint": ["ordnancetubes", "turbolaserbattery"],
+            "torpedo": ["advprotontorpedoes"],
+            "missile": ["concussionmissiles"],
+            "team": ["ordnanceteam", "bombardmentspecialists"],
+            "cargo": ["boostedscanners"],
+            "title": ["impetuous"]
+          },
+          "name": "Outer Rim Patrol",
+          "initiative": 8,
+          "limited": 0,
+          "xws": "outerrimpatrol",
+          "text": "The Raider-class corvette is one of the Empire's smallest warships, often used for reconnaissance missions, surgical strikes, or suppressing enemy starfighters with its powerful ordnance.",
+          "shipAbility": {
+            "name": "Concentrated Batteries",
+            "text": "While you perform a primary, [Torpedo], or [Missile] attack, if the defender is in your [Bullseye Arc], roll 1 additional die."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimpatrol.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "gozanticlasscruiser",
+    {
+      "ship": {
+        "name": "Gozanti-class Cruiser",
+        "xws": "gozanticlasscruiser",
+        "stats": [
+          { "arc": "Front Arc", "type": "attack", "value": 3 },
+          { "type": "agility", "value": 0 },
+          { "type": "hull", "value": 11 },
+          { "type": "shields", "value": 5, "recovers": 1 },
+          { "type": "energy", "value": 3, "recovers": 1 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "White", "type": "Coordinate" },
+          { "difficulty": "White", "type": "Reinforce" },
+          { "difficulty": "White", "type": "Jam" }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Gozanti.png"
+      },
+      "pilots": [
+        {
+          "threat": 5,
+          "id": "96f2ff18",
+          "standardLoadout": {
+            "command-crew": ["strategiccommander"],
+            "hardpoint": ["targetingbattery"],
+            "turret": ["dorsalturret"],
+            "team": ["commsteam", "sensorexperts"],
+            "cargo": ["boostedscanners", "optimizedpowercore"],
+            "title": ["requiem"]
+          },
+          "name": "Outer Rim Garrison",
+          "initiative": 7,
+          "limited": 0,
+          "xws": "outerrimgarrison",
+          "text": "Capable of carrying TIE fighters and operating independently for long periods of time, the Gozanti-class cruiser is a common sight in the skies of downtrodden worlds across the Outer Rim.",
+          "shipAbility": {
+            "name": "Docking Clamps",
+            "text": "You can dock up to 4 small ships."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimgarrison.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ],
+  [
+    "tierbheavy",
+    {
+      "ship": {
+        "name": "TIE/rb Heavy",
+        "xws": "tierbheavy",
+        "stats": [
+          { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+          { "type": "agility", "value": 1 },
+          { "type": "hull", "value": 8 }
+        ],
+        "actions": [
+          { "difficulty": "White", "type": "Focus" },
+          { "difficulty": "White", "type": "Reinforce" },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "Red", "type": "Barrel Roll" },
+          {
+            "difficulty": "White",
+            "linked": { "difficulty": "Red", "type": "Calculate" },
+            "type": "Rotate Arc"
+          }
+        ],
+        "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIE_Brute.png"
+      },
+      "pilots": [
+        {
+          "threat": 3,
+          "id": "d5af3bc3",
+          "standardLoadout": {
+            "talent": ["predator"],
+            "cannon": ["synchedlasercannons"],
+            "modification": ["ablativeplating", "afterburners"],
+            "configuration": ["targetassistmgk300"]
+          },
+          "name": "“Rampage”",
+          "initiative": 4,
+          "limited": 1,
+          "xws": "rampage",
+          "text": null,
+          "shipAbility": {
+            "name": "Rotating Cannons",
+            "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rampage.png",
+          "force": null,
+          "caption": "Implacable Pursuer",
+          "ability": "After you execute a speed 3-4 maneuver, you may choose a ship in your [Single Turret Arc] at range 0-1. That ship gains 1 strain token, or 2 strain tokens if you are damaged.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "5daa27a2",
+          "standardLoadout": {
+            "talent": ["ionlimiteroverride"],
+            "cannon": ["heavylasercannon"],
+            "modification": ["shieldupgrade"],
+            "configuration": ["targetassistmgk300"]
+          },
+          "name": "Onyx Squadron Sentry",
+          "initiative": 3,
+          "limited": 0,
+          "xws": "onyxsquadronsentry",
+          "text": "The TIE/rb heavy, sometimes called the “brute”, is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid co-pilot make it an excellent patrol craft.",
+          "shipAbility": {
+            "name": "Rotating Cannons",
+            "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronsentry.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "d6957a0c",
+          "standardLoadout": {
+            "talent": ["deadeyeshot"],
+            "cannon": ["heavylasercannon", "ioncannon"],
+            "configuration": ["maneuverassistmgk300"]
+          },
+          "name": "Lyttan Dree",
+          "initiative": 3,
+          "limited": 1,
+          "xws": "lyttandree",
+          "text": null,
+          "shipAbility": {
+            "name": "Rotating Cannons",
+            "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lyttandree.png",
+          "force": null,
+          "caption": "Onyx 2",
+          "ability": "While a friendly ship at range 0-2 performs an attack, if you are in the defender's [Left Arc] or [Right Arc], the attacker may reroll 1 attack die.",
+          "shipActions": null,
+          "charges": null
+        },
+        {
+          "threat": 2,
+          "id": "5675cf7f",
+          "standardLoadout": {
+            "talent": ["snapshot"],
+            "cannon": ["synchedlasercannons"],
+            "configuration": ["maneuverassistmgk300"]
+          },
+          "name": "Carida Academy Cadet",
+          "initiative": 1,
+          "limited": 0,
+          "xws": "caridaacademycadet",
+          "text": "At Carida Academy, Imperial Navy cadets are taught to be ruthless and loyal, prioritizing victory over the lives of their comrades.",
+          "shipAbility": {
+            "name": "Rotating Cannons",
+            "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+          },
+          "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/caridaacademycadet.png",
+          "force": null,
+          "caption": null,
+          "ability": null,
+          "shipActions": null,
+          "charges": null
+        }
+      ]
+    }
+  ]
+]
