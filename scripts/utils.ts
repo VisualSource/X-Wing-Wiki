@@ -150,7 +150,7 @@ export interface UpgradeCard {
     epic: boolean;
 }
 
-const getPath = (path: string) => mod.resolve(mod.dirname(mod.fromFileUrl(import.meta.url)), mod.join("../", path));
+const getPath = (path: string) => mod.resolve(mod.dirname(mod.fromFileUrl(import.meta.url)), path);
 const ROOT = "https://raw.githubusercontent.com/guidokessels/xwing-data2/master";
 const MANIFEST = `${ROOT}/data/manifest.json`;
 
@@ -163,17 +163,16 @@ export const FetchManifest = () => FetchJson<Manifest>(MANIFEST);
 
 const readLocalJson = async <T = never>(file: string): Promise<T> => {
     const dir = mod.resolve(mod.dirname(mod.fromFileUrl(import.meta.url)), file);
-    console.log(dir);
+    console.log("Loading Local:", dir);
     const data = await Deno.readTextFile(dir);
     return JSON.parse(data);
 }
 
 export const loadTranslations = async (): Promise<Translation> => {
-    const net = await FetchJson<Translation>(`${ROOT}/data/translation.json`);
-    const local = await readLocalJson<Translation>(getPath("./extra_data/translation.json"));
+    const { exteral, internal } = await loadData("data/translation.json", "translation.json", {});
     return {
-        ...local,
-        ...net
+        ...internal,
+        ...exteral
     }
 }
 
@@ -182,7 +181,7 @@ export const loadShip = async (route: string): Promise<Ship> => {
 }
 
 export const loadLoadouts = async (route: string): Promise<QuickBuilds> => {
-    const { exteral, internal } = await loadData<QuickBuilds>(route, `loadouts/${route.replace("data/quick-builds/", "")}`, { "quick-builds": [] });
+    const { exteral, internal } = await loadData<QuickBuilds>(route, route.replace("data/quick-builds/", "loadouts/"), { "quick-builds": [] });
     return {
         "quick-builds": [...exteral["quick-builds"], ...internal["quick-builds"]]
     };
@@ -201,21 +200,28 @@ export const loadListUpdate = async (routes: string[]): Promise<Record<Upgrade, 
 }
 
 export const loadUpgrade = async (route: string, local: string): Promise<UpgradeItem[]> => {
-    const { exteral, internal } = await loadData<UpgradeItem[]>(route, `./extra_data/${local}`, []);
+    const { exteral, internal } = await loadData<UpgradeItem[]>(route, local, []);
     return [...exteral, ...internal];
 }
 
 export const loadData = async <T>(external_data: string, internal_data: string, defaultValue: T) => {
     const [exteral, internal] = await Promise.allSettled([
         FetchJson<T>(`${ROOT}/${external_data}`),
-        readLocalJson<T>(internal_data)
+        readLocalJson<T>(getPath(`./extra_data/${internal_data}`))
     ]);
 
+    let data = defaultValue;
     if (exteral.status === "rejected") throw new Error("Failed to load data");
+
+    if (internal.status === "fulfilled") {
+        data = internal.value;
+    } else {
+        console.warn("No file found for internal path. Using default value.");
+    }
 
     return {
         exteral: exteral.value,
-        internal: internal.status === "rejected" ? defaultValue : internal.value
+        internal: data
     }
 }
 

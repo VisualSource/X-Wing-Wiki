@@ -2,6 +2,15 @@ import * as mod from "https://deno.land/std@0.167.0/path/mod.ts";
 import superjson from 'npm:superjson';
 import { FetchManifest, loadLoadouts, loadFactions, loadShip, type Ship, QuickBuilds, type Upgrade } from './utils.ts';
 
+const factionsplit = {
+    "rebelalliance": "rebel-alliance",
+    "galacticempire": "galactic-empire",
+    "scumandvillainy": "scum-and-villainy",
+    "resistance": "resistance",
+    "firstorder": "first-order",
+    "galacticrepublic": "galactic-republic",
+    "separatistalliance": "separatist-alliance"
+}
 
 const manifest = await FetchManifest();
 
@@ -47,7 +56,6 @@ const getPilot = (faction: string, ship: string) => {
 for (const key of manifest["quick-builds"]) {
     const data = await loadLoadouts(key);
     const faction = mod.parse(key).name.replaceAll("-", "");
-    console.log(faction);
     quickbuilds.set(faction, data["quick-builds"]);
 }
 
@@ -71,6 +79,7 @@ interface StdShip {
 }
 
 interface StdPilot {
+    id: string;
     threat: number,
     standardLoadout: Record<Upgrade, string[]>,
     name: string;
@@ -88,7 +97,9 @@ interface StdPilot {
 }
 
 const output = new Map<string, Map<string, { ship: StdShip, pilots: StdPilot[] }>>();
-
+let found_loadouts = 0;
+let missing_loadouts = 0;
+let missing_ships = 0;
 
 for (const [faction, loadouts] of quickbuilds.entries()) {
 
@@ -103,7 +114,8 @@ for (const [faction, loadouts] of quickbuilds.entries()) {
             }
             const shipData = getPilot(faction, shipId.ship);
             if (!shipData) {
-                console.warn(`Failed to get ship`);
+                console.warn(`Failed to get ship data: (${shipId.ship})`);
+                missing_ships++;
                 continue;
             }
             if (!ships.has(shipData.xws)) {
@@ -120,13 +132,15 @@ for (const [faction, loadouts] of quickbuilds.entries()) {
 
             const pilotData = shipData.pilots.at(shipId.pilot);
             if (!pilotData) {
-                console.warn(`Failed to get pilotData`);
+                console.warn(`Failed to get pilot data: (${shipId.pilot})`);
+                missing_loadouts++;
                 continue
             }
 
             const ship = ships.get(shipData.xws);
             ship!.pilots.push({
                 threat,
+                id: crypto.randomUUID().split("-")[0],
                 standardLoadout: pilot.upgrades,
                 name: pilotData.name,
                 initiative: pilotData.initiative,
@@ -141,6 +155,7 @@ for (const [faction, loadouts] of quickbuilds.entries()) {
                 shipActions: pilotData?.shipActions,
                 charges: pilotData?.charges
             });
+            found_loadouts++;
         }
     }
 
@@ -155,13 +170,17 @@ for (const [faction, ships] of output.entries()) {
             search.push({
                 title: pilot.name,
                 tags: [faction.toUpperCase(), pilot.name.toUpperCase(), ship.toUpperCase()],
-                id: encodeURIComponent(`${faction}:${pilots.ship.xws}:${pilot.xws}`),
-                ship_icon: pilots.ship.icon,
-                faction_icon: getIcon(faction)
+                id: encodeURIComponent(`${faction}:${pilots.ship.xws}:${pilot.xws}:${pilot.id}`),
+                ship_icon: pilots.ship.icon.replace("https://squadbuilder.fantasyflightgames.com/ship_types/", `https://infinitearenas.com/xw2/images/shipicons/${factionsplit[faction as keyof typeof factionsplit]}/`),
+                faction_icon: ""
             });
         }
     }
 }
+
+console.log("Found", found_loadouts, "Loadouts");
+console.info("Missing", missing_loadouts, "Loadouts");
+console.info("Missing", missing_ships, "Ships");
 
 const serachFile = mod.resolve(mod.dirname(mod.fromFileUrl(import.meta.url)), "../src/assets/search/std_loadouts.ts");
 await Deno.writeTextFile(serachFile, `export default ${JSON.stringify(search)};`, { create: true });

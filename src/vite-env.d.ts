@@ -1,9 +1,7 @@
 /// <reference types="vite/client" />
 /// <reference types="vite-plugin-pwa/client" />
 
-declare module 'html2pdf.js' {
-    export default function html2pdf(el: HTMLElement): Promise<void>
-}
+declare module "dom-to-image-next";
 
 declare module "virtual:pwa-register/react" {
     export interface RegisterSWOptions {

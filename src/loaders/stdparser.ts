@@ -6,20 +6,20 @@ const loader = async ({ params }: LoaderFunctionArgs) => {
     const index = parseInt(params.idx);
     if (isNaN(index)) throw new Error("Invaild ship index");
 
-    const [factionId, shipType, pilotId, ...other] = params.shipid.split(":");
+    const [factionId, shipType, pilotId, loadoutId, ..._] = params.shipid.split(":");
 
     return defer({
         data: new Promise<object>(async (ok, reject) => {
 
             const [pilotData, upgradeData] = await Promise.all([
-                fetch(`/std_loadouts/${factionId}.json`).then(value => value.json()) as Promise<[string, { ship: { xws: string; }, pilots: { standardLoadout?: Record<string, string[]>; xws: string; }[] }][]>,
+                fetch(`/std_loadouts/${factionId}.json`).then(value => value.json()) as Promise<[string, { ship: { xws: string; }, pilots: { id: string; standardLoadout?: Record<string, string[]>; xws: string; }[] }][]>,
                 fetch(`/upgrades.json`).then(value => value.json()) as Promise<Record<string, { xws: string; sides: { ability?: string; }[] }[]>>
             ]);
             const builds = pilotData.find(ship => ship[0] === shipType);
             if (!builds) return reject("Failed to find ship.");
 
             const [_, data] = builds;
-            const pilot = data.pilots.find(pilot => pilot.xws === pilotId);
+            const pilot = data.pilots.find(pilot => pilot.xws === pilotId && pilot.id === loadoutId);
             if (!pilot) return reject("Failed to find ship pilot.");
 
             let upgrades: { xws: string; sides: { ability?: string; }[] }[] = [];

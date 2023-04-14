@@ -12,13 +12,13 @@
 /* Abblity and or flavor text*/
 @font-face {
   font-family: "Eurostile Demi";
-  src: url(/fonts/Eurostile-LT-Std-Demi-Oblique.ttf);
+  src: url(/fonts/EurostileDemiOblique.ttf);
   font-style: oblique;
 }
 
 @font-face {
   font-family: "Eurostile";
-  src: url(fonts/Eurostile-LT-Std-Oblique.ttf);
+  src: url(/fonts/EurostileOblique.ttf);
   font-style: oblique;
 }
 

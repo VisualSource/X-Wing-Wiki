@@ -53,7 +53,7 @@ module Ships {
     interface StdShip {
         name: string,
         xws: string,
-        stats: { type: "attack" | "agility" | "shields" | "hull", value: number; arc?: string; }[],
+        stats: { type: "attack" | "agility" | "shields" | "hull" | "charges" | "force", value: number; arc?: string; }[],
         actions: { difficulty: Difficulty; type: string; linked?: { difficulty: Difficulty; type: string; } }[],
         icon: string,
     }
