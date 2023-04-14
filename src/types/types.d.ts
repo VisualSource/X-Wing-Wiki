@@ -25,6 +25,13 @@ module Ships {
         ability: string;
         force?: { value: number; recovers: number; }
         charges?: { value: number; recovers: number; }
+        attack?: {
+            arc: string,
+            maxrange: number;
+            minrange: number;
+            ordnance: boolean;
+            value: number;
+        }
         actions?: { type: string; difficulty: Difficulty; linked: { type: string; difficulty: Difficulty; } }[];
         grants?: {
             type: string;
@@ -46,7 +53,7 @@ module Ships {
     interface StdShip {
         name: string,
         xws: string,
-        stats: { type: "attack" | "agility" | "shields", value: number; arc?: string; }[],
+        stats: { type: "attack" | "agility" | "shields" | "hull", value: number; arc?: string; }[],
         actions: { difficulty: Difficulty; type: string; linked?: { difficulty: Difficulty; type: string; } }[],
         icon: string,
     }

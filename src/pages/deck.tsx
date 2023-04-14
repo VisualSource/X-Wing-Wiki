@@ -47,7 +47,7 @@ function Deck() {
                                 <Link aria-label={`View STD Loadout ${item.ship.id}`} to={`/std-loadout/${encodeURIComponent(item.ship.id)}/${item.idx}`} className='flex w-full'>
                                     <div className="flex gap-2 items-center w-full">
                                         <div className="h-14 w-14">
-                                            <img className="h-full w-full object-contain" src={item.ship.faction_icon} alt="faction logo" />
+                                            <img className="h-full w-full object-contain" src={item.ship.faction_icon} alt={item.ship.id} />
                                         </div>
                                         <div className="h-16 w-16">
                                             <img className="h-full w-full object-contain" src={item.ship.ship_icon} alt="ship icon" />

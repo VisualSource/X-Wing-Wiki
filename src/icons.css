@@ -1,414 +1,446 @@
+i.font-agility::before {
+  font-family: "W-Wing Loadout";
+  content: "\005e";
+  font-style: normal;
+}
+i.font-unique::before {
+  font-family: "W-Wing Loadout";
+  content: "\0075";
+  font-style: normal;
+}
+i.font-recurring::before {
+  font-family: "W-Wing Loadout";
+  content: "\0060";
+  font-style: normal;
+}
+i.font-doublerecurring::before {
+  font-family: "W-Wing Loadout";
+  content: "\005f";
+  font-style: normal;
+}
+i.font-forcecharge::before {
+  font-family: "W-Wing Loadout";
+  content: "\0068";
+  font-style: normal;
+}
+
+i.font-hull::before {
+  font-family: "W-Wing Loadout";
+  content: "\0026";
+  font-style: normal;
+}
+
 i.font-barrelroll::before {
-    font-family: "W-Wing Loadout";
-    content: "\0072";
-    font-style: normal;  
+  font-family: "W-Wing Loadout";
+  content: "\0072";
+  font-style: normal;
 }
 i.font-straight::before {
-    font-family: "W-Wing Loadout";
-    content: "\0038";
-    font-style: normal;  
+  font-family: "W-Wing Loadout";
+  content: "\0038";
+  font-style: normal;
 }
 
 i.font-hit::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0064";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0064";
 }
 
 i.font-crit::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0063";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0063";
 }
 
 i.font-forcepower:before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0068";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0068";
 }
 
 i.font-focus::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0066";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0066";
 }
 
 i.font-lock::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\006c";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\006c";
 }
 
 i.font-boost::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0062";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0062";
 }
 
 i.font-bullseyearc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\007d";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\007d";
 }
 
 i.font-doubleturretarc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0071";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0071";
 }
 
 i.font-frontarc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\007b";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\007b";
 }
 
 i.font-fullfrontarc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\007e";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\007e";
 }
 
 i.font-fullreararc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\00a1";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\00a1";
 }
 
 i.font-leftarc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\00a3";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\00a3";
 }
 
 i.font-reararc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\007c";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\007c";
 }
 
 i.font-rightarc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\00a2";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\00a2";
 }
 
 i.font-rotatearc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0052";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0052";
 }
 
 i.font-torpedo::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0050";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0050";
 }
 
 i.font-missile::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\004d";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\004d";
 }
 
 i.font-cannon::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0043";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0043";
 }
 
 i.font-singleturretarc::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0070";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0070";
 }
 
 i.font-evade::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0065";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0065";
 }
 
 i.font-bankleft::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0037";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0037";
 }
 
 i.font-bankright::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0039";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0039";
 }
 
 i.font-calculate::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0061";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0061";
 }
 
 i.font-charge::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0067";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0067";
 }
 
 i.font-energy::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0028";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0028";
 }
 
 i.font-shield::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\002a";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\002a";
 }
 
 i.font-cloak::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\006b";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\006b";
 }
 
 i.font-coordinate::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\006f";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\006f";
 }
 
 i.font-jam::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\006a";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\006a";
 }
 
 i.font-kturn::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0032";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0032";
 }
 
 i.font-lock::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\006c";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\006c";
 }
 
 i.font-reinforce::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0069";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0069";
 }
 
 i.font-reload::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\003d";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\003d";
 }
 
 i.font-slam::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0073";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0073";
 }
 
 i.font-title::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0074";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0074";
 }
 
 i.font-bankleft::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0037";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0037";
 }
 
 i.font-bankright::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0039";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0039";
 }
 
 i.font-turnleft::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0034";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0034";
 }
 
 i.font-turnright::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0036";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0036";
 }
 
 i.font-trollright::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\003b";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\003b";
 }
 i.font-trollleft::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\003a";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\003a";
 }
 
 i.font-kturn::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0032";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0032";
 }
 
 i.font-sloopleft::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0031";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0031";
 }
 i.font-sloopright::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0033";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0033";
 }
 
 i.font-stop::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0035";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0035";
 }
 
 i.font-reversestraight::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\004b";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\004b";
 }
 i.font-reversebankright::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\004c";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\004c";
 }
 i.font-reversebankleft::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\004a";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\004a";
 }
 i.font-device::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0042";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0042";
 }
 
 i.font-crew::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0057";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0057";
 }
 
 i.font-coordinate::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\006f";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\006f";
 }
 
 i.font-linked::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\003e";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\003e";
 }
 
 i.font-tacticalrelay::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\005a";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\005a";
 }
 
 i.font-astromech::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0041";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0041";
 }
 
 i.font-config::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\006e";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\006e";
 }
 
 i.font-gunner::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0059";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0059";
 }
 i.font-illicit::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0049";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0049";
 }
 i.font-forcepoweru::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0046";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0046";
 }
 i.font-modification::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\006d";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\006d";
 }
 i.font-sensor::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0053";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0053";
 }
 i.font-talent::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0045";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0045";
 }
 
 i.font-tech::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0058";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0058";
 }
 
 i.font-turret::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0055";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0055";
 }
 
 i.font-rangebonusindicator::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\003f";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\003f";
 }
 
 i.font-hardpoint::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0048";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0048";
 }
 
 i.font-point::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\00cc";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\00cc";
 }
 
 i.font-cargo::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0047";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0047";
 }
 
 i.font-command::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0056";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0056";
 }
 
 i.font-team::before {
-    font-style: normal;  
-    font-family: "W-Wing Loadout";
-    content: "\0054";
+  font-style: normal;
+  font-family: "W-Wing Loadout";
+  content: "\0054";
 }
