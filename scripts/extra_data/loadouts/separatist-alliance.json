@@ -1,68 +1,68 @@
 {
-    "$schema": "../schema/loadouts.json",
-    "quick-builds": [
+  "$schema": "../schema/loadouts.json",
+  "quick-builds": [
+    {
+      "threat": 10,
+      "pilots": [
         {
-            "threat": 10,
-            "pilots": [
-                {
-                    "id":"colicoiddestroyer",
-                    "upgrades": {
-                        "command-crew": ["rifftamson"],
-                        "hardpoint": ["tractortentacles","protoncannonbattery"],
-                        "torpedo": ["protontorpedoes"],
-                        "crew": ["novicetechnician"],
-                        "gunner": ["hotshotgunner"],
-                        "team":["droidcrew","gunneryspecialists"],
-                        "cargo": ["tibannareserves"],
-                        "title": ["neimoidiangrasp"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 9,
-            "pilots": [
-                {
-                    "id": "colicoiddestroyer",
-                    "upgrades": {
-                        "command": ["asajjventress"],
-                        "hardpoint": ["tractortentacles","enhancedpropulsion"],
-                        "crew":["seasonednavigator"],
-                        "team": ["droidcrew","tractortechnicians"],
-                        "title": ["trident"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 8,
-            "pilots": [
-                {
-                    "id": "colicoiddestroyer",
-                    "upgrades": {
-                        "hardpoint": ["tractortentacles","drillbeak"],
-                        "cargo": ["optimizedpowercore"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 6,
-            "pilots": [
-                {
-                    "id": "separatistprivateers",
-                    "upgrades": {
-                        "command-crew": ["stalwartcaptain"],
-                        "hardpoint": ["turbolaserbattery"],
-                        "cannon": ["heavylasercannon"],
-                        "turret": ["dorsalturret"],
-                        "missile": ["clustermissiles"],
-                        "team": ["bombardmentspecialists"],
-                        "cargo": ["boostedscanners","tibannareserves"],
-                        "configuration": ["corsairrefit"]
-                    }
-                }
-            ]
+          "id": "colicoiddestroyer",
+          "upgrades": {
+            "command": ["rifftamson"],
+            "hardpoint": ["tractortentacles", "protoncannonbattery"],
+            "torpedo": ["protontorpedoes"],
+            "crew": ["novicetechnician"],
+            "gunner": ["hotshotgunner"],
+            "team": ["droidcrew", "gunneryspecialists"],
+            "cargo": ["tibannareserves"],
+            "title": ["neimoidiangrasp"]
+          }
         }
-    ]
+      ]
+    },
+    {
+      "threat": 9,
+      "pilots": [
+        {
+          "id": "colicoiddestroyer",
+          "upgrades": {
+            "command": ["asajjventress"],
+            "hardpoint": ["tractortentacles", "enhancedpropulsion"],
+            "crew": ["seasonednavigator"],
+            "team": ["droidcrew", "tractortechnicians"],
+            "title": ["trident"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 8,
+      "pilots": [
+        {
+          "id": "colicoiddestroyer",
+          "upgrades": {
+            "hardpoint": ["tractortentacles", "drillbeak"],
+            "cargo": ["optimizedpowercore"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "separatistprivateers",
+          "upgrades": {
+            "command": ["stalwartcaptain"],
+            "hardpoint": ["turbolaserbattery"],
+            "cannon": ["heavylasercannon"],
+            "turret": ["dorsalturret"],
+            "missile": ["clustermissiles"],
+            "team": ["bombardmentspecialists"],
+            "cargo": ["boostedscanners", "tibannareserves"],
+            "configuration": ["corsairrefit"]
+          }
+        }
+      ]
+    }
+  ]
 }

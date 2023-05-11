@@ -6,6 +6,8 @@ import StringParseIcons from '../components/mdx/StringParseIcons';
 import { HiMenu } from 'react-icons/hi';
 import Sidenav from '../components/Sidenav';
 
+import html2canvas from 'html2canvas';
+
 export default LoadingWrapper(STDLoadout);
 
 const IconFormat = /\[(?<icon>\w+(\s)*(\w+)*)\]/g;
@@ -41,12 +43,11 @@ const Recovers = ({ value }: { value: number }) => {
 }
 
 function STDLoadout() {
+    const [showImage, setShowImage] = useState(true);
     const [show, setShow] = useState<boolean>(false);
     const navigate = useNavigate()
     const wrapper = useRef<HTMLDivElement>(null)
     const data = useAsyncValue() as { ship: Ships.StdShip, pilot: Ships.StdPilot, standardLoadout: Ships.UpgradeItem[] };
-
-    console.log(data);
 
     const shipStats = useCallback(() => {
         const stats = [...data.ship.stats];
@@ -85,6 +86,11 @@ function STDLoadout() {
                         Quick Build builder
                     </div>
 
+                    <div>
+                        <input checked={showImage} onClick={(ev) => setShowImage((ev.target as HTMLInputElement).checked)} type="checkbox" />
+                        <label htmlFor="">Hide Image</label>
+                    </div>
+
                     <button onClick={() => navigate("/deck")} className="ml-auto flex items-center gap-1 px-4 py-2 bg-green-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out">
                         Back to builder
                     </button>
@@ -106,11 +112,13 @@ function STDLoadout() {
                             </div>
                         </section>
 
-                        <div data-area="artwork" className="mb-4">
-                            <img className="h-full w-full object-contain" src={data.pilot.artwork} alt="Ship artwork" />
-                        </div>
+                        {showImage ? (
+                            <div data-area="artwork">
+                                <img className="h-full w-full object-contain" src={data.pilot.artwork} alt="Ship artwork" />
+                            </div>
+                        ) : null}
 
-                        <section data-area="stats" className='flex flex-wrap gap-6 justify-center'>
+                        <section data-area="stats" className='flex flex-wrap gap-6 justify-center mt-4'>
                             {shipStats().map((stat, i) => {
                                 const Icon = stat.arc ? Icons[stat.arc.replaceAll(" ", "") as IconNames] : null;
 
@@ -295,7 +303,6 @@ function STDLoadout() {
                         </section>
                     </div>
                 </div>
-
             </main>
             <div className="text-white">
                 <Sidenav show={show} setShow={setShow} />
