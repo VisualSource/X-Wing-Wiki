@@ -1,98 +1,98 @@
 {
-    "$schema": "../schema/loadouts.json",
-    "quick-builds": [
+  "$schema": "../schema/loadouts.json",
+  "quick-builds": [
+    {
+      "threat": 9,
+      "pilots": [
         {
-            "threat": 9,
-            "pilots": [
-                {
-                    "id": "outerrimpatrol",
-                    "upgrades": {
-                        "command-crew": ["captainneeda"],
-                        "hardpoint": ["ordnancetubes","turbolaserbattery"],
-                        "torpedo": ["advprotontorpedoes"],
-                        "missile": ["concussionmissiles"],
-                        "team": ["ordnanceteam","bombardmentspecialists"],
-                        "cargo": ["boostedscanners"],
-                        "title": ["impetuous"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 5,
-            "pilots": [
-                {
-                    "id":"outerrimgarrison",
-                    "upgrades": {
-                        "command-crew": ["strategiccommander"],
-                        "hardpoint": ["targetingbattery"],
-                        "turret": ["dorsalturret"],
-                        "team": ["commsteam","sensorexperts"],
-                        "cargo": ["boostedscanners","optimizedpowercore"],
-                        "title": ["requiem"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 3,
-            "pilots": [
-                {
-                    "id": "rampage",
-                    "upgrades": {
-                        "talent": ["predator"],
-                        "cannon": ["synchedlasercannons"],
-                        "modification": ["ablativeplating","afterburners"],
-                        "configuration": ["targetassistmgk300"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 2,
-            "pilots": [
-                {
-                    "id": "onyxsquadronsentry",
-                    "upgrades": {
-                        "talent": ["ionlimiteroverride"],
-                        "cannon": ["heavylasercannon"],
-                        "modification": ["shieldupgrade"],
-                        "configuration": ["targetassistmgk300"]
-                    }
-                },
-                {
-                    "id": "lyttandree",
-                    "upgrades": {
-                        "talent": ["deadeyeshot"],
-                        "cannon": ["heavylasercannon","ioncannon"],
-                        "configuration": ["maneuverassistmgk300"]
-                    }
-                },
-                {
-                    "id": "caridaacademycadet",
-                    "upgrades": {
-                        "talent": ["snapshot"],
-                        "cannon": ["synchedlasercannons"],
-                        "configuration": ["maneuverassistmgk300"]
-                    }
-                },
-                {
-                    "id": "moffgideon",
-                    "upgrades": {
-                        "talent": ["deadeyeshot","outmaneuver"],
-                        "illicit": ["overtunedmodulator"],
-                        "modification": ["hullupgrade"]
-                    }
-                },
-                {
-                    "id": "isbjingoist",
-                    "upgrades": {
-                        "talent": ["ionlimiteroverride"],
-                        "illicit": ["falsetranspondercodes"],
-                        "modification": ["afterburners","shieldupgrade"]
-                    }
-                }
-            ]
+          "id": "outerrimpatrol",
+          "upgrades": {
+            "command": ["captainneeda"],
+            "hardpoint": ["ordnancetubes", "turbolaserbattery"],
+            "torpedo": ["advprotontorpedoes"],
+            "missile": ["concussionmissiles"],
+            "team": ["ordnanceteam", "bombardmentspecialists"],
+            "cargo": ["boostedscanners"],
+            "title": ["impetuous"]
+          }
         }
-    ]
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "outerrimgarrison",
+          "upgrades": {
+            "command": ["strategiccommander"],
+            "hardpoint": ["targetingbattery"],
+            "turret": ["dorsalturret"],
+            "team": ["commsteam", "sensorexperts"],
+            "cargo": ["boostedscanners", "optimizedpowercore"],
+            "title": ["requiem"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "rampage",
+          "upgrades": {
+            "talent": ["predator"],
+            "cannon": ["synchedlasercannons"],
+            "modification": ["ablativeplating", "afterburners"],
+            "configuration": ["targetassistmgk300"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "onyxsquadronsentry",
+          "upgrades": {
+            "talent": ["ionlimiteroverride"],
+            "cannon": ["heavylasercannon"],
+            "modification": ["shieldupgrade"],
+            "configuration": ["targetassistmgk300"]
+          }
+        },
+        {
+          "id": "lyttandree",
+          "upgrades": {
+            "talent": ["deadeyeshot"],
+            "cannon": ["heavylasercannon", "ioncannon"],
+            "configuration": ["maneuverassistmgk300"]
+          }
+        },
+        {
+          "id": "caridaacademycadet",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "cannon": ["synchedlasercannons"],
+            "configuration": ["maneuverassistmgk300"]
+          }
+        },
+        {
+          "id": "moffgideon",
+          "upgrades": {
+            "talent": ["deadeyeshot", "outmaneuver"],
+            "illicit": ["overtunedmodulator"],
+            "modification": ["hullupgrade"]
+          }
+        },
+        {
+          "id": "isbjingoist",
+          "upgrades": {
+            "talent": ["ionlimiteroverride"],
+            "illicit": ["falsetranspondercodes"],
+            "modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    }
+  ]
 }

@@ -45,7 +45,8 @@ const loader = async ({ params }: LoaderFunctionArgs) => {
             ok({
                 ship: data.ship,
                 pilot: pilot,
-                standardLoadout: upgrades
+                standardLoadout: upgrades,
+                loadoutId
             });
         })
     })

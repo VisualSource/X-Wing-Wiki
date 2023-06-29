@@ -1,109 +1,109 @@
 {
-    "$schema": "../schema/loadouts.json",
-    "quick-builds": [
+  "$schema": "../schema/loadouts.json",
+  "quick-builds": [
+    {
+      "threat": 9,
+      "pilots": [
         {
-            "threat": 9,
-            "pilots": [
-                {
-                    "id": "republicjudiciary",
-                    "upgrades": {
-                        "command-crew": ["strategiccommander"],
-                        "hardpoint": ["targetingbattery","turbolaserbattery"],
-                        "crew": ["seasonednavigator"],
-                        "gunner": ["agilegunner"],
-                        "team": ["damagecontrolteam","gunneryspecialists"],
-                        "cargo": ["boostedscanners"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 4,
-            "pilots": [
-                {
-                    "id": "anakinskywalker-btlbywing",
-                    "upgrades": {
-                        "force-power": ["precognitivereflexes"],
-                        "turret": ["ioncannonturret"],
-                        "torpedo": ["protontorpedoes"],
-                        "gunner": ["ahsokatano"],
-                        "astromech": ["r2astromech"],
-                        "device": ["protonbombs"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 3,
-            "pilots": [
-                {
-                    "id": "matchstick",
-                    "upgrades": {
-                        "talent": ["elusive"],
-                        "turret": ["ioncannonturret"],
-                        "astromech": ["r2astromech"],
-                        "device": ["protonbombs"],
-                        "modification": ["shieldupgrade","delayedfuses"]
-                    }
-                },
-                {
-                    "id": "oddball-btlbywing",
-                    "upgrades": {
-                        "talent": ["predator"],
-                        "turret": ["ioncannonturret"],
-                        "torpedo": ["protontorpedoes"],
-                        "astromech": ["r3astromech"],
-                        "modification": ["hullupgrade"]
-                    }
-                },
-                {
-                    "id": "shadowsquadronveteran",
-                    "upgrades": {
-                        "talent": ["snapshot"],
-                        "turret": ["ioncannonturret"],
-                        "torpedo": ["protontorpedoes"],
-                        "astromech": ["r5astromech"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 2,
-            "pilots": [
-                {
-                    "id": "r2d2",
-                    "upgrades": {
-                        "turret": ["ioncannonturret"],
-                        "device": ["protonbombs"],
-                        "crew": ["c3po"]
-                    }
-                },
-                {
-                    "id":"broadside",
-                    "upgrades": {
-                        "talent": ["snapshot"],
-                        "turret": ["ioncannonturret"],
-                        "astromech": ["r5astromech"],
-                        "modification": ["hullupgrade"]
-                    }
-                },
-                {
-                    "id": "goji",
-                    "upgrades": {
-                        "device": ["elecroprotonbomb"],
-                        "modification": ["afterburners"]
-                    }
-                },
-                {
-                    "id": "redsquadronbomber",
-                    "upgrades": {
-                        "turret": ["ioncannonturret"],
-                        "astromech": ["r2astromech"],
-                        "device": ["protonbombs"],
-                        "modification": ["delayedfuses"]
-                    }
-                }
-            ]
+          "id": "republicjudiciary",
+          "upgrades": {
+            "command": ["strategiccommander"],
+            "hardpoint": ["targetingbattery", "turbolaserbattery"],
+            "crew": ["seasonednavigator"],
+            "gunner": ["agilegunner"],
+            "team": ["damagecontrolteam", "gunneryspecialists"],
+            "cargo": ["boostedscanners"]
+          }
         }
-    ]
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "anakinskywalker-btlbywing",
+          "upgrades": {
+            "force-power": ["precognitivereflexes"],
+            "turret": ["ioncannonturret"],
+            "torpedo": ["protontorpedoes"],
+            "gunner": ["ahsokatano"],
+            "astromech": ["r2astromech"],
+            "device": ["protonbombs"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "matchstick",
+          "upgrades": {
+            "talent": ["elusive"],
+            "turret": ["ioncannonturret"],
+            "astromech": ["r2astromech"],
+            "device": ["protonbombs"],
+            "modification": ["shieldupgrade", "delayedfuses"]
+          }
+        },
+        {
+          "id": "oddball-btlbywing",
+          "upgrades": {
+            "talent": ["predator"],
+            "turret": ["ioncannonturret"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r3astromech"],
+            "modification": ["hullupgrade"]
+          }
+        },
+        {
+          "id": "shadowsquadronveteran",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "turret": ["ioncannonturret"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r5astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "r2d2",
+          "upgrades": {
+            "turret": ["ioncannonturret"],
+            "device": ["protonbombs"],
+            "crew": ["c3po"]
+          }
+        },
+        {
+          "id": "broadside",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "turret": ["ioncannonturret"],
+            "astromech": ["r5astromech"],
+            "modification": ["hullupgrade"]
+          }
+        },
+        {
+          "id": "goji",
+          "upgrades": {
+            "device": ["elecroprotonbomb"],
+            "modification": ["afterburners"]
+          }
+        },
+        {
+          "id": "redsquadronbomber",
+          "upgrades": {
+            "turret": ["ioncannonturret"],
+            "astromech": ["r2astromech"],
+            "device": ["protonbombs"],
+            "modification": ["delayedfuses"]
+          }
+        }
+      ]
+    }
+  ]
 }

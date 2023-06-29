@@ -1,9 +1,11 @@
 import { useAsyncValue, useNavigate } from 'react-router-dom';
-import { useRef, useState, useCallback } from 'react';
-import LoadingWrapper from "../components/LoadingWrapper";
-import Icons, { type IconNames } from '../components/mdx/Icons';
-import StringParseIcons from '../components/mdx/StringParseIcons';
+import { useRef, useState, useMemo } from 'react';
 import { HiMenu } from 'react-icons/hi';
+import html2pdf from 'html2pdf.js';
+
+import StringParseIcons from '../components/mdx/StringParseIcons';
+import Icons, { type IconNames } from '../components/mdx/Icons';
+import LoadingWrapper from "../components/LoadingWrapper";
 import Sidenav from '../components/Sidenav';
 
 export default LoadingWrapper(STDLoadout);
@@ -32,23 +34,86 @@ type TypeDifficultyColor = keyof typeof DifficultyColor;
 const Recovers = ({ value }: { value: number }) => {
     switch (value) {
         case 1:
-            return (<Icons.Recurring className="text-3xl" />);
+            return (<Icons.Recurring />);
         case 2:
-            return (<Icons.DoubleRecurring className="text-3xl" />);
+            return (<Icons.DoubleRecurring />);
         default:
             return null;
     }
+}
+
+const Charge: React.FC<{ type: Ships.ChargeType; arc?: string; value: number; recovers?: number; }> = ({ type, arc, value, recovers }) => {
+    let Icon = null;
+    switch (type) {
+        case "agility":
+            Icon = Icons.Agility;
+            break;
+        case "charges":
+            Icon = Icons.Charge;
+            break;
+        case "energy":
+            Icon = Icons.Energy;
+            break;
+        case "force":
+            Icon = Icons.Forcecharge;
+            break;
+        case "hull":
+            Icon = Icons.Hull;
+            break;
+        case "shields":
+            Icon = Icons.Shield;
+            break;
+        case "attack":
+            Icon = arc ? Icons[arc.replaceAll(" ", "") as IconNames] : null;
+        default:
+            break;
+    }
+
+    return (
+        <div className={`flex ${StatColor[type]} text-xl`}>
+            <div>
+                {Icon ? <Icon /> : null}
+            </div>
+            <div className="mt-0.5">
+                <span className="font-kimberley ml-1">{value}</span>
+                {recovers ? (<Recovers value={recovers} />) : null}
+            </div>
+        </div>
+    );
+}
+
+const Action: React.FC<{ action: Ships.ShipAction }> = ({ action }) => {
+    const Icon = Icons[action.type.replaceAll(" ", "") as IconNames];
+    const LinkedIcon = action.linked ? Icons[action.linked.type.replaceAll(" ", "") as IconNames] : null;
+
+    return (
+        <div className='flex gap-1'>
+            <span className={DifficultyColor[action.difficulty as TypeDifficultyColor]}>
+                <Icon />
+            </span>
+            {action.linked ? (
+                <div className='flex gap-1'>
+                    <span>
+                        <Icons.Linked />
+                    </span>
+                    {LinkedIcon ? (
+                        <span className={DifficultyColor[action.linked.difficulty as TypeDifficultyColor]}>
+                            <LinkedIcon />
+                        </span>
+                    ) : null}
+                </div>
+            ) : null}
+        </div>
+    );
 }
 
 function STDLoadout() {
     const [show, setShow] = useState<boolean>(false);
     const navigate = useNavigate()
     const wrapper = useRef<HTMLDivElement>(null)
-    const data = useAsyncValue() as { ship: Ships.StdShip, pilot: Ships.StdPilot, standardLoadout: Ships.UpgradeItem[] };
+    const data = useAsyncValue() as { loadoutId: number, ship: Ships.StdShip, pilot: Ships.StdPilot, standardLoadout: Ships.UpgradeItem[] };
 
-    console.log(data);
-
-    const shipStats = useCallback(() => {
+    const shipStats = useMemo(() => {
         const stats = [...data.ship.stats];
 
         if (data.standardLoadout.some(item => item.xws === "shieldupgrade")) {
@@ -72,8 +137,6 @@ function STDLoadout() {
         return stats;
     }, [data]);
 
-
-
     return (
         <div className='flex flex-col flex-1 bg-neutral-100'>
             <header className="bg-slate-900 py-2 flex items-center justify-center sticky top-0 gap-2 z-10 text-white">
@@ -84,218 +147,117 @@ function STDLoadout() {
                     <div className="font-bold font-kimberley">
                         Quick Build builder
                     </div>
-
+                    <button onClick={async () => {
+                        if (!wrapper.current) return;
+                        html2pdf().from(wrapper.current).set({
+                            margin: 4,
+                            filename: `${data.ship.xws}-${data.pilot.xws}-${data.loadoutId}.pdf`
+                        }).save();
+                    }} className="ml-auto flex items-center gap-1 px-4 py-2 bg-green-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out">
+                        PDF
+                    </button>
                     <button onClick={() => navigate("/deck")} className="ml-auto flex items-center gap-1 px-4 py-2 bg-green-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out">
                         Back to builder
                     </button>
                 </div>
             </header>
-            <main className='flex flex-1 h-full p-4 justify-center mt-4'>
-                <div ref={wrapper} data-card="wrapper" className="max-w-4xl flex">
-                    <div className="flex flex-col w-3/6 mr-4">
-                        <section className="bg-slate-950 flex h-14">
-                            <div className="text-orange-600 font-extrabold text-3xl font-kimberley text-center flex justify-center items-center w-10">{data.pilot.initiative}</div>
-                            <div className='w-full flex flex-col justify-center items-center bg-white text-black text-center'>
-                                <h1 className="font-bank font-bold text-xl"> {Array.from({ length: data.pilot?.limited ?? 0 }).map((_, i) => (<Icons.Unique key={i} />))}{data.pilot.name}</h1>
+            <main className='flex flex-col items-center gap-4 flex-1 h-full p-4 justify-center mt-4'>
+                <div data-area="artwork" className="w-1/2">
+                    <img className="h-full w-full object-contain" src={data.pilot.artwork} alt="Ship artwork" />
+                </div>
+                <div ref={wrapper} data-card="wrapper" className="w-[800px] h-[800px] flex gap-2">
+                    <section>
+                        <div data-stats="title" className="flex items-center gap-4 justify-center">
+                            <div className="text-orange-600 font-kimberley text-3xl">{data.pilot.initiative}</div>
+                            <div className='flex flex-col items-center justify-center'>
+                                <h1 className='font-bold flex items-center'>
+                                    <span className='mr-1 font-bank'>{Array.from({ length: data.pilot?.limited ?? 0 }).map((_, i) => (<Icons.Unique key={i} />))}</span>
+                                    {data.pilot.name}
+                                </h1>
                                 {data.pilot?.caption ? (
-                                    <>
-
-                                        <div className="font-bank text-sm">{data.pilot?.caption}</div>
-                                    </>
+                                    <div className="font-eurostile">{data.pilot?.caption}</div>
                                 ) : null}
                             </div>
-                        </section>
-
-                        <div data-area="artwork" className="mb-4">
-                            <img className="h-full w-full object-contain" src={data.pilot.artwork} alt="Ship artwork" />
                         </div>
-
-                        <section data-area="stats" className='flex flex-wrap gap-6 justify-center'>
-                            {shipStats().map((stat, i) => {
-                                const Icon = stat.arc ? Icons[stat.arc.replaceAll(" ", "") as IconNames] : null;
-
-                                return (
-                                    <div className={`flex relative items-center mr-4 ${StatColor[stat.type]}`} key={i}>
-                                        <div className="flex rounded-3xl h-12 w-12 bg-gray-800 justify-center z-20">
-                                            <span>
-                                                {Icon ? (
-                                                    <Icon className="text-3xl pt-1" />
-                                                ) : stat.type === "agility" ? (
-                                                    <Icons.Agility className="text-3xl pt-1" />
-                                                ) : stat.type === "hull" ? (
-                                                    <Icons.Hull className="text-3xl pt-1" />
-                                                ) : stat.type === "shields" ? (
-                                                    <Icons.Shield className="text-3xl pt-1" />
-                                                ) : stat.type === "energy" ? (
-                                                    <Icons.Energy className="text-3xl pt-1" />
-                                                ) : null}
-                                            </span>
-                                        </div>
-                                        <div className="font-kimberley z-10 flex justify-center items-center bg-gray-800 text-lg h-9 text-center pl-3 px-1 pr-2 rounded-r-md absolute left-9 border-2 border-gray-300">
-                                            <span>{stat.value}</span>
-                                            {stat.recovers ? (<Recovers value={stat.recovers} />) : null}
-                                        </div>
-                                    </div>
-                                );
-                            })}
+                        <div data-stats="charges" className='flex gap-4 justify-center'>
+                            {shipStats.map((stat, i) => (
+                                <Charge key={i} recovers={stat.recovers} arc={stat.arc} type={stat.type} value={stat.value} />
+                            ))}
                             {data.pilot?.charges ? (
-                                <div className={`flex relative items-center mr-4 ${StatColor["charges"]}`}>
-                                    <div className="flex rounded-3xl h-12 w-12 bg-gray-800 justify-center z-20">
-                                        <span>
-                                            <Icons.Charge className="text-3xl" />
-                                        </span>
-                                    </div>
-                                    <div className="flex font-kimberley z-10  items-center bg-gray-800 text-lg h-9 pl-3 pr-2 rounded-r-md absolute left-9 border-2 border-gray-300">
-                                        <span>{data.pilot.charges.value}</span>
-                                        <span className="ml-0.5">
-                                            <Recovers value={data.pilot.charges.recovers} />
-                                        </span>
-                                    </div>
-                                </div>
+                                <Charge type="charges" recovers={data.pilot.charges.recovers} value={data.pilot.charges.value} />
                             ) : null}
                             {data.pilot.force ? (
-                                <div className={`flex relative items-center mr-4 ${StatColor["force"]}`}>
-                                    <div className="flex rounded-3xl h-12 w-12 bg-gray-800 justify-center z-20">
-                                        <span>
-                                            <Icons.Forcecharge className="text-3xl" />
-                                        </span>
-                                    </div>
-                                    <div className="flex font-kimberley z-10 items-center bg-gray-800 text-lg h-9 pl-3 pr-2 rounded-r-md absolute left-9 border-2 border-gray-300">
-                                        <span>{data.pilot.force.value}</span>
-                                        <span className="ml-0.5">
-                                            {data.pilot.force.recovers === 0 ? null :
-                                                data.pilot.force.recovers === 1 ? (<Icons.Recurring className="text-3xl" />) :
-                                                    data.pilot.force.recovers === 2 ? (<Icons.DoubleRecurring className="text-3xl" />) : null}
-                                        </span>
-                                    </div>
-                                </div>
+                                <Charge type="force" recovers={data.pilot.force.recovers} value={data.pilot.force.value} />
                             ) : null}
-
-                        </section>
-
-                        <div data-area="actions-ability">
-                            <section data-area="ability" className="font-eurostile divide-y-2 p-4">
-                                {data.pilot?.text ? (<p>{data.pilot?.text}</p>) : null}
-                                <p>{StringParseIcons(data.pilot?.ability ?? "", Icons, IconFormat)}</p>
-                                {data.pilot?.shipAbility ? (
-                                    <p><span className="font-extrabold">{data.pilot?.shipAbility?.name}: </span>{StringParseIcons(data.pilot?.shipAbility?.text ?? "", Icons, IconFormat)}</p>
-                                ) : null}
-                            </section>
-                            <section data-area="actions" className='flex gap-4 bg-gray-700 items-center justify-center text-lg p-2 divide-x-2'>
-                                {(data.pilot.shipActions ?? data.ship.actions).map((action, i) => {
-                                    const Icon = Icons[action.type.replaceAll(" ", "") as IconNames];
-                                    const LinkedIcon = action.linked ? Icons[action.linked.type.replaceAll(" ", "") as IconNames] : null
-                                    return (
-                                        <div key={i} className={`flex gap-4 text-center items-center justify-center ${DifficultyColor[action.difficulty as TypeDifficultyColor]}`}>
-                                            <span className="pb-1 pl-4"><Icon /></span>
-                                            {action.linked ? (
-                                                <div className={`flex items-center justify-center gap-2 ${DifficultyColor[action.linked.difficulty as TypeDifficultyColor]}`}>
-                                                    <span className="text-white pb-1"><Icons.Linked /></span>
-                                                    {LinkedIcon ? <span className="pb-1"><LinkedIcon /></span> : null}
-                                                </div>
-                                            ) : null}
-                                        </div>
-                                    )
-                                }
-                                )}
-                                {data.standardLoadout.map(item => item.sides.map((value, id) => value.actions?.map((a, i) => {
-                                    const Icon = Icons[a.type.replaceAll(" ", "") as IconNames];
-                                    const LinkedIcon = a.linked ? Icons[a.linked.type as IconNames] : null
-                                    return (
-                                        <div key={id + i} className={`flex gap-4 text-center items-center justify-center ${DifficultyColor[a.difficulty as TypeDifficultyColor]}`}>
-                                            <span className="pb-1 pl-4"><Icon /></span>
-                                            {a.linked ? (
-                                                <div className={`flex items-center justify-center gap-2 ${DifficultyColor[a.linked.difficulty as TypeDifficultyColor]}`}>
-                                                    <span className="text-white pb-1"><Icons.Linked /></span>
-                                                    {LinkedIcon ? <span className="pb-1"><LinkedIcon /></span> : null}
-                                                </div>
-                                            ) : null}
-                                        </div>
-                                    )
-                                }))).flat(2).filter(Boolean)}
-                            </section>
                         </div>
-                    </div>
-
-                    <div className="flex flex-col flex-grow w-3/6">
-                        <div className="bg-slate-800 w-full font-bank">
-                            <h1 className="text-white py-2 px-1 text-center">{data.ship.name}</h1>
-                        </div>
-                        <section data-area="name">
-                            <ul className="divide-y-2 space-y-2 px-2">
-                                {data.standardLoadout.map((upgrade, id) => (
-                                    <li key={id}>
-                                        <ul className="divide-y-2 space-y-2">
-                                            {upgrade.sides.map((side, i) => (
-                                                <li key={i}>
-                                                    <h3 className="font-bold tracking-tight text-center">{side.title}</h3>
-                                                    <p>
-                                                        {StringParseIcons(side?.ability ?? "", Icons, IconFormat)}
-                                                    </p>
-                                                    <div className="flex flex-wrap mt-2 gap-2">
-                                                        {side.attack ? (
-                                                            <div className="text-red-600 bg-gray-800 py-0.5 px-4 rounded-md border-2 border-gray-400">
-                                                                <div className='flex items-center justify-center gap-2'>
-                                                                    <span>
-                                                                        {Icons[side.attack.arc.replaceAll(" ", "") as IconNames]({ className: "text-3xl" })}
-                                                                    </span>
-                                                                    <span className="font-kimberley text-xl text-center pt-1">{side.attack.value}</span>
-                                                                </div>
-                                                                <div className='flex items-center justify-center gap-2'>
-                                                                    {side.attack.ordnance ? (
-                                                                        <span>
-                                                                            <Icons.RangeBonusIndicator className="text-lg" />
-                                                                        </span>
-                                                                    ) : null}
-                                                                    <span className="font-kimberley text-white pt-1">{side.attack.minrange}-{side.attack.maxrange}</span>
-                                                                </div>
-                                                            </div>
-                                                        ) : null}
-                                                        {side.charges ? (
-                                                            <div className={`flex relative items-center mr-4 ${StatColor["charges"]}`}>
-                                                                <div className="flex rounded-3xl h-12 w-12 bg-gray-800 justify-center z-20">
-                                                                    <span>
-                                                                        <Icons.Charge className="text-3xl" />
-                                                                    </span>
-                                                                </div>
-                                                                <div className="flex font-kimberley z-10  items-center bg-gray-800 text-lg h-9 pl-3 pr-2 rounded-r-md absolute left-9 border-2 border-gray-300">
-                                                                    <span>{side.charges.value}</span>
-                                                                    <span className="ml-0.5">
-                                                                        {side.charges.recovers === 0 ? null :
-                                                                            side.charges.recovers === 1 ? (<Icons.Recurring className="text-3xl" />) :
-                                                                                side.charges.recovers === 2 ? (<Icons.DoubleRecurring className="text-3xl" />) : null}
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        ) : null}
-                                                        {side.force ? (
-                                                            <div className={`flex relative items-center mr-4 ${StatColor["force"]}`}>
-                                                                <div className="flex rounded-3xl h-12 w-12 bg-gray-800 justify-center z-20">
-                                                                    <span>
-                                                                        <Icons.Forcecharge className="text-3xl" />
-                                                                    </span>
-                                                                </div>
-                                                                <div className="flex font-kimberley z-10 items-center bg-gray-800 text-lg h-9 pl-3 pr-2 rounded-r-md absolute left-9 border-2 border-gray-300">
-                                                                    <span>{side.force.value}</span>
-                                                                    <span className="ml-0.5">
-                                                                        {side.force.recovers === 0 ? null :
-                                                                            side.force.recovers === 1 ? (<Icons.Recurring className="text-3xl" />) :
-                                                                                side.force.recovers === 2 ? (<Icons.DoubleRecurring className="text-3xl" />) : null}
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        ) : null}
-                                                    </div>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </li>
-                                ))}
-                            </ul>
+                        <section data-stats="ability" className="px-2">
+                            {data.pilot?.text ? (<p className='font-eurostile'>{data.pilot.text}</p>) : null}
+                            <p className="font-eurostile">{StringParseIcons(data.pilot?.ability ?? "", Icons, IconFormat)}</p>
+                            {data.pilot?.shipAbility ? (
+                                <p className='py-2'>
+                                    <span className="font-bold">{data.pilot?.shipAbility?.name}: </span>
+                                    <span className="font-eurostile">{StringParseIcons(data.pilot?.shipAbility?.text ?? "", Icons, IconFormat)}</span>
+                                </p>
+                            ) : null}
                         </section>
-                    </div>
+                        <section data-stats="actions" className='flex gap-4 justify-center bg-gray-600 p-2 items-center'>
+                            {(data.pilot.shipActions ?? data.ship.actions).map((action, i) => (
+                                <Action key={i} action={action} />
+                            ))}
+                            {data.standardLoadout.map(item => item.sides.map((value, id) => value.actions?.map((a, i) => (
+                                <Action key={id + 1} action={a} />
+                            )))).flat(2).filter(Boolean)}
+                        </section>
+                        <div className='flex justify-center my-2'>
+                            <h1 className="font-eurostile">{data.ship.name}</h1>
+                        </div>
+
+                    </section>
+                    <section>
+                        <ul>
+                            {data.standardLoadout.map((upgrade, id) => (
+                                <li key={id}>
+                                    <ul>
+                                        {upgrade.sides.map((side, i) => (
+                                            <li key={i}>
+                                                <h3 className="font-bold">{side.title}</h3>
+                                                <p className="text-xs">
+                                                    {StringParseIcons(side?.ability ?? "", Icons, IconFormat)}
+                                                </p>
+                                                <div className='flex items-center gap-2 flex-wrap'>
+                                                    {side.attack ? (
+                                                        <div className={`${StatColor["attack"]} flex flex-col items-center`}>
+                                                            <div>
+                                                                <span>
+                                                                    {Icons[side.attack.arc.replaceAll(" ", "") as IconNames]({})}
+                                                                </span>
+                                                                <span className="font-kimberley ml-1 mt-0.5">{side.attack.value}</span>
+                                                            </div>
+                                                            <div>
+                                                                {side.attack.ordnance ? (
+                                                                    <span>
+                                                                        <Icons.RangeBonusIndicator />
+                                                                    </span>
+                                                                ) : null}
+                                                                <span className="text-black font-kimberley">{side.attack.minrange}-{side.attack.maxrange}</span>
+                                                            </div>
+                                                        </div>
+                                                    ) : null}
+                                                    {side.charges ? (
+                                                        <Charge type="charges" value={side.charges.value} recovers={side.charges.recovers} />
+                                                    ) : null}
+                                                    {side.force ? (
+                                                        <Charge type="force" value={side.force.value} recovers={side.force.recovers} />
+                                                    ) : null}
+                                                </div>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
                 </div>
-
             </main>
             <div className="text-white">
                 <Sidenav show={show} setShow={setShow} />
@@ -303,4 +265,3 @@ function STDLoadout() {
         </div>
     );
 }
-//     <img src={data.ship.icon} alt="ship icon" />

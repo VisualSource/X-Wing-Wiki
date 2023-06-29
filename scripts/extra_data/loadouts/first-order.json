@@ -1,34 +1,34 @@
 {
-    "$schema": "../schema/loadouts.json",
-    "quick-builds": [
+  "$schema": "../schema/loadouts.json",
+  "quick-builds": [
+    {
+      "threat": 8,
+      "pilots": [
         {
-            "threat": 8,
-            "pilots": [
-                {
-                    "id": "firstordercollaborators",
-                    "upgrades": {
-                        "command-crew": ["stalwartcaptain"],
-                        "hardpoint": ["ioncannonbattery","pointdefensebattery"],
-                        "crew": ["novicetechnician"],
-                        "team": ["bombardmentspecialists","commsteam"],
-                        "cargo": ["boostedscanners"]
-                    }
-                }
-            ]
-        },
-        {
-            "threat": 4,
-            "pilots": [
-                {
-                    "id": "firstordersympathizers",
-                    "upgrades": {
-                        "command-crew":["strategiccommander"],
-                        "hardpoint": ["pointdefensebattery"],
-                        "crew": ["damagecontrolteam","gunneryspecialists"],
-                        "cargo": ["adaptiveshields"]
-                    }
-                }
-            ]
+          "id": "firstordercollaborators",
+          "upgrades": {
+            "command": ["stalwartcaptain"],
+            "hardpoint": ["ioncannonbattery", "pointdefensebattery"],
+            "crew": ["novicetechnician"],
+            "team": ["bombardmentspecialists", "commsteam"],
+            "cargo": ["boostedscanners"]
+          }
         }
-    ]
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "firstordersympathizers",
+          "upgrades": {
+            "command": ["strategiccommander"],
+            "hardpoint": ["pointdefensebattery"],
+            "crew": ["damagecontrolteam", "gunneryspecialists"],
+            "cargo": ["adaptiveshields"]
+          }
+        }
+      ]
+    }
+  ]
 }
