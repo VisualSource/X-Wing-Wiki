@@ -47,14 +47,14 @@ function Deck() {
                                 <Link aria-label={`View STD Loadout ${item.ship.id}`} to={`/std-loadout/${encodeURIComponent(item.ship.id)}/${item.idx}`} className='flex w-full'>
                                     <div className="flex gap-2 items-center w-full">
                                         <div className="h-14 w-14">
-                                            <img className="h-full w-full object-contain" src={"https://infinitearenas.com/xw2/images/artwork/logos/bytown-smugglers.png"} alt={item.ship.id} />
+                                            <img className="h-full w-full object-contain" src={item.ship.faction_icon ?? "https://infinitearenas.com/xw2/images/artwork/logos/bytown-smugglers.png"} alt={item.ship.id} />
                                         </div>
                                         <div className="h-16 w-16">
                                             <img className="h-full w-full object-contain" src={item.ship.ship_icon} alt="ship icon" />
                                         </div>
 
                                         <div>
-                                            <span className="bg-neutral-400 text-white p-1 rounded-md">{item.ship.title}</span>
+                                            <span className="bg-neutral-400 text-white p-1 rounded-md">{item.ship.title} (Loadout {item.ship.id.split("%3").at(3) ?? "Default"})</span>
                                         </div>
                                     </div>
                                     <div className='flex items-center'>

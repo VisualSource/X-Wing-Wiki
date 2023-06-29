@@ -1,8 +1,6 @@
 /// <reference types="vite/client" />
 /// <reference types="vite-plugin-pwa/client" />
-
-declare module "dom-to-image-next";
-
+declare module 'html2pdf.js';
 declare module "virtual:pwa-register/react" {
     export interface RegisterSWOptions {
         immediate?: boolean

@@ -164,16 +164,17 @@ for (const [faction, loadouts] of quickbuilds.entries()) {
 
 const search: { title: string; tags: string[]; id: string; ship_icon: string; faction_icon: string; }[] = [];
 
+
+
 for (const [faction, ships] of output.entries()) {
     for (const [ship, pilots] of ships.entries()) {
         for (const pilot of pilots.pilots) {
-            console.log(pilots.ship)
             search.push({
                 title: pilot.name,
                 tags: [faction.toUpperCase(), pilot.name.toUpperCase(), ship.toUpperCase()],
                 id: encodeURIComponent(`${faction}:${pilots.ship.xws}:${pilot.xws}:${pilot.id}`),
                 ship_icon: pilots.ship.icon?.replace("https://squadbuilder.fantasyflightgames.com/ship_types/", `https://infinitearenas.com/xw2/images/shipicons/${factionsplit[faction as keyof typeof factionsplit]}/`) ?? "",
-                faction_icon: ""
+                faction_icon: getIcon(faction)
             });
         }
     }

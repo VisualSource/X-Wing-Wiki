@@ -1,4 +1,14 @@
 module Ships {
+    type ChargeType = "attack" | "agility" | "shields" | "hull" | "charges" | "force" | "energy";
+    type ShipAction = {
+        difficulty: Difficulty;
+        type: string;
+        linked?: {
+            difficulty: Difficulty;
+            type: string;
+        }
+    }
+
     type ShipSearchData = {
         title: string;
         faction_icon: string;
@@ -32,7 +42,7 @@ module Ships {
             ordnance: boolean;
             value: number;
         }
-        actions?: { type: string; difficulty: Difficulty; linked: { type: string; difficulty: Difficulty; } }[];
+        actions?: ShipAction[];
         grants?: {
             type: string;
             value: {
@@ -53,8 +63,12 @@ module Ships {
     interface StdShip {
         name: string,
         xws: string,
-        stats: { type: "attack" | "agility" | "shields" | "hull" | "charges" | "force" | "energy", value: number; recovers?: number; arc?: string; }[],
-        actions: { difficulty: Difficulty; type: string; linked?: { difficulty: Difficulty; type: string; } }[],
+        stats: {
+            type: "attack" | "agility" | "shields" | "hull" | "charges" | "force" | "energy",
+            value: number; recovers?:
+            number; arc?: string;
+        }[],
+        actions: ShipAction[],
         icon: string,
     }
 
@@ -74,7 +88,7 @@ module Ships {
         force?: { value: number; recovers: number; }
         caption?: string,
         ability?: string,
-        shipActions?: { difficulty: Difficulty; type: string; linked?: { difficulty: Difficulty; type: string; } }[],
+        shipActions?: ShipAction[],
         charges?: { value: number; recovers: number; }
     }
 

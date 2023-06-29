@@ -31,7 +31,7 @@ export default function ShipSearch(props: SearchBarProps) {
     const fuse = useRef(new Fuse(props.data, searchConfig));
     const [isFocused, setIsFocused] = useState<boolean>(false);
     const [searchResults, setSearchResults] = useState<Fuse.FuseResult<any>[]>([]);
-    const [searchState, setSearchState] = useState<string>("");
+    const [searchState, setSearchState] = useState<string>(" ");
     const [search] = useDebounce(searchState, 200);
 
     const virtualizer = useVirtualizer({
@@ -82,9 +82,9 @@ export default function ShipSearch(props: SearchBarProps) {
                                             }} className="absolute left-0 top-0 bg-slate-800 w-full rounded-md flex gap-1 items-center px-2 text-white my-1 h-14" key={item.index} style={{
                                                 transform: `translateY(${item.start}px)`
                                             }}>
-                                                <img className="object-cover object-center pointer-events-none" src={"https://infinitearenas.com/xw2/images/artwork/logos/bytown-smugglers.png"} alt="faction logo" height="30" width="30" />
-                                                <img className="object-cover object-center pointer-events-none" src={searchResults[item.index].item.ship_icon} alt="faction logo" height="30" width="30" />
-                                                <span className="font-eurostile">{searchResults[item.index].item.title}</span>
+                                                <img className="object-cover object-center pointer-events-none" src={searchResults[item.index].item.faction_icon ?? "https://infinitearenas.com/xw2/images/artwork/logos/bytown-smugglers.png"} alt="faction logo" height="30" width="30" />
+                                                <img className="object-cover object-center pointer-events-none" src={searchResults[item.index].item.ship_icon} alt="ship icon" height="30" width="30" />
+                                                <span className="font-eurostile">{searchResults[item.index].item.title} ({searchResults[item.index].item.id.split("%3").at(3) ?? "Default Loadout"})</span>
                                             </button>
                                         ))}
                                     </div>
