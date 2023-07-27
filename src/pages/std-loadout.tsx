@@ -12,6 +12,14 @@ export default LoadingWrapper(STDLoadout);
 
 const IconFormat = /\[(?<icon>\w+(\s)*(\w+)*)\]/g;
 
+const color: { [key: number]: string } = {
+    1: "text-green-600",
+    2: "text-yellow-400",
+    3: "text-orange-600",
+    4: "text-red-600",
+    5: "text-purple-800"
+}
+
 const DifficultyColor = {
     White: "text-white",
     Red: "text-red-600",
@@ -211,6 +219,10 @@ function STDLoadout() {
                         <div className='flex justify-center my-2'>
                             <h1 className="font-eurostile">{data.ship.name}</h1>
                         </div>
+                        <div className='flex justify-center my-2'>
+                            <h1 className="font-eurostile">Threat: <span className={`${data.pilot.threat > 5 ? color[4] : color[data.pilot.threat]} font-kimberley`}>{data.pilot.threat}</span></h1>
+                        </div>
+
 
                     </section>
                     <section>

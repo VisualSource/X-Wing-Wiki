@@ -1,7 +1,7 @@
 {
   "name": "x-wing-wiki",
   "private": true,
-  "version": "0.4.0",
+  "version": "0.4.1",
   "type": "module",
   "engines": {
     "node": "18.*.*"
@@ -17,34 +17,34 @@
     "build:stdloadout": "deno run --allow-net --allow-read --allow-write .\\scripts\\std_loadouts.ts"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.15",
+    "@headlessui/react": "^1.7.16",
     "@tanstack/react-virtual": "^3.0.0-beta.54",
     "fuse.js": "^6.6.2",
     "html2pdf.js": "^0.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "react-router-dom": "^6.14.0",
+    "react-router-dom": "^6.14.2",
     "use-debounce": "^9.0.4",
     "use-local-storage": "^3.0.0"
   },
   "devDependencies": {
     "@mdx-js/rollup": "^2.3.0",
-    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/forms": "^0.5.4",
     "@tailwindcss/typography": "^0.5.9",
-    "@types/react": "^18.2.14",
-    "@types/react-dom": "^18.2.6",
-    "@vitejs/plugin-react": "^4.0.1",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "prettier": "^2.8.8",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.0",
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
     "rollup-plugin-visualizer": "^5.9.2",
-    "tailwindcss": "^3.3.2",
+    "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6",
     "unplugin-fonts": "^1.0.3",
-    "vite": "^4.3.9",
+    "vite": "^4.4.7",
     "vite-plugin-pwa": "^0.16.4",
     "workbox-window": "^7.0.0"
   }
