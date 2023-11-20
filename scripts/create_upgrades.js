@@ -1,5 +1,6 @@
-import * as mod from "https://deno.land/std@0.167.0/path/mod.ts";
-import { FetchManifest, loadListUpdate, type UpgradeItemSide } from './utils.ts';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from "node:url";
+import { writeTextFile, FetchManifest, loadListUpdate } from './utils.js';
 
 const manifest = await FetchManifest();
 
@@ -15,7 +16,7 @@ for (const [_, upgrades] of Object.entries(upgrade_list)) {
         delete upgrade.cost;
         delete upgrade.limited;
 
-        for (const side of (upgrade.sides! as Partial<UpgradeItemSide>[])) {
+        for (const side of upgrade.sides) {
             delete side.ffg;
             delete side.image;
             delete side.slots;
@@ -25,5 +26,5 @@ for (const [_, upgrades] of Object.entries(upgrade_list)) {
     }
 }
 
-const dir = mod.resolve(mod.dirname(mod.fromFileUrl(import.meta.url)), "../public/upgrades.json");
-await Deno.writeTextFile(dir, JSON.stringify(upgrade_list), { create: true });
+const dir = resolve(dirname(fileURLToPath(import.meta.url)), "../public/upgrades.json");
+await writeTextFile(dir, JSON.stringify(upgrade_list), { create: true });

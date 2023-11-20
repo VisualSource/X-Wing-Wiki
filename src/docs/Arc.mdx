@@ -1,4 +1,4 @@
-<Header title="ARC" version="1.4.4"/>
+<Header title="ARC" version="1.4.6" />
 
 [Standard Arc](#standard-arcs "id") |
 [Bullseye Arc](#bullseye-arc "id") |
@@ -10,61 +10,62 @@ An arc is an area formed between the lines created by extending hash marks
 or arc lines printed on a ship token to range 3. A ship is **IN** an arc if any part
 of its base is inside that area.
 
-* Arcs are measured beyond the base of ships. The portion of any object
-that lies beneath a ship is not in any of those ship's arcs.
+- Arcs are measured beyond the base of ships. The portion of any object
+  that lies beneath a ship is not in any of those ship's arcs.
 
 ### Standard Arcs
 
 There are three types of **STANDARD ARCS** created from the crossed diagonal
 arc lines:
 
-<ImgCenter src="/images/standard_ship_arcs.webp"  alt="Ships Arcs"/>
+<ImgCenter src="/images/standard_ship_arcs.webp" alt="Ships Arcs" />
 
 1. **Front arc (<FrontArc/>):** This arc projects in the same direction that the ship is
-facing. Most ships have a primary <FrontArc/> weapon. Almost all <Cannon/>, <Torpedo/>, and <Missile/>
-weapons use this arc.
+   facing. Most ships have a primary <FrontArc/> weapon. Almost all <Cannon/>, <Torpedo/>, and <Missile/>
+   weapons use this arc.
 
 1. **Side arcs (<LeftArc/>, <RightArc/>):** These arcs are on the left (<LeftArc/>) or right (<RightArc/>) side
-of ships.
+   of ships.
 
 1. **Rear arc (<RearArc/>):** This arc projects in the opposite direction that the ship
-is facing. Some ships have a primary <RearArc/> weapon.
+   is facing. Some ships have a primary <RearArc/> weapon.
 
 ### Bullseye Arc
 
 Inside of the front arc, each ship has a bullseye arc.
 
-<ImgCenter src="/images/ship_bullseye_arc.webp" alt="Bullseye Arc"/>
+<ImgCenter src="/images/ship_bullseye_arc.webp" alt="Bullseye Arc" />
 
-**Bullseye arc (<BullsEyeArc/>):** This arc is found inside the  <FrontArc/>. If something is in a
-        ship's <BullsEyeArc/>, it is also in its <FrontArc/>.
+**Bullseye arc (<BullsEyeArc/>):** This arc is found inside the <FrontArc/>. If something is in a
+ship's <BullsEyeArc/>, it is also in its <FrontArc/>.
 
-* The <BullsEyeArc/> is the width and length of the range ruler.
+- The <BullsEyeArc/> is the width and length of the range ruler.
 
-* There is no intrinsic effect when a ship attacks a ship in its <BullsEyeArc/>, but card
-[abilities](/article/Abilities) may refer to it.
+- There is no intrinsic effect when a ship attacks a ship in its <BullsEyeArc/>, but card
+  [abilities](/article/Abilities) may refer to it.
 
 ### Full Arcs
+
 There are two **FULL ARCS** that use the midway line instead of the printed arc lines.
 
-<ImgCenter src="/images/ship_full_arcs.webp" alt="Full Arc"/>
+<ImgCenter src="/images/ship_full_arcs.webp" alt="Full Arc" />
 
 1. **Full front arc (<FullFrontArc/>):** This arc covers all of the area in front of the ship.
-Some ships have primary <FullFrontArc/> weapons.
+   Some ships have primary <FullFrontArc/> weapons.
 
 1. Full rear arc (<FullRearArc/>): This arc covers all of the area behind the ship.
 
 Using the <FullFrontArc/>, <FullRearArc/>, and extending the midway line to range 3, the following
 phrases are used to express specific spacial relationships between ships.
 
-* **Behind:** If ship A is in the <FullRearArc/> of ship B and ship A does not cross the
-midway line of ship B, then ship A is **BEHIND** ship B.
+- **Behind:** If ship A is in the <FullRearArc/> of ship B and ship A does not cross the
+  midway line of ship B, then ship A is **BEHIND** ship B.
 
-* **In front of:** If ship A is in the <FullFrontArc/> of ship B and ship A does not cross
-the midway line of ship B, then ship A is **IN FRONT OF** ship B
+- **In front of:** If ship A is in the <FullFrontArc/> of ship B and ship A does not cross
+  the midway line of ship B, then ship A is **IN FRONT OF** ship B
 
-* **Flanking:** If ship A crosses the midway line of ship B, then ship A is
-**FLANKING** ship B.
+- **Flanking:** If ship A crosses the midway line of ship B, then ship A is
+  **FLANKING** ship B.
 
 ### Turret Arcs
 
@@ -73,7 +74,7 @@ There are two types of turret arc indicators: single turret (<SingleTurretArc/>)
 turret (<DoubleTurretArc/>). During [setup](/article/Setup), a ship with a [primary](/article/Primary_Weapon) (or [special](/article/Special_Weapon)) <SingleTurretArc/> or <DoubleTurretArc/> weapon
 adds the corresponding turret arc indicator to its base.
 
-<ImgCenter src="/images/ship_turret_arcs.webp" alt="Turret Arcs"/>
+<ImgCenter src="/images/ship_turret_arcs.webp" alt="Turret Arcs" />
 
 The turret arc indicator points toward one of the ship's four standard arcs.
 The standard arc that the turret arc indicator is pointing toward is a <SingleTurretArc/> in
@@ -86,6 +87,19 @@ opposite directions.
 A ship can adjust which standard arc(s) that its turret arc
 indicator is pointing towards by using the [rotate](/article/Rotate) (<Rotate/>) action.
 
-<ImgText src="/images/double_turret_indicator.webp" alt="Double Turret Arc Indicator" text="Double Turret Arc Indicator."/>
+<ImgText
+  src="/images/double_turret_indicator.webp"
+  alt="Double Turret Arc Indicator"
+  text="Double Turret Arc Indicator."
+/>
 
 Huge ships have additional rules for turret arc indicators (see [Appendix: Huge Ships](/article/Huge_Ships))
+
+### Firing Arcs
+
+A ship's firing arcs include all shaded arcs on the ship's ship token plus all
+
+<SingleTurretArc /> arcs, if any.
+
+- If an upgrade card gives a ship a <SingleTurretArc/> arc or primary weapon with a specified
+  arc, those arcs are also firing arcs
