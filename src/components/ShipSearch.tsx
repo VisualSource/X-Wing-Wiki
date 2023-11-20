@@ -1,4 +1,4 @@
-import Fuse from 'fuse.js'
+import Fuse, { type IFuseOptions, type FuseResult } from 'fuse.js'
 import { Dialog, Transition } from '@headlessui/react';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { useDebounce } from 'use-debounce';
@@ -24,13 +24,13 @@ const searchConfig = {
             weight: 0.7
         }
     ]
-} satisfies Fuse.IFuseOptions<any>;
+} satisfies IFuseOptions<any>;
 
 export default function ShipSearch(props: SearchBarProps) {
     const scrollEl = useRef<HTMLDivElement>(null);
     const fuse = useRef(new Fuse(props.data, searchConfig));
     const [isFocused, setIsFocused] = useState<boolean>(false);
-    const [searchResults, setSearchResults] = useState<Fuse.FuseResult<any>[]>([]);
+    const [searchResults, setSearchResults] = useState<FuseResult<any>[]>([]);
     const [searchState, setSearchState] = useState<string>(" ");
     const [search] = useDebounce(searchState, 200);
 
