@@ -1,10 +1,11 @@
-import { useState } from 'react';
-import { Link, useAsyncValue } from 'react-router-dom';
 import { HiMenu, HiPlus, HiTrash } from 'react-icons/hi';
+import { Link, useAsyncValue } from 'react-router-dom';
+import { useState } from 'react';
+
 import LoadingWrapper from '../components/LoadingWrapper';
-import Sidenav from '../components/Sidenav';
 import ShipSearch from '../components/ShipSearch';
 import useDeckShips from '../hooks/useDeckShips';
+import Sidenav from '../components/Sidenav';
 
 export default LoadingWrapper(Deck);
 

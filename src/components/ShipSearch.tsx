@@ -1,9 +1,9 @@
-import Fuse, { type IFuseOptions, type FuseResult } from 'fuse.js'
-import { Dialog, Transition } from '@headlessui/react';
-import { useVirtualizer } from '@tanstack/react-virtual';
-import { useDebounce } from 'use-debounce';
+import Fuse, { type IFuseOptions, type FuseResult } from 'fuse.js';
 import { useState, useEffect, useRef, Fragment } from "react";
+import { useVirtualizer } from '@tanstack/react-virtual';
+import { Dialog, Transition } from '@headlessui/react';
 import { HiSearch, HiX } from 'react-icons/hi';
+import { useDebounce } from 'use-debounce';
 
 interface SearchBarProps {
     onClick: (data: any) => void;

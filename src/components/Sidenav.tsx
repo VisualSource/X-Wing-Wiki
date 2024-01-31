@@ -1,6 +1,6 @@
 import { Transition } from '@headlessui/react';
-import { HiX } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
+import { HiX } from 'react-icons/hi';
 
 export default function Sidenav(props: { show: boolean, setShow: (value: boolean) => void }) {
     return (

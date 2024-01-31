@@ -1,13 +1,14 @@
-import Fuse from 'fuse.js'
 import { Link, useLoaderData, useAsyncValue } from 'react-router-dom';
 import { useWindowVirtualizer } from '@tanstack/react-virtual';
 import { useState, useEffect, useRef } from 'react';
 import { HiMenu } from 'react-icons/hi';
-import ScrollToTop from '../../components/ScrollToTop';
-import Sidenav from '../../components/Sidenav';
+import Fuse from 'fuse.js'
+
 import SearchBar, { searchConfig } from '../../components/SearchBar';
-import { Uppercase } from '../../utils/Uppercase';
 import LoadingWrapper from '../../components/LoadingWrapper';
+import ScrollToTop from '../../components/ScrollToTop';
+import { Uppercase } from '../../utils/Uppercase';
+import Sidenav from '../../components/Sidenav';
 
 type Category = "all" | "rules" | "ships" | "points" | "errata" | "upgrades" | "banned-restricted" | "appendix" | "scenarios";
 
