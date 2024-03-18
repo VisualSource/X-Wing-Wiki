@@ -20,6 +20,8 @@ export function writeTextFile(path, content) {
 }
 
 /**
+ * resolve path
+ *
  * @param {string} path
  */
 const getPath = (path) =>
@@ -29,6 +31,8 @@ const ROOT =
 const MANIFEST = `${ROOT}/data/manifest.json`;
 
 /**
+ * fetch and parse a json file
+ *
  * @template T
  * @param {string} request
  * @returns {Promise<T>}
@@ -52,6 +56,8 @@ export const FetchArray = (requests, root) => {
 export const FetchManifest = () => FetchJson(MANIFEST);
 
 /**
+ * load a local json file
+ *
  * @template T
  * @param {string} file
  * @return {Promise<T>}
@@ -64,6 +70,7 @@ export const readLocalJson = async (file) => {
 };
 
 /**
+ * load translations
  *
  * @returns {Promise<import("./types.d.ts").Translation>}
  */
@@ -71,7 +78,7 @@ export const loadTranslations = async () => {
   const { exteral, internal } = await loadData(
     "data/translation.json",
     "translation.json",
-    {}
+    {},
   );
   return {
     ...internal,
@@ -80,6 +87,7 @@ export const loadTranslations = async () => {
 };
 
 /**
+ * Load a ship
  *
  * @param {string} route
  * @returns {Promise<import("./types.d.ts").Ship>}
@@ -89,6 +97,7 @@ export const loadShip = async (route) => {
 };
 
 /**
+ * Load all loadouts
  *
  * @param {string} route
  * @returns {Promise<import("./types.d.ts").QuickBuilds>}
@@ -106,13 +115,14 @@ export const loadLoadouts = async (route) => {
 };
 
 /**
+ * Load all upgrades
  *
  * @param {string[]} routes
  * @returns {Promise<Record<import("./types.d.ts").Upgrade, Partial<import("./types.d.ts").UpgradeItem>[]>>}
  */
 export const loadListUpdate = async (routes) => {
   const items = await Promise.all(
-    routes.map((value) => loadUpgrade(value, value.replace("data", "")))
+    routes.map((value) => loadUpgrade(value, value.replace("data", ""))),
   );
   /**
    * @type {Record<string, import("./types.d.ts").UpgradeItem[]>}
@@ -128,6 +138,7 @@ export const loadListUpdate = async (routes) => {
 };
 
 /**
+ * Loads the upgrade data
  *
  * @param {string} route
  * @param {string} local
@@ -139,6 +150,8 @@ export const loadUpgrade = async (route, local) => {
 };
 
 /**
+ * Loads data from the remote and local source
+ *
  * @template T
  * @param {string} external_data
  * @param {string} internal_data

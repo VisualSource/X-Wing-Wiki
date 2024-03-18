@@ -1,7 +1,7 @@
 {
   "name": "x-wing-wiki",
   "private": true,
-  "version": "0.5.0",
+  "version": "0.6.0",
   "type": "module",
   "engines": {
     "node": ">=18"
@@ -14,19 +14,19 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "prettier --check ./src",
+    "check": "prettier --check ./src",
     "fix": "prettier --write ./src",
-    "build:reference": "node ./scripts/pdf/reference.js",
-    "build:loadouts": "deno run --allow-net --allow-read --allow-write .\\scripts\\fetch_loadouts.ts",
-    "build:upgrades": "deno run --allow-net --allow-read --allow-write .\\scripts\\create_upgrades.ts",
-    "build:stdloadout": "deno run --allow-net --allow-read --allow-write .\\scripts\\std_loadouts.ts"
+    "build:reference": "node ./scripts/pdf/parse_rules_pdf.js",
+    "build:quickbuilds": "node .\\scripts\\gen_quick_builds.js",
+    "build:upgrades": "node .\\scripts\\gen_upgrade_list.js",
+    "build:stdloadout": "node .\\scripts\\gen_search.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@tanstack/react-virtual": "3.2.0",
     "fuse.js": "^7.0.0",
     "html2pdf.js": "^0.10.1",
-    "pdf-parse": "^1.1.1",
+    "pdf-parse-fork": "^1.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
