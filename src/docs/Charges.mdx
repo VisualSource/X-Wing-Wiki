@@ -1,9 +1,17 @@
-<Header title="charges" version="1.4.4" icon={<><Charge/>,<Forcepower/>,<Shield/>,<Energy/></>}/>
+<Header
+  title="charges"
+  version="1.4.4"
+  icon={
+    <>
+      <Charge />,<Forcepower />,<Shield />,<Energy />
+    </>
+  }
+/>
 
 [Charge Types](#charge-types "id") |
 [Recurring Charges](#recurring-charges "id") |
 [Negative Recurring Charges](#negative-recurring-charges "id") |
-[Standard Charge [<Charge/>]](#standard-charge- "id") | 
+[Standard Charge [<Charge/>]](#standard-charge- "id") |
 [Force Charge [<Forcepower/>]](#force-charge- "id") |
 [Shield [<Shield/>]](#shield- "id") |
 [Energy [<Energy/>]](#energy- "id")
@@ -12,58 +20,68 @@
 resources. Some ship and upgrade cards have charges to denote their use.
 All charges obey the following rules:
 
-* When an effect instructs a ship to **RECOVER** a charge, an inactive charge
-on that ship (ship or upgrade card) is flipped to its active side. A card
-cannot recover a charge if all of its charges are on their active side.
-* When an effect instructs a ship to **LOSE** a charge, a charge assigned to
-the relevant card is flipped to the inactive side.
-* When a ship **SPENDS** a charge, that charge is lost. A ship cannot spend
-a charge for an effect if all of its charges that are available for that effect
-are already inactive.
-* Each card with a **CHARGE LIMIT** (the number) starts the game with a number
-of charges equal to the charge limit. Each charge starts on its active side.
-* Charges associated with charge limits that have the recurring charge
-symbol are called **RECURRING CHARGES**. Alternatively, charges associated
-with charge limits that do not have the recurring charge symbol are called
-**NON-RECURRING CHARGES**. Charges that are instead lost over time are
-called **NEGATIVE RECURRING CHARGES**.
+- When an effect instructs a ship to **RECOVER** a charge, an inactive charge
+  on that ship (ship or upgrade card) is flipped to its active side. A card
+  cannot recover a charge if all of its charges are on their active side.
+- When an effect instructs a ship to **LOSE** a charge, a charge assigned to
+  the relevant card is flipped to the inactive side.
+- When a ship **SPENDS** a charge, that charge is lost. A ship cannot spend
+  a charge for an effect if all of its charges that are available for that effect
+  are already inactive.
+- Each card with a **CHARGE LIMIT** (the number) starts the game with a number
+  of charges equal to the charge limit. Each charge starts on its active side.
+- Charges associated with charge limits that have the recurring charge
+  symbol are called **RECURRING CHARGES**. Alternatively, charges associated
+  with charge limits that do not have the recurring charge symbol are called
+  **NON-RECURRING CHARGES**. Charges that are instead lost over time are
+  called **NEGATIVE RECURRING CHARGES**.
 
 ### CHARGE TYPES
 
 There are four types of charges:
-* **STANDARD CHARGES** (<Charge/>), which represent limited resources like
-munitions and a pilot's stamina. These have a golden number.
-* **FORCE CHARGES** (<Forcepower/>), which represent the ebbing and flowing power of
-the Force: These have a purple number.
-* **SHIELDS** (<Shield/>), which represent a ship's defensive shielding. These have a
-blue number.
-* **ENERGY** (<Energy/>), which represents a huge ship's draw of power from its
-engines (see [Appendix: Huge Ships](/article/Huge_Ships)). These have a magenta number.
+
+- **STANDARD CHARGES** (<Charge/>), which represent limited resources like
+  munitions and a pilot's stamina. These have a golden number.
+- **FORCE CHARGES** (<Forcepower/>), which represent the ebbing and flowing power of
+  the Force: These have a purple number.
+- **SHIELDS** (<Shield/>), which represent a ship's defensive shielding. These have a
+  blue number.
+- **ENERGY** (<Energy/>), which represents a huge ship's draw of power from its
+  engines (see [Appendix: Huge Ships](/article/Huge_Ships)). These have a magenta number.
 
 ### Recurring Charges
-<TextImgDec src="/images/Recurring_Chage_Symbol.webp" alt="Recurring Charge Symbol" text="Recurring Charge Symbol">
-    Some charge limits, shield capacities, and all Force
-    capacities have a **RECURRING CHARGE SYMBOL**. During
-    the [End Phase](/article/End_Phase), each card with a recurring charge symbol
-    recovers one charge per recurring charge symbol.
+
+<TextImgDec
+  src="/images/Recurring_Chage_Symbol.webp"
+  alt="Recurring Charge Symbol"
+  text="Recurring Charge Symbol"
+>
+  Some charge limits, shield capacities, and all Force capacities have a
+  **RECURRING CHARGE SYMBOL**. During the [End Phase](/article/End_Phase), each
+  card with a recurring charge symbol recovers one charge per recurring charge
+  symbol.
 </TextImgDec>
 ### Negative Recurring Charges
-<TextImgDec src="/images/Neg_R_Charge_Symbol.webp" alt="Negative Recurring Charge Symbol" text="Negative Recurring Gharge Symbol">
-    Some charge limits have a **NEGATIVE RECURRING CHARGE
-    SYMBOL**. During the End Phase, each card with a negative
-    recurring charge symbol loses one charge per negative
-    recurring charge symbol.
+<TextImgDec
+  src="/images/Neg_R_Charge_Symbol.webp"
+  alt="Negative Recurring Charge Symbol"
+  text="Negative Recurring Gharge Symbol"
+>
+  Some charge limits have a **NEGATIVE RECURRING CHARGE SYMBOL**. During the End
+  Phase, each card with a negative recurring charge symbol loses one charge per
+  negative recurring charge symbol.
 </TextImgDec>
 
 ### Standard Charge (<Charge/>)
+
 Standard charges (<Charge/>) can represent anything from limited munitions to
 exhaustible abilities that can only be performed infrequently.
-* **SHIP CHARGES** are charges on ship cards and **UPGRADE CHARGES** are
-charges on upgrade cards.
-* If an upgrade card has a charge limit, the <Charge/> are placed above that
-upgrade card (not the ship card it is attached to).
-    + If an upgrade card instructs the ship to spend <Charge/>, those <Charge/> are spent
-from that upgrade card.
+
+- **SHIP CHARGES** are charges on ship cards and **UPGRADE CHARGES** are
+  charges on upgrade cards.
+- If an upgrade card has a charge limit, the <Charge/> are placed above that
+  upgrade card (not the ship card it is attached to). + If an upgrade card instructs the ship to spend <Charge/>, those <Charge/> are spent
+  from that upgrade card.
 
 ### Force Charge (<Forcepower/>)
 
@@ -75,22 +93,19 @@ Attack Dice step to change that number of its <Focus/> results to <Hit/> results
 While it defends, a ship can spend any number of <Forcepower/> during the Defense Dice
 step to change that number of its <Focus/> results to <Evade/> results.
 
-* If an upgrade card has a Force capacity, this increases the Force capacity
-of the ship. The <Forcepower/> are placed above the ship card it is attached to (not
-the upgrade card).
-    + A ship card that does not have a Force capacity on its ship card has a
-    Force capacity of “0,” but that capacity can be increased by upgrade
-    cards that have a Force capacity.
-    + If a ship has multiple sources of recurring <Forcepower/>, the recurring charge
-    symbols do not stack. During the End Phase, each ship with a Force
-    capacity recovers a number of <Forcepower/> equal the highest number of
-    recurring <Forcepower/> symbols among the cards that grant it a Force capacity.
-    For example, if a ship with a Force capacity of "0" has two <Crew/> cards
-    that each grant it a Force capacity of "+1" and have one recurring <Forcepower/>
-    symbol each, that ship has a Force capacity of "2," but recovers only
-    one <Forcepower/> during the End Phase.
-    + If an upgrade card instructs the ship to spend <Forcepower/>, those <Forcepower/> are spent
-    from the ship card.
+- If an upgrade card has a Force capacity, this increases the Force capacity
+  of the ship. The <Forcepower/> are placed above the ship card it is attached to (not
+  the upgrade card). + A ship card that does not have a Force capacity on its ship card has a
+  Force capacity of “0,” but that capacity can be increased by upgrade
+  cards that have a Force capacity. + If a ship has multiple sources of recurring <Forcepower/>, the recurring charge
+  symbols do not stack. During the End Phase, each ship with a Force
+  capacity recovers a number of <Forcepower/> equal the highest number of
+  recurring <Forcepower/> symbols among the cards that grant it a Force capacity.
+  For example, if a ship with a Force capacity of "0" has two <Crew/> cards
+  that each grant it a Force capacity of "+1" and have one recurring <Forcepower/>
+  symbol each, that ship has a Force capacity of "2," but recovers only
+  one <Forcepower/> during the End Phase. + If an upgrade card instructs the ship to spend <Forcepower/>, those <Forcepower/> are spent
+  from the ship card.
 
 ### Shield (<Shield/>)
 
@@ -99,18 +114,19 @@ has at least one active shield.
 While a ship defends, shields provide it protection against damage. See
 [Damage](/article/Damage). Additionally:
 
-* If an upgrade card has a shield capacity, this increases the shield capacity
-of the ship. The <Shield/> are placed above the ship card it is attached to (not
-the upgrade card).
+- If an upgrade card has a shield capacity, this increases the shield capacity
+  of the ship. The <Shield/> are placed above the ship card it is attached to (not
+  the upgrade card).
 
-    + A ship card that does not have a shield capacity on its ship card has a
-    shield capacity of “0,” but that capacity can be increased by upgrade
-    cards that have a shield capacity.
-    + During the End Phase, each ship with a shield capacity recovers a
-    number of <Shield/> equal the number of recurring <Shield/> symbols on its ship card
-    (only huge ships have recurring <Shield/> symbols, see [Appendix: Huge Ships](/article/Huge_Ships)).
-    + If an upgrade card instructs the ship to spend <Shield/>, those <Shield/> are spent
-    from the ship card.
+      + A ship card that does not have a shield capacity on its ship card has a
+      shield capacity of “0,” but that capacity can be increased by upgrade
+      cards that have a shield capacity.
+      + During the End Phase, each ship with a shield capacity recovers a
+      number of <Shield/> equal the number of recurring <Shield/> symbols on its ship card
+      (only huge ships have recurring <Shield/> symbols, see [Appendix: Huge Ships](/article/Huge_Ships)).
+      + If an upgrade card instructs the ship to spend <Shield/>, those <Shield/> are spent
+      from the ship card.
 
 ### Energy (<Energy/>)
+
 Energy (<Energy/>) are charges used only by huge ships (see [Appendix: Huge Ships](/article/Huge_Ships)).

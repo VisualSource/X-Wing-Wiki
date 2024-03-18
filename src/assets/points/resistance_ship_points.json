@@ -1,1 +1,1045 @@
-[{"ship":"BTA-NR2 Y-wing","pilots":[{"name":"•Aftab Ackbar","subtitle":"“Junior”","cost":4,"loadout":13,"bar":["Talent","Talent","Tech","Turret","Astromech","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•C’ai Threnalli","subtitle":"Tenacious Survivor","cost":4,"loadout":10,"bar":["Talent","Tech","Turret","Astromech","Device","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Corus Kapellim","subtitle":"“Gentleman Flyer”","cost":4,"loadout":15,"bar":["Tech","Turret","Astromech","Device","Modification","Modification","Illicit","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Lega Fossang","subtitle":"Hero of Humbarine","cost":4,"loadout":14,"bar":["Talent","Tech","Turret","Missile","Astromech","Device","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Shasa Zaro","subtitle":"Artistic Ace","cost":4,"loadout":13,"bar":["Talent","Tech","Turret","Astromech","Device","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Teza Nasz","subtitle":"Old Soldier","cost":4,"loadout":12,"bar":["Talent","Tech","Turret","Astromech","Device","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Wilsa Teshlo","subtitle":"Veiled Sorority Privateer","cost":4,"loadout":12,"bar":["Tech","Turret","Astromech","Device","Device","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Zorii Bliss","subtitle":"Corsair of Kijimi","cost":5,"loadout":19,"bar":["Talent","Tech","Turret","Astromech","Device","Modification","Illicit","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"Kijimi Spice Runner","subtitle":"","cost":4,"loadout":4,"bar":["Tech","Turret","Astromech","Device","Modification","Illicit","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"New Republic Patrol","subtitle":"","cost":4,"loadout":7,"bar":["Talent","Tech","Turret","Astromech","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Y-wing"]}]},{"ship":"Fireball","pilots":[{"name":"•Jarek Yeager","subtitle":"Too Old for This","cost":3,"loadout":9,"bar":["Talent","Talent","Missile","Astromech","Illicit","Modification","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"•Kazuda Xiono","subtitle":"Best Pilot in the Galaxy","cost":4,"loadout":14,"bar":["Talent","Missile","Astromech","Illicit","Modification","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"•R1-J5","subtitle":"Bucket","cost":3,"loadout":8,"bar":["Missile","Crew","Modification","Title"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Colossus Station Mechanic","subtitle":"","cost":3,"loadout":5,"bar":["Missile","Modification"],"std":1,"ext":1,"keywords":[]}]},{"ship":"MG-100 StarFortress","pilots":[{"name":"•Ben Teene","subtitle":"Crimson Bolide","cost":5,"loadout":9,"bar":["Sensor","Tech","Tech","Crew","Gunner","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"•Cat","subtitle":"Cobalt Wasp","cost":5,"loadout":7,"bar":["Talent","Sensor","Tech","Crew","Gunner","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"•Edon Kappehl","subtitle":"Crimson Hailstorm","cost":6,"loadout":14,"bar":["Sensor","Tech","Cannon","Crew","Gunner","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"•Finch Dallow","subtitle":"Cobalt Hammer","cost":6,"loadout":14,"bar":["Sensor","Tech","Missile","Crew","Gunner","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"•Paige Tico","subtitle":"Hero","cost":6,"loadout":15,"bar":["Talent","Sensor","Tech","Crew","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"•Vennie","subtitle":"Crimson Cutter","cost":6,"loadout":14,"bar":["Sensor","Torpedo","Crew","Gunner","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"Cobalt Squadron Bomber","subtitle":"","cost":6,"loadout":11,"bar":["Sensor","Tech","Gunner","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":[]}]},{"ship":"Resistance Transport","pilots":[{"name":"•Cova Nell","subtitle":"Evacuation Escort","cost":5,"loadout":20,"bar":["Talent","Tech","Cannon","Cannon","Torpedo","Crew","Crew","Astromech","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Nodin Chavdri","subtitle":"Insubordinate Insurgent","cost":5,"loadout":20,"bar":["Tech","Cannon","Cannon","Torpedo","Missile","Crew","Astromech","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Pammich Nerro Goode","subtitle":"D’Qar Dispatcher","cost":4,"loadout":12,"bar":["Sensor","Tech","Cannon","Cannon","Torpedo","Crew","Crew","Astromech","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Taka Jamoreesa","subtitle":"Snograth Enthusiast","cost":4,"loadout":15,"bar":["Talent","Tech","Cannon","Cannon","Torpedo","Astromech","Illicit","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"Logistics Division Pilot","subtitle":"","cost":4,"loadout":6,"bar":["Cannon","Crew","Astromech","Astromech"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Resistance Transport Pod","pilots":[{"name":"•BB-8","subtitle":"Full of Surprises","cost":2,"loadout":4,"bar":["Tech","Tech","Crew","Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•Finn","subtitle":"Big Deal","cost":3,"loadout":12,"bar":["Talent","Talent","Tech","Crew","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Rose Tico","subtitle":"Earnest Engineer","cost":3,"loadout":8,"bar":["Talent","Tech","Crew","Modification","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Vi Moradi","subtitle":"Starling","cost":3,"loadout":6,"bar":["Tech","Crew","Modification"],"std":"B","ext":1,"keywords":[]}]},{"ship":"RZ-2 A-wing","pilots":[{"name":"•Greer Sonnel","subtitle":"Kothan Si","cost":4,"loadout":7,"bar":["Talent","Tech","Missile","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•L’ulo L’ampar","subtitle":"Luminous Mentor","cost":4,"loadout":12,"bar":["Talent","Talent","Tech","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•Merl Cobben","subtitle":"Distracting Daredevil","cost":3,"loadout":4,"bar":["Talent","Tech","Missile","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•Ronith Blario","subtitle":"Reckless Rookie","cost":4,"loadout":10,"bar":["Talent","Tech","Missile","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•Seftin Vanik","subtitle":"Skillful Wingmate","cost":4,"loadout":12,"bar":["Talent","Talent","Tech","Missile","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•Suralinda Javos","subtitle":"Inquisitive Journalist","cost":4,"loadout":10,"bar":["Talent","Talent","Tech","Cannon","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•Tallissan Lintra","subtitle":"Deadly Approach","cost":4,"loadout":12,"bar":["Talent","Talent","Talent","Tech","Torpedo","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•Wrobie Tyce","subtitle":"Dynamic Aerialist","cost":3,"loadout":4,"bar":["Talent","Tech","Missile","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•Zari Bangel","subtitle":"Aerial Exhibitionist","cost":4,"loadout":11,"bar":["Talent","Talent","Tech","Tech","Missile","Modification","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"•Zizi Tlo","subtitle":"Committed to the Cause","cost":5,"loadout":15,"bar":["Talent","Talent","Tech","Missile","Modification"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"Blue Squadron Recruit","subtitle":"","cost":4,"loadout":4,"bar":["Talent","Tech"],"std":1,"ext":1,"keywords":["A-wing"]},{"name":"Green Squadron Expert","subtitle":"","cost":4,"loadout":2,"bar":["Talent","Talent","Tech"],"std":1,"ext":1,"keywords":["A-wing"]}]},{"ship":"Scavenged YT-1300 Light Freighter","pilots":[{"name":"•Chewbacca","subtitle":"Loyal Companion","cost":7,"loadout":18,"bar":["Talent","Talent","Missile","Crew","Crew","Gunner","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter","","YT-1300"]},{"name":"•Han Solo","subtitle":"Jaded Smuggler","cost":6,"loadout":15,"bar":["Talent","Missile","Crew","Crew","Gunner","Illicit","Illicit","Modification","Modification"],"std":"B","ext":1,"keywords":["Freighter","","YT-1300"]},{"name":"•Lando Calrissian","subtitle":"Old General","cost":8,"loadout":20,"bar":["Talent","Missile","Crew","Crew","Gunner","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter","","YT-1300"]},{"name":"•Poe Dameron","subtitle":"A Difficult Man","cost":7,"loadout":25,"bar":["Talent","Talent","Missile","Crew","Gunner","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter","","YT-1300"]},{"name":"•Rey","subtitle":"Resourceful Scavenger","cost":8,"loadout":25,"bar":["ForcePowerU","Talent","Missile","Crew","Crew","Gunner","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter","","Light Side","","YT-1300"]},{"name":"Resistance Sympathizer","subtitle":"","cost":6,"loadout":10,"bar":["Talent","Missile","Gunner","Modification","Modification"],"std":1,"ext":1,"keywords":["Freighter","","YT-1300"]}]},{"ship":"T-70 X-wing","pilots":[{"name":"•C’ai Threnalli","subtitle":"Tenacious Survivor","cost":5,"loadout":13,"bar":["Talent","Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Ello Asty","subtitle":"Born to Ill","cost":5,"loadout":11,"bar":["Talent","Talent","Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Jaycris Tubbs","subtitle":"Loving Father","cost":5,"loadout":13,"bar":["Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Jessika Pava","subtitle":"The Great Destroyer","cost":5,"loadout":11,"bar":["Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Joph Seastriker","subtitle":"Reckless Bodyguard","cost":5,"loadout":9,"bar":["Talent","Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Karé Kun","subtitle":"Woman of Action","cost":5,"loadout":10,"bar":["Talent","Tech","Cannon","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Lieutenant Bastian","subtitle":"Optimistic Analyst","cost":5,"loadout":10,"bar":["Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Nien Nunb","subtitle":"Sarcastic Survivor","cost":5,"loadout":10,"bar":["Talent","Tech","Missile","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Nimi Chereen","subtitle":"Hopeful Hero","cost":5,"loadout":10,"bar":["Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Poe Dameron","subtitle":"Trigger-Happy Flyboy","cost":7,"loadout":25,"bar":["Talent","Tech","Torpedo","Astromech","Modification","Modification","Configuration","Title"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Poe Dameron","subtitle":"Resistance Commander","cost":6,"loadout":19,"bar":["Talent","Talent","Tech","Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Temmin Wexley","subtitle":"Black Two","cost":6,"loadout":17,"bar":["Talent","Tech","Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Temmin Wexley","subtitle":"Snap","cost":5,"loadout":11,"bar":["Talent","Tech","Astromech","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Venisa Doza","subtitle":"Jade Leader","cost":5,"loadout":13,"bar":["Talent","Tech","Missile","Missile","Astromech","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"•Zay Versio","subtitle":"Her Father's Daughter","cost":4,"loadout":7,"bar":["Talent","Talent","Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"Black Squadron Ace","subtitle":"","cost":5,"loadout":10,"bar":["Talent","Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"Blue Squadron Rookie","subtitle":"","cost":5,"loadout":4,"bar":["Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]},{"name":"Red Squadron Expert","subtitle":"","cost":5,"loadout":2,"bar":["Talent","Tech","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["X-wing"]}]}]
+[
+  {
+    "ship": "BTA-NR2 Y-wing",
+    "pilots": [
+      {
+        "name": "•Aftab Ackbar",
+        "subtitle": "“Junior”",
+        "cost": 4,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•C’ai Threnalli",
+        "subtitle": "Tenacious Survivor",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Corus Kapellim",
+        "subtitle": "“Gentleman Flyer”",
+        "cost": 4,
+        "loadout": 15,
+        "bar": [
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Modification",
+          "Illicit",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Lega Fossang",
+        "subtitle": "Hero of Humbarine",
+        "cost": 4,
+        "loadout": 14,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Missile",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Shasa Zaro",
+        "subtitle": "Artistic Ace",
+        "cost": 4,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Teza Nasz",
+        "subtitle": "Old Soldier",
+        "cost": 4,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Wilsa Teshlo",
+        "subtitle": "Veiled Sorority Privateer",
+        "cost": 4,
+        "loadout": 12,
+        "bar": [
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Device",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Zorii Bliss",
+        "subtitle": "Corsair of Kijimi",
+        "cost": 5,
+        "loadout": 19,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Illicit",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "Kijimi Spice Runner",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": [
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Illicit",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "New Republic Patrol",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 7,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Astromech",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      }
+    ]
+  },
+  {
+    "ship": "Fireball",
+    "pilots": [
+      {
+        "name": "•Jarek Yeager",
+        "subtitle": "Too Old for This",
+        "cost": 3,
+        "loadout": 9,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Missile",
+          "Astromech",
+          "Illicit",
+          "Modification",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Kazuda Xiono",
+        "subtitle": "Best Pilot in the Galaxy",
+        "cost": 4,
+        "loadout": 14,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Astromech",
+          "Illicit",
+          "Modification",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•R1-J5",
+        "subtitle": "Bucket",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Missile", "Crew", "Modification", "Title"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Colossus Station Mechanic",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 5,
+        "bar": ["Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "MG-100 StarFortress",
+    "pilots": [
+      {
+        "name": "•Ben Teene",
+        "subtitle": "Crimson Bolide",
+        "cost": 5,
+        "loadout": 9,
+        "bar": [
+          "Sensor",
+          "Tech",
+          "Tech",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Cat",
+        "subtitle": "Cobalt Wasp",
+        "cost": 5,
+        "loadout": 7,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Tech",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Edon Kappehl",
+        "subtitle": "Crimson Hailstorm",
+        "cost": 6,
+        "loadout": 14,
+        "bar": [
+          "Sensor",
+          "Tech",
+          "Cannon",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Finch Dallow",
+        "subtitle": "Cobalt Hammer",
+        "cost": 6,
+        "loadout": 14,
+        "bar": [
+          "Sensor",
+          "Tech",
+          "Missile",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Paige Tico",
+        "subtitle": "Hero",
+        "cost": 6,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Tech",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Vennie",
+        "subtitle": "Crimson Cutter",
+        "cost": 6,
+        "loadout": 14,
+        "bar": [
+          "Sensor",
+          "Torpedo",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Cobalt Squadron Bomber",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 11,
+        "bar": [
+          "Sensor",
+          "Tech",
+          "Gunner",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Resistance Transport",
+    "pilots": [
+      {
+        "name": "•Cova Nell",
+        "subtitle": "Evacuation Escort",
+        "cost": 5,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Cannon",
+          "Cannon",
+          "Torpedo",
+          "Crew",
+          "Crew",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Nodin Chavdri",
+        "subtitle": "Insubordinate Insurgent",
+        "cost": 5,
+        "loadout": 20,
+        "bar": [
+          "Tech",
+          "Cannon",
+          "Cannon",
+          "Torpedo",
+          "Missile",
+          "Crew",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Pammich Nerro Goode",
+        "subtitle": "D’Qar Dispatcher",
+        "cost": 4,
+        "loadout": 12,
+        "bar": [
+          "Sensor",
+          "Tech",
+          "Cannon",
+          "Cannon",
+          "Torpedo",
+          "Crew",
+          "Crew",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Taka Jamoreesa",
+        "subtitle": "Snograth Enthusiast",
+        "cost": 4,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Cannon",
+          "Cannon",
+          "Torpedo",
+          "Astromech",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Logistics Division Pilot",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Cannon", "Crew", "Astromech", "Astromech"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Resistance Transport Pod",
+    "pilots": [
+      {
+        "name": "•BB-8",
+        "subtitle": "Full of Surprises",
+        "cost": 2,
+        "loadout": 4,
+        "bar": ["Tech", "Tech", "Crew", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•Finn",
+        "subtitle": "Big Deal",
+        "cost": 3,
+        "loadout": 12,
+        "bar": ["Talent", "Talent", "Tech", "Crew", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Rose Tico",
+        "subtitle": "Earnest Engineer",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Tech", "Crew", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Vi Moradi",
+        "subtitle": "Starling",
+        "cost": 3,
+        "loadout": 6,
+        "bar": ["Tech", "Crew", "Modification"],
+        "std": "B",
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "RZ-2 A-wing",
+    "pilots": [
+      {
+        "name": "•Greer Sonnel",
+        "subtitle": "Kothan Si",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["Talent", "Tech", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•L’ulo L’ampar",
+        "subtitle": "Luminous Mentor",
+        "cost": 4,
+        "loadout": 12,
+        "bar": ["Talent", "Talent", "Tech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•Merl Cobben",
+        "subtitle": "Distracting Daredevil",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Talent", "Tech", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•Ronith Blario",
+        "subtitle": "Reckless Rookie",
+        "cost": 4,
+        "loadout": 10,
+        "bar": ["Talent", "Tech", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•Seftin Vanik",
+        "subtitle": "Skillful Wingmate",
+        "cost": 4,
+        "loadout": 12,
+        "bar": ["Talent", "Talent", "Tech", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•Suralinda Javos",
+        "subtitle": "Inquisitive Journalist",
+        "cost": 4,
+        "loadout": 10,
+        "bar": ["Talent", "Talent", "Tech", "Cannon", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•Tallissan Lintra",
+        "subtitle": "Deadly Approach",
+        "cost": 4,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Talent",
+          "Tech",
+          "Torpedo",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•Wrobie Tyce",
+        "subtitle": "Dynamic Aerialist",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Talent", "Tech", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•Zari Bangel",
+        "subtitle": "Aerial Exhibitionist",
+        "cost": 4,
+        "loadout": 11,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Tech",
+          "Tech",
+          "Missile",
+          "Modification",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "•Zizi Tlo",
+        "subtitle": "Committed to the Cause",
+        "cost": 5,
+        "loadout": 15,
+        "bar": ["Talent", "Talent", "Tech", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "Blue Squadron Recruit",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Talent", "Tech"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      },
+      {
+        "name": "Green Squadron Expert",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 2,
+        "bar": ["Talent", "Talent", "Tech"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["A-wing"]
+      }
+    ]
+  },
+  {
+    "ship": "Scavenged YT-1300 Light Freighter",
+    "pilots": [
+      {
+        "name": "•Chewbacca",
+        "subtitle": "Loyal Companion",
+        "cost": 7,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter", "", "YT-1300"]
+      },
+      {
+        "name": "•Han Solo",
+        "subtitle": "Jaded Smuggler",
+        "cost": 6,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": "B",
+        "ext": 1,
+        "keywords": ["Freighter", "", "YT-1300"]
+      },
+      {
+        "name": "•Lando Calrissian",
+        "subtitle": "Old General",
+        "cost": 8,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter", "", "YT-1300"]
+      },
+      {
+        "name": "•Poe Dameron",
+        "subtitle": "A Difficult Man",
+        "cost": 7,
+        "loadout": 25,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Missile",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter", "", "YT-1300"]
+      },
+      {
+        "name": "•Rey",
+        "subtitle": "Resourceful Scavenger",
+        "cost": 8,
+        "loadout": 25,
+        "bar": [
+          "ForcePowerU",
+          "Talent",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter", "", "Light Side", "", "YT-1300"]
+      },
+      {
+        "name": "Resistance Sympathizer",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 10,
+        "bar": ["Talent", "Missile", "Gunner", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter", "", "YT-1300"]
+      }
+    ]
+  },
+  {
+    "ship": "T-70 X-wing",
+    "pilots": [
+      {
+        "name": "•C’ai Threnalli",
+        "subtitle": "Tenacious Survivor",
+        "cost": 5,
+        "loadout": 13,
+        "bar": ["Talent", "Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Ello Asty",
+        "subtitle": "Born to Ill",
+        "cost": 5,
+        "loadout": 11,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Tech",
+          "Astromech",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Jaycris Tubbs",
+        "subtitle": "Loving Father",
+        "cost": 5,
+        "loadout": 13,
+        "bar": ["Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Jessika Pava",
+        "subtitle": "The Great Destroyer",
+        "cost": 5,
+        "loadout": 11,
+        "bar": ["Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Joph Seastriker",
+        "subtitle": "Reckless Bodyguard",
+        "cost": 5,
+        "loadout": 9,
+        "bar": ["Talent", "Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Karé Kun",
+        "subtitle": "Woman of Action",
+        "cost": 5,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Cannon",
+          "Astromech",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Lieutenant Bastian",
+        "subtitle": "Optimistic Analyst",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Nien Nunb",
+        "subtitle": "Sarcastic Survivor",
+        "cost": 5,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Missile",
+          "Astromech",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Nimi Chereen",
+        "subtitle": "Hopeful Hero",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Poe Dameron",
+        "subtitle": "Trigger-Happy Flyboy",
+        "cost": 7,
+        "loadout": 25,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Torpedo",
+          "Astromech",
+          "Modification",
+          "Modification",
+          "Configuration",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Poe Dameron",
+        "subtitle": "Resistance Commander",
+        "cost": 6,
+        "loadout": 19,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Tech",
+          "Tech",
+          "Astromech",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Temmin Wexley",
+        "subtitle": "Black Two",
+        "cost": 6,
+        "loadout": 17,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Tech",
+          "Astromech",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Temmin Wexley",
+        "subtitle": "Snap",
+        "cost": 5,
+        "loadout": 11,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Astromech",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Venisa Doza",
+        "subtitle": "Jade Leader",
+        "cost": 5,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Missile",
+          "Missile",
+          "Astromech",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "•Zay Versio",
+        "subtitle": "Her Father's Daughter",
+        "cost": 4,
+        "loadout": 7,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Tech",
+          "Astromech",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "Black Squadron Ace",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Talent", "Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "Blue Squadron Rookie",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 4,
+        "bar": ["Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      },
+      {
+        "name": "Red Squadron Expert",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 2,
+        "bar": ["Talent", "Tech", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["X-wing"]
+      }
+    ]
+  }
+]

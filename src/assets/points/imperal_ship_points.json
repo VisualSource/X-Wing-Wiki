@@ -1,1 +1,1323 @@
-[{"ship":"Alpha-class Star Wing","pilots":[{"name":"•Lieutenant Karsabi","subtitle":"Brash Noble","cost":5,"loadout":11,"bar":["Talent","Sensor","Missile","Modification","Configuration"],"std":0,"ext":1,"keywords":[]},{"name":"•Major Vynder","subtitle":"Pragmatic Survivor","cost":6,"loadout":21,"bar":["Talent","Sensor","Torpedo","Modification","Configuration"],"std":0,"ext":1,"keywords":[]},{"name":"Nu Squadron Pilot","subtitle":"","cost":5,"loadout":7,"bar":["Sensor","Cannon","Modification","Configuration"],"std":0,"ext":1,"keywords":[]},{"name":"Rho Squadron Pilot","subtitle":"","cost":5,"loadout":9,"bar":["Talent","Sensor","Modification","Configuration"],"std":0,"ext":1,"keywords":[]}]},{"ship":"Gauntlet Fighter","pilots":[{"name":"•Captain Hark","subtitle":"Obedient Underling","cost":7,"loadout":15,"bar":["Talent","Crew","Gunner","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Gar Saxon","subtitle":"Treacherous Viceroy","cost":8,"loadout":18,"bar":["Talent","Crew","Torpedo","Gunner","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"Imperial Super Commando","subtitle":"","cost":7,"loadout":10,"bar":["Talent","Crew","Gunner","Device","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Mandalorian"]}]},{"ship":"Lambda-class T-4a Shuttle","pilots":[{"name":"•Captain Kagi","subtitle":"The Emperor’s Shuttle Pilot","cost":6,"loadout":22,"bar":["Sensor","Cannon","Crew","Crew","Modification","Title"],"std":0,"ext":1,"keywords":[]},{"name":"•Colonel Jendon","subtitle":"Darth Vader’s Shuttle Pilot","cost":6,"loadout":20,"bar":["Sensor","Cannon","Cannon","Crew","Modification","Title"],"std":0,"ext":1,"keywords":[]},{"name":"•Lieutenant Sai","subtitle":"Death Squadron Veteran","cost":5,"loadout":14,"bar":["Sensor","Cannon","Crew","Crew","Modification","Title"],"std":0,"ext":1,"keywords":[]},{"name":"Omicron Group Pilot","subtitle":"","cost":5,"loadout":8,"bar":["Sensor","Cannon","Modification"],"std":0,"ext":1,"keywords":[]}]},{"ship":"TIE Advanced v1","pilots":[{"name":"•Fifth Brother","subtitle":"Ruthless Brute","cost":5,"loadout":10,"bar":["ForcePowerU","Talent","Sensor","Cannon"],"std":1,"ext":1,"keywords":["Dark Side"," TIE"]},{"name":"•Grand Inquisitor","subtitle":"Master of the Inquisitorious","cost":6,"loadout":17,"bar":["ForcePowerU","ForcePowerU","Talent","Sensor","Missile"],"std":1,"ext":1,"keywords":["Dark Side"," TIE"]},{"name":"•Seventh Sister","subtitle":"Sadistic Interrogator","cost":5,"loadout":14,"bar":["ForcePowerU","Talent","Talent","Sensor","Missile"],"std":1,"ext":1,"keywords":["Dark Side"," TIE"]},{"name":"Baron of the Empire","subtitle":"","cost":4,"loadout":4,"bar":["Talent","Sensor","Missile"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Inquisitor","subtitle":"","cost":4,"loadout":5,"bar":["ForcePowerU","Sensor"],"std":1,"ext":1,"keywords":["Dark Side"," TIE"]}]},{"ship":"TIE Advanced x1","pilots":[{"name":"•Darth Vader","subtitle":"Battle of Yavin","cost":6,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Dark Side","","Sith"," TIE"]},{"name":"•Darth Vader","subtitle":"Black Leader","cost":7,"loadout":21,"bar":["ForcePowerU","ForcePowerU","Talent","Tech","Sensor","Missile","Modification","Modification"],"std":1,"ext":1,"keywords":["Dark Side","","Sith"," TIE"]},{"name":"•Juno Eclipse","subtitle":"Corulag's Finest","cost":4,"loadout":8,"bar":["Talent","Tech","Sensor","Missile","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Maarek Stele","subtitle":"Servant of the Empire","cost":5,"loadout":14,"bar":["Talent","Talent","Sensor","Missile","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Ved Foslo","subtitle":"Ambitious Engineer","cost":4,"loadout":8,"bar":["Talent","Sensor","Missile","Modification"],"std":"B","ext":1,"keywords":["TIE"]},{"name":"•Zertik Strom","subtitle":"Pitiless Administrator","cost":4,"loadout":6,"bar":["Sensor","Missile","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Storm Squadron Ace","subtitle":"","cost":4,"loadout":2,"bar":["Talent","Sensor","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Tempest Squadron Pilot","subtitle":"","cost":4,"loadout":4,"bar":["Sensor","Modification"],"std":1,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE Reaper","pilots":[{"name":"•“Vizier”","subtitle":"Ruthless Tactician","cost":4,"loadout":12,"bar":["Crew","Crew","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Captain Feroph","subtitle":"Imperial Courier","cost":4,"loadout":9,"bar":["Talent","Crew","Modification","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Major Vermeil","subtitle":"Veteran of Scarif","cost":5,"loadout":16,"bar":["Talent","Crew","Crew","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Scarif Base Pilot","subtitle":"","cost":4,"loadout":6,"bar":["Crew","Modification"],"std":1,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/ag Aggressor","pilots":[{"name":"•“Double Edge”","subtitle":"Contingency Planner","cost":4,"loadout":13,"bar":["Talent","Turret","Missile","Missile","Gunner","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"•Lieutenant Kestal","subtitle":"Innate Deadeye","cost":5,"loadout":19,"bar":["Talent","Turret","Missile","Missile","Gunner","Modification","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"Onyx Squadron Scout","subtitle":"","cost":4,"loadout":12,"bar":["Talent","Turret","Missile","Gunner"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"Sienar Specialist","subtitle":"","cost":4,"loadout":8,"bar":["Turret","Missile","Gunner","Modification"],"std":0,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/ca Punisher","pilots":[{"name":"•“Deathrain”","subtitle":"Dexterous Bombardier","cost":6,"loadout":20,"bar":["Talent","Sensor","Torpedo","Missile","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"•“Redline”","subtitle":"Adrenaline Junkie","cost":7,"loadout":25,"bar":["Sensor","Torpedo","Missile","Missile","Gunner","Device","Modification","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"Cutlass Squadron Pilot","subtitle":"","cost":5,"loadout":6,"bar":["Sensor","Torpedo","Missile","Gunner","Device","Modification"],"std":0,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/D Defender","pilots":[{"name":"•Captain Dobbs","subtitle":"Reliable Replacement","cost":7,"loadout":15,"bar":["Talent","Sensor","Cannon","Missile","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Colonel Vessery","subtitle":"Contemplative Commander","cost":7,"loadout":10,"bar":["Talent","Sensor","Cannon","Missile","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Countess Ryad","subtitle":"Cutthroat Politico","cost":7,"loadout":12,"bar":["Talent","Sensor","Sensor","Cannon","Missile","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Darth Vader","subtitle":"Dark Lord of the Sith","cost":9,"loadout":14,"bar":["ForcePowerU","Talent","Tech","Cannon","Missile","Configuration"],"std":1,"ext":1,"keywords":["Dark Side","","Sith"," TIE"]},{"name":"•Rexler Brath","subtitle":"Onyx Leader","cost":7,"loadout":13,"bar":["Talent","Sensor","Cannon","Missile","Missile","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Vult Skerris","subtitle":"Arrogant Ace","cost":7,"loadout":13,"bar":["Talent","Talent","Sensor","Cannon","Missile","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Delta Squadron Pilot","subtitle":"","cost":7,"loadout":4,"bar":["Sensor","Cannon","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Onyx Squadron Ace","subtitle":"","cost":7,"loadout":6,"bar":["Talent","Sensor","Cannon","Missile","Configuration"],"std":1,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/in Interceptor","pilots":[{"name":"•Ciena Ree","subtitle":"Look Through My Eyes","cost":5,"loadout":10,"bar":["Talent","Talent","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Commandant Goran","subtitle":"Skystrike Superintendent","cost":4,"loadout":8,"bar":["Talent","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Gideon Hask","subtitle":"Inferno Two","cost":5,"loadout":12,"bar":["Talent","Talent","Missile","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Iden Versio","subtitle":"Battle of Yavin","cost":6,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Lieutenant Lorrir","subtitle":"Requiem for Brentaal","cost":4,"loadout":6,"bar":["Talent","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Nash Windrider","subtitle":"Alderaanian Zealot","cost":4,"loadout":6,"bar":["Missile","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Second Sister","subtitle":"Manipulative Monster","cost":5,"loadout":14,"bar":["ForcePowerU","Talent","Missile","Modification","Configuration"],"std":1,"ext":1,"keywords":["Dark Side"," TIE"]},{"name":"•Sigma 4","subtitle":"Battle of Yavin","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Sigma 5","subtitle":"Battle of Yavin","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Sigma 6","subtitle":"Battle of Yavin","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Sigma 7","subtitle":"Battle of Yavin","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Soontir Fel","subtitle":"Ace of Legend","cost":6,"loadout":15,"bar":["Talent","Talent","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Turr Phennir","subtitle":"Ambitious Ace","cost":4,"loadout":9,"bar":["Talent","Talent","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Vult Skerris","subtitle":"Arrogant Ace","cost":4,"loadout":6,"bar":["Talent","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Alpha Squadron Pilot","subtitle":"","cost":4,"loadout":2,"bar":["Talent","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Saber Squadron Ace","subtitle":"","cost":4,"loadout":3,"bar":["Talent","Configuration"],"std":1,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/ln Fighter","pilots":[{"name":"•”Backstabber”","subtitle":"Battle of Yavin","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•”Dark Curse”","subtitle":"Battle of Yavin","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Howlrunner”","subtitle":"Obsidian Leader","cost":4,"loadout":8,"bar":["Talent","Talent","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Mauler” Mithel","subtitle":"Battle of Yavin","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Mauler” Mithel","subtitle":"Black Two","cost":3,"loadout":4,"bar":["Talent","Cannon"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Night Beast”","subtitle":"Obsidian Two","cost":3,"loadout":4,"bar":["Talent","Talent"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Scourge” Skutu","subtitle":"Seasoned Veteran","cost":3,"loadout":3,"bar":["Talent"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Wampa”","subtitle":"Battle of Yavin","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Wampa”","subtitle":"Black Eleven","cost":3,"loadout":5,"bar":["Talent","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"••ISB Jingoist","subtitle":"Heartless Enforcer","cost":3,"loadout":5,"bar":["Talent","Illicit"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Del Meeko","subtitle":"Inferno Three","cost":3,"loadout":6,"bar":["Talent","Cannon"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Gideon Hask","subtitle":"Inferno Two","cost":3,"loadout":8,"bar":["Talent","Talent","Missile","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Iden Versio","subtitle":"Inferno Leader","cost":3,"loadout":8,"bar":["Talent","Talent","Cannon","Missile","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Magna Tolvan","subtitle":"Cold Tyrant","cost":3,"loadout":10,"bar":["Talent","Cannon","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Moff Gideon","subtitle":"Ruthless Remnant Leader","cost":3,"loadout":8,"bar":["Talent","Missile","Illicit","Illicit","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Seyn Marana","subtitle":"Inferno Four","cost":3,"loadout":8,"bar":["Talent","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Valen Rudor","subtitle":"Braggadocious Baron","cost":3,"loadout":5,"bar":["Talent","Talent"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Yrica Quell","subtitle":"Consumed by Duty","cost":3,"loadout":9,"bar":["Talent","Missile","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Academy Pilot","subtitle":"","cost":2,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Black Squadron Ace","subtitle":"","cost":2,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Obsidian Squadron Pilot","subtitle":"","cost":2,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/ph Phantom","pilots":[{"name":"•“Echo”","subtitle":"Slippery Trickster","cost":6,"loadout":11,"bar":["Talent","Talent","Sensor","Gunner","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"•“Whisper”","subtitle":"Soft-Spoken Slayer","cost":7,"loadout":15,"bar":["Talent","Sensor","Gunner","Modification","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"Imdaar Test Pilot","subtitle":"","cost":5,"loadout":6,"bar":["Sensor","Gunner","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"Sigma Squadron Ace","subtitle":"","cost":6,"loadout":9,"bar":["Talent","Sensor","Gunner","Modification"],"std":0,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/rb Heavy","pilots":[{"name":"•Flight Leader Ubbel","subtitle":"Onyx Leader","cost":5,"loadout":15,"bar":["Talent","Cannon","Cannon","Gunner","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Rampage”","subtitle":"Implacable Pursuer","cost":5,"loadout":16,"bar":["Talent","Cannon","Cannon","Gunner","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Lyttan Dree","subtitle":"Onyx 2","cost":5,"loadout":14,"bar":["Sensor","Cannon","Cannon","Gunner","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Carida Academy Cadet","subtitle":"","cost":5,"loadout":8,"bar":["Cannon","Cannon","Configuration"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Onyx Squadron Sentry","subtitle":"","cost":5,"loadout":7,"bar":["Cannon","Cannon","Modification","Configuration"],"std":1,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/sa Bomber","pilots":[{"name":"•“Deathfire”","subtitle":"Unflinching Diehard","cost":4,"loadout":11,"bar":["Torpedo","Torpedo","Missile","Gunner","Device","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"•Captain Jonus","subtitle":"Disciplined Instructor","cost":5,"loadout":10,"bar":["Talent","Torpedo","Missile","Missile","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"•Major Rhymer","subtitle":"Scimitar Leader","cost":5,"loadout":12,"bar":["Talent","Torpedo","Missile","Missile","Gunner","Device","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"•Tomax Bren","subtitle":"Brash Maverick","cost":4,"loadout":10,"bar":["Talent","Talent","Missile","Missile","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"Gamma Squadron Ace","subtitle":"","cost":4,"loadout":10,"bar":["Torpedo","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":["TIE"]},{"name":"Scimitar Squadron Pilot","subtitle":"","cost":4,"loadout":6,"bar":["Missile","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":["TIE"]}]},{"ship":"TIE/sk Striker","pilots":[{"name":"•“Countdown”","subtitle":"Death Defier","cost":4,"loadout":8,"bar":["Talent","Talent","Gunner","Device","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Duchess”","subtitle":"Urbane Ace","cost":5,"loadout":15,"bar":["Talent","Talent","Gunner","Device","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Pure Sabacc”","subtitle":"Confident Gambler","cost":4,"loadout":7,"bar":["Talent","Gunner","Device","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•“Vagabond”","subtitle":"Destitute Demolitionist","cost":4,"loadout":10,"bar":["Talent","Gunner","Device","Device","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Black Squadron Scout","subtitle":"","cost":4,"loadout":5,"bar":["Talent","Gunner","Device"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Planetary Sentinel","subtitle":"","cost":4,"loadout":4,"bar":["Gunner","Device","Modification"],"std":1,"ext":1,"keywords":["TIE"]}]},{"ship":"VT-49 Decimator","pilots":[{"name":"•Captain Oicunn","subtitle":"Inspired Tactician","cost":7,"loadout":19,"bar":["Talent","Talent","Torpedo","Crew","Crew","Gunner","Device","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"•Morna Kee","subtitle":"Determined Attaché","cost":7,"loadout":22,"bar":["Talent","Torpedo","Crew","Crew","Gunner","Device","Modification","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"•Rear Admiral Chiraneau","subtitle":"Advisor to Admiral Piett","cost":8,"loadout":26,"bar":["Talent","Torpedo","Crew","Crew","Crew","Gunner","Device","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"Patrol Leader","subtitle":"","cost":7,"loadout":12,"bar":["Torpedo","Crew","Gunner","Device","Modification"],"std":1,"ext":1,"keywords":[]}]}]
+[
+  {
+    "ship": "Alpha-class Star Wing",
+    "pilots": [
+      {
+        "name": "•Lieutenant Karsabi",
+        "subtitle": "Brash Noble",
+        "cost": 5,
+        "loadout": 11,
+        "bar": ["Talent", "Sensor", "Missile", "Modification", "Configuration"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Major Vynder",
+        "subtitle": "Pragmatic Survivor",
+        "cost": 6,
+        "loadout": 21,
+        "bar": ["Talent", "Sensor", "Torpedo", "Modification", "Configuration"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Nu Squadron Pilot",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 7,
+        "bar": ["Sensor", "Cannon", "Modification", "Configuration"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Rho Squadron Pilot",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 9,
+        "bar": ["Talent", "Sensor", "Modification", "Configuration"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Gauntlet Fighter",
+    "pilots": [
+      {
+        "name": "•Captain Hark",
+        "subtitle": "Obedient Underling",
+        "cost": 7,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Gar Saxon",
+        "subtitle": "Treacherous Viceroy",
+        "cost": 8,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Torpedo",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "Imperial Super Commando",
+        "subtitle": "",
+        "cost": 7,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      }
+    ]
+  },
+  {
+    "ship": "Lambda-class T-4a Shuttle",
+    "pilots": [
+      {
+        "name": "•Captain Kagi",
+        "subtitle": "The Emperor’s Shuttle Pilot",
+        "cost": 6,
+        "loadout": 22,
+        "bar": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Colonel Jendon",
+        "subtitle": "Darth Vader’s Shuttle Pilot",
+        "cost": 6,
+        "loadout": 20,
+        "bar": ["Sensor", "Cannon", "Cannon", "Crew", "Modification", "Title"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Lieutenant Sai",
+        "subtitle": "Death Squadron Veteran",
+        "cost": 5,
+        "loadout": 14,
+        "bar": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Omicron Group Pilot",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 8,
+        "bar": ["Sensor", "Cannon", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "TIE Advanced v1",
+    "pilots": [
+      {
+        "name": "•Fifth Brother",
+        "subtitle": "Ruthless Brute",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["ForcePowerU", "Talent", "Sensor", "Cannon"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", " TIE"]
+      },
+      {
+        "name": "•Grand Inquisitor",
+        "subtitle": "Master of the Inquisitorious",
+        "cost": 6,
+        "loadout": 17,
+        "bar": ["ForcePowerU", "ForcePowerU", "Talent", "Sensor", "Missile"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", " TIE"]
+      },
+      {
+        "name": "•Seventh Sister",
+        "subtitle": "Sadistic Interrogator",
+        "cost": 5,
+        "loadout": 14,
+        "bar": ["ForcePowerU", "Talent", "Talent", "Sensor", "Missile"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", " TIE"]
+      },
+      {
+        "name": "Baron of the Empire",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Talent", "Sensor", "Missile"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Inquisitor",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 5,
+        "bar": ["ForcePowerU", "Sensor"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", " TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE Advanced x1",
+    "pilots": [
+      {
+        "name": "•Darth Vader",
+        "subtitle": "Battle of Yavin",
+        "cost": 6,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", "", "Sith", " TIE"]
+      },
+      {
+        "name": "•Darth Vader",
+        "subtitle": "Black Leader",
+        "cost": 7,
+        "loadout": 21,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Tech",
+          "Sensor",
+          "Missile",
+          "Modification",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", "", "Sith", " TIE"]
+      },
+      {
+        "name": "•Juno Eclipse",
+        "subtitle": "Corulag's Finest",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["Talent", "Tech", "Sensor", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Maarek Stele",
+        "subtitle": "Servant of the Empire",
+        "cost": 5,
+        "loadout": 14,
+        "bar": ["Talent", "Talent", "Sensor", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Ved Foslo",
+        "subtitle": "Ambitious Engineer",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["Talent", "Sensor", "Missile", "Modification"],
+        "std": "B",
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Zertik Strom",
+        "subtitle": "Pitiless Administrator",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Sensor", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Storm Squadron Ace",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 2,
+        "bar": ["Talent", "Sensor", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Tempest Squadron Pilot",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Sensor", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE Reaper",
+    "pilots": [
+      {
+        "name": "•“Vizier”",
+        "subtitle": "Ruthless Tactician",
+        "cost": 4,
+        "loadout": 12,
+        "bar": ["Crew", "Crew", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Captain Feroph",
+        "subtitle": "Imperial Courier",
+        "cost": 4,
+        "loadout": 9,
+        "bar": ["Talent", "Crew", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Major Vermeil",
+        "subtitle": "Veteran of Scarif",
+        "cost": 5,
+        "loadout": 16,
+        "bar": ["Talent", "Crew", "Crew", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Scarif Base Pilot",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Crew", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/ag Aggressor",
+    "pilots": [
+      {
+        "name": "•“Double Edge”",
+        "subtitle": "Contingency Planner",
+        "cost": 4,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Missile",
+          "Missile",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Lieutenant Kestal",
+        "subtitle": "Innate Deadeye",
+        "cost": 5,
+        "loadout": 19,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Missile",
+          "Missile",
+          "Gunner",
+          "Modification",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Onyx Squadron Scout",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 12,
+        "bar": ["Talent", "Turret", "Missile", "Gunner"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Sienar Specialist",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["Turret", "Missile", "Gunner", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/ca Punisher",
+    "pilots": [
+      {
+        "name": "•“Deathrain”",
+        "subtitle": "Dexterous Bombardier",
+        "cost": 6,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Torpedo",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Redline”",
+        "subtitle": "Adrenaline Junkie",
+        "cost": 7,
+        "loadout": 25,
+        "bar": [
+          "Sensor",
+          "Torpedo",
+          "Missile",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Cutlass Squadron Pilot",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 6,
+        "bar": [
+          "Sensor",
+          "Torpedo",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/D Defender",
+    "pilots": [
+      {
+        "name": "•Captain Dobbs",
+        "subtitle": "Reliable Replacement",
+        "cost": 7,
+        "loadout": 15,
+        "bar": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Colonel Vessery",
+        "subtitle": "Contemplative Commander",
+        "cost": 7,
+        "loadout": 10,
+        "bar": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Countess Ryad",
+        "subtitle": "Cutthroat Politico",
+        "cost": 7,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Sensor",
+          "Cannon",
+          "Missile",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Darth Vader",
+        "subtitle": "Dark Lord of the Sith",
+        "cost": 9,
+        "loadout": 14,
+        "bar": [
+          "ForcePowerU",
+          "Talent",
+          "Tech",
+          "Cannon",
+          "Missile",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", "", "Sith", " TIE"]
+      },
+      {
+        "name": "•Rexler Brath",
+        "subtitle": "Onyx Leader",
+        "cost": 7,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Cannon",
+          "Missile",
+          "Missile",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Vult Skerris",
+        "subtitle": "Arrogant Ace",
+        "cost": 7,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Sensor",
+          "Cannon",
+          "Missile",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Delta Squadron Pilot",
+        "subtitle": "",
+        "cost": 7,
+        "loadout": 4,
+        "bar": ["Sensor", "Cannon", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Onyx Squadron Ace",
+        "subtitle": "",
+        "cost": 7,
+        "loadout": 6,
+        "bar": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/in Interceptor",
+    "pilots": [
+      {
+        "name": "•Ciena Ree",
+        "subtitle": "Look Through My Eyes",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Talent", "Talent", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Commandant Goran",
+        "subtitle": "Skystrike Superintendent",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["Talent", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Gideon Hask",
+        "subtitle": "Inferno Two",
+        "cost": 5,
+        "loadout": 12,
+        "bar": ["Talent", "Talent", "Missile", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Iden Versio",
+        "subtitle": "Battle of Yavin",
+        "cost": 6,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Lieutenant Lorrir",
+        "subtitle": "Requiem for Brentaal",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Talent", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Nash Windrider",
+        "subtitle": "Alderaanian Zealot",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Missile", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Second Sister",
+        "subtitle": "Manipulative Monster",
+        "cost": 5,
+        "loadout": 14,
+        "bar": [
+          "ForcePowerU",
+          "Talent",
+          "Missile",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", " TIE"]
+      },
+      {
+        "name": "•Sigma 4",
+        "subtitle": "Battle of Yavin",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Sigma 5",
+        "subtitle": "Battle of Yavin",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Sigma 6",
+        "subtitle": "Battle of Yavin",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Sigma 7",
+        "subtitle": "Battle of Yavin",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Soontir Fel",
+        "subtitle": "Ace of Legend",
+        "cost": 6,
+        "loadout": 15,
+        "bar": ["Talent", "Talent", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Turr Phennir",
+        "subtitle": "Ambitious Ace",
+        "cost": 4,
+        "loadout": 9,
+        "bar": ["Talent", "Talent", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Vult Skerris",
+        "subtitle": "Arrogant Ace",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Talent", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Alpha Squadron Pilot",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 2,
+        "bar": ["Talent", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Saber Squadron Ace",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 3,
+        "bar": ["Talent", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/ln Fighter",
+    "pilots": [
+      {
+        "name": "•”Backstabber”",
+        "subtitle": "Battle of Yavin",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•”Dark Curse”",
+        "subtitle": "Battle of Yavin",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Howlrunner”",
+        "subtitle": "Obsidian Leader",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["Talent", "Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Mauler” Mithel",
+        "subtitle": "Battle of Yavin",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Mauler” Mithel",
+        "subtitle": "Black Two",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Talent", "Cannon"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Night Beast”",
+        "subtitle": "Obsidian Two",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Talent", "Talent"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Scourge” Skutu",
+        "subtitle": "Seasoned Veteran",
+        "cost": 3,
+        "loadout": 3,
+        "bar": ["Talent"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Wampa”",
+        "subtitle": "Battle of Yavin",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Wampa”",
+        "subtitle": "Black Eleven",
+        "cost": 3,
+        "loadout": 5,
+        "bar": ["Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "••ISB Jingoist",
+        "subtitle": "Heartless Enforcer",
+        "cost": 3,
+        "loadout": 5,
+        "bar": ["Talent", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Del Meeko",
+        "subtitle": "Inferno Three",
+        "cost": 3,
+        "loadout": 6,
+        "bar": ["Talent", "Cannon"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Gideon Hask",
+        "subtitle": "Inferno Two",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Talent", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Iden Versio",
+        "subtitle": "Inferno Leader",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Talent", "Cannon", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Magna Tolvan",
+        "subtitle": "Cold Tyrant",
+        "cost": 3,
+        "loadout": 10,
+        "bar": ["Talent", "Cannon", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Moff Gideon",
+        "subtitle": "Ruthless Remnant Leader",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Missile", "Illicit", "Illicit", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Seyn Marana",
+        "subtitle": "Inferno Four",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Valen Rudor",
+        "subtitle": "Braggadocious Baron",
+        "cost": 3,
+        "loadout": 5,
+        "bar": ["Talent", "Talent"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Yrica Quell",
+        "subtitle": "Consumed by Duty",
+        "cost": 3,
+        "loadout": 9,
+        "bar": ["Talent", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Academy Pilot",
+        "subtitle": "",
+        "cost": 2,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Black Squadron Ace",
+        "subtitle": "",
+        "cost": 2,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Obsidian Squadron Pilot",
+        "subtitle": "",
+        "cost": 2,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/ph Phantom",
+    "pilots": [
+      {
+        "name": "•“Echo”",
+        "subtitle": "Slippery Trickster",
+        "cost": 6,
+        "loadout": 11,
+        "bar": ["Talent", "Talent", "Sensor", "Gunner", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Whisper”",
+        "subtitle": "Soft-Spoken Slayer",
+        "cost": 7,
+        "loadout": 15,
+        "bar": ["Talent", "Sensor", "Gunner", "Modification", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Imdaar Test Pilot",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 6,
+        "bar": ["Sensor", "Gunner", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Sigma Squadron Ace",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 9,
+        "bar": ["Talent", "Sensor", "Gunner", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/rb Heavy",
+    "pilots": [
+      {
+        "name": "•Flight Leader Ubbel",
+        "subtitle": "Onyx Leader",
+        "cost": 5,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Gunner",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Rampage”",
+        "subtitle": "Implacable Pursuer",
+        "cost": 5,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Gunner",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Lyttan Dree",
+        "subtitle": "Onyx 2",
+        "cost": 5,
+        "loadout": 14,
+        "bar": [
+          "Sensor",
+          "Cannon",
+          "Cannon",
+          "Gunner",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Carida Academy Cadet",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 8,
+        "bar": ["Cannon", "Cannon", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Onyx Squadron Sentry",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 7,
+        "bar": ["Cannon", "Cannon", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/sa Bomber",
+    "pilots": [
+      {
+        "name": "•“Deathfire”",
+        "subtitle": "Unflinching Diehard",
+        "cost": 4,
+        "loadout": 11,
+        "bar": [
+          "Torpedo",
+          "Torpedo",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Captain Jonus",
+        "subtitle": "Disciplined Instructor",
+        "cost": 5,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Missile",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Major Rhymer",
+        "subtitle": "Scimitar Leader",
+        "cost": 5,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Missile",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Tomax Bren",
+        "subtitle": "Brash Maverick",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Missile",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Gamma Squadron Ace",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 10,
+        "bar": ["Torpedo", "Gunner", "Device", "Device", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Scimitar Squadron Pilot",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Missile", "Gunner", "Device", "Device", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "TIE/sk Striker",
+    "pilots": [
+      {
+        "name": "•“Countdown”",
+        "subtitle": "Death Defier",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["Talent", "Talent", "Gunner", "Device", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Duchess”",
+        "subtitle": "Urbane Ace",
+        "cost": 5,
+        "loadout": 15,
+        "bar": ["Talent", "Talent", "Gunner", "Device", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Pure Sabacc”",
+        "subtitle": "Confident Gambler",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["Talent", "Gunner", "Device", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•“Vagabond”",
+        "subtitle": "Destitute Demolitionist",
+        "cost": 4,
+        "loadout": 10,
+        "bar": ["Talent", "Gunner", "Device", "Device", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Black Squadron Scout",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 5,
+        "bar": ["Talent", "Gunner", "Device"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Planetary Sentinel",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Gunner", "Device", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "VT-49 Decimator",
+    "pilots": [
+      {
+        "name": "•Captain Oicunn",
+        "subtitle": "Inspired Tactician",
+        "cost": 7,
+        "loadout": 19,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Torpedo",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Morna Kee",
+        "subtitle": "Determined Attaché",
+        "cost": 7,
+        "loadout": 22,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Rear Admiral Chiraneau",
+        "subtitle": "Advisor to Admiral Piett",
+        "cost": 8,
+        "loadout": 26,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Crew",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Patrol Leader",
+        "subtitle": "",
+        "cost": 7,
+        "loadout": 12,
+        "bar": ["Torpedo", "Crew", "Gunner", "Device", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  }
+]

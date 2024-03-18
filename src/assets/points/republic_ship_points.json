@@ -1,1 +1,1195 @@
-[{"ship":"ARC-170 Starfighter","pilots":[{"name":"•“Jag”","subtitle":"CT-55/11-9009","cost":5,"loadout":14,"bar":["Talent","Torpedo","Astromech","Gunner","Gunner","Modification","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Jag”","subtitle":"Siege of Coruscant","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Odd Ball”","subtitle":"CC-2237","cost":5,"loadout":15,"bar":["Talent","Sensor","Torpedo","Torpedo","Astromech","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Odd Ball”","subtitle":"Siege of Coruscant","cost":5,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Sinker”","subtitle":"Wolfpack Veteran","cost":6,"loadout":18,"bar":["Talent","Torpedo","Astromech","Crew","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Wolffe”","subtitle":"CC-3636","cost":5,"loadout":12,"bar":["Talent","Torpedo","Astromech","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Wolffe”","subtitle":"Siege of Coruscant","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Clone"]},{"name":"104th Battalion Pilot","subtitle":"","cost":5,"loadout":8,"bar":["Torpedo","Astromech","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"Squad Seven Veteran","subtitle":"","cost":5,"loadout":10,"bar":["Talent","Astromech","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]}]},{"ship":"BTL-B Y-wing","pilots":[{"name":"•“Broadside”","subtitle":"Shadow Three","cost":4,"loadout":13,"bar":["Talent","Turret","Torpedo","Gunner","Astromech","Device","Modification"],"std":1,"ext":1,"keywords":["Clone"," Y-wing"]},{"name":"•“Goji”","subtitle":"Payload Specialist","cost":4,"loadout":12,"bar":["Talent","Turret","Gunner","Astromech","Device","Device","Device","Modification"],"std":1,"ext":1,"keywords":["Clone"," Y-wing"]},{"name":"•“Matchstick”","subtitle":"Shadow Two","cost":5,"loadout":18,"bar":["Talent","Turret","Torpedo","Gunner","Astromech","Device","Modification"],"std":1,"ext":1,"keywords":["Clone"," Y-wing"]},{"name":"•“Odd Ball”","subtitle":"CC-2237","cost":4,"loadout":15,"bar":["Talent","Turret","Torpedo","Torpedo","Gunner","Astromech","Modification"],"std":1,"ext":1,"keywords":["Clone"," Y-wing"]},{"name":"•Anakin Skywalker","subtitle":"Hero of the Republic","cost":6,"loadout":23,"bar":["ForcePowerU","Turret","Torpedo","Gunner","Astromech","Device","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side","","Y-wing"]},{"name":"•R2-D2","subtitle":"Bucket of Bolts","cost":4,"loadout":14,"bar":["Sensor","Turret","Torpedo","Gunner","Crew","Device","Device","Modification"],"std":1,"ext":1,"keywords":["Droid"," Y-wing"]},{"name":"Red Squadron Bomber","subtitle":"","cost":4,"loadout":6,"bar":["Turret","Torpedo","Gunner","Astromech","Device"],"std":1,"ext":1,"keywords":["Clone"," Y-wing"]},{"name":"Shadow Squadron Veteran","subtitle":"","cost":4,"loadout":4,"bar":["Turret","Torpedo","Gunner","Astromech","Device","Modification"],"std":1,"ext":1,"keywords":["Clone"," Y-wing"]}]},{"ship":"Clone Z-95 Headhunter","pilots":[{"name":"•“Boost”","subtitle":"CT-4860","cost":3,"loadout":8,"bar":["Talent","Talent","Sensor","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Drift”","subtitle":"CT-1020","cost":3,"loadout":5,"bar":["Talent","Sensor","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Hawk","subtitle":"Valkyrie 2929","cost":3,"loadout":8,"bar":["Talent","Sensor","Modification","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Killer”","subtitle":"Dependable Closer","cost":3,"loadout":11,"bar":["Talent","Talent","Sensor","Cannon","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Knack”","subtitle":"Incautious Instructor","cost":3,"loadout":7,"bar":["Talent","Talent","Sensor","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Slider”","subtitle":"Evasive Aviator","cost":3,"loadout":8,"bar":["Talent","Talent","Sensor","Modification","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Stub”","subtitle":"Scrappy Flier","cost":3,"loadout":8,"bar":["Talent","Sensor","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Warthog”","subtitle":"Veteran of Kadavo","cost":3,"loadout":10,"bar":["Talent","Sensor","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"7th Sky Corps Pilot","subtitle":"","cost":3,"loadout":3,"bar":["Sensor","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"Reaper Squadron Scout","subtitle":"","cost":3,"loadout":2,"bar":["Talent","Sensor"],"std":1,"ext":1,"keywords":["Clone"]}]},{"ship":"Delta-7Aethersprite","pilots":[{"name":"•Adi Gallia","subtitle":"Shooting Star","cost":5,"loadout":12,"bar":["ForcePowerU","Talent","Astromech","Configuration","Modification"],"std":1,"ext":1,"keywords":["Jedi"," Light","Side"]},{"name":"•Ahsoka Tano","subtitle":"“Snips\"","cost":4,"loadout":7,"bar":["ForcePowerU","Astromech","Configuration","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Anakin Skywalker","subtitle":"Hero of the Republic","cost":6,"loadout":10,"bar":["ForcePowerU","ForcePowerU","Talent","Astromech","Configuration","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Barriss Offee","subtitle":"Conflicted Padawan","cost":4,"loadout":9,"bar":["ForcePowerU","Astromech","Configuration","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Luminara Unduli","subtitle":"Wise Protector","cost":4,"loadout":7,"bar":["ForcePowerU","Astromech","Configuration","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Obi-Wan Kenobi","subtitle":"Guardian of the Republic","cost":5,"loadout":10,"bar":["ForcePowerU","ForcePowerU","Talent","Astromech","Configuration","Modification","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Plo Koon","subtitle":"Serene Mentor","cost":5,"loadout":8,"bar":["ForcePowerU","Talent","Astromech","Configuration","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Saesee Tiin","subtitle":"Prophetic Pilot","cost":4,"loadout":8,"bar":["ForcePowerU","Astromech","Configuration","Modification"],"std":"B","ext":1,"keywords":["Jedi","","Light Side"]},{"name":"Jedi Knight","subtitle":"","cost":4,"loadout":3,"bar":["ForcePowerU","Astromech","Configuration","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]}]},{"ship":"Delta-7BAethersprite","pilots":[{"name":"•Adi Gallia","subtitle":"Shooting Star","cost":7,"loadout":18,"bar":["ForcePowerU","Talent","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi"," Light","Side"]},{"name":"•Ahsoka Tano","subtitle":"“Snips\"","cost":6,"loadout":10,"bar":["ForcePowerU","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","Light Side"]},{"name":"•Anakin Skywalker","subtitle":"Hero of the Republic","cost":7,"loadout":15,"bar":["ForcePowerU","ForcePowerU","Talent","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Barriss Offee","subtitle":"Conflicted Padawan","cost":5,"loadout":10,"bar":["ForcePowerU","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Luminara Unduli","subtitle":"Wise Protector","cost":6,"loadout":7,"bar":["ForcePowerU","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Mace Windu","subtitle":"Harsh Traditionalist","cost":6,"loadout":8,"bar":["ForcePowerU","ForcePowerU","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Obi-Wan Kenobi","subtitle":"Guardian of the Republic","cost":7,"loadout":15,"bar":["ForcePowerU","ForcePowerU","Talent","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Plo Koon","subtitle":"Serene Mentor","cost":7,"loadout":17,"bar":["ForcePowerU","Talent","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Saesee Tiin","subtitle":"Prophetic Pilot","cost":6,"loadout":9,"bar":["ForcePowerU","Astromech","Modification"],"std":"B","ext":1,"keywords":["Jedi","","Light Side"]},{"name":"Jedi Knight","subtitle":"","cost":6,"loadout":3,"bar":["ForcePowerU","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]}]},{"ship":"Eta-2Actis","pilots":[{"name":"•Aayla Secura","subtitle":"Confident Warrior","cost":5,"loadout":15,"bar":["ForcePowerU","ForcePowerU","Talent","Cannon","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Anakin Skywalker","subtitle":"Hero of Coruscant","cost":6,"loadout":20,"bar":["ForcePowerU","ForcePowerU","Talent","Cannon","Astromech","Modification"],"std":1,"ext":1,"keywords":["Dark Side","","Jedi","","Light Side"]},{"name":"•Anakin Skywalker","subtitle":"Siege of Coruscant","cost":5,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Dark Side","","Jedi","","Light Side"]},{"name":"•Kit Fisto","subtitle":"Enthusiastic Exem - plar","cost":4,"loadout":8,"bar":["ForcePowerU","ForcePowerU","Talent","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi"," Light","Side"]},{"name":"•Obi-Wan Kenobi","subtitle":"Guardian of Democracy","cost":5,"loadout":15,"bar":["ForcePowerU","ForcePowerU","Talent","Cannon","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Obi-Wan Kenobi","subtitle":"Siege of Coruscant","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Shaak Ti","subtitle":"Compassionate Mentor","cost":5,"loadout":18,"bar":["ForcePowerU","ForcePowerU","Talent","Cannon","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Shaak Ti","subtitle":"Siege of Coruscant","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"•Yoda","subtitle":"Grand Master","cost":5,"loadout":16,"bar":["ForcePowerU","ForcePowerU","Cannon","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]},{"name":"Jedi General","subtitle":"","cost":5,"loadout":4,"bar":["ForcePowerU","Cannon","Astromech","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side"]}]},{"ship":"Gauntlet Fighter","pilots":[{"name":"•Bo-Katan Kryze","subtitle":"Nite Owl Commander","cost":7,"loadout":20,"bar":["Talent","Crew","Torpedo","Missile","Missile","Gunner","Device","Modification","Modification","Configuration","Title"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Nite Owl Liberator","subtitle":"Resolute Warrior","cost":7,"loadout":16,"bar":["Talent","Crew","Gunner","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Mandalorian"]}]},{"ship":"LAAT/i Gunship","pilots":[{"name":"•“Hawk”","subtitle":"Valkyrie 2929","cost":5,"loadout":12,"bar":["Talent","Missile","Missile","Crew","Crew","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Hound”","subtitle":"Vigilant Tracker","cost":6,"loadout":20,"bar":["Sensor","Missile","Missile","Crew","Crew","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•\"Sicko\"","subtitle":"CT-1127/549","cost":5,"loadout":12,"bar":["Talent","Missile","Missile","Crew","Crew","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Warthog”","subtitle":"Veteran of Kadavo","cost":6,"loadout":18,"bar":["Talent","Torpedo","Missile","Crew","Crew","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"212th Battalion Pilot","subtitle":"","cost":5,"loadout":7,"bar":["Missile","Missile","Crew","Crew","Gunner","Gunner","Modification"],"std":1,"ext":1,"keywords":["Clone"]}]},{"ship":"Naboo Royal N-1 Starfighter","pilots":[{"name":"••Naboo Handmaiden","subtitle":"Regal Ruse","cost":4,"loadout":8,"bar":["Sensor","Astromech","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Anakin Skywalker","subtitle":"Hero of Naboo","cost":5,"loadout":20,"bar":["Talent","Sensor","Torpedo","Astromech"],"std":1,"ext":1,"keywords":["Light Side"]},{"name":"•Dineé Ellberger","subtitle":"Bravo Five","cost":4,"loadout":14,"bar":["Talent","Sensor","Torpedo","Astromech"],"std":1,"ext":1,"keywords":[]},{"name":"•Gavyn Sykes","subtitle":"Bravo Three","cost":4,"loadout":16,"bar":["Talent","Sensor","Torpedo","Astromech","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Padmé Amidala","subtitle":"Aggressive Negotiator","cost":5,"loadout":22,"bar":["Talent","Sensor","Torpedo","Astromech"],"std":1,"ext":1,"keywords":[]},{"name":"•Ric Olié","subtitle":"Bravo Leader","cost":5,"loadout":15,"bar":["Talent","Sensor","Torpedo","Astromech"],"std":1,"ext":1,"keywords":[]},{"name":"Bravo Flight Officer","subtitle":"","cost":4,"loadout":8,"bar":["Sensor","Torpedo","Astromech"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Nimbus-class V-wing","pilots":[{"name":"•“Contrail”","subtitle":"CT-4981","cost":3,"loadout":11,"bar":["Talent","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Contrail”","subtitle":"Siege of Coruscant","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Klick”","subtitle":"GC-1000","cost":3,"loadout":8,"bar":["Talent","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Klick”","subtitle":"Siege of Coruscant","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Odd Ball”","subtitle":"CC-2237","cost":4,"loadout":12,"bar":["Talent","Torpedo","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•Wilhuff Tarkin","subtitle":"Aspiring Admiral","cost":3,"loadout":8,"bar":["Talent","Missile","Astromech","Modification","Configuration"],"std":1,"ext":1,"keywords":[]},{"name":"Loyalist Volunteer","subtitle":"","cost":3,"loadout":4,"bar":["Modification","Configuration"],"std":1,"ext":1,"keywords":[]},{"name":"Shadow Squadron Escort","subtitle":"","cost":3,"loadout":3,"bar":["Modification","Configuration"],"std":1,"ext":1,"keywords":["Clone"]}]},{"ship":"Syliure-class Hyperspace Ring","pilots":[{"name":"TransGalMeg Control Link","subtitle":"","cost":2,"loadout":0,"bar":["Shield"],"std":0,"ext":0,"keywords":[]}]},{"ship":"V-19 Torrent Starfighter","pilots":[{"name":"•“Axe”","subtitle":"Blue Two","cost":3,"loadout":8,"bar":["Talent","Missile","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Axe”","subtitle":"Siege of Coruscant","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Kickback”","subtitle":"Blue Four","cost":3,"loadout":8,"bar":["Talent","Missile","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Kickback”","subtitle":"Siege of Coruscant","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Odd Ball”","subtitle":"CC-2237","cost":4,"loadout":16,"bar":["Talent","Torpedo","Missile","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•\"Slammer\"","subtitle":"Blue Three","cost":3,"loadout":7,"bar":["Talent","Missile","Missile","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Swoop”","subtitle":"Blue Six","cost":4,"loadout":13,"bar":["Talent","Missile","Missile","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"•“Tucker”","subtitle":"Blue Five","cost":4,"loadout":13,"bar":["Talent","Missile","Missile","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"Blue Squadron Protector","subtitle":"","cost":4,"loadout":4,"bar":["Talent","Modification"],"std":1,"ext":1,"keywords":["Clone"]},{"name":"Gold Squadron Trooper","subtitle":"","cost":4,"loadout":6,"bar":["Talent","Missile","Modification"],"std":1,"ext":1,"keywords":["Clone"]}]}]
+[
+  {
+    "ship": "ARC-170 Starfighter",
+    "pilots": [
+      {
+        "name": "•“Jag”",
+        "subtitle": "CT-55/11-9009",
+        "cost": 5,
+        "loadout": 14,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Astromech",
+          "Gunner",
+          "Gunner",
+          "Modification",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Jag”",
+        "subtitle": "Siege of Coruscant",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Odd Ball”",
+        "subtitle": "CC-2237",
+        "cost": 5,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Torpedo",
+          "Torpedo",
+          "Astromech",
+          "Gunner",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Odd Ball”",
+        "subtitle": "Siege of Coruscant",
+        "cost": 5,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Sinker”",
+        "subtitle": "Wolfpack Veteran",
+        "cost": 6,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Astromech",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Wolffe”",
+        "subtitle": "CC-3636",
+        "cost": 5,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Astromech",
+          "Gunner",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Wolffe”",
+        "subtitle": "Siege of Coruscant",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "104th Battalion Pilot",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 8,
+        "bar": ["Torpedo", "Astromech", "Gunner", "Gunner", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "Squad Seven Veteran",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Talent", "Astromech", "Gunner", "Gunner", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      }
+    ]
+  },
+  {
+    "ship": "BTL-B Y-wing",
+    "pilots": [
+      {
+        "name": "•“Broadside”",
+        "subtitle": "Shadow Three",
+        "cost": 4,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Torpedo",
+          "Gunner",
+          "Astromech",
+          "Device",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone", " Y-wing"]
+      },
+      {
+        "name": "•“Goji”",
+        "subtitle": "Payload Specialist",
+        "cost": 4,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Gunner",
+          "Astromech",
+          "Device",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone", " Y-wing"]
+      },
+      {
+        "name": "•“Matchstick”",
+        "subtitle": "Shadow Two",
+        "cost": 5,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Torpedo",
+          "Gunner",
+          "Astromech",
+          "Device",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone", " Y-wing"]
+      },
+      {
+        "name": "•“Odd Ball”",
+        "subtitle": "CC-2237",
+        "cost": 4,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Torpedo",
+          "Torpedo",
+          "Gunner",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone", " Y-wing"]
+      },
+      {
+        "name": "•Anakin Skywalker",
+        "subtitle": "Hero of the Republic",
+        "cost": 6,
+        "loadout": 23,
+        "bar": [
+          "ForcePowerU",
+          "Turret",
+          "Torpedo",
+          "Gunner",
+          "Astromech",
+          "Device",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side", "", "Y-wing"]
+      },
+      {
+        "name": "•R2-D2",
+        "subtitle": "Bucket of Bolts",
+        "cost": 4,
+        "loadout": 14,
+        "bar": [
+          "Sensor",
+          "Turret",
+          "Torpedo",
+          "Gunner",
+          "Crew",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid", " Y-wing"]
+      },
+      {
+        "name": "Red Squadron Bomber",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Turret", "Torpedo", "Gunner", "Astromech", "Device"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone", " Y-wing"]
+      },
+      {
+        "name": "Shadow Squadron Veteran",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": [
+          "Turret",
+          "Torpedo",
+          "Gunner",
+          "Astromech",
+          "Device",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone", " Y-wing"]
+      }
+    ]
+  },
+  {
+    "ship": "Clone Z-95 Headhunter",
+    "pilots": [
+      {
+        "name": "•“Boost”",
+        "subtitle": "CT-4860",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Talent", "Sensor", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Drift”",
+        "subtitle": "CT-1020",
+        "cost": 3,
+        "loadout": 5,
+        "bar": ["Talent", "Sensor", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Hawk",
+        "subtitle": "Valkyrie 2929",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Sensor", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Killer”",
+        "subtitle": "Dependable Closer",
+        "cost": 3,
+        "loadout": 11,
+        "bar": ["Talent", "Talent", "Sensor", "Cannon", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Knack”",
+        "subtitle": "Incautious Instructor",
+        "cost": 3,
+        "loadout": 7,
+        "bar": ["Talent", "Talent", "Sensor", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Slider”",
+        "subtitle": "Evasive Aviator",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Talent", "Sensor", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Stub”",
+        "subtitle": "Scrappy Flier",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Sensor", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Warthog”",
+        "subtitle": "Veteran of Kadavo",
+        "cost": 3,
+        "loadout": 10,
+        "bar": ["Talent", "Sensor", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "7th Sky Corps Pilot",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 3,
+        "bar": ["Sensor", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "Reaper Squadron Scout",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 2,
+        "bar": ["Talent", "Sensor"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      }
+    ]
+  },
+  {
+    "ship": "Delta-7Aethersprite",
+    "pilots": [
+      {
+        "name": "•Adi Gallia",
+        "subtitle": "Shooting Star",
+        "cost": 5,
+        "loadout": 12,
+        "bar": [
+          "ForcePowerU",
+          "Talent",
+          "Astromech",
+          "Configuration",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", " Light", "Side"]
+      },
+      {
+        "name": "•Ahsoka Tano",
+        "subtitle": "“Snips\"",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["ForcePowerU", "Astromech", "Configuration", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Anakin Skywalker",
+        "subtitle": "Hero of the Republic",
+        "cost": 6,
+        "loadout": 10,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Astromech",
+          "Configuration",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Barriss Offee",
+        "subtitle": "Conflicted Padawan",
+        "cost": 4,
+        "loadout": 9,
+        "bar": ["ForcePowerU", "Astromech", "Configuration", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Luminara Unduli",
+        "subtitle": "Wise Protector",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["ForcePowerU", "Astromech", "Configuration", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Obi-Wan Kenobi",
+        "subtitle": "Guardian of the Republic",
+        "cost": 5,
+        "loadout": 10,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Astromech",
+          "Configuration",
+          "Modification",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Plo Koon",
+        "subtitle": "Serene Mentor",
+        "cost": 5,
+        "loadout": 8,
+        "bar": [
+          "ForcePowerU",
+          "Talent",
+          "Astromech",
+          "Configuration",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Saesee Tiin",
+        "subtitle": "Prophetic Pilot",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["ForcePowerU", "Astromech", "Configuration", "Modification"],
+        "std": "B",
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "Jedi Knight",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 3,
+        "bar": ["ForcePowerU", "Astromech", "Configuration", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      }
+    ]
+  },
+  {
+    "ship": "Delta-7BAethersprite",
+    "pilots": [
+      {
+        "name": "•Adi Gallia",
+        "subtitle": "Shooting Star",
+        "cost": 7,
+        "loadout": 18,
+        "bar": ["ForcePowerU", "Talent", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", " Light", "Side"]
+      },
+      {
+        "name": "•Ahsoka Tano",
+        "subtitle": "“Snips\"",
+        "cost": 6,
+        "loadout": 10,
+        "bar": ["ForcePowerU", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "Light Side"]
+      },
+      {
+        "name": "•Anakin Skywalker",
+        "subtitle": "Hero of the Republic",
+        "cost": 7,
+        "loadout": 15,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Barriss Offee",
+        "subtitle": "Conflicted Padawan",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["ForcePowerU", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Luminara Unduli",
+        "subtitle": "Wise Protector",
+        "cost": 6,
+        "loadout": 7,
+        "bar": ["ForcePowerU", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Mace Windu",
+        "subtitle": "Harsh Traditionalist",
+        "cost": 6,
+        "loadout": 8,
+        "bar": ["ForcePowerU", "ForcePowerU", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Obi-Wan Kenobi",
+        "subtitle": "Guardian of the Republic",
+        "cost": 7,
+        "loadout": 15,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Plo Koon",
+        "subtitle": "Serene Mentor",
+        "cost": 7,
+        "loadout": 17,
+        "bar": ["ForcePowerU", "Talent", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Saesee Tiin",
+        "subtitle": "Prophetic Pilot",
+        "cost": 6,
+        "loadout": 9,
+        "bar": ["ForcePowerU", "Astromech", "Modification"],
+        "std": "B",
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "Jedi Knight",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 3,
+        "bar": ["ForcePowerU", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      }
+    ]
+  },
+  {
+    "ship": "Eta-2Actis",
+    "pilots": [
+      {
+        "name": "•Aayla Secura",
+        "subtitle": "Confident Warrior",
+        "cost": 5,
+        "loadout": 15,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Cannon",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Anakin Skywalker",
+        "subtitle": "Hero of Coruscant",
+        "cost": 6,
+        "loadout": 20,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Cannon",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", "", "Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Anakin Skywalker",
+        "subtitle": "Siege of Coruscant",
+        "cost": 5,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", "", "Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Kit Fisto",
+        "subtitle": "Enthusiastic Exem - plar",
+        "cost": 4,
+        "loadout": 8,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", " Light", "Side"]
+      },
+      {
+        "name": "•Obi-Wan Kenobi",
+        "subtitle": "Guardian of Democracy",
+        "cost": 5,
+        "loadout": 15,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Cannon",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Obi-Wan Kenobi",
+        "subtitle": "Siege of Coruscant",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Shaak Ti",
+        "subtitle": "Compassionate Mentor",
+        "cost": 5,
+        "loadout": 18,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Talent",
+          "Cannon",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Shaak Ti",
+        "subtitle": "Siege of Coruscant",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "•Yoda",
+        "subtitle": "Grand Master",
+        "cost": 5,
+        "loadout": 16,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Cannon",
+          "Astromech",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      },
+      {
+        "name": "Jedi General",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 4,
+        "bar": ["ForcePowerU", "Cannon", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side"]
+      }
+    ]
+  },
+  {
+    "ship": "Gauntlet Fighter",
+    "pilots": [
+      {
+        "name": "•Bo-Katan Kryze",
+        "subtitle": "Nite Owl Commander",
+        "cost": 7,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Torpedo",
+          "Missile",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Modification",
+          "Configuration",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Nite Owl Liberator",
+        "subtitle": "Resolute Warrior",
+        "cost": 7,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      }
+    ]
+  },
+  {
+    "ship": "LAAT/i Gunship",
+    "pilots": [
+      {
+        "name": "•“Hawk”",
+        "subtitle": "Valkyrie 2929",
+        "cost": 5,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Hound”",
+        "subtitle": "Vigilant Tracker",
+        "cost": 6,
+        "loadout": 20,
+        "bar": [
+          "Sensor",
+          "Missile",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•\"Sicko\"",
+        "subtitle": "CT-1127/549",
+        "cost": 5,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Warthog”",
+        "subtitle": "Veteran of Kadavo",
+        "cost": 6,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "212th Battalion Pilot",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 7,
+        "bar": [
+          "Missile",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Gunner",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      }
+    ]
+  },
+  {
+    "ship": "Naboo Royal N-1 Starfighter",
+    "pilots": [
+      {
+        "name": "••Naboo Handmaiden",
+        "subtitle": "Regal Ruse",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["Sensor", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Anakin Skywalker",
+        "subtitle": "Hero of Naboo",
+        "cost": 5,
+        "loadout": 20,
+        "bar": ["Talent", "Sensor", "Torpedo", "Astromech"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Light Side"]
+      },
+      {
+        "name": "•Dineé Ellberger",
+        "subtitle": "Bravo Five",
+        "cost": 4,
+        "loadout": 14,
+        "bar": ["Talent", "Sensor", "Torpedo", "Astromech"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Gavyn Sykes",
+        "subtitle": "Bravo Three",
+        "cost": 4,
+        "loadout": 16,
+        "bar": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Padmé Amidala",
+        "subtitle": "Aggressive Negotiator",
+        "cost": 5,
+        "loadout": 22,
+        "bar": ["Talent", "Sensor", "Torpedo", "Astromech"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Ric Olié",
+        "subtitle": "Bravo Leader",
+        "cost": 5,
+        "loadout": 15,
+        "bar": ["Talent", "Sensor", "Torpedo", "Astromech"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Bravo Flight Officer",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 8,
+        "bar": ["Sensor", "Torpedo", "Astromech"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Nimbus-class V-wing",
+    "pilots": [
+      {
+        "name": "•“Contrail”",
+        "subtitle": "CT-4981",
+        "cost": 3,
+        "loadout": 11,
+        "bar": ["Talent", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Contrail”",
+        "subtitle": "Siege of Coruscant",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Klick”",
+        "subtitle": "GC-1000",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Astromech", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Klick”",
+        "subtitle": "Siege of Coruscant",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Odd Ball”",
+        "subtitle": "CC-2237",
+        "cost": 4,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Astromech",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•Wilhuff Tarkin",
+        "subtitle": "Aspiring Admiral",
+        "cost": 3,
+        "loadout": 8,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Astromech",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Loyalist Volunteer",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Shadow Squadron Escort",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 3,
+        "bar": ["Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      }
+    ]
+  },
+  {
+    "ship": "Syliure-class Hyperspace Ring",
+    "pilots": [
+      {
+        "name": "TransGalMeg Control Link",
+        "subtitle": "",
+        "cost": 2,
+        "loadout": 0,
+        "bar": ["Shield"],
+        "std": 0,
+        "ext": 0,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "V-19 Torrent Starfighter",
+    "pilots": [
+      {
+        "name": "•“Axe”",
+        "subtitle": "Blue Two",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Axe”",
+        "subtitle": "Siege of Coruscant",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Kickback”",
+        "subtitle": "Blue Four",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Kickback”",
+        "subtitle": "Siege of Coruscant",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Odd Ball”",
+        "subtitle": "CC-2237",
+        "cost": 4,
+        "loadout": 16,
+        "bar": ["Talent", "Torpedo", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•\"Slammer\"",
+        "subtitle": "Blue Three",
+        "cost": 3,
+        "loadout": 7,
+        "bar": ["Talent", "Missile", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Swoop”",
+        "subtitle": "Blue Six",
+        "cost": 4,
+        "loadout": 13,
+        "bar": ["Talent", "Missile", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "•“Tucker”",
+        "subtitle": "Blue Five",
+        "cost": 4,
+        "loadout": 13,
+        "bar": ["Talent", "Missile", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "Blue Squadron Protector",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      },
+      {
+        "name": "Gold Squadron Trooper",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Talent", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Clone"]
+      }
+    ]
+  }
+]

@@ -1,1 +1,898 @@
-[{"ship":"Belbullab-22 Starfighter","pilots":[{"name":"•Captain Sear","subtitle":"Kage Infiltrator","cost":5,"loadout":15,"bar":["TacticalRelay","Modification","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•General Grievous","subtitle":"Ambitious Cyborg","cost":5,"loadout":12,"bar":["Talent","Missile","Title","Modification","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Wat Tambor","subtitle":"Techno Union Foreman","cost":4,"loadout":7,"bar":["Talent","TacticalRelay","Modification","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"Feethan Ottraw Autopilot","subtitle":"","cost":4,"loadout":5,"bar":["TacticalRelay","Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Skakoan Ace","subtitle":"","cost":4,"loadout":4,"bar":["Talent","Modification","Modification"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Droid Tri-Fighter","pilots":[{"name":"•••Fearsome Predator","subtitle":"Fixated Pursuit","cost":4,"loadout":16,"bar":["Talent","Sensor","Missile","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"••Phlac-Arphocc Prototype","subtitle":"Predictive Analysis Protocol","cost":4,"loadout":14,"bar":["Talent","Sensor","Missile","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid","Banned"]},{"name":"••Phlac-Arphocc Prototype","subtitle":"Siege of Coruscant","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DIS-347","subtitle":"Siege of Coruscant","cost":4,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DIS-347","subtitle":"Target Acquired","cost":4,"loadout":14,"bar":["Talent","Sensor","Missile","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DIS-T81","subtitle":"Clever Circuits","cost":4,"loadout":12,"bar":["Talent","Sensor","Cannon","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DIS-T81","subtitle":"Siege of Coruscant","cost":5,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•Volan Das","subtitle":"Impatient Invader","cost":4,"loadout":12,"bar":["Talent","Missile","Illicit","Modification"],"std":1,"ext":1,"keywords":["Bounty Hunter"]},{"name":"Colicoid Interceptor","subtitle":"","cost":4,"loadout":4,"bar":["Talent","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Separatist Interceptor","subtitle":"","cost":4,"loadout":3,"bar":["Talent","Missile","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]}]},{"ship":"Firespray-class Patrol Craft","pilots":[{"name":"•Aurra Sing","subtitle":"Bane of the Jedi","cost":8,"loadout":18,"bar":["Talent","Cannon","Cannon","Device","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Dark Side","","Bounty Hunter"]},{"name":"•Boba Fett","subtitle":"Survivor","cost":7,"loadout":16,"bar":["Cannon","Missile","Crew","Device","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty Hunter"]},{"name":"•Jango Fett","subtitle":"Simple Man","cost":8,"loadout":27,"bar":["Talent","Cannon","Missile","Crew","Device","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty Hunter"]},{"name":"•Zam Wesell","subtitle":"Clawdite Changeling","cost":9,"loadout":22,"bar":["Talent","Cannon","Missile","Crew","Device","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty Hunter"]},{"name":"Separatist Racketeer","subtitle":"","cost":7,"loadout":10,"bar":["Cannon","Missile","Device"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Gauntlet Fighter","pilots":[{"name":"•Bo-Katan Kryze","subtitle":"Vizsla's Lieutenant","cost":7,"loadout":20,"bar":["Talent","Crew","Missile","Missile","Gunner","Device","Modification","Modification","Configuration","Title"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Death Watch Warrior","subtitle":"Fanatical Adherent","cost":7,"loadout":10,"bar":["Talent","Crew","Gunner","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Pre Vizsla","subtitle":"Leader of Death Watch","cost":7,"loadout":18,"bar":["Talent","Crew","Missile","Gunner","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Mandalorian"]}]},{"ship":"HMP Droid Gunship","pilots":[{"name":"••Geonosian Prototype","subtitle":"Devastation Protocols","cost":5,"loadout":18,"bar":["Missile","Missile","Cannon","Cannon","TacticalRelay","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"••Onderon Oppressor","subtitle":"Atmospheric Attack Module","cost":4,"loadout":7,"bar":["Missile","Crew","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DGS-047","subtitle":"Adaptive Intelligence","cost":5,"loadout":14,"bar":["Missile","Missile","TacticalRelay","Crew","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DGS-286","subtitle":"Ambush Protocols","cost":5,"loadout":20,"bar":["Torpedo","Torpedo","TacticalRelay","Crew","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Baktoid Drone","subtitle":"","cost":5,"loadout":10,"bar":["Missile","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Separatist Predator","subtitle":"","cost":5,"loadout":8,"bar":["Missile","Missile","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]}]},{"ship":"Hyena-class Droid Bomber","pilots":[{"name":"•••Bombardment Drone","subtitle":"Time on Target","cost":3,"loadout":8,"bar":["Device","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"••Baktoid Prototype","subtitle":"Function Over Form","cost":3,"loadout":9,"bar":["Sensor","Missile","Missile","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"••Baktoid Prototype","subtitle":"Siege of Coruscant","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DBS-32C","subtitle":"Droid Control Signal Relay","cost":4,"loadout":16,"bar":["Sensor","TacticalRelay","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DBS-32C","subtitle":"Siege of Coruscant","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DBS-404","subtitle":"Preservation Proto - col Not Found","cost":4,"loadout":10,"bar":["Torpedo","Missile","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DBS-404","subtitle":"Siege of Coruscant","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Separatist Bomber","subtitle":"","cost":3,"loadout":4,"bar":["Missile","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Techno Union Bomber","subtitle":"","cost":3,"loadout":6,"bar":["Torpedo","Device","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]}]},{"ship":"Nantex-class Starfighter","pilots":[{"name":"•Berwer Kret","subtitle":"Hive Guard Captain","cost":4,"loadout":7,"bar":["Talent","Talent"],"std":1,"ext":1,"keywords":[]},{"name":"•Chertek","subtitle":"Opportunistic Ace","cost":5,"loadout":15,"bar":["Talent","Talent"],"std":1,"ext":1,"keywords":[]},{"name":"•Gorgol","subtitle":"Handy Engineer","cost":4,"loadout":9,"bar":["Talent","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Sun Fac","subtitle":"Archduke’s Enforcer","cost":6,"loadout":18,"bar":["Talent","Talent","Talent","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"Petranaki Arena Ace","subtitle":"","cost":4,"loadout":6,"bar":["Talent","Talent"],"std":1,"ext":1,"keywords":[]},{"name":"Stalgasin Hive Guard","subtitle":"","cost":4,"loadout":4,"bar":["Talent"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Rogue-class Starfighter","pilots":[{"name":"••MagnaGuard Protector","subtitle":"Implacable Escort","cost":5,"loadout":18,"bar":["Cannon","Cannon","Missile","Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•Cad Bane","subtitle":"Needs No Introduction","cost":5,"loadout":18,"bar":["Talent","Cannon","Cannon","Missile","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty Hunter"]},{"name":"•Durge","subtitle":"On His Own Time","cost":4,"loadout":10,"bar":["Talent","Cannon","Cannon","Illicit","Modification","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty Hunter"]},{"name":"•IG-101","subtitle":"Tenacious Bodyguard","cost":5,"loadout":19,"bar":["Cannon","Cannon","Modification","Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•IG-102","subtitle":"Dueling Droid","cost":5,"loadout":19,"bar":["Cannon","Cannon","Modification","Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•IG-111","subtitle":"One Eye","cost":5,"loadout":21,"bar":["Cannon","Cannon","Modification","Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"MagnaGuard Executioner","subtitle":"","cost":4,"loadout":4,"bar":["Cannon","Cannon","Modification"],"std":1,"ext":1,"keywords":["Droid"]}]},{"ship":"Sith Infiltrator","pilots":[{"name":"•0-66","subtitle":"Sinister Automaton","cost":6,"loadout":16,"bar":["Talent","Torpedo","Cannon","Crew","Device","Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•Count Dooku","subtitle":"Darth Tyranus","cost":7,"loadout":24,"bar":["ForcePowerU","Torpedo","Cannon","Crew","Crew","TacticalRelay","Device","Title","Modification"],"std":1,"ext":1,"keywords":["Dark Side"," Sith"]},{"name":"•Count Dooku","subtitle":"Siege of Coruscant","cost":6,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Dark Side"," Sith"]},{"name":"•Darth Maul","subtitle":"Sith Assassin","cost":8,"loadout":20,"bar":["ForcePowerU","ForcePowerU","Torpedo","Cannon","Crew","Crew","TacticalRelay","Device","Title","Modification"],"std":1,"ext":1,"keywords":["Dark Side"," Sith"]},{"name":"Dark Courier","subtitle":"","cost":6,"loadout":9,"bar":["Torpedo","Cannon","Device","Modification"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Vulture-class Droid Fighter","pilots":[{"name":"•••Kelrodo-Ai Holdout","subtitle":"Separatist Stalwart","cost":2,"loadout":7,"bar":["Talent","Missile","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•••Precise Hunter","subtitle":"Pinpoint Protocols","cost":3,"loadout":8,"bar":["Cannon","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"••Haor Chall Prototype","subtitle":"Siege of Coruscant","cost":2,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"••Haor Chall Prototype","subtitle":"Xi Char Offering","cost":2,"loadout":4,"bar":["Missile","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DFS-081","subtitle":"Preservation Programming","cost":2,"loadout":7,"bar":["Missile","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DFS-081","subtitle":"Siege of Coruscant","cost":2,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DFS-311","subtitle":"Scouting Drone","cost":3,"loadout":10,"bar":["Missile","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•DFS-311","subtitle":"Siege of Coruscant","cost":3,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•The Iron Assembler","subtitle":"Scintilla Scavenger","cost":2,"loadout":5,"bar":["Missile","Modification","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Separatist Drone","subtitle":"","cost":2,"loadout":3,"bar":["Missile","Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"Trade Federation Drone","subtitle":"","cost":2,"loadout":0,"bar":["Modification","Configuration"],"std":1,"ext":1,"keywords":["Droid"]}]}]
+[
+  {
+    "ship": "Belbullab-22 Starfighter",
+    "pilots": [
+      {
+        "name": "•Captain Sear",
+        "subtitle": "Kage Infiltrator",
+        "cost": 5,
+        "loadout": 15,
+        "bar": ["TacticalRelay", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•General Grievous",
+        "subtitle": "Ambitious Cyborg",
+        "cost": 5,
+        "loadout": 12,
+        "bar": ["Talent", "Missile", "Title", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Wat Tambor",
+        "subtitle": "Techno Union Foreman",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["Talent", "TacticalRelay", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Feethan Ottraw Autopilot",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 5,
+        "bar": ["TacticalRelay", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Skakoan Ace",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Talent", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Droid Tri-Fighter",
+    "pilots": [
+      {
+        "name": "•••Fearsome Predator",
+        "subtitle": "Fixated Pursuit",
+        "cost": 4,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Missile",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "••Phlac-Arphocc Prototype",
+        "subtitle": "Predictive Analysis Protocol",
+        "cost": 4,
+        "loadout": 14,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Missile",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid", "Banned"]
+      },
+      {
+        "name": "••Phlac-Arphocc Prototype",
+        "subtitle": "Siege of Coruscant",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DIS-347",
+        "subtitle": "Siege of Coruscant",
+        "cost": 4,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DIS-347",
+        "subtitle": "Target Acquired",
+        "cost": 4,
+        "loadout": 14,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Missile",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DIS-T81",
+        "subtitle": "Clever Circuits",
+        "cost": 4,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Cannon",
+          "Modification",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DIS-T81",
+        "subtitle": "Siege of Coruscant",
+        "cost": 5,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•Volan Das",
+        "subtitle": "Impatient Invader",
+        "cost": 4,
+        "loadout": 12,
+        "bar": ["Talent", "Missile", "Illicit", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty Hunter"]
+      },
+      {
+        "name": "Colicoid Interceptor",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Talent", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Separatist Interceptor",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 3,
+        "bar": ["Talent", "Missile", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      }
+    ]
+  },
+  {
+    "ship": "Firespray-class Patrol Craft",
+    "pilots": [
+      {
+        "name": "•Aurra Sing",
+        "subtitle": "Bane of the Jedi",
+        "cost": 8,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", "", "Bounty Hunter"]
+      },
+      {
+        "name": "•Boba Fett",
+        "subtitle": "Survivor",
+        "cost": 7,
+        "loadout": 16,
+        "bar": [
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty Hunter"]
+      },
+      {
+        "name": "•Jango Fett",
+        "subtitle": "Simple Man",
+        "cost": 8,
+        "loadout": 27,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty Hunter"]
+      },
+      {
+        "name": "•Zam Wesell",
+        "subtitle": "Clawdite Changeling",
+        "cost": 9,
+        "loadout": 22,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty Hunter"]
+      },
+      {
+        "name": "Separatist Racketeer",
+        "subtitle": "",
+        "cost": 7,
+        "loadout": 10,
+        "bar": ["Cannon", "Missile", "Device"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Gauntlet Fighter",
+    "pilots": [
+      {
+        "name": "•Bo-Katan Kryze",
+        "subtitle": "Vizsla's Lieutenant",
+        "cost": 7,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Missile",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Modification",
+          "Configuration",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Death Watch Warrior",
+        "subtitle": "Fanatical Adherent",
+        "cost": 7,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Pre Vizsla",
+        "subtitle": "Leader of Death Watch",
+        "cost": 7,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      }
+    ]
+  },
+  {
+    "ship": "HMP Droid Gunship",
+    "pilots": [
+      {
+        "name": "••Geonosian Prototype",
+        "subtitle": "Devastation Protocols",
+        "cost": 5,
+        "loadout": 18,
+        "bar": [
+          "Missile",
+          "Missile",
+          "Cannon",
+          "Cannon",
+          "TacticalRelay",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "••Onderon Oppressor",
+        "subtitle": "Atmospheric Attack Module",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["Missile", "Crew", "Device", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DGS-047",
+        "subtitle": "Adaptive Intelligence",
+        "cost": 5,
+        "loadout": 14,
+        "bar": [
+          "Missile",
+          "Missile",
+          "TacticalRelay",
+          "Crew",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DGS-286",
+        "subtitle": "Ambush Protocols",
+        "cost": 5,
+        "loadout": 20,
+        "bar": [
+          "Torpedo",
+          "Torpedo",
+          "TacticalRelay",
+          "Crew",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Baktoid Drone",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Missile", "Device", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Separatist Predator",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 8,
+        "bar": [
+          "Missile",
+          "Missile",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      }
+    ]
+  },
+  {
+    "ship": "Hyena-class Droid Bomber",
+    "pilots": [
+      {
+        "name": "•••Bombardment Drone",
+        "subtitle": "Time on Target",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Device", "Device", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "••Baktoid Prototype",
+        "subtitle": "Function Over Form",
+        "cost": 3,
+        "loadout": 9,
+        "bar": [
+          "Sensor",
+          "Missile",
+          "Missile",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "••Baktoid Prototype",
+        "subtitle": "Siege of Coruscant",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DBS-32C",
+        "subtitle": "Droid Control Signal Relay",
+        "cost": 4,
+        "loadout": 16,
+        "bar": ["Sensor", "TacticalRelay", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DBS-32C",
+        "subtitle": "Siege of Coruscant",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DBS-404",
+        "subtitle": "Preservation Proto - col Not Found",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "Torpedo",
+          "Missile",
+          "Device",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DBS-404",
+        "subtitle": "Siege of Coruscant",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Separatist Bomber",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Missile", "Device", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Techno Union Bomber",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 6,
+        "bar": ["Torpedo", "Device", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      }
+    ]
+  },
+  {
+    "ship": "Nantex-class Starfighter",
+    "pilots": [
+      {
+        "name": "•Berwer Kret",
+        "subtitle": "Hive Guard Captain",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["Talent", "Talent"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Chertek",
+        "subtitle": "Opportunistic Ace",
+        "cost": 5,
+        "loadout": 15,
+        "bar": ["Talent", "Talent"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Gorgol",
+        "subtitle": "Handy Engineer",
+        "cost": 4,
+        "loadout": 9,
+        "bar": ["Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Sun Fac",
+        "subtitle": "Archduke’s Enforcer",
+        "cost": 6,
+        "loadout": 18,
+        "bar": ["Talent", "Talent", "Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Petranaki Arena Ace",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Talent", "Talent"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Stalgasin Hive Guard",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Talent"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Rogue-class Starfighter",
+    "pilots": [
+      {
+        "name": "••MagnaGuard Protector",
+        "subtitle": "Implacable Escort",
+        "cost": 5,
+        "loadout": 18,
+        "bar": ["Cannon", "Cannon", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•Cad Bane",
+        "subtitle": "Needs No Introduction",
+        "cost": 5,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Missile",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty Hunter"]
+      },
+      {
+        "name": "•Durge",
+        "subtitle": "On His Own Time",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Illicit",
+          "Modification",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty Hunter"]
+      },
+      {
+        "name": "•IG-101",
+        "subtitle": "Tenacious Bodyguard",
+        "cost": 5,
+        "loadout": 19,
+        "bar": ["Cannon", "Cannon", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•IG-102",
+        "subtitle": "Dueling Droid",
+        "cost": 5,
+        "loadout": 19,
+        "bar": ["Cannon", "Cannon", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•IG-111",
+        "subtitle": "One Eye",
+        "cost": 5,
+        "loadout": 21,
+        "bar": ["Cannon", "Cannon", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "MagnaGuard Executioner",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Cannon", "Cannon", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      }
+    ]
+  },
+  {
+    "ship": "Sith Infiltrator",
+    "pilots": [
+      {
+        "name": "•0-66",
+        "subtitle": "Sinister Automaton",
+        "cost": 6,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Cannon",
+          "Crew",
+          "Device",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•Count Dooku",
+        "subtitle": "Darth Tyranus",
+        "cost": 7,
+        "loadout": 24,
+        "bar": [
+          "ForcePowerU",
+          "Torpedo",
+          "Cannon",
+          "Crew",
+          "Crew",
+          "TacticalRelay",
+          "Device",
+          "Title",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", " Sith"]
+      },
+      {
+        "name": "•Count Dooku",
+        "subtitle": "Siege of Coruscant",
+        "cost": 6,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", " Sith"]
+      },
+      {
+        "name": "•Darth Maul",
+        "subtitle": "Sith Assassin",
+        "cost": 8,
+        "loadout": 20,
+        "bar": [
+          "ForcePowerU",
+          "ForcePowerU",
+          "Torpedo",
+          "Cannon",
+          "Crew",
+          "Crew",
+          "TacticalRelay",
+          "Device",
+          "Title",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side", " Sith"]
+      },
+      {
+        "name": "Dark Courier",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 9,
+        "bar": ["Torpedo", "Cannon", "Device", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Vulture-class Droid Fighter",
+    "pilots": [
+      {
+        "name": "•••Kelrodo-Ai Holdout",
+        "subtitle": "Separatist Stalwart",
+        "cost": 2,
+        "loadout": 7,
+        "bar": ["Talent", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•••Precise Hunter",
+        "subtitle": "Pinpoint Protocols",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Cannon", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "••Haor Chall Prototype",
+        "subtitle": "Siege of Coruscant",
+        "cost": 2,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "••Haor Chall Prototype",
+        "subtitle": "Xi Char Offering",
+        "cost": 2,
+        "loadout": 4,
+        "bar": ["Missile", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DFS-081",
+        "subtitle": "Preservation Programming",
+        "cost": 2,
+        "loadout": 7,
+        "bar": ["Missile", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DFS-081",
+        "subtitle": "Siege of Coruscant",
+        "cost": 2,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DFS-311",
+        "subtitle": "Scouting Drone",
+        "cost": 3,
+        "loadout": 10,
+        "bar": ["Missile", "Modification", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•DFS-311",
+        "subtitle": "Siege of Coruscant",
+        "cost": 3,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•The Iron Assembler",
+        "subtitle": "Scintilla Scavenger",
+        "cost": 2,
+        "loadout": 5,
+        "bar": ["Missile", "Modification", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Separatist Drone",
+        "subtitle": "",
+        "cost": 2,
+        "loadout": 3,
+        "bar": ["Missile", "Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "Trade Federation Drone",
+        "subtitle": "",
+        "cost": 2,
+        "loadout": 0,
+        "bar": ["Modification", "Configuration"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      }
+    ]
+  }
+]

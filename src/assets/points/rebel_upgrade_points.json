@@ -1,1 +1,357 @@
-{"header":"REBEL","upgrades":[{"name":"•“Chopper”","type":"Astromech (<Astromech/>)","cost":2,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•R2-D2","type":"Astromech (<Astromech/>)","cost":8,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•R5-D8","type":"Astromech (<Astromech/>)","cost":6,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"Vectored Canons (RZ-1)","type":"Configuration (<Configuration/>)","cost":0,"restrictions":["RZ-1 A-wing"," Standardized"],"standard":1,"extended":1},{"name":"Pivot Wing (Open) / Pivot Wing (Closed)","type":"Configuration (<Configuration/>)","cost":0,"restrictions":["UT-60D U-wing"],"standard":1,"extended":1},{"name":"Servomotor S-foils (Open) / Servomotor S-foils (Closed)","type":"Configuration (<Configuration/>)","cost":0,"restrictions":["T-65 X-wing"],"standard":1,"extended":1},{"name":"Stabilized S-foils (Open) / Stabilized S-foils (Closed)","type":"Configuration (<Configuration/>)","cost":0,"restrictions":["A/SF-01 B-wing"],"standard":1,"extended":1},{"name":"•Bo-Katan Kryze","type":"Crew (<Crew/>)","cost":4,"restrictions":["Rebel or Scum"],"standard":1,"extended":1},{"name":"•“Chopper”","type":"Crew (<Crew/>)","cost":1,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•“Zeb” Orrelios","type":"Crew (<Crew/>)","cost":1,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Baze Malbus","type":"Crew (<Crew/>)","cost":5,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•C-3PO","type":"Crew (<Crew/>)","cost":5,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Cassian Andor","type":"Crew (<Crew/>)","cost":5,"restrictions":["Rebel"],"standard":"B","extended":1},{"name":"•Chewbacca","type":"Crew (<Crew/>)","cost":3,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Fenn Rau","type":"Crew (<Crew/>)","cost":4,"restrictions":["Rebel or Scum"],"standard":1,"extended":1},{"name":"•Hera Syndulla","type":"Crew (<Crew/>)","cost":4,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Jyn Erso","type":"Crew (<Crew/>)","cost":5,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•K-2SO","type":"Crew (<Crew/>)","cost":6,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Kanan Jarrus","type":"Crew (<Crew/>)","cost":12,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Lando Calrissian","type":"Crew (<Crew/>)","cost":2,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Leia Organa","type":"Crew (<Crew/>)","cost":7,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Magva Yarro","type":"Crew (<Crew/>)","cost":5,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Maul","type":"Crew (<Crew/>)","cost":10,"restrictions":["Scum or squad includingEzra Bridger"],"standard":1,"extended":1},{"name":"•Nien Nunb","type":"Crew (<Crew/>)","cost":5,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•R2-D2","type":"Crew (<Crew/>)","cost":8,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Sabine Wren","type":"Crew (<Crew/>)","cost":3,"restrictions":["Rebel"],"standard":"B","extended":1},{"name":"•Saw Gerrera","type":"Crew (<Crew/>)","cost":9,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Ursa Wren","type":"Crew (<Crew/>)","cost":6,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•The Child","type":"Crew (<Crew/>)","cost":7,"restrictions":["Imperial"," Rebel"," or Scum"],"standard":1,"extended":1},{"name":"•Tristan Wren","type":"Crew (<Crew/>)","cost":2,"restrictions":["Rebel or Squad includingGar Saxon"],"standard":1,"extended":1},{"name":"•Clan Wren Commando Team","type":"Crew, Crew (<Crew/><Crew/>)","cost":7,"restrictions":["Rebel"," medium or largeship"],"standard":1,"extended":1},{"name":"•Bistan","type":"Gunner (<Gunner/>)","cost":8,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Ezra Bridger","type":"Gunner (<Gunner/>)","cost":10,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Han Solo","type":"Gunner (<Gunner/>)","cost":10,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Luke Skywalker","type":"Gunner (<Gunner/>)","cost":12,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•Sabine Wren","type":"Gunner (<Gunner/>)","cost":2,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"Hopeful","type":"Talent (<Talent/>)","cost":1,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"Selfless","type":"Talent (<Talent/>)","cost":2,"restrictions":["Rebel"],"standard":1,"extended":1},{"name":"•B6 Blade Wing Prototype","type":"Title (<Title/>)","cost":0,"restrictions":["Rebel"," A/SF-01 B-wing"],"standard":1,"extended":1},{"name":"• Ghost","type":"Title (<Title/>)","cost":0,"restrictions":["Rebel"," VCX-100"],"standard":1,"extended":1},{"name":"• Millennium Falcon","type":"Title (<Title/>)","cost":0,"restrictions":["Rebel"," Modified YT-1300"],"standard":1,"extended":1},{"name":"• Moldy Crow","type":"Title (<Title/>)","cost":0,"restrictions":["Rebel or Scum","HWK-290"],"standard":1,"extended":1},{"name":"• Outrider","type":"Title (<Title/>)","cost":0,"restrictions":["Rebel"," YT-2400"],"standard":1,"extended":1},{"name":"• Phantom","type":"Title (<Title/>)","cost":0,"restrictions":["Rebel"," Attack shuttle orSheathipede-class Shuttle"],"standard":1,"extended":1}]}
+{
+  "header": "REBEL",
+  "upgrades": [
+    {
+      "name": "•“Chopper”",
+      "type": "Astromech (<Astromech/>)",
+      "cost": 2,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•R2-D2",
+      "type": "Astromech (<Astromech/>)",
+      "cost": 8,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•R5-D8",
+      "type": "Astromech (<Astromech/>)",
+      "cost": 6,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Vectored Canons (RZ-1)",
+      "type": "Configuration (<Configuration/>)",
+      "cost": 0,
+      "restrictions": ["RZ-1 A-wing", " Standardized"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Pivot Wing (Open) / Pivot Wing (Closed)",
+      "type": "Configuration (<Configuration/>)",
+      "cost": 0,
+      "restrictions": ["UT-60D U-wing"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Servomotor S-foils (Open) / Servomotor S-foils (Closed)",
+      "type": "Configuration (<Configuration/>)",
+      "cost": 0,
+      "restrictions": ["T-65 X-wing"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Stabilized S-foils (Open) / Stabilized S-foils (Closed)",
+      "type": "Configuration (<Configuration/>)",
+      "cost": 0,
+      "restrictions": ["A/SF-01 B-wing"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Bo-Katan Kryze",
+      "type": "Crew (<Crew/>)",
+      "cost": 4,
+      "restrictions": ["Rebel or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•“Chopper”",
+      "type": "Crew (<Crew/>)",
+      "cost": 1,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•“Zeb” Orrelios",
+      "type": "Crew (<Crew/>)",
+      "cost": 1,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Baze Malbus",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•C-3PO",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Cassian Andor",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Rebel"],
+      "standard": "B",
+      "extended": 1
+    },
+    {
+      "name": "•Chewbacca",
+      "type": "Crew (<Crew/>)",
+      "cost": 3,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Fenn Rau",
+      "type": "Crew (<Crew/>)",
+      "cost": 4,
+      "restrictions": ["Rebel or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Hera Syndulla",
+      "type": "Crew (<Crew/>)",
+      "cost": 4,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Jyn Erso",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•K-2SO",
+      "type": "Crew (<Crew/>)",
+      "cost": 6,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Kanan Jarrus",
+      "type": "Crew (<Crew/>)",
+      "cost": 12,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Lando Calrissian",
+      "type": "Crew (<Crew/>)",
+      "cost": 2,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Leia Organa",
+      "type": "Crew (<Crew/>)",
+      "cost": 7,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Magva Yarro",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Maul",
+      "type": "Crew (<Crew/>)",
+      "cost": 10,
+      "restrictions": ["Scum or squad includingEzra Bridger"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Nien Nunb",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•R2-D2",
+      "type": "Crew (<Crew/>)",
+      "cost": 8,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Sabine Wren",
+      "type": "Crew (<Crew/>)",
+      "cost": 3,
+      "restrictions": ["Rebel"],
+      "standard": "B",
+      "extended": 1
+    },
+    {
+      "name": "•Saw Gerrera",
+      "type": "Crew (<Crew/>)",
+      "cost": 9,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Ursa Wren",
+      "type": "Crew (<Crew/>)",
+      "cost": 6,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•The Child",
+      "type": "Crew (<Crew/>)",
+      "cost": 7,
+      "restrictions": ["Imperial", " Rebel", " or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Tristan Wren",
+      "type": "Crew (<Crew/>)",
+      "cost": 2,
+      "restrictions": ["Rebel or Squad includingGar Saxon"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Clan Wren Commando Team",
+      "type": "Crew, Crew (<Crew/><Crew/>)",
+      "cost": 7,
+      "restrictions": ["Rebel", " medium or largeship"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Bistan",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 8,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Ezra Bridger",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 10,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Han Solo",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 10,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Luke Skywalker",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 12,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Sabine Wren",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 2,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Hopeful",
+      "type": "Talent (<Talent/>)",
+      "cost": 1,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Selfless",
+      "type": "Talent (<Talent/>)",
+      "cost": 2,
+      "restrictions": ["Rebel"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•B6 Blade Wing Prototype",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Rebel", " A/SF-01 B-wing"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Ghost",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Rebel", " VCX-100"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Millennium Falcon",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Rebel", " Modified YT-1300"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Moldy Crow",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Rebel or Scum", "HWK-290"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Outrider",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Rebel", " YT-2400"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Phantom",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Rebel", " Attack shuttle orSheathipede-class Shuttle"],
+      "standard": 1,
+      "extended": 1
+    }
+  ]
+}

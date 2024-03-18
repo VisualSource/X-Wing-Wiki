@@ -1,23 +1,23 @@
 [
-    {
-        "header": "IMPERIAL",
-        "upgrades": [
-            {
-                "name": "Maneuver-Assist MGK-300",
-                "type": "Configuration (<Configuration/>)",
-                "cost": 0,
-                "restrictions": ["TIE/rb Heavy"],
-                "standard": 1,
-                "extended": 1
-            },
-            {
-                "name": "Integrated S-foils (Open) / Integrated S-foils (Closed)",
-                "type": "Crew (<Crew/>) / Configuration (<Configuration/>) / Configuration (<Configuration/>",
-                "cost": 4,
-                "restrictions": ["Scum"],
-                "standard": 1,
-                "extended": 1
-            }
-        ]
-    }
+  {
+    "header": "IMPERIAL",
+    "upgrades": [
+      {
+        "name": "Maneuver-Assist MGK-300",
+        "type": "Configuration (<Configuration/>)",
+        "cost": 0,
+        "restrictions": ["TIE/rb Heavy"],
+        "standard": 1,
+        "extended": 1
+      },
+      {
+        "name": "Integrated S-foils (Open) / Integrated S-foils (Closed)",
+        "type": "Crew (<Crew/>) / Configuration (<Configuration/>) / Configuration (<Configuration/>",
+        "cost": 4,
+        "restrictions": ["Scum"],
+        "standard": 1,
+        "extended": 1
+      }
+    ]
+  }
 ]

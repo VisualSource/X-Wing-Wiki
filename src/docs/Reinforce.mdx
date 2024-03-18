@@ -1,4 +1,4 @@
-<Header title="reinforce" icon={<Reinforce/>}/>
+<Header title="reinforce" icon={<Reinforce />} />
 
 Pilots can reinforce to angle their deflector shields and
 increase the defensiveness of a portion of their ship. When a
@@ -10,32 +10,42 @@ to it. Reinforce tokens are circular, green tokens. While a
 reinforced ship defends, if the attacker is inside the full arc specified by the
 reinforce token and not in the other full arc, the token provides an effect.
 
-<DoubleCenter srcA="/images/Reinforce_Fore_Token.webp" srcB="/images/Reinforce_Aft_token.webp" altA="Reinforce Fore" altB="Reinforce Aft" textA="Fore Reinforce" textB="Aft Reinforce"/>
+<DoubleCenter
+  srcA="/images/Reinforce_Fore_Token.webp"
+  srcB="/images/Reinforce_Aft_token.webp"
+  altA="Reinforce Fore"
+  altB="Reinforce Aft"
+  textA="Fore Reinforce"
+  textB="Aft Reinforce"
+/>
 
 The attacker needs to be in the defender's <FullFrontArc/> arc for the fore reinforce token
 or be in the defender's <FullRearArc/> arc for the aft reinforce token.
 
-<ImgCenter src="/images/Reinforce_Example.webp" alt="Example"/>
-<TextCenter text="In this example, since the VT-49 Decimator has a fore
+<ImgCenter src="/images/Reinforce_Example.webp" alt="Example" />
+<TextCenter
+  text="In this example, since the VT-49 Decimator has a fore
 reinforce token, the effect would only apply while defending
-against the one X-wing in front of it."/>
+against the one X-wing in front of it."
+/>
 
 During the Neutralize Results step, if the [attack](/article/Attack) would [hit](/article/Hit) and there is more
 than one <Hit/>/<Crit/> result remaining, one <Evade/> result is added to cancel one result.
 
-* A ship can have more than one reinforce token. If a ship has multiple of
-the same type of reinforce token, their effects are applied one at a time.
-Thus, for two reinforce tokens to both apply their effect, there would need
-to be at least three <Hit/>/<Crit/> results remaining.
-* When a ship gains a reinforce token, unless specified otherwise, the
-player that controls that ship chooses whether it gains a fore reinforce
-token or an aft reinforce token.
-* A ship does not spend the reinforce token when resolving its effect.
-* If an ability instructs a ship to gain one reinforce token, this is different
-than performing a <Reinforce/> action. A ship that gains the token without
-performing the action can still perform the <Reinforce/> action this round.
-* Reinforce can be used against attacks at range 4-5 even the defender's
-<FullFrontArc/> or <FullRearArc/> normally only extends to range 3. If the attacker is at range
-4-5, treat the defender's <FullFrontArc/> or <FullRearArc/> arc as extending to range 5 for the
-purposes of determining which arc the defender is in for reinforce (but not
-for any other effects or abilities).
+- A ship can have more than one reinforce token. If a ship has multiple of
+  the same type of reinforce token, their effects are applied one at a time.
+  Thus, for two reinforce tokens to both apply their effect, there would need
+  to be at least three <Hit/>/<Crit/> results remaining.
+- When a ship gains a reinforce token, unless specified otherwise, the
+  player that controls that ship chooses whether it gains a fore reinforce
+  token or an aft reinforce token.
+- A ship does not spend the reinforce token when resolving its effect.
+- If an ability instructs a ship to gain one reinforce token, this is different
+  than performing a <Reinforce/> action. A ship that gains the token without
+  performing the action can still perform the <Reinforce/> action this round.
+- Reinforce can be used against attacks at range 4-5 even the defender's
+  <FullFrontArc /> or <FullRearArc /> normally only extends to range 3. If the
+  attacker is at range 4-5, treat the
+  defender's <FullFrontArc /> or <FullRearArc /> arc as extending to range 5 for
+  the purposes of determining which arc the defender is in for reinforce (but
+  not for any other effects or abilities).

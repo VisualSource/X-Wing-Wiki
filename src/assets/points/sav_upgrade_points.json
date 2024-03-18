@@ -1,1 +1,533 @@
-{"header":"SCUM AND VILLAINY","upgrades":[{"name":"•“Genius”","type":"Astromech (<Astromech/>)","cost":2,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•R4-B11","type":"Astromech (<Astromech/>)","cost":3,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•R5-P8","type":"Astromech (<Astromech/>)","cost":4,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•R5-TK","type":"Astromech (<Astromech/>)","cost":0,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•0-0-0","type":"Crew (<Crew/>)","cost":5,"restrictions":["Scum or squad includingDarth Vader"],"standard":1,"extended":1},{"name":"•4-LOM","type":"Crew (<Crew/>)","cost":5,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Ahsoka Tano","type":"Crew (<Crew/>)","cost":9,"restrictions":["Republic or Scum"],"standard":1,"extended":1},{"name":"•Bo-Katan Kryze","type":"Crew (<Crew/>)","cost":4,"restrictions":["Rebel or Scum"],"standard":1,"extended":1},{"name":"•Boba Fett","type":"Crew (<Crew/>)","cost":2,"restrictions":["Scum"],"standard":"B","extended":1},{"name":"•Cad Bane","type":"Crew (<Crew/>)","cost":3,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Chewbacca","type":"Crew (<Crew/>)","cost":3,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Cikatro Vizago","type":"Crew (<Crew/>)","cost":1,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Fenn Rau","type":"Crew (<Crew/>)","cost":4,"restrictions":["Rebel or Scum"],"standard":1,"extended":1},{"name":"•Gamut Key","type":"Crew (<Crew/>)","cost":6,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Greef Karga","type":"Crew (<Crew/>)","cost":6,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•IG-88D","type":"Crew (<Crew/>)","cost":3,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Jango Fett","type":"Crew (<Crew/>)","cost":3,"restrictions":["Separatist or Scum"],"standard":1,"extended":1},{"name":"•Ketsu Onyo","type":"Crew (<Crew/>)","cost":4,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Kuill","type":"Crew (<Crew/>)","cost":4,"restrictions":["Scum"," Medium or Largeship"],"standard":1,"extended":1},{"name":"•Lando Calrissian","type":"Crew (<Crew/>)","cost":4,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Latts Razzi","type":"Crew (<Crew/>)","cost":5,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Maul","type":"Crew (<Crew/>)","cost":10,"restrictions":["Scum or squad includingEzra Bridger"],"standard":1,"extended":1},{"name":"•Prime Minister Almec/ Almec: Maul's Puppet","type":"Crew (<Crew/>)","cost":6,"restrictions":["Republic or Scum"],"standard":1,"extended":1},{"name":"•Peli Motto","type":"Crew (<Crew/>)","cost":3,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Pre Vizsla","type":"Crew (<Crew/>)","cost":9,"restrictions":["Scum or Separatist"],"standard":1,"extended":1},{"name":"•Protectorate Gleb","type":"Crew (<Crew/>)","cost":6,"restrictions":["Imperial or First Order orScum"],"standard":1,"extended":1},{"name":"•Qi’ra","type":"Crew (<Crew/>)","cost":2,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Rook Kast","type":"Crew (<Crew/>)","cost":8,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Savage Opress","type":"Crew (<Crew/>)","cost":10,"restrictions":["Separatist or Scum"],"standard":1,"extended":1},{"name":"•The Child","type":"Crew (<Crew/>)","cost":7,"restrictions":["Imperial"," Rebel"," or Scum"],"standard":1,"extended":1},{"name":"•The Mandalorian","type":"Crew (<Crew/>)","cost":2,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Tobias Beckett","type":"Crew (<Crew/>)","cost":2,"restrictions":["Scum"],"standard":"B","extended":1},{"name":"•Unkar Plutt","type":"Crew (<Crew/>)","cost":2,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Zam Wesell","type":"Crew (<Crew/>)","cost":11,"restrictions":["Separatist or Scum"],"standard":1,"extended":1},{"name":"•Zuckuss","type":"Crew (<Crew/>)","cost":2,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•L3–37 / •L3-37's Programming","type":"Crew (<Crew/>) /Configuration (<Configuration/>)","cost":4,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Jabba the Hutt","type":"Crew, Crew (<Crew/><Crew/>)","cost":11,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Mandalorian Super Commando Team","type":"Crew, Crew (<Crew/><Crew/>)","cost":7,"restrictions":["Scum"," medium or largeship"],"standard":1,"extended":1},{"name":"•Maul","type":"Crew, Crew (<Crew/><Crew/>)","cost":10,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Boba Fett","type":"Gunner (<Gunner/>)","cost":2,"restrictions":["Separatist or Scum"],"standard":1,"extended":1},{"name":"•Bossk","type":"Gunner (<Gunner/>)","cost":6,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•BT-1","type":"Gunner (<Gunner/>)","cost":2,"restrictions":["Scum or squad includingDarth Vader"],"standard":1,"extended":1},{"name":"•Dengar","type":"Gunner (<Gunner/>)","cost":6,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Gar Saxon","type":"Gunner (<Gunner/>)","cost":6,"restrictions":["Scum"," large or huge ship"],"standard":1,"extended":1},{"name":"•Greedo","type":"Gunner (<Gunner/>)","cost":1,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Han Solo","type":"Gunner (<Gunner/>)","cost":9,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•IG-11 / IG-11 (Anti-Capture Protocol)","type":"Gunner (<Gunner/>)","cost":6,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"•Migs Mayfeld","type":"Gunner (<Gunner/>)","cost":4,"restrictions":["Imperial or Scum"],"standard":1,"extended":1},{"name":"•Babu Frik","type":"Illicit (<Illicit/>)","cost":5,"restrictions":["Resistance or Scum"],"standard":1,"extended":1},{"name":"Burnout Thrusters","type":"Modification (<Modification/>)","cost":6,"restrictions":["Scum"," Small or MediumShip"],"standard":1,"extended":1},{"name":"Cutthroat","type":"Talent (<Talent/>)","cost":2,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"Fearless","type":"Talent (<Talent/>)","cost":3,"restrictions":["Scum"],"standard":1,"extended":1},{"name":"• Andrasta","type":"Title (<Title/>)","cost":0,"restrictions":["Scum","Firespray-classpatrol craft"],"standard":1,"extended":1},{"name":"• Havoc","type":"Title (<Title/>)","cost":0,"restrictions":["Scum"," Scurrg H-6bomber"],"standard":0,"extended":1},{"name":"• Hound’s Tooth","type":"Title (<Title/>)","cost":0,"restrictions":["Scum"," YV-666 freighter"],"standard":1,"extended":1},{"name":"•Lando’s Millennium Falcon","type":"Title (<Title/>)","cost":0,"restrictions":["Scum"," CustomizedYT-1300"],"standard":1,"extended":1},{"name":"• Marauder","type":"Title (<Title/>)","cost":0,"restrictions":["Scum","Firespray-classpatrol craft"],"standard":1,"extended":1},{"name":"• Mist Hunter","type":"Title (<Title/>)","cost":0,"restrictions":["Scum"," G-1A starfighter"],"standard":0,"extended":1},{"name":"• Moldy Crow","type":"Title (<Title/>)","cost":0,"restrictions":["Rebel or Scum","HWK-290"],"standard":1,"extended":1},{"name":"• Punishing One","type":"Title (<Title/>)","cost":0,"restrictions":["Scum"," JumpMaster 5000"],"standard":1,"extended":1},{"name":"• Razor Crest","type":"Title (<Title/>)","cost":0,"restrictions":["ST-70 Assault Ship"],"standard":1,"extended":1},{"name":"• Shadow Caster","type":"Title (<Title/>)","cost":0,"restrictions":["Scum","Lancer-classpursuit craft"],"standard":0,"extended":1},{"name":"• Slave I","type":"Title (<Title/>)","cost":0,"restrictions":["Scum","Firespray-classPatrol Craft"],"standard":"B","extended":1},{"name":"• Slave I","type":"Title (<Title/>)","cost":0,"restrictions":["Separatist or Scum","Firespray-class PatrolCraft"],"standard":1,"extended":1},{"name":"• Virago","type":"Title (<Title/>)","cost":0,"restrictions":["StarViper-class AttackPlatform"],"standard":0,"extended":1},{"name":"IG-2000","type":"Title (<Title/>)","cost":0,"restrictions":["Scum"," Aggressor assaultfighter"],"standard":0,"extended":1}]}
+{
+  "header": "SCUM AND VILLAINY",
+  "upgrades": [
+    {
+      "name": "•“Genius”",
+      "type": "Astromech (<Astromech/>)",
+      "cost": 2,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•R4-B11",
+      "type": "Astromech (<Astromech/>)",
+      "cost": 3,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•R5-P8",
+      "type": "Astromech (<Astromech/>)",
+      "cost": 4,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•R5-TK",
+      "type": "Astromech (<Astromech/>)",
+      "cost": 0,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•0-0-0",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Scum or squad includingDarth Vader"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•4-LOM",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Ahsoka Tano",
+      "type": "Crew (<Crew/>)",
+      "cost": 9,
+      "restrictions": ["Republic or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Bo-Katan Kryze",
+      "type": "Crew (<Crew/>)",
+      "cost": 4,
+      "restrictions": ["Rebel or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Boba Fett",
+      "type": "Crew (<Crew/>)",
+      "cost": 2,
+      "restrictions": ["Scum"],
+      "standard": "B",
+      "extended": 1
+    },
+    {
+      "name": "•Cad Bane",
+      "type": "Crew (<Crew/>)",
+      "cost": 3,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Chewbacca",
+      "type": "Crew (<Crew/>)",
+      "cost": 3,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Cikatro Vizago",
+      "type": "Crew (<Crew/>)",
+      "cost": 1,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Fenn Rau",
+      "type": "Crew (<Crew/>)",
+      "cost": 4,
+      "restrictions": ["Rebel or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Gamut Key",
+      "type": "Crew (<Crew/>)",
+      "cost": 6,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Greef Karga",
+      "type": "Crew (<Crew/>)",
+      "cost": 6,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•IG-88D",
+      "type": "Crew (<Crew/>)",
+      "cost": 3,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Jango Fett",
+      "type": "Crew (<Crew/>)",
+      "cost": 3,
+      "restrictions": ["Separatist or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Ketsu Onyo",
+      "type": "Crew (<Crew/>)",
+      "cost": 4,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Kuill",
+      "type": "Crew (<Crew/>)",
+      "cost": 4,
+      "restrictions": ["Scum", " Medium or Largeship"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Lando Calrissian",
+      "type": "Crew (<Crew/>)",
+      "cost": 4,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Latts Razzi",
+      "type": "Crew (<Crew/>)",
+      "cost": 5,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Maul",
+      "type": "Crew (<Crew/>)",
+      "cost": 10,
+      "restrictions": ["Scum or squad includingEzra Bridger"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Prime Minister Almec/ Almec: Maul's Puppet",
+      "type": "Crew (<Crew/>)",
+      "cost": 6,
+      "restrictions": ["Republic or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Peli Motto",
+      "type": "Crew (<Crew/>)",
+      "cost": 3,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Pre Vizsla",
+      "type": "Crew (<Crew/>)",
+      "cost": 9,
+      "restrictions": ["Scum or Separatist"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Protectorate Gleb",
+      "type": "Crew (<Crew/>)",
+      "cost": 6,
+      "restrictions": ["Imperial or First Order orScum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Qi’ra",
+      "type": "Crew (<Crew/>)",
+      "cost": 2,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Rook Kast",
+      "type": "Crew (<Crew/>)",
+      "cost": 8,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Savage Opress",
+      "type": "Crew (<Crew/>)",
+      "cost": 10,
+      "restrictions": ["Separatist or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•The Child",
+      "type": "Crew (<Crew/>)",
+      "cost": 7,
+      "restrictions": ["Imperial", " Rebel", " or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•The Mandalorian",
+      "type": "Crew (<Crew/>)",
+      "cost": 2,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Tobias Beckett",
+      "type": "Crew (<Crew/>)",
+      "cost": 2,
+      "restrictions": ["Scum"],
+      "standard": "B",
+      "extended": 1
+    },
+    {
+      "name": "•Unkar Plutt",
+      "type": "Crew (<Crew/>)",
+      "cost": 2,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Zam Wesell",
+      "type": "Crew (<Crew/>)",
+      "cost": 11,
+      "restrictions": ["Separatist or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Zuckuss",
+      "type": "Crew (<Crew/>)",
+      "cost": 2,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•L3–37 / •L3-37's Programming",
+      "type": "Crew (<Crew/>) /Configuration (<Configuration/>)",
+      "cost": 4,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Jabba the Hutt",
+      "type": "Crew, Crew (<Crew/><Crew/>)",
+      "cost": 11,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Mandalorian Super Commando Team",
+      "type": "Crew, Crew (<Crew/><Crew/>)",
+      "cost": 7,
+      "restrictions": ["Scum", " medium or largeship"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Maul",
+      "type": "Crew, Crew (<Crew/><Crew/>)",
+      "cost": 10,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Boba Fett",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 2,
+      "restrictions": ["Separatist or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Bossk",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 6,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•BT-1",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 2,
+      "restrictions": ["Scum or squad includingDarth Vader"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Dengar",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 6,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Gar Saxon",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 6,
+      "restrictions": ["Scum", " large or huge ship"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Greedo",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 1,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Han Solo",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 9,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•IG-11 / IG-11 (Anti-Capture Protocol)",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 6,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Migs Mayfeld",
+      "type": "Gunner (<Gunner/>)",
+      "cost": 4,
+      "restrictions": ["Imperial or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Babu Frik",
+      "type": "Illicit (<Illicit/>)",
+      "cost": 5,
+      "restrictions": ["Resistance or Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Burnout Thrusters",
+      "type": "Modification (<Modification/>)",
+      "cost": 6,
+      "restrictions": ["Scum", " Small or MediumShip"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Cutthroat",
+      "type": "Talent (<Talent/>)",
+      "cost": 2,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "Fearless",
+      "type": "Talent (<Talent/>)",
+      "cost": 3,
+      "restrictions": ["Scum"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Andrasta",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", "Firespray-classpatrol craft"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Havoc",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", " Scurrg H-6bomber"],
+      "standard": 0,
+      "extended": 1
+    },
+    {
+      "name": "• Hound’s Tooth",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", " YV-666 freighter"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "•Lando’s Millennium Falcon",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", " CustomizedYT-1300"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Marauder",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", "Firespray-classpatrol craft"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Mist Hunter",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", " G-1A starfighter"],
+      "standard": 0,
+      "extended": 1
+    },
+    {
+      "name": "• Moldy Crow",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Rebel or Scum", "HWK-290"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Punishing One",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", " JumpMaster 5000"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Razor Crest",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["ST-70 Assault Ship"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Shadow Caster",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", "Lancer-classpursuit craft"],
+      "standard": 0,
+      "extended": 1
+    },
+    {
+      "name": "• Slave I",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", "Firespray-classPatrol Craft"],
+      "standard": "B",
+      "extended": 1
+    },
+    {
+      "name": "• Slave I",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Separatist or Scum", "Firespray-class PatrolCraft"],
+      "standard": 1,
+      "extended": 1
+    },
+    {
+      "name": "• Virago",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["StarViper-class AttackPlatform"],
+      "standard": 0,
+      "extended": 1
+    },
+    {
+      "name": "IG-2000",
+      "type": "Title (<Title/>)",
+      "cost": 0,
+      "restrictions": ["Scum", " Aggressor assaultfighter"],
+      "standard": 0,
+      "extended": 1
+    }
+  ]
+}

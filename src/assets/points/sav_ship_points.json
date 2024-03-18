@@ -1,1 +1,1708 @@
-[{"ship":"Aggressor Assault Fighter","pilots":[{"name":"•IG-88A","subtitle":"Aggressive Automaton","cost":7,"loadout":16,"bar":["Talent","Sensor","Cannon","Cannon","Device","Illicit","Modification","Title"],"std":0,"ext":1,"keywords":["Bounty","Hunter"," Droid"]},{"name":"•IG-88B","subtitle":"Brutal Battledroid","cost":7,"loadout":16,"bar":["Talent","Sensor","Cannon","Cannon","Device","Illicit","Modification","Title"],"std":0,"ext":1,"keywords":["Bounty","Hunter"," Droid"]},{"name":"•IG-88C","subtitle":"Conniving Contraption","cost":7,"loadout":16,"bar":["Talent","Sensor","Cannon","Cannon","Device","Illicit","Modification","Title"],"std":0,"ext":1,"keywords":["Bounty","Hunter"," Droid"]},{"name":"•IG-88D","subtitle":"Deadly Device","cost":6,"loadout":13,"bar":["Talent","Sensor","Cannon","Cannon","Device","Illicit","Modification","Title"],"std":0,"ext":1,"keywords":["Bounty","Hunter"," Droid"]}]},{"ship":"BTL-A4 Y-wing","pilots":[{"name":"•Arliz Hadrassian","subtitle":"Crimson Blade","cost":4,"loadout":13,"bar":["Talent","Tech","Turret","Torpedo","Missile","Astromech","Device"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Drea Renthal","subtitle":"Pirate Lord","cost":5,"loadout":10,"bar":["Talent","Turret","Torpedo","Missile","Astromech","Device","Illicit","Modification"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Kavil","subtitle":"Callous Corsair","cost":5,"loadout":18,"bar":["Talent","Turret","Torpedo","Missile","Astromech","Device","Illicit","Modification"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Leema Kai","subtitle":"Opportunity Knocks","cost":4,"loadout":14,"bar":["Talent","Tech","Turret","Torpedo","Missile","Astromech","Device"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"•Padric","subtitle":"Napkin Bomber","cost":4,"loadout":10,"bar":["Talent","Tech","Turret","Torpedo","Missile","Astromech","Device","Modification"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"Amaxine Warrior","subtitle":"","cost":4,"loadout":6,"bar":["Turret","Torpedo","Missile","Astromech","Device"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"Crymorah Goon","subtitle":"","cost":4,"loadout":4,"bar":["Turret","Missile","Device","Illicit"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"Hired Gun","subtitle":"","cost":4,"loadout":6,"bar":["Turret","Torpedo","Missile","Device","Illicit"],"std":1,"ext":1,"keywords":["Y-wing"]},{"name":"Jinata Security Officer","subtitle":"","cost":4,"loadout":5,"bar":["Turret","Torpedo","Missile","Device"],"std":1,"ext":1,"keywords":["Y-wing"]}]},{"ship":"Customized YT-1300 Light Freighter","pilots":[{"name":"•Han Solo","subtitle":"The Corellian Kid","cost":6,"loadout":20,"bar":["Talent","Missile","Crew","Crew","Gunner","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter","","YT-1300"]},{"name":"•L3-37","subtitle":"Droid Revolutionary","cost":6,"loadout":15,"bar":["Missile","Crew","Crew","Gunner","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Droid","","Freighter","","YT-1300"]},{"name":"•Lando Calrissian","subtitle":"Smooth-talking Gambler","cost":6,"loadout":17,"bar":["Talent","Missile","Crew","Gunner","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter","","YT-1300"]},{"name":"Freighter Captain","subtitle":"","cost":6,"loadout":6,"bar":["Missile","Gunner","Illicit"],"std":1,"ext":1,"keywords":["Freighter","","YT-1300"]}]},{"ship":"Escape Craft","pilots":[{"name":"•Autopilot Drone","subtitle":"Set to Blow","cost":2,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•L3-37","subtitle":"Droid Revolutionary","cost":3,"loadout":4,"bar":["Talent","Crew","Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•Lando Calrissian","subtitle":"Smooth-talking Gambler","cost":3,"loadout":4,"bar":["Talent","Crew","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Outer Rim Pioneer","subtitle":"Skillful Outlaw","cost":3,"loadout":4,"bar":["Talent","Crew","Modification"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Fang Fighter","pilots":[{"name":"••Mandalorian RoyalGuardSelfless Protector","subtitle":"","cost":5,"loadout":10,"bar":["Talent","Missile","Modification"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Fenn Rau","subtitle":"Skull Leader","cost":7,"loadout":18,"bar":["Talent","Talent","Torpedo","Modification"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Joy Rekkoff","subtitle":"Skull Squadron Ace","cost":5,"loadout":11,"bar":["Talent","Missile","Torpedo","Modification"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Kad Solus","subtitle":"Skilled Commando","cost":5,"loadout":12,"bar":["Talent","Missile","Modification"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Old Teroch","subtitle":"Mandalorian Mentor","cost":6,"loadout":16,"bar":["Talent","Talent","Torpedo","Modification"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"•Tor Phun","subtitle":"Direct Pressure","cost":4,"loadout":7,"bar":["Talent","Missile","Modification","Modification"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"Skull Squadron Pilot","subtitle":"","cost":5,"loadout":6,"bar":["Torpedo","Modification"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"Zealous Recruit","subtitle":"","cost":5,"loadout":8,"bar":["Modification","Modification"],"std":1,"ext":1,"keywords":["Mandalorian"]}]},{"ship":"Firespray-class Patrol Craft","pilots":[{"name":"•Boba Fett","subtitle":"Notorious Bounty Hunter","cost":9,"loadout":22,"bar":["Talent","Cannon","Missile","Crew","Device","Illicit","Modification","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Emon Azzameen","subtitle":"Shipping Magnate","cost":7,"loadout":17,"bar":["Talent","Cannon","Missile","Crew","Device","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"•Hondo Ohnaka","subtitle":"I Smell Profit!","cost":7,"loadout":18,"bar":["Cannon","Cannon","Missile","Crew","Device","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"•Kath Scarlet","subtitle":"Captain of the Binayre Pirates","cost":7,"loadout":18,"bar":["Talent","Cannon","Missile","Crew","Device","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"•Koshka Frost","subtitle":"Icy Professional","cost":7,"loadout":16,"bar":["Talent","Cannon","Missile","Crew","Device","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Krassis Trelix","subtitle":"Imperial Deserter","cost":7,"loadout":18,"bar":["Talent","Cannon","Cannon","Missile","Crew","Device","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":[]},{"name":"Bounty Hunter","subtitle":"","cost":7,"loadout":10,"bar":["Cannon","Missile","Device","Illicit"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]}]},{"ship":"G-1A Starfighter","pilots":[{"name":"•4-LOM","subtitle":"Reprogrammed Protocol Droid","cost":5,"loadout":14,"bar":["Talent","Sensor","Crew","Illicit","Modification","Title"],"std":0,"ext":1,"keywords":["Bounty","Hunter"," Droid"]},{"name":"•Zuckuss","subtitle":"Meditative Gand","cost":5,"loadout":10,"bar":["Talent","Sensor","Crew","Illicit","Modification","Title"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"Gand Findsman","subtitle":"","cost":5,"loadout":3,"bar":["Illicit"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]}]},{"ship":"Gauntlet Fighter","pilots":[{"name":"•Maul","subtitle":"Lord of the Shadow Collective","cost":9,"loadout":20,"bar":["ForcePowerU","Talent","Crew","Missile","Gunner","Device","Illicit","Modification","Modification","Configuration","Title"],"std":1,"ext":1,"keywords":["Dark Side"]},{"name":"•Rook Kast","subtitle":"Stoic Super Commando","cost":7,"loadout":18,"bar":["Talent","Crew","Gunner","Device","Illicit","Modification","Configuration"],"std":1,"ext":1,"keywords":["Mandalorian"]},{"name":"Shadow CollectiveOperative7","subtitle":"","cost":10,"loadout":0,"bar":["Crew","Gunner","Device","Device","Illicit","Modification","Configuration"],"std":1,"ext":1,"keywords":["Mandalorian"]}]},{"ship":"HWK-290 Light Freighter","pilots":[{"name":"•Dace Bonearm","subtitle":"Outer Rim Mercenary","cost":5,"loadout":14,"bar":["Talent","Crew","Device","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter"]},{"name":"•Gamut Key","subtitle":"Collaborationist Gover - nor","cost":3,"loadout":8,"bar":["Talent","Crew","Device","Illicit","Modification","Modification"],"std":1,"ext":1,"keywords":["Freighter"]},{"name":"•Kanan Jarrus","subtitle":"Lost Padawan","cost":4,"loadout":10,"bar":["ForcePowerU","Crew","Device","Illicit","Modification","Modification"],"std":1,"ext":1,"keywords":["Jedi","","Light Side","","Freighter"]},{"name":"•Palob Godalhi","subtitle":"Tethan Resister","cost":5,"loadout":10,"bar":["Talent","Crew","Device","Illicit","Modification","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter"]},{"name":"•Tápusk","subtitle":"Order 66 Informant","cost":4,"loadout":10,"bar":["Talent","Crew","Device","Illicit","Modification","Modification"],"std":1,"ext":1,"keywords":["Freighter"]},{"name":"•Torkil Mux","subtitle":"Mercenary Miner","cost":4,"loadout":10,"bar":["Crew","Device","Illicit","Modification","Modification"],"std":1,"ext":1,"keywords":["Freighter"]},{"name":"Spice Runner","subtitle":"","cost":3,"loadout":4,"bar":["Device","Illicit"],"std":1,"ext":1,"keywords":["Freighter"]}]},{"ship":"JumpMaster 5000","pilots":[{"name":"•Dengar","subtitle":"Vengeful Corellian","cost":7,"loadout":22,"bar":["Talent","Cannon","Torpedo","Crew","Gunner","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Manaroo","subtitle":"Graceful Aruzan","cost":5,"loadout":15,"bar":["Talent","Cannon","Torpedo","Crew","Gunner","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Nom Lumb","subtitle":"On the Run","cost":5,"loadout":11,"bar":["Cannon","Cannon","Torpedo","Crew","Gunner","Illicit","Modification"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Tel Trevura","subtitle":"Escape Artist","cost":6,"loadout":20,"bar":["Talent","Cannon","Cannon","Torpedo","Crew","Gunner","Illicit","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"Contracted Scout","subtitle":"","cost":5,"loadout":4,"bar":["Cannon","Torpedo","Illicit"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Kihraxz Fighter","pilots":[{"name":"•Captain Jostero","subtitle":"Aggressive Opportunist","cost":4,"loadout":12,"bar":["Missile","Illicit","Illicit","Modification","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"•Graz","subtitle":"The Hunter","cost":4,"loadout":8,"bar":["Talent","Missile","Illicit","Illicit","Modification","Modification"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Talonbane Cobra","subtitle":"Scourge of Tansarii Point","cost":5,"loadout":12,"bar":["Talent","Missile","Illicit","Illicit","Modification","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"•Viktor Hel","subtitle":"Storied Bounty Hunter","cost":4,"loadout":10,"bar":["Talent","Missile","Illicit","Illicit","Modification","Modification"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"Black Sun Ace","subtitle":"","cost":4,"loadout":3,"bar":["Talent"],"std":0,"ext":1,"keywords":[]},{"name":"Cartel Marauder","subtitle":"","cost":4,"loadout":5,"bar":["Illicit"],"std":0,"ext":1,"keywords":[]}]},{"ship":"Lancer-class Pursuit Craft","pilots":[{"name":"•Asajj Ventress","subtitle":"Force of Her Own","cost":8,"loadout":20,"bar":["ForcePowerU","Talent","Crew","Illicit","Illicit","Modification"],"std":0,"ext":1,"keywords":["Bounty","Hunter","","Dark Side"]},{"name":"•Ketsu Onyo","subtitle":"Black Sun Contractor","cost":7,"loadout":15,"bar":["Talent","Crew","Illicit","Illicit","Modification","Title"],"std":0,"ext":1,"keywords":["Bounty","Hunter","","Mandalorian"]},{"name":"•Sabine Wren","subtitle":"Artistic Saboteur","cost":6,"loadout":9,"bar":["Talent","Crew","Illicit","Illicit","Modification","Title"],"std":0,"ext":1,"keywords":["Bounty","Hunter","","Mandalorian"]},{"name":"Shadowport Hunter","subtitle":"","cost":6,"loadout":6,"bar":["Illicit","Illicit"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]}]},{"ship":"M12-L Kimogila Fighter","pilots":[{"name":"•Dalan Oberos","subtitle":"Returned from the Grave","cost":5,"loadout":12,"bar":["Talent","Torpedo","Missile","Astromech","Illicit","Modification"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Torani Kulda","subtitle":"Rodian Freelancer","cost":5,"loadout":10,"bar":["Talent","Torpedo","Missile","Astromech","Illicit","Modification"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"Cartel Executioner","subtitle":"","cost":5,"loadout":3,"bar":["Missile"],"std":0,"ext":1,"keywords":[]}]},{"ship":"M3-A Interceptor","pilots":[{"name":"•G4R-G0R V/M","subtitle":"Tilted Droid","cost":3,"loadout":6,"bar":["Modification"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•Genesis Red","subtitle":"Tansarii Point Crime Lord","cost":4,"loadout":14,"bar":["Talent","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Inaldra","subtitle":"Tansarii Point Boss","cost":3,"loadout":6,"bar":["Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Laetin A’shera","subtitle":"Car’das Enforcer","cost":3,"loadout":7,"bar":["Talent","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Quinn Jast","subtitle":"Fortune Seeker","cost":3,"loadout":7,"bar":["Talent","Modification"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Serissu","subtitle":"Flight Instructor","cost":4,"loadout":12,"bar":["Talent","Talent","Modification","Modification"],"std":1,"ext":1,"keywords":[]},{"name":"•Sunny Bounder","subtitle":"Incurable Optimist","cost":3,"loadout":5,"bar":["Modification"],"std":1,"ext":1,"keywords":[]},{"name":"Cartel Spacer","subtitle":"","cost":3,"loadout":4,"bar":["Modification"],"std":1,"ext":1,"keywords":[]},{"name":"Tansarii Point Veteran","subtitle":"","cost":3,"loadout":3,"bar":["Modification"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Modified TIE/ln Fighter","pilots":[{"name":"•Ahhav","subtitle":"Vengeful Survivor","cost":3,"loadout":8,"bar":["Talent","Illicit","Illicit","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Captain Seevor","subtitle":"Noisy Nuisance","cost":4,"loadout":10,"bar":["Talent","Cannon","Missile","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Foreman Proach","subtitle":"Slave Driver","cost":3,"loadout":6,"bar":["Talent","Talent","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Lapin","subtitle":"Stickler for Details","cost":3,"loadout":7,"bar":["Talent","Cannon","Modification","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"•Overseer Yushyn","subtitle":"Overbearing Boss","cost":3,"loadout":7,"bar":["Talent","Modification"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Mining Guild Sentry","subtitle":"","cost":3,"loadout":3,"bar":["Illicit"],"std":1,"ext":1,"keywords":["TIE"]},{"name":"Mining Guild Surveyor","subtitle":"","cost":3,"loadout":1,"bar":["Talent"],"std":1,"ext":1,"keywords":["TIE"]}]},{"ship":"Quadrijet Transfer Spacetug","pilots":[{"name":"•Constable Zuvio","subtitle":"Missing Sheriff of Niima Outpost","cost":4,"loadout":13,"bar":["Talent","Tech","Device","Device","Illicit","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"•Sarco Plank","subtitle":"The Scavenger","cost":4,"loadout":6,"bar":["Tech","Crew","Device","Illicit","Illicit","Modification"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Unkar Plutt","subtitle":"Miserly Portion Master","cost":4,"loadout":7,"bar":["Tech","Crew","Device","Illicit","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"Jakku Gunrunner","subtitle":"","cost":4,"loadout":4,"bar":["Device","Illicit"],"std":0,"ext":1,"keywords":[]}]},{"ship":"Rogue-class Starfighter","pilots":[{"name":"•Cad Bane","subtitle":"Infamous Bounty Hunter","cost":5,"loadout":18,"bar":["Talent","Cannon","Cannon","Missile","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Durge","subtitle":"Hard to Kill","cost":4,"loadout":10,"bar":["Talent","Talent","Cannon","Cannon","Illicit","Modification"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Viktor Hel","subtitle":"Storied Bounty Hunter","cost":5,"loadout":16,"bar":["Talent","Cannon","Cannon","Missile","Illicit","Modification"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Nom Lumb","subtitle":"Laughing Bandit","cost":5,"loadout":19,"bar":["Talent","Cannon","Cannon","Missile","Illicit","Modification","Modification"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"Outer Rim Hunter","subtitle":"","cost":5,"loadout":4,"bar":["Cannon","Cannon","Illicit","Modification"],"std":1,"ext":1,"keywords":[]}]},{"ship":"Scurrg H-6 Bomber","pilots":[{"name":"•Captain Nym","subtitle":"Captain of the Lok Revenants","cost":6,"loadout":17,"bar":["Talent","Turret","Crew","Gunner","Device","Device","Modification","Title"],"std":0,"ext":1,"keywords":[]},{"name":"•Sol Sixxa","subtitle":"Cunning Commander","cost":5,"loadout":12,"bar":["Talent","Turret","Crew","Gunner","Device","Device","Modification"],"std":0,"ext":1,"keywords":[]},{"name":"Lok Revenant","subtitle":"","cost":5,"loadout":8,"bar":["Turret","Gunner","Device","Device"],"std":0,"ext":1,"keywords":[]}]},{"ship":"ST-70 Assault Ship","pilots":[{"name":"••Guild Bounty Hunter","subtitle":"Blaster for Hire","cost":6,"loadout":14,"bar":["Talent","Crew","Gunner","Illicit","Illicit","Modification"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Q9-0","subtitle":"Zero","cost":6,"loadout":16,"bar":["Crew","Crew","Cannon","Gunner","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Droid"]},{"name":"•The Mandalorian","subtitle":"Din Djarin","cost":7,"loadout":20,"bar":["Talent","Talent","Crew","Crew","Cannon","Gunner","Illicit","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Mandalorian","","Bounty","Hunter"]},{"name":"Outer Rim Enforcer","subtitle":"","cost":6,"loadout":10,"bar":["Crew","Gunner","Illicit","Modification","Modification"],"std":1,"ext":1,"keywords":[]}]},{"ship":"StarViper-class Attack Platform","pilots":[{"name":"•Dalan Oberos","subtitle":"Elite Bounty Hunter","cost":5,"loadout":10,"bar":["Talent","Tech","Torpedo","Modification"],"std":0,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Guri","subtitle":"Prince Xizor’s Bodyguard","cost":7,"loadout":20,"bar":["Talent","Tech","Torpedo","Modification","Title"],"std":0,"ext":1,"keywords":["Droid"]},{"name":"•Prince Xizor","subtitle":"Black Sun Kingpin","cost":5,"loadout":7,"bar":["Talent","Tech","Torpedo","Modification","Title"],"std":0,"ext":1,"keywords":[]},{"name":"Black Sun Assassin","subtitle":"","cost":5,"loadout":6,"bar":["Tech"],"std":0,"ext":1,"keywords":[]},{"name":"Black Sun Enforcer","subtitle":"","cost":5,"loadout":6,"bar":["Tech"],"std":0,"ext":1,"keywords":[]}]},{"ship":"YV-666 Light Freighter","pilots":[{"name":"•Bossk","subtitle":"Fearsome Hunter","cost":7,"loadout":22,"bar":["Talent","Cannon","Missile","Crew","Crew","Gunner","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty","Hunter","","Freighter"]},{"name":"•Doctor Aphra","subtitle":"Professional Disaster Zone","cost":6,"loadout":22,"bar":["Cannon","Missile","Crew","Crew","Gunner","Illicit","Illicit","Modification","Modification","Title"],"std":1,"ext":1,"keywords":["Freighter"]},{"name":"•Latts Razzi","subtitle":"Martial Artist","cost":6,"loadout":16,"bar":["Talent","Cannon","Missile","Crew","Crew","Gunner","Illicit","Modification","Title"],"std":1,"ext":1,"keywords":["Bounty","Hunter","","Freighter"]},{"name":"•Moralo Eval","subtitle":"Criminal Mastermind","cost":7,"loadout":20,"bar":["Talent","Cannon","Missile","Crew","Crew","Gunner","Illicit","Modification"],"std":1,"ext":1,"keywords":["Freighter"]},{"name":"Trandoshan Slaver","subtitle":"","cost":6,"loadout":6,"bar":["Cannon","Missile","Modification"],"std":1,"ext":1,"keywords":["Freighter"]}]},{"ship":"Z-95-AF4 Headhunter","pilots":[{"name":"•Bossk","subtitle":"Fearsome Hunter","cost":3,"loadout":10,"bar":["Talent","Talent","Missile","Illicit","Modification"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•Kaa’to Leeachos","subtitle":"Imposing Marauder","cost":3,"loadout":11,"bar":["Talent","Missile","Illicit","Modification"],"std":1,"ext":1,"keywords":["Bounty","Hunter"]},{"name":"•N’dru Suhlak","subtitle":"Hunt Saboteur","cost":3,"loadout":7,"bar":["Talent","Missile","Missile","Illicit"],"std":1,"ext":1,"keywords":[]},{"name":"•Nashtah Pup","subtitle":"Contingency Plan","cost":1,"loadout":0,"bar":[],"std":1,"ext":1,"keywords":[]},{"name":"Binayre Pirate","subtitle":"","cost":3,"loadout":2,"bar":["Illicit"],"std":1,"ext":1,"keywords":[]},{"name":"Black Sun Soldier","subtitle":"","cost":3,"loadout":4,"bar":["Modification","Illicit"],"std":1,"ext":1,"keywords":[]}]}]
+[
+  {
+    "ship": "Aggressor Assault Fighter",
+    "pilots": [
+      {
+        "name": "•IG-88A",
+        "subtitle": "Aggressive Automaton",
+        "cost": 7,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Cannon",
+          "Cannon",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", " Droid"]
+      },
+      {
+        "name": "•IG-88B",
+        "subtitle": "Brutal Battledroid",
+        "cost": 7,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Cannon",
+          "Cannon",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", " Droid"]
+      },
+      {
+        "name": "•IG-88C",
+        "subtitle": "Conniving Contraption",
+        "cost": 7,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Cannon",
+          "Cannon",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", " Droid"]
+      },
+      {
+        "name": "•IG-88D",
+        "subtitle": "Deadly Device",
+        "cost": 6,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Sensor",
+          "Cannon",
+          "Cannon",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", " Droid"]
+      }
+    ]
+  },
+  {
+    "ship": "BTL-A4 Y-wing",
+    "pilots": [
+      {
+        "name": "•Arliz Hadrassian",
+        "subtitle": "Crimson Blade",
+        "cost": 4,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Torpedo",
+          "Missile",
+          "Astromech",
+          "Device"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Drea Renthal",
+        "subtitle": "Pirate Lord",
+        "cost": 5,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Torpedo",
+          "Missile",
+          "Astromech",
+          "Device",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Kavil",
+        "subtitle": "Callous Corsair",
+        "cost": 5,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Torpedo",
+          "Missile",
+          "Astromech",
+          "Device",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Leema Kai",
+        "subtitle": "Opportunity Knocks",
+        "cost": 4,
+        "loadout": 14,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Torpedo",
+          "Missile",
+          "Astromech",
+          "Device"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "•Padric",
+        "subtitle": "Napkin Bomber",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Turret",
+          "Torpedo",
+          "Missile",
+          "Astromech",
+          "Device",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "Amaxine Warrior",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Turret", "Torpedo", "Missile", "Astromech", "Device"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "Crymorah Goon",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Turret", "Missile", "Device", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "Hired Gun",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Turret", "Torpedo", "Missile", "Device", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      },
+      {
+        "name": "Jinata Security Officer",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 5,
+        "bar": ["Turret", "Torpedo", "Missile", "Device"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Y-wing"]
+      }
+    ]
+  },
+  {
+    "ship": "Customized YT-1300 Light Freighter",
+    "pilots": [
+      {
+        "name": "•Han Solo",
+        "subtitle": "The Corellian Kid",
+        "cost": 6,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter", "", "YT-1300"]
+      },
+      {
+        "name": "•L3-37",
+        "subtitle": "Droid Revolutionary",
+        "cost": 6,
+        "loadout": 15,
+        "bar": [
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid", "", "Freighter", "", "YT-1300"]
+      },
+      {
+        "name": "•Lando Calrissian",
+        "subtitle": "Smooth-talking Gambler",
+        "cost": 6,
+        "loadout": 17,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter", "", "YT-1300"]
+      },
+      {
+        "name": "Freighter Captain",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 6,
+        "bar": ["Missile", "Gunner", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter", "", "YT-1300"]
+      }
+    ]
+  },
+  {
+    "ship": "Escape Craft",
+    "pilots": [
+      {
+        "name": "•Autopilot Drone",
+        "subtitle": "Set to Blow",
+        "cost": 2,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•L3-37",
+        "subtitle": "Droid Revolutionary",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Talent", "Crew", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•Lando Calrissian",
+        "subtitle": "Smooth-talking Gambler",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Talent", "Crew", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Outer Rim Pioneer",
+        "subtitle": "Skillful Outlaw",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Talent", "Crew", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Fang Fighter",
+    "pilots": [
+      {
+        "name": "••Mandalorian RoyalGuardSelfless Protector",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Talent", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Fenn Rau",
+        "subtitle": "Skull Leader",
+        "cost": 7,
+        "loadout": 18,
+        "bar": ["Talent", "Talent", "Torpedo", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Joy Rekkoff",
+        "subtitle": "Skull Squadron Ace",
+        "cost": 5,
+        "loadout": 11,
+        "bar": ["Talent", "Missile", "Torpedo", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Kad Solus",
+        "subtitle": "Skilled Commando",
+        "cost": 5,
+        "loadout": 12,
+        "bar": ["Talent", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Old Teroch",
+        "subtitle": "Mandalorian Mentor",
+        "cost": 6,
+        "loadout": 16,
+        "bar": ["Talent", "Talent", "Torpedo", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "•Tor Phun",
+        "subtitle": "Direct Pressure",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["Talent", "Missile", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "Skull Squadron Pilot",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 6,
+        "bar": ["Torpedo", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "Zealous Recruit",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 8,
+        "bar": ["Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      }
+    ]
+  },
+  {
+    "ship": "Firespray-class Patrol Craft",
+    "pilots": [
+      {
+        "name": "•Boba Fett",
+        "subtitle": "Notorious Bounty Hunter",
+        "cost": 9,
+        "loadout": 22,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Emon Azzameen",
+        "subtitle": "Shipping Magnate",
+        "cost": 7,
+        "loadout": 17,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Hondo Ohnaka",
+        "subtitle": "I Smell Profit!",
+        "cost": 7,
+        "loadout": 18,
+        "bar": [
+          "Cannon",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Kath Scarlet",
+        "subtitle": "Captain of the Binayre Pirates",
+        "cost": 7,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Koshka Frost",
+        "subtitle": "Icy Professional",
+        "cost": 7,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Krassis Trelix",
+        "subtitle": "Imperial Deserter",
+        "cost": 7,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Bounty Hunter",
+        "subtitle": "",
+        "cost": 7,
+        "loadout": 10,
+        "bar": ["Cannon", "Missile", "Device", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      }
+    ]
+  },
+  {
+    "ship": "G-1A Starfighter",
+    "pilots": [
+      {
+        "name": "•4-LOM",
+        "subtitle": "Reprogrammed Protocol Droid",
+        "cost": 5,
+        "loadout": 14,
+        "bar": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", " Droid"]
+      },
+      {
+        "name": "•Zuckuss",
+        "subtitle": "Meditative Gand",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "Gand Findsman",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 3,
+        "bar": ["Illicit"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      }
+    ]
+  },
+  {
+    "ship": "Gauntlet Fighter",
+    "pilots": [
+      {
+        "name": "•Maul",
+        "subtitle": "Lord of the Shadow Collective",
+        "cost": 9,
+        "loadout": 20,
+        "bar": [
+          "ForcePowerU",
+          "Talent",
+          "Crew",
+          "Missile",
+          "Gunner",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Modification",
+          "Configuration",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Dark Side"]
+      },
+      {
+        "name": "•Rook Kast",
+        "subtitle": "Stoic Super Commando",
+        "cost": 7,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      },
+      {
+        "name": "Shadow CollectiveOperative7",
+        "subtitle": "",
+        "cost": 10,
+        "loadout": 0,
+        "bar": [
+          "Crew",
+          "Gunner",
+          "Device",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Configuration"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian"]
+      }
+    ]
+  },
+  {
+    "ship": "HWK-290 Light Freighter",
+    "pilots": [
+      {
+        "name": "•Dace Bonearm",
+        "subtitle": "Outer Rim Mercenary",
+        "cost": 5,
+        "loadout": 14,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      },
+      {
+        "name": "•Gamut Key",
+        "subtitle": "Collaborationist Gover - nor",
+        "cost": 3,
+        "loadout": 8,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      },
+      {
+        "name": "•Kanan Jarrus",
+        "subtitle": "Lost Padawan",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "ForcePowerU",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Jedi", "", "Light Side", "", "Freighter"]
+      },
+      {
+        "name": "•Palob Godalhi",
+        "subtitle": "Tethan Resister",
+        "cost": 5,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      },
+      {
+        "name": "•Tápusk",
+        "subtitle": "Order 66 Informant",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Device",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      },
+      {
+        "name": "•Torkil Mux",
+        "subtitle": "Mercenary Miner",
+        "cost": 4,
+        "loadout": 10,
+        "bar": ["Crew", "Device", "Illicit", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      },
+      {
+        "name": "Spice Runner",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Device", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      }
+    ]
+  },
+  {
+    "ship": "JumpMaster 5000",
+    "pilots": [
+      {
+        "name": "•Dengar",
+        "subtitle": "Vengeful Corellian",
+        "cost": 7,
+        "loadout": 22,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Torpedo",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Manaroo",
+        "subtitle": "Graceful Aruzan",
+        "cost": 5,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Torpedo",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Nom Lumb",
+        "subtitle": "On the Run",
+        "cost": 5,
+        "loadout": 11,
+        "bar": [
+          "Cannon",
+          "Cannon",
+          "Torpedo",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Tel Trevura",
+        "subtitle": "Escape Artist",
+        "cost": 6,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Torpedo",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Contracted Scout",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 4,
+        "bar": ["Cannon", "Torpedo", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Kihraxz Fighter",
+    "pilots": [
+      {
+        "name": "•Captain Jostero",
+        "subtitle": "Aggressive Opportunist",
+        "cost": 4,
+        "loadout": 12,
+        "bar": [
+          "Missile",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Graz",
+        "subtitle": "The Hunter",
+        "cost": 4,
+        "loadout": 8,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Talonbane Cobra",
+        "subtitle": "Scourge of Tansarii Point",
+        "cost": 5,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Viktor Hel",
+        "subtitle": "Storied Bounty Hunter",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Missile",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "Black Sun Ace",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 3,
+        "bar": ["Talent"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Cartel Marauder",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 5,
+        "bar": ["Illicit"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Lancer-class Pursuit Craft",
+    "pilots": [
+      {
+        "name": "•Asajj Ventress",
+        "subtitle": "Force of Her Own",
+        "cost": 8,
+        "loadout": 20,
+        "bar": [
+          "ForcePowerU",
+          "Talent",
+          "Crew",
+          "Illicit",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", "", "Dark Side"]
+      },
+      {
+        "name": "•Ketsu Onyo",
+        "subtitle": "Black Sun Contractor",
+        "cost": 7,
+        "loadout": 15,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", "", "Mandalorian"]
+      },
+      {
+        "name": "•Sabine Wren",
+        "subtitle": "Artistic Saboteur",
+        "cost": 6,
+        "loadout": 9,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", "", "Mandalorian"]
+      },
+      {
+        "name": "Shadowport Hunter",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 6,
+        "bar": ["Illicit", "Illicit"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      }
+    ]
+  },
+  {
+    "ship": "M12-L Kimogila Fighter",
+    "pilots": [
+      {
+        "name": "•Dalan Oberos",
+        "subtitle": "Returned from the Grave",
+        "cost": 5,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Missile",
+          "Astromech",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Torani Kulda",
+        "subtitle": "Rodian Freelancer",
+        "cost": 5,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Torpedo",
+          "Missile",
+          "Astromech",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "Cartel Executioner",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 3,
+        "bar": ["Missile"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "M3-A Interceptor",
+    "pilots": [
+      {
+        "name": "•G4R-G0R V/M",
+        "subtitle": "Tilted Droid",
+        "cost": 3,
+        "loadout": 6,
+        "bar": ["Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•Genesis Red",
+        "subtitle": "Tansarii Point Crime Lord",
+        "cost": 4,
+        "loadout": 14,
+        "bar": ["Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Inaldra",
+        "subtitle": "Tansarii Point Boss",
+        "cost": 3,
+        "loadout": 6,
+        "bar": ["Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Laetin A’shera",
+        "subtitle": "Car’das Enforcer",
+        "cost": 3,
+        "loadout": 7,
+        "bar": ["Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Quinn Jast",
+        "subtitle": "Fortune Seeker",
+        "cost": 3,
+        "loadout": 7,
+        "bar": ["Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Serissu",
+        "subtitle": "Flight Instructor",
+        "cost": 4,
+        "loadout": 12,
+        "bar": ["Talent", "Talent", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Sunny Bounder",
+        "subtitle": "Incurable Optimist",
+        "cost": 3,
+        "loadout": 5,
+        "bar": ["Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Cartel Spacer",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Tansarii Point Veteran",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 3,
+        "bar": ["Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Modified TIE/ln Fighter",
+    "pilots": [
+      {
+        "name": "•Ahhav",
+        "subtitle": "Vengeful Survivor",
+        "cost": 3,
+        "loadout": 8,
+        "bar": ["Talent", "Illicit", "Illicit", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Captain Seevor",
+        "subtitle": "Noisy Nuisance",
+        "cost": 4,
+        "loadout": 10,
+        "bar": ["Talent", "Cannon", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Foreman Proach",
+        "subtitle": "Slave Driver",
+        "cost": 3,
+        "loadout": 6,
+        "bar": ["Talent", "Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Lapin",
+        "subtitle": "Stickler for Details",
+        "cost": 3,
+        "loadout": 7,
+        "bar": ["Talent", "Cannon", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "•Overseer Yushyn",
+        "subtitle": "Overbearing Boss",
+        "cost": 3,
+        "loadout": 7,
+        "bar": ["Talent", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Mining Guild Sentry",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 3,
+        "bar": ["Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      },
+      {
+        "name": "Mining Guild Surveyor",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 1,
+        "bar": ["Talent"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["TIE"]
+      }
+    ]
+  },
+  {
+    "ship": "Quadrijet Transfer Spacetug",
+    "pilots": [
+      {
+        "name": "•Constable Zuvio",
+        "subtitle": "Missing Sheriff of Niima Outpost",
+        "cost": 4,
+        "loadout": 13,
+        "bar": [
+          "Talent",
+          "Tech",
+          "Device",
+          "Device",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Sarco Plank",
+        "subtitle": "The Scavenger",
+        "cost": 4,
+        "loadout": 6,
+        "bar": ["Tech", "Crew", "Device", "Illicit", "Illicit", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Unkar Plutt",
+        "subtitle": "Miserly Portion Master",
+        "cost": 4,
+        "loadout": 7,
+        "bar": ["Tech", "Crew", "Device", "Illicit", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Jakku Gunrunner",
+        "subtitle": "",
+        "cost": 4,
+        "loadout": 4,
+        "bar": ["Device", "Illicit"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Rogue-class Starfighter",
+    "pilots": [
+      {
+        "name": "•Cad Bane",
+        "subtitle": "Infamous Bounty Hunter",
+        "cost": 5,
+        "loadout": 18,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Missile",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Durge",
+        "subtitle": "Hard to Kill",
+        "cost": 4,
+        "loadout": 10,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Viktor Hel",
+        "subtitle": "Storied Bounty Hunter",
+        "cost": 5,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Missile",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Nom Lumb",
+        "subtitle": "Laughing Bandit",
+        "cost": 5,
+        "loadout": 19,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Cannon",
+          "Missile",
+          "Illicit",
+          "Modification",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "Outer Rim Hunter",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 4,
+        "bar": ["Cannon", "Cannon", "Illicit", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "Scurrg H-6 Bomber",
+    "pilots": [
+      {
+        "name": "•Captain Nym",
+        "subtitle": "Captain of the Lok Revenants",
+        "cost": 6,
+        "loadout": 17,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification",
+          "Title"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Sol Sixxa",
+        "subtitle": "Cunning Commander",
+        "cost": 5,
+        "loadout": 12,
+        "bar": [
+          "Talent",
+          "Turret",
+          "Crew",
+          "Gunner",
+          "Device",
+          "Device",
+          "Modification"
+        ],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Lok Revenant",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 8,
+        "bar": ["Turret", "Gunner", "Device", "Device"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "ST-70 Assault Ship",
+    "pilots": [
+      {
+        "name": "••Guild Bounty Hunter",
+        "subtitle": "Blaster for Hire",
+        "cost": 6,
+        "loadout": 14,
+        "bar": [
+          "Talent",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Q9-0",
+        "subtitle": "Zero",
+        "cost": 6,
+        "loadout": 16,
+        "bar": [
+          "Crew",
+          "Crew",
+          "Cannon",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•The Mandalorian",
+        "subtitle": "Din Djarin",
+        "cost": 7,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Talent",
+          "Crew",
+          "Crew",
+          "Cannon",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Mandalorian", "", "Bounty", "Hunter"]
+      },
+      {
+        "name": "Outer Rim Enforcer",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 10,
+        "bar": ["Crew", "Gunner", "Illicit", "Modification", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "StarViper-class Attack Platform",
+    "pilots": [
+      {
+        "name": "•Dalan Oberos",
+        "subtitle": "Elite Bounty Hunter",
+        "cost": 5,
+        "loadout": 10,
+        "bar": ["Talent", "Tech", "Torpedo", "Modification"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Guri",
+        "subtitle": "Prince Xizor’s Bodyguard",
+        "cost": 7,
+        "loadout": 20,
+        "bar": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
+        "std": 0,
+        "ext": 1,
+        "keywords": ["Droid"]
+      },
+      {
+        "name": "•Prince Xizor",
+        "subtitle": "Black Sun Kingpin",
+        "cost": 5,
+        "loadout": 7,
+        "bar": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Black Sun Assassin",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 6,
+        "bar": ["Tech"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Black Sun Enforcer",
+        "subtitle": "",
+        "cost": 5,
+        "loadout": 6,
+        "bar": ["Tech"],
+        "std": 0,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "ship": "YV-666 Light Freighter",
+    "pilots": [
+      {
+        "name": "•Bossk",
+        "subtitle": "Fearsome Hunter",
+        "cost": 7,
+        "loadout": 22,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", "", "Freighter"]
+      },
+      {
+        "name": "•Doctor Aphra",
+        "subtitle": "Professional Disaster Zone",
+        "cost": 6,
+        "loadout": 22,
+        "bar": [
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      },
+      {
+        "name": "•Latts Razzi",
+        "subtitle": "Martial Artist",
+        "cost": 6,
+        "loadout": 16,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter", "", "Freighter"]
+      },
+      {
+        "name": "•Moralo Eval",
+        "subtitle": "Criminal Mastermind",
+        "cost": 7,
+        "loadout": 20,
+        "bar": [
+          "Talent",
+          "Cannon",
+          "Missile",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Modification"
+        ],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      },
+      {
+        "name": "Trandoshan Slaver",
+        "subtitle": "",
+        "cost": 6,
+        "loadout": 6,
+        "bar": ["Cannon", "Missile", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Freighter"]
+      }
+    ]
+  },
+  {
+    "ship": "Z-95-AF4 Headhunter",
+    "pilots": [
+      {
+        "name": "•Bossk",
+        "subtitle": "Fearsome Hunter",
+        "cost": 3,
+        "loadout": 10,
+        "bar": ["Talent", "Talent", "Missile", "Illicit", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•Kaa’to Leeachos",
+        "subtitle": "Imposing Marauder",
+        "cost": 3,
+        "loadout": 11,
+        "bar": ["Talent", "Missile", "Illicit", "Modification"],
+        "std": 1,
+        "ext": 1,
+        "keywords": ["Bounty", "Hunter"]
+      },
+      {
+        "name": "•N’dru Suhlak",
+        "subtitle": "Hunt Saboteur",
+        "cost": 3,
+        "loadout": 7,
+        "bar": ["Talent", "Missile", "Missile", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "•Nashtah Pup",
+        "subtitle": "Contingency Plan",
+        "cost": 1,
+        "loadout": 0,
+        "bar": [],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Binayre Pirate",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 2,
+        "bar": ["Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      },
+      {
+        "name": "Black Sun Soldier",
+        "subtitle": "",
+        "cost": 3,
+        "loadout": 4,
+        "bar": ["Modification", "Illicit"],
+        "std": 1,
+        "ext": 1,
+        "keywords": []
+      }
+    ]
+  }
+]
