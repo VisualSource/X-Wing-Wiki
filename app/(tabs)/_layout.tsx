@@ -15,6 +15,15 @@ export default function TabLayout() {
         headerShown: false,
       }}>
       <Tabs.Screen
+        name="rules-search"
+        options={{
+          title: 'Rules',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? "search" : "search-outline"} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="index"
         options={{
           title: 'Home',
@@ -24,11 +33,11 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="loadout-search"
         options={{
-          title: 'Explore',
+          title: 'Loadouts',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? "search" : "search-outline"} color={color} />
           ),
         }}
       />
