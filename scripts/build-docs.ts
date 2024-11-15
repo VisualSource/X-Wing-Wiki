@@ -13,4 +13,4 @@ for await (const file of glob.scan({ cwd: "./docs", onlyFiles: true })) {
 
 }
 
-Bun.write("./assets/docs.json", JSON.stringify(data)); 
+Bun.write("./assets/docs.json", JSON.stringify(data));

@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import ThemedSearch from "@/components/ThemedSearch";
 import { ThemedView } from "@/components/ThemedView";
-import LOADOUTS from "@/constants/search/loadouts";
+import LOADOUTS from "@/assets/search/loadouts.json";
 import { useSearch } from "@/hooks/useSearch";
 import { useTheme } from "@/hooks/useTheme";
 import ListItem from "@/components/ListItem";

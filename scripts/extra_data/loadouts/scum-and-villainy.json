@@ -1,0 +1,71 @@
+{
+  "$schema": "../schema/loadouts.json",
+  "quick-builds": [
+    {
+      "threat": 10,
+      "pilots": [
+        {
+          "id": "lawlesspirates",
+          "upgrades": {
+            "command": ["hondoohnaka"],
+            "hardpoint": ["tractortentacles", "drillbeak"],
+            "crew": ["seasonednavigator"],
+            "team": ["gunneryspecialists", "corsaircrew"],
+            "cargo": ["boostedscanners"],
+            "title": ["grappler"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 9,
+      "pilots": [
+        {
+          "id": "lawlesspirates",
+          "upgrades": {
+            "command": ["zealouscaptain"],
+            "hardpoint": ["tractortentacles", "protoncannonbattery"],
+            "crew": ["novicetechnician"],
+            "team": ["tibannareserves"],
+            "title": ["nautolansrevenge"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "syndicatesmugglers",
+          "upgrades": {
+            "command": ["azmorigan"],
+            "hardpoint": ["pointdefensebattery"],
+            "turret": ["dorsalturret"],
+            "crew": ["novicetechnician"],
+            "team": ["commsteam", "igrmdroids"],
+            "cargo": ["adaptiveshields", "tibannareserves"],
+            "illicit": ["quickreleaselocks"],
+            "title": ["merchantone"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "mandalorianroyalguard",
+          "upgrades": {
+            "modification": ["afterburners", "beskarreinforcedplating"]
+          }
+        },
+        {
+          "id": "mandalorianroyalguard",
+          "upgrades": {
+            "modification": ["clantraining", "mandalorianoptics"]
+          }
+        }
+      ]
+    }
+  ]
+}

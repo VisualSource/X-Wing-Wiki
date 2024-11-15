@@ -1,4 +1,15 @@
-const Loadouts = new Map([
+export type Loadout = Record<string, {
+    builds: {
+        threat: number;
+        limited: number;
+        xws: string;
+        name: string;
+        upgrades?: Record<string, string[]>
+    }[]
+    name: string;
+}>
+
+const Loadouts = new Map<string, Loadout>([
     ["firstorder", require("../assets/loadouts/firstorder.json")],
     ["galacticempire", require("../assets/loadouts/galacticempire.json")],
     ["galacticrepublic", require("../assets/loadouts/galacticrepublic.json")],

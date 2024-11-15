@@ -1,1 +1,0 @@
-export type Loadout = { xws: string, ship: string, builds: { threat: number, pilots: { id: string, xws: string, upgrades: Record<string, string[]> }[] }[] }[];

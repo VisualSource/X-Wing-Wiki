@@ -8,6 +8,9 @@
       ]
     }
   },
+  "exclude": [
+    "./scripts/*"
+  ],
   "include": [
     "**/*.ts",
     "**/*.tsx",
