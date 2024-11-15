@@ -40,7 +40,7 @@ export default function Search() {
                 <View style={styles.results_container}>
                     <FlashList renderItem={({ item }) => (
                         <ListItem key={item.refIndex} item={item.item} path="/(content)/rules/[id]" />
-                    )} estimatedItemSize={50} data={results} />
+                    )} estimatedItemSize={76} data={results} />
                 </View>
             ) : (
                 <View style={styles.empty_container}>

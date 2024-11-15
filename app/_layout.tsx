@@ -16,7 +16,8 @@ NavigationBar.setVisibilityAsync("hidden");
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    BankGthd: require("../assets/fonts/BankGthd.ttf"),
+    EurostileOblique: require("../assets/fonts/EurostileDemiOblique.ttf"),
     Kimberley: require("../assets/fonts/kimberley.otf"),
     XWingIcons: require("../assets/fonts/xwing-miniatures.ttf"),
   });

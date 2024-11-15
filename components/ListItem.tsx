@@ -41,33 +41,41 @@ const styles = StyleSheet.create({
         minHeight: 50,
         width: "auto",
         marginVertical: 10,
-        paddingHorizontal: 5
+        padding: 10,
+        borderRadius: 10
     },
     description: {
-        fontSize: 15
+        marginTop: 5,
+        fontSize: 15,
+        fontFamily: "EurostileOblique"
     },
     tag_plus: {
-
+        fontFamily: "EurostileOblique",
+        color: '#9BA1A6'
     },
     tag_category: {
         color: "#2db7fc",
-        fontWeight: "medium",
+        fontWeight: "bold",
         fontSize: 14
     },
     tag_seen: {
         color: "#fc2d2d",
-        fontWeight: "medium",
+        fontWeight: "bold",
         fontSize: 14
     },
     tag_container: {
+        alignItems: "center",
+        alignContent: "center",
         display: "flex",
         flexDirection: "row",
         gap: 4,
         flexWrap: "wrap"
     },
     header: {
-        fontWeight: "bold",
-        fontSize: 17,
-        textDecorationLine: "underline"
+        fontFamily: "BankGthd",
+        fontSize: 20,
+        borderBottomColor: '#9BA1A6',
+        borderBottomWidth: 1,
+        marginBottom: 5,
     }
 });

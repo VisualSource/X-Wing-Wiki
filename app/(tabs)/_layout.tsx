@@ -12,7 +12,7 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: false,
+        headerShown: false
       }}>
       <Tabs.Screen
         name="rules-search"
@@ -37,7 +37,7 @@ export default function TabLayout() {
         options={{
           title: 'Loadouts',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? "search" : "search-outline"} color={color} />
+            <TabBarIcon name={focused ? "book" : "book-outline"} color={color} />
           ),
         }}
       />

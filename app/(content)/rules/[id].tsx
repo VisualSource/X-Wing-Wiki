@@ -6,14 +6,13 @@ import { useKeepAwake } from "expo-keep-awake";
 import MarkdownAttrs from "markdown-it-attrs";
 import { Image } from "expo-image"
 import { Metadata } from "@/components/markdown/Metadata";
-import { useThemeColor } from "@/hooks/useThemeColor";
 import markdownMeta from "@/lib/markdownMetaPlugin";
+
 import { XWingIcon } from "@/components/XwingIcon";
 import Icons, { XWing } from "@/constants/Icons";
-import DOCS from "@/assets/docs.json";
-
-import IMAGE_REFS from "@/lib/imageRefs";
 import { useTheme } from "@/hooks/useTheme";
+import IMAGE_REFS from "@/lib/imageRefs";
+import DOCS from "@/assets/docs.json";
 
 const mki = MarkdownIt({ typographer: true })
     .use(markdownMeta)
