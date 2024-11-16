@@ -18,9 +18,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/icons/android/mipmap-mdpi/ic_launcher_round.png",
         "backgroundColor": "#333333"
-      }
+      },
+      "package": "com.visualsource.xwikiwiki"
     },
     "web": {
       "bundler": "metro",
@@ -48,6 +49,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45a37985-af8e-4e21-bc26-39eddb7516e6"
+      }
+    },
+    "owner": "visualsource"
   }
 }
