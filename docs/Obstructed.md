@@ -1,7 +1,8 @@
 ---
 title: Obstructed
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: An attack is obstructed if the attacker measures range through an object.
 ---
 
 An [attack](/rules/Attack) is **OBSTRUCTED** if the attacker measures [range](/rules/Range) through an object. If a ship or [device](/rules/Device) obstructs an attack, there is no inherent effect. If an [obstacle](/rules/Obstacle) obstructs an attack, there is an additional effect.

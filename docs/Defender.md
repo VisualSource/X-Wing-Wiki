@@ -1,7 +1,8 @@
 ---
 title: Defender
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: The ship that is chosen during the Declare Defender step of the Declare
 ---
 
 The ship that is chosen during the Declare Defender step of the Declare Target step of an [attack](/rules/Attack) is the defender.

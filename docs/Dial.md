@@ -1,7 +1,9 @@
 ---
 title: Dial
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["MANEUVER DIAL UPGRADE KIT"]
+desc: Each ship type has its own unique dial. All expansion products contain a dial for each ship in that product.
 ---
 
 Each ship type has its own unique dial. All expansion products contain a dial for each ship in that product. Dials are used during the [Planning Phase](/rules/Planning_Phase) to secretly select maneuvers.

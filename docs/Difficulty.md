@@ -1,7 +1,8 @@
 ---
 title: Difficulty
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: "Each maneuver has three components: speed (a number 0-5), difficulty (red, white, blue, or purple), and bearing (an arrow or other symbol)."
 ---
 
 Each [maneuver](/rules/Maneuver) has three components: [speed](/rules/Speed) (a number 0-5), difficulty (red,

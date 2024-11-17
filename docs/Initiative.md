@@ -1,7 +1,8 @@
 ---
 title: Initiative
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A ship's initiative value is the orange number to the left of the ship's name on its ship card.
 ---
 
 A ship's initiative value is the orange number to the left of the ship's name on its ship card. Initiative is used to determine the order in which ships can use abilities during the [System Phase](/rules/System_Phase), activate during the [Activation Phase](/rules/Activation_Phase), engage during the [Engagement Phase](/rules/Engagement_Phase), and are placed during [setup](/rules/Setup).

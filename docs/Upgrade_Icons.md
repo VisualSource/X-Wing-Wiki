@@ -1,7 +1,7 @@
 ---
 title: Upgrade Icons
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 ---
 
 Each upgrade icon uses the corresponding name listed below:

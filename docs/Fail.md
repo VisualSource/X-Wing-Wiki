@@ -1,7 +1,8 @@
 ---
 title: Fail
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Some effects can fail, which means the effect did not resolve as intended and instead is resolved in a default way.
 ---
 
 Some effects can **FAIL**, which means the effect did not resolve as intended and instead is resolved in a default way.

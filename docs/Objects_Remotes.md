@@ -1,6 +1,15 @@
 ---
 title: "Objects: Remote"
 version: 1.4.6
+category: ["APPENDIX", "RULES"]
+tags: [
+      "OBJECTS: REMOTES",
+      "BUZZ DROID SWARM",
+      "DARK EYE PROBE DROID",
+      "SENSOR BUOY",
+      "COMMANDO TEAM",
+      "TRACKING TORPEDOES",
+    ]
 links: [
     { title: "Buzz Droid Swarm", id: "Buzz-Droid-Swarm" },
 	{ title: "Sensor Buoy", id: "Sensor-Buoy" },

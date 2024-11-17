@@ -1,8 +1,10 @@
 ---
 title: Cloak
 version: 1.4.6
-links: []
 icons: ["cloak"]
+category: ["GLOSSARY"]
+tags: ["DECLOAK"]
+desc: Ships can cloak to become difficult to hit, and they can decloak to move unpredictably.
 ---
 
 Ships can cloak to become difficult to hit, and they can decloak to move unpredictably. When a ship performs the :cloak: action, it gains one cloak token.

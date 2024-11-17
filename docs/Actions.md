@@ -1,7 +1,8 @@
 ---
 title: Actions
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Ships can perform actions, which thematically represent things a pilot can do, such as repositioning slightly or flying defensively.
 ---
 
 Ships can perform actions, which thematically represent things a pilot can do,

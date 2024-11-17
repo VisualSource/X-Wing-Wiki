@@ -1,7 +1,8 @@
 ---
 title: Game Mode
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Various game modes limit which ship and upgrade cards are available for squad building.
 ---
 
 Various game modes limit which ship and upgrade cards are available for squad building.

@@ -5,6 +5,9 @@ links: [
   { title: "Basic Manuvers", id: "basic-manuvers" },
 	{ title: "Advanced Maneuvers", id: "advanced-maneuvers" }
 ]
+category: ["GLOSSARY"]
+tags: ["BANK LEFT","BANK RIGHT","TURN LEFT","TURN RIGHT","REVERSE BANK","REVERSE STRAIGHT","SEGNOR'S LOOP","STANDARD ARC","STATIONARY","STRAIGHT","TALLON ROLL","TURN","BANK","DIRECTION","KOIOGRAN TURN"]
+desc: "Each maneuver has three components: speed (a number 0-5), difficulty (red, white, or blue), and bearing (an arrow or other symbol). Each bearing is also defined with a DIRECTION, including straight, left, or right."
 ---
 
 Each [maneuver](/rules/Maneuver) has three components: [speed](/rules/Speed) (a number 0-5), [difficulty](/rules/Difficulty) (red, white, or blue), and bearing (an arrow or other symbol). Each bearing is also defined with a **DIRECTION**, including straight, left, or right.

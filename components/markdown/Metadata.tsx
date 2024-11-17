@@ -38,7 +38,7 @@ export const Metadata: React.FC<{ node: ASTNode }> = ({ node }) => {
                 <Text style={{ fontSize: 16, color: theme.icon }}>{node.attributes.version}</Text>
             </View>
             {node.attributes?.links?.length ? (
-                <View style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: 2, marginTop: 10 }}>
+                <View style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", gap: 2, marginTop: 10 }}>
                     {node.attributes.links.map((e: { id: string, title: string, icons?: string[] }) => (
                         <Text key={e.id} style={{ textDecorationLine: "underline", color: "blue", flex: 1 }}>
                             {e.title}

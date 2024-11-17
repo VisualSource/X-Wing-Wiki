@@ -1,7 +1,8 @@
 ---
 title: Guides
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Each ship's base has two pairs of guides, one pair on the front and one pair on the back.
 ---
 
 Each ship's base has two pairs of guides, one pair on the front and one pair on the back. Some [devices](/rules/Device) also have a pair of guides.

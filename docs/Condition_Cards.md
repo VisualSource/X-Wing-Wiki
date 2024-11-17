@@ -1,7 +1,9 @@
 ---
 title: Condition Cards
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["SECRET CONDITIONS"]
+desc: Condition cards are cards assigned by ship and upgrade cards that represent persistent game effects. A condition card is not in play until a game effect assigns it to a ship.
 ---
 
 Condition cards are cards assigned by ship and upgrade cards that represent persistent game effects. A condition card is not in play until a game effect assigns it to a ship. When a condition card is assigned, its text resolves.

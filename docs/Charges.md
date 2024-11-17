@@ -2,39 +2,17 @@
 title: Charges
 version: 1.4.4
 icons: ["charge", "force", "shield", "energy"]
+category: ["GLOSSARY"]
+tags: ["NEGATIVE RECURRING CHARGES", "SHIELDS"]
+desc: CHARGES are two-side punchboard components that track certain limited resources.
 links: [
-        {
-					title: "Charge Types",
-					id: "charge-types",
-				},
-				{
-					title: "Recurring Charges",
-					id: "recurring-chargesc",
-				},
-				{
-					title: "Negative Recurring Charges",
-					id: "negative-recurring-charges",
-				},
-				{
-					title: "Standard Charge",
-					id: "standard-charge",
-					icons: ["charge"]
-				},
-				{
-					title: "Force Charge",
-					id: "force-charge",
-					icons: ["forcecharge"]
-				},
-				{
-					title: "Shield",
-					id: "shield",
-					icons: ["shield"]
-				},
-				{
-					title: "Energy",
-					id: "energy",
-					icons: ["energy"]
-				},
+    {title: "Charge Types",id: "charge-types",},
+	{title: "Recurring Charges",id: "recurring-chargesc",},
+	{title: "Negative Recurring Charges",id: "negative-recurring-charges",},
+	{title: "Standard Charge",id: "standard-charge",icons: ["charge"]},
+	{title: "Force Charge",id: "force-charge",icons: ["forcecharge"]},
+	{title: "Shield",id: "shield",icons: ["shield"]},
+	{title: "Energy",id: "energy",icons: ["energy"]},
 ]
 ---
 

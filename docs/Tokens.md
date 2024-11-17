@@ -1,7 +1,8 @@
 ---
 title: Tokens
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Some abilities cause ships to gain, spend, or remove tokens. Tokens are used to track effects and come in a variety of colors.
 ---
 
 Some abilities cause ships to gain, spend, or remove tokens. Tokens are used to track effects and come in a variety of colors.

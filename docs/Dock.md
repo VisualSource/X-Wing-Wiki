@@ -1,7 +1,9 @@
 ---
 title: Dock
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["DEPLOY"]
+desc: Some abilities allow a ship to be attached to or ride inside another friendly ship.
 ---
 
 Some abilities allow a ship to be attached to or ride inside another friendly ship. If a card ability instructs a ship to **DOCK** with a carrier ship, the docked ship is placed in [reserve](/rules/Move). A docked ship is able to **DEPLOY** from its carrier ship during the [System Phase](/rules/System_Phase) by performing the following steps:

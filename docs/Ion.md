@@ -1,7 +1,8 @@
 ---
 title: Ion
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A ship is ionized while it has a number of ion tokens relative to its size.
 ---
 
 A ship is **IONIZED** while it has a number of ion tokens relative to its [size](/rules/Size): one or more for a small ship, two or more for a medium ship, and three or more for a large ship. Ion tokens are red [tokens](/rules/Tokens).

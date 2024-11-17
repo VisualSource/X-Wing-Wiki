@@ -1,7 +1,7 @@
 ---
 title: Setup
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 ---
 
 Before playing, resolve the following steps:

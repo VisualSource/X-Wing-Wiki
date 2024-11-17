@@ -1,7 +1,9 @@
 ---
 title: Activation Phase
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["ACTIVATION", "REVEAL"]
+desc: The Activation Phase is the third phase of a round. During this phase, each ship ACTIVATES, one at a time, starting with the ship with the lowest initiative and continuing in ascending order.
 ---
 
 The Activation Phase is the third phase of a [round](/rules/Round). During this phase, each ship **ACTIVATES**, one at a time, starting with the ship with the lowest [initiative](/rules/Initiative) and continuing in ascending order.

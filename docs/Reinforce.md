@@ -1,7 +1,8 @@
 ---
 title: Reinforce
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Pilots can reinforce to angle their deflector shields and increase the defensiveness of a portion of their ship.
 ---
 
 Pilots can reinforce to angle their deflector shields and increase the defensiveness of a portion of their ship. When a ship performs the :reinforce: action, it gains a reinforce token with either the fore or aft side faceup.

@@ -1,7 +1,8 @@
 ---
 title: Ship Sizes
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: "There are four different ship sizes: small, medium, large, and huge."
 ---
 
 There are four different ship sizes: small, medium, large, and huge.

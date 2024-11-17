@@ -1,7 +1,7 @@
 ---
 title: Ship
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 ---
 
 A ship is composed of a plastic miniature, base, pegs, a ship

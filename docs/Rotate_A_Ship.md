@@ -1,7 +1,8 @@
 ---
 title: Rotate A Ship
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Some abilities and effects instruct a player to "rotate a ship 90 ̊" independent of a maneuver.
 ---
 
 Some abilities and effects instruct a player to "rotate a ship 90 ̊" independent of a maneuver. These effects could also read "rotate your ship [a number of degrees]" or "rotate [a number of degrees]," but importantly, they do not simply read "rotate" (which refers to the rotate action and its effect).

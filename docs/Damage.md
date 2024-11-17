@@ -1,7 +1,9 @@
 ---
 title: Damage
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["SUFFER DAMAGE", "DEFEND"]
+desc: Damage represents the amount of structural damage a ship can take.
 ---
 
 Damage represents the amount of structural damage a ship can take. Damage is tracked by damage cards. A ship is destroyed when the number of damage cards it has is equal to or greater than its [hull](/rules/Hull) value.

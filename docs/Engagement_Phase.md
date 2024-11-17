@@ -1,7 +1,8 @@
 ---
 title: Engagement Phase
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: The Engagement Phase is the fourth phase of the round.
 ---
 
 The Engagement Phase is the fourth phase of the [round](/rules/Round). During this phase, each ship **ENGAGES**, one at a time, starting with the ship with the highest [initiative](/rules/Initiative) and continues in descending order.

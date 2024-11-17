@@ -1,7 +1,9 @@
 ---
 title: "Errata: Insert Sheets"
 version: 1.4.6
-links: []
+category: ["ERRATA"]
+tags: ["PROXIMITY MINES"]
+desc: “System” and “Bomb” upgrade cards should be labeled “Sensor” and “Payload” upgrade cards instead.
 ---
 
 “System” and “Bomb” upgrade cards should be labeled “Sensor” and “Payload” upgrade cards instead.

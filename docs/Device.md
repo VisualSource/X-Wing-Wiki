@@ -1,7 +1,9 @@
 ---
 title: Device
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["DROP", "LAUNCH", "RELOCATE", "DETONATES"]
+desc: Devices are objects that exist in the play area and are represented by cardboard markers.
 ---
 
 Devices are objects that exist in the play area and are represented by cardboard markers. Certain cards allow a ship to add a specific type of device to the play area and provide additional rules for how that device behaves. There are a number of ways for a device to enter or change location in the play area. Some provide specific instructions for how to place a device in the play area, while others use one or more of the following processes:

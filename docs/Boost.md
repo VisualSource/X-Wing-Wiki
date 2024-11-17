@@ -1,8 +1,9 @@
 ---
 title: Boost
 version: 1.4.6
-links: []
 icons: ["boost"]
+category: ["GLOSSARY"]
+desc: Boost represents a pilot activating additional thrusters to move farther forward.
 ---
 
 Boost represents a pilot activating additional thrusters to move farther forward. When a ship performs a :boost: action, it boosts by following these steps:

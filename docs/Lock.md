@@ -1,8 +1,10 @@
 ---
 title: Lock
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 icons: ["lock"]
+tags: ["BREAK"]
+desc: Ships can lock to use their computer to acquire targeting data on environmental hazards or other ships.
 ---
 
 Ships can lock to use their computer to acquire targeting data on environmental hazards or other ships. When a ship performs a :lock: action, it acquires a lock. A **LOCKING** ship is a ship that is attempting to acquire a lock by performing the following steps:

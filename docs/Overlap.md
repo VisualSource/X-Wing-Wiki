@@ -1,7 +1,9 @@
 ---
 title: Overlap
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["PARTIALLY EXECUTE", "FULLY EXECUTE"]
+desc: While a ship executes a maneuver or otherwise moves, it overlaps an object if the ship's final position would physically be on top of an object.
 ---
 
 While a ship executes a [maneuver](/rules/Maneuver) or otherwise [moves](/rules/Move), it **OVERlAPS** an object if the ship's final position would physically be on top of an object. A ship **FULLY** executes a maneuver if it does not overlap a ship. If a ship executes a maneuver and overlaps a ship, it must **PARTIALLY** execute that maneuver by performing the following steps:

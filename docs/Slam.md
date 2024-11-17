@@ -1,8 +1,9 @@
 ---
 title: Slam
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 icons: ["slam"]
+desc: Pilots can SLAM by activating their SubLight Acceleration Motors and careening through space at incredible speeds.
 ---
 
 Pilots can SLAM by activating their SubLight Acceleration Motors and careening through space at incredible speeds. A ship performs a :slam: action by performing the following steps:

@@ -1,7 +1,7 @@
 ---
 title: Scenarios
 version: 1.4.6
-links: []
+category: ["SCENARIOS"]
 ---
 
 Below you will find the 4 scenarios for Standard play. Players may choose what scenario they play each game or may randomize the scenario as they see fit.

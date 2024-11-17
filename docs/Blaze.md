@@ -1,7 +1,7 @@
 ---
 title: Blaze
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 ---
 
 When this object is placed, fit the guides to the tab of the Blazer Bomb.

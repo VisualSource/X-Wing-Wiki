@@ -1,9 +1,9 @@
 import { View } from "react-native";
 import { useState } from "react";
-import { Card } from "./card";
-import { Loadout } from "@/constants/Loadouts";
+import type { Loadout } from "@/constants/Loadouts";
+import { Card } from "./Card";
 
-const Pager: React.FC<{ data: Loadout[0] }> = ({ data }) => {
+const Pager: React.FC<{ data: Loadout }> = ({ data }) => {
     const [offset, setOffset] = useState(0);
 
     const builds = data.builds.slice(offset, offset + 2);

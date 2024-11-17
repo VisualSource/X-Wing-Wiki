@@ -2,15 +2,15 @@ import { View, Text, Pressable, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
 import { ThemedText } from "./ThemedText";
 
-type SearchItem = {
+export type SearchItem = {
     id: string;
     title: string;
     category: string[];
-    tags: string[];
+    tags?: string[];
     desc?: string;
 }
 
-const RenderTags = ({ tags }: { tags: string[] }) => {
+const RenderTags = ({ tags = [] }: { tags?: string[] }) => {
     const seen = tags.slice(0, 8);
 
     return (
@@ -28,7 +28,7 @@ export default function ListItem({ item, path }: { path: "/(content)/rules/[id]"
             <ThemedText style={styles.header}>{item.title}</ThemedText>
             <View style={styles.tag_container}>
                 {item.category.map(e => (<Text key={`cat_${e}`} style={styles.tag_category}>{e}</Text>))}
-                <RenderTags tags={item.tags} />
+                {item.tags?.length ? (<RenderTags tags={item.tags} />) : null}
             </View>
             {item?.desc ? <ThemedText style={styles.description}>{item.desc}</ThemedText> : null}
         </Pressable>

@@ -1,7 +1,8 @@
 ---
 title: Hull
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: The yellow number on a ship card is the ship's hull value.
 ---
 
 The yellow number on a ship card is the ship's hull value. The hull value indicates how many damage cards it must have to be [destroyed](/rules/Destoryed).

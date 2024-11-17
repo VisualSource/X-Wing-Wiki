@@ -1,7 +1,8 @@
 ---
 title: Bouns Attack
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: If a card instructs a ship to perform a bonus attack, it performs an additional attack during the Aftermath step.
 ---
 
 If a card instructs a ship to perform a bonus attack, it performs an additional [attack](/rules/Attack) during the Aftermath step.

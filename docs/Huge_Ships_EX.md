@@ -1,7 +1,13 @@
 ---
 title: Huge Ships Examples
 version: 1.4.6
-links: []
+category: ["EXAMPLES"]
+tags: [
+    "MANEUVER",
+    "OVERLAPPING A HUGE SHIP",
+    "OVERLAPPING A STANDARD SHIP",
+]
+desc: This section contains diagrams for huge ships.
 ---
 
 This section contains diagrams for huge ships.

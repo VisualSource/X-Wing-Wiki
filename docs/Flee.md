@@ -1,7 +1,8 @@
 ---
 title: Flee
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A ship flees if any part of its base is outside the play area at any time.
 ---
 
 A ship flees if any part of its base is outside the [play area](/rules/Play_Area) at any time. A ship that flees is [removed from the game](/rules/Removed_From_Game).

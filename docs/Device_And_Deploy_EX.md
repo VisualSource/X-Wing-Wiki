@@ -1,7 +1,8 @@
 ---
 title: Device And Deply Examples
 version: 1.4.6
-links: []
+category: ["APPENDIX"]
+tags: ["DEPLOY EXAMPLE", "DROPPING BOMB EXAMPLE", "LAUNCING BOMB EXAMPLE"]
 ---
 
 ## Deploy Example

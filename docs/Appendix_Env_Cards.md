@@ -1,7 +1,10 @@
 ---
 title: "Appendix: Env Cards"
 version: 1.4.4
-links: []
+category: ["RULES", "APPENDIX", "GLOSSARY"]
+tags: ["ANATOMY OF AN ENVIRONMENT CARD",
+      "CHOOSING TO USE ENVIRONMENT CARDS","USING ENVIRONMENT CARDS","VICTORY COUNTERS","WHERE TO FIND ENVIRONMENT CARDS"]
+desc: Environment cards are cards containing special rules that simulate environmental conditions of the battlefield.
 ---
 
 **ENVIRONMENT CARDS** are cards containing special rules that simulate environmental conditions of the battlefield, such as ion clouds, unexploded munitions, or meteor showers. Each card offer players a way to quickly add a new combination of obstacles and special rules to their games. 

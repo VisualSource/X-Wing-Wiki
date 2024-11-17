@@ -1,7 +1,8 @@
 ---
 title: Fuse Marker
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A device or obstacle is fused while it has at least one fuse marker.
 ---
 
 A device or obstacle is **FUSED** while it has at least one fuse marker.

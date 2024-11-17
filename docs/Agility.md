@@ -1,7 +1,8 @@
 ---
 title: Agility
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A ship's agility is the green number on its ship card. This value indicates the number of defense dice the ship rolls while it defends.
 ---
 
 A ship's agility is the green number on its ship card. This value indicates the number of defense dice the ship rolls while it defends.

@@ -12,6 +12,8 @@ links: [
 	{ title: "Upgrades", id: "Upgrades" },
 	{ title: "Loadout Points", id: "Loadout-Points" },
 ]
+category: ["RULES", "APPENDIX"]
+tags: ["BUILDER KEYWORDS"]
 ---
 
 Each player builds a squad by choosing ships whose total squad point cost

@@ -1,7 +1,8 @@
 ---
 title: Ability Queue
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: The ABILITY QUEUE is used to resolve the timing of multiple abilities that trigger during the same timing window.
 ---
 
 The **ABILITY QUEUE** is used to resolve the timing of multiple [abilities](/rules/Abilities) that trigger during the same timing window. Abilities are resolved from the front of the queue to the back of the queue. These abilities are added to the back of the ability queue using the following rules:

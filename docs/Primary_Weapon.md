@@ -1,7 +1,8 @@
 ---
 title: Primary Weapon
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Each ship has up to two primary weapons listed on its ship card.
 ---
 
 Each ship has up to two primary weapons listed on its ship card. Each primary weapon has an [arc](/rules/Arc) symbol and a red attack value. During a ship's attack, it chooses a weapon to perform an attack with. If it performs an [attack](/rules/Attack) using a primary weapon, the attack value indicates how many attack dice it rolls during the Roll Attack Dice step and the arc symbol indicates where the defender must be located.

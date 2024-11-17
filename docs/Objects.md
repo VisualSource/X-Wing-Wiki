@@ -1,7 +1,8 @@
 ---
 title: Objects
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Ships, obstacles, and devices are all objects.
 ---
 
 [Ships](/rules/Ships), [obstacles](/rules/Obstacles), and [devices](/rules/Device) are all **OBJECTS**. The exact position of objects in the play area is tracked and restricted by game effects.

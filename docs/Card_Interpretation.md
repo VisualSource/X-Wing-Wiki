@@ -1,7 +1,8 @@
 ---
 title: Card Interpretation
 version: 1.4.6
-links: []
+category: ["RULES"]
+tags: ["INTRODUCTION"]
 ---
 
 ### Use of "You"

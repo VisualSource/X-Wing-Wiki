@@ -1,7 +1,9 @@
 ---
 title: Player Order
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["FIRST PLAYER"]
+desc: Player order is used as a tiebreaker for many game effects
 ---
 
 Player order is used as a tiebreaker for many game effects. If players are instructed to resolve an effect in **PLAYER ORDER**, the first player resolves all of their effects first, then the second player resolves all of their effects.

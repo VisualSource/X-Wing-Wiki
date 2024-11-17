@@ -1,7 +1,8 @@
 ---
 title: Solitrary
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A squad cannot include more than one card of the same upgrade type with the “solitary” restriction.
 ---
 
 A squad cannot include more than one card of the same upgrade type with the

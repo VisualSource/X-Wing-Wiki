@@ -1,7 +1,8 @@
 ---
 title: Range Bouns
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: During an attack, the attacker or defender can roll additional dice depending on the attack range.
 ---
 
 During an [attack](/rules/Attack), the attacker or defender can roll additional dice depending on the [attack range](/rules/Attack_Range). For attack range 1, the attacker rolls one additional attack die during the Roll Attack Dice step. For attack range 3, the defender rolls one additional defense die during the Roll Defense Dice step.

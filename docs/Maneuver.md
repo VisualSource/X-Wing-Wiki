@@ -1,7 +1,8 @@
 ---
 title: Maneuver
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A maneuver is a type of move that a ship can execute.
 ---
 
 A maneuver is a type of [move](/rules/Move) that a ship can execute. Each maneuver has three components: [speed](/rules/Speed) (a number 0-5), [difficulty](/rules/Difficulty) (red, white, or blue), and [bearing](/rules/Bearing) (an arrow or other symbol). Each bearing is further defined with a direction. A ship can execUte a maneuver by resolving the following steps in order:

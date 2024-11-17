@@ -1,7 +1,8 @@
 ---
 title: Tractor
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A ship is tractored while it has equal to or greater than a specific number of tractor tokens, according to its size.
 ---
 
 A ship is tRactoRed while it has equal to or greater than a specific number of tractor tokens, according to its [size](/rules/Ship_Size): a small ship requires at least one tractor token, a medium ship requires at least two tractor tokens, and a large ship require at least three tractor tokens. A tractor token is a orange token.

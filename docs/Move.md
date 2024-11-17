@@ -1,7 +1,9 @@
 ---
 title: Move
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["MOVE THROUGH"]
+desc: A ship moves when it executes a maneuver or otherwise changes position using a template.
 ---
 
 A ship **MOVES** when it executes a [maneuver](/rules/Maneuver) or otherwise changes position using a template (such as [barrel rolling](/rules/Barrel_Roll) or [boosting](/rules/Boost)).

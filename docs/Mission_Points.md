@@ -1,7 +1,8 @@
 ---
 title: Mission Points
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Mission points determine who wins the game.
 ---
 
 Mission points determine who wins the game. Reference the scenario rules to determine how mission points are earned.

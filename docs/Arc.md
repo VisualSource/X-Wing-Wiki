@@ -1,26 +1,16 @@
 ---
 title: Arc
 version: 1.4.6
-links: [{
-		title: "Standard Arc",
-		id: "standard-arcs",
-		},
-		{
-			title: "Bullseye Arc",
-			id: "bullseye-arc",
-		},
-		{
-			title: "Full Arcs",
-			id: "full-arcs",
-		},
-		{
-			title: "Turret Arcs",
-			id: "turret-arcs",
-		},
-		{
-			title: "Firing Arcs",
-			id: "firing-arcs",
-		},]
+links: [
+	{title: "Standard Arc",id: "standard-arcs"},
+	{title: "Bullseye Arc",id: "bullseye-arc",},
+	{title: "Full Arcs",   id: "full-arcs"},
+	{title: "Turret Arcs", id: "turret-arcs"},
+	{title: "Firing Arcs", id: "firing-arcs"}
+]
+category: ["GLOSSARY"]
+tags: ["BEHIND","TURRET ARC","BULLSEYE ARC","FIRING ARC","FLANKING","IN FRONT OF"]
+desc: An arc is an area formed between the lines created by extending hash marks or arc lines printed on a ship token to range 3. A ship is IN an arc if any part of its base is inside that area.
 ---
 
 An arc is an area formed between the lines created by extending hash marks or arc lines printed on a ship token to range 3. A ship is **IN** an arc if any part of its base is inside that area.

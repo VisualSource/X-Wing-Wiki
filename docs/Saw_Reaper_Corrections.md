@@ -6,6 +6,24 @@ links: [
 	{ title: "Upgrade Cards", id: "Upgrade-Cards" },
 	{ title: "Condition Cards", id: "Condition-Cards" }
 ]
+category: ["ERRATA"]
+tags: [
+      "SHIP CARDS",
+      "UPGRADE CARDS",
+      "CONDITION CARDS",
+      "EDRIO TWO TUBES (T-65 X-WING)",
+      "MAJOR VERMEIL (TIE REAPER)",
+      "CAPTAIN FEROPH (TIE REAPER)",
+      "ADVANCED SENSORS",
+      "PIVOT WING",
+      "PROTON TORPEDOES",
+      "R3 ASTROMECH",
+      "SWARM TACTICS",
+      "MAGA YARRO AND SAW GERRERA",
+      "DEATH TROOPERS, DIRECTOR KRENNIC, AND ISB SLICER",
+      "OPTIMIZED PROTOTYPE",
+    ]
+desc: These products were released in first edition with preview versions of second edition cards, and some cards contain wording and formating that is inconsistent with the second edition versions of those cards.
 ---
 
 ## CORRECTIONS

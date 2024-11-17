@@ -1,31 +1,33 @@
 ---
 title: Upgrade Cards
 version: 1.4.6
+category: ["GLOSSARY"]
+desc: When building a squad, a player can field upgrades for their ships by paying their associated loadout point cost.
 links: [
-      { title: "Zeb Orrelios", id: "zeb-orrelios" },
-			{ title: "BB Astromech", id: "bb-astromech" },
-			{ title: "BB-8", id: "bb-8" },
-			{ title: "Agent Kallus", id: "agent-kallus" },
-			{ title: "Asajj Ventress", id: "asajj-ventress" },
-			{ title: "C1-10P", id: "c1-10p" },
-			{ title: "Composure", id: "composure" },
-			{ title: "Contraband Cybernetics", id: "contraband-cybernetics" },
-			{ title: "Count Dooku", id: "count-dooku" },
-			{ title: "Dedicated", id: "dedicated" },
-			{ title: "Ferrosphere Paint", id: "ferrosphere-paint" },
-			{ title: "Grapping Struts", id: "grapping-struts-closed" },
-			{ title: "Landing Struts", id: "landing-struts-open" },
-			{ title: "Lando's Millennium Falcon", id: "landos-millennium-falcon" },
-			{ title: "Leia Organa", id: "leia-organa" },
-			{ title: "Luke Skywalker", id: "luke-skywalker" },
-			{ title: "Outrider", id: "outrider" },
-			{ title: "Protectorate Gleb", id: "protectorate-gleb" },
-			{ title: "Slave I", id: "slave-i" },
-			{ title: "Static Discharge Vanes", id: "static-discharge-vanes" },
-			{ title: "Stalwart Captain", id: "stalwart-captain" },
-			{ title: "Ursa Wren", id: "ursa-wren" },
-			{ title: "Concussion Bombs", id: "concussion-bombs" },
-			{ title: "Tracking Torpedoes", id: "tracking-torpedoes" }
+{ title: "Zeb Orrelios", id: "zeb-orrelios" },
+{ title: "BB Astromech", id: "bb-astromech" },
+{ title: "BB-8", id: "bb-8" },
+{ title: "Agent Kallus", id: "agent-kallus" },
+{ title: "Asajj Ventress", id: "asajj-ventress" },
+{ title: "C1-10P", id: "c1-10p" },
+{ title: "Composure", id: "composure" },
+{ title: "Contraband Cybernetics", id: "contraband-cybernetics" },
+{ title: "Count Dooku", id: "count-dooku" },
+{ title: "Dedicated", id: "dedicated" },
+{ title: "Ferrosphere Paint", id: "ferrosphere-paint" },
+{ title: "Grapping Struts", id: "grapping-struts-closed" },
+{ title: "Landing Struts", id: "landing-struts-open" },
+{ title: "Lando's Millennium Falcon", id: "landos-millennium-falcon" },
+{ title: "Leia Organa", id: "leia-organa" },
+{ title: "Luke Skywalker", id: "luke-skywalker" },
+{ title: "Outrider", id: "outrider" },
+{ title: "Protectorate Gleb", id: "protectorate-gleb" },
+{ title: "Slave I", id: "slave-i" },
+{ title: "Static Discharge Vanes", id: "static-discharge-vanes" },
+{ title: "Stalwart Captain", id: "stalwart-captain" },
+{ title: "Ursa Wren", id: "ursa-wren" },
+{ title: "Concussion Bombs", id: "concussion-bombs" },
+{ title: "Tracking Torpedoes", id: "tracking-torpedoes" }
 ]
 ---
 

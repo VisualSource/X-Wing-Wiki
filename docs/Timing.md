@@ -1,7 +1,8 @@
 ---
 title: Timing
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["BEFORE", "AT THE START OF", "WHILE", "AT THE END OF", "AFTER"]
 ---
 
 There are several terms used to indicate the specific timing of an effect:

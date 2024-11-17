@@ -2,7 +2,6 @@ import Markdown, { MarkdownIt, RenderRules } from "react-native-markdown-display
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { ScrollView, StyleSheet, View } from "react-native";
 import { bare as MarkdownEmoji } from "markdown-it-emoji";
-import { useKeepAwake } from "expo-keep-awake";
 import MarkdownAttrs from "markdown-it-attrs";
 import { Image } from "expo-image"
 import { Metadata } from "@/components/markdown/Metadata";
@@ -23,8 +22,8 @@ const mki = MarkdownIt({ typographer: true })
 
 const renderRules: RenderRules = {
     image: (node) => (
-        <View style={{ display: "flex", width: "auto", flex: 1, flexDirection: "row", justifyContent: "center", marginHorizontal: "auto" }}>
-            <Image style={{ height: 100, width: 100 }} contentFit="contain" key={node.key} alt={node.attributes.alt} source={IMAGE_REFS[node.attributes.src as keyof typeof IMAGE_REFS]} />
+        <View key={node.key} style={{ flex: 1, maxHeight: 400, minHeight: 100, width: "100%", alignItems: "center", justifyContent: "center" }}>
+            <Image style={{ flex: 1, width: "100%" }} contentFit="contain" alt={node.attributes.alt} source={IMAGE_REFS[node.attributes.src as keyof typeof IMAGE_REFS]} />
         </View>
     ),
     metadata: (node) => (<Metadata key={node.key} node={node} />),
@@ -32,10 +31,9 @@ const renderRules: RenderRules = {
 };
 
 export default function Rules() {
-    useKeepAwake();
-    const scheme = useTheme();
-    const router = useRouter();
     const { id } = useLocalSearchParams<{ id: string }>();
+    const router = useRouter();
+    const scheme = useTheme();
 
     return (
         <View style={{ backgroundColor: scheme.background, height: "auto", flex: 1, display: "flex", flexDirection: "column" }}>

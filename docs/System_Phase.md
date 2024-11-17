@@ -1,7 +1,8 @@
 ---
 title: System Phase
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: The System Phase is the second phase of a round.
 ---
 
 The System Phase is the second phase of a [round](/rules/Round). During this phase, the sequence of play starts with the ship with the lowest [initiative](/rules/Initiative) and continues in ascending order.

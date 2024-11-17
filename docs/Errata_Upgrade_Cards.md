@@ -1,7 +1,34 @@
 ---
 title: "Errata: Upgrade Cards"
 version: 1.4.6
-links: []
+category: ["GLOSSARY", "ERRATA"]
+tags: [
+      "ZEB ORRELIOS",
+      "BB ASTROMECH",
+      "BB-8",
+      "AGENT KALLUS",
+      "ASAJJ VENTRESS",
+      "C1-10P",
+      "COMPOSURE",
+      "CONTRABAND CYBERNETIC",
+      "COUNT DOOKU",
+      "CONCUSSION BOMBS",
+      "DEDICATED",
+      "FERROSPHERE PAINT",
+      "GRAPPLING STRUTS",
+      "LANDING STRUTS",
+      "LANDO'S MILLENNIUM FALCON",
+      "LEIA ORGANA",
+      "LUKE SKYWALKER",
+      "OUTRIDER",
+      "PROTECTOREATE GLEB",
+      "SLAVE I",
+      "STALWART CAPTAIN",
+      "STATIC DISCHARGE VANES",
+      "URSA WREN",
+      "TRACKING TORPEDOES",
+]
+desc: "This section contains the official errata that have been made to individual cards and other game components in Star Wars: X-Wing."
 ---
 
 This section contains the official errata that have been made to individual cards and other game components in Star Wars: X-Wing. Errata overrides the originally printed information on the game component it applies to. Unless errata from a game component appears below, the original English printing of that component is considered accurate, and overrides all other printings. This includes translated cards, promotional cards, and printings which may appear in other products.

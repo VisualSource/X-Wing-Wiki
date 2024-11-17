@@ -1,6 +1,7 @@
 ---
 title: Obstacles
 version: 1.4.4
+category: ["GLOSSARY", "RULES"]
 links: [
     { title: "Asteroids", id: "Asteroids" },
 	{ title: "Debris Clouds", id: "Debris-Clouds" },
@@ -12,19 +13,31 @@ links: [
 	{ title: "Range 0", id: "Range-0" },
 	{ title: "Additionally", id: "Additionally" }
 ]
+tags: [
+      "ELECTRO-CHAFF CLOUD",
+      "ASTEROIDS",
+      "CARGO DRIFT",
+      "DEBRIS CLOUDS",
+      "GAS CLOUDS",
+      "LOOSE CARGO",
+      "SPARE PARTS",
+]
+desc: Obstacles act as hazards that can disrupt and damage ships.
 ---
 
-Obstacles act as hazards that can disrupt and damage ships. A ship can suffer effects by [moving through](/rules/Move), [overlapping](/rules/Overlap), or while being at [range 0](/rules/Range) of obstacles.
+Obstacles act as hazards that can disrupt and damage ships. A ship can suffer effects by [moving through](/rules/Move), [overlapping](/rules/Overlap), or while being at [range 0](/rules/Range) of obstacles. 
 
-If a ship moves through or overlaps an obstacle, it suffers an effect based on the type of obstacle after resolving its move:
+Obstacles do not cause ships to partially execute maneuvers -- if a ship overlaps an obstacles, it does not move backward along the template.
 
 ### **Asteroid**
 
-The ship suffers one :hit: damage. Roll one attack die. On a
+The ship suffers one :hit: damage. Then roll one attack die. 
+On a :hit: or :critical-hit: result, the ship suffers an additional :hit: damage.
 
-:hit: or :critical-hit: result, the ship suffers an additional :hit: damage.
+- While a ship is at range 0 the ship cannot perform attacks.
 
 > These are three examples of asteroids.
+
 ![Asteroids](Asteroids.webp)
 
 
@@ -44,6 +57,8 @@ Roll one attack die. On a :hit: or :critical-hit: result, the ship suffers one
 
 The ship is assigned one stress token. Roll one attack die. On a :hit: result, the ship suffers one :hit: damage. On a :critical-hit: result, the ship suffers one :critical-hit: damage.
 
+- While a ship is at range 0 the ship cannot perform attacks.
+
 ![Debris Clouds](Debris_Clouds.webp)
 > These are three examples of debris clouds.
 
@@ -62,6 +77,9 @@ An electro-chaff cloud is a device and an obstacle.
 The ship breaks all its locks and all locks on it and then is assigned one strain token. Roll one attack die. On a :hit: result, the ship is assigned one ion token. On a :critical-hit: result, the ship is assigned three ion tokens.
 
 Gas clouds are new obstacles, and players may select them instead of asteroids or debris clouds.
+
+- While a ship is at range 0 the ship cannot perform attacks.
+- While a ship is at range 0 the ship cannot acquire locks and cannot be locked.
 
 ![Gas Clouds](Gas_Clouds.webp)
 

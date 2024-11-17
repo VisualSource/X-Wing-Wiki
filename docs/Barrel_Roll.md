@@ -1,8 +1,9 @@
 ---
 title: Barrel Roll
 version: 1.4.6
-links: []
 icons: ["barrel-roll"]
+category: ["GLOSSARY"]
+desc: Pilots can barrel roll to move their ship laterally and adjust their position.
 ---
 
 Pilots can barrel roll to move their ship laterally and adjust their position. When a small ship performs :barrel-roll: a action, it barrel rolls by following these steps:

@@ -1,7 +1,9 @@
 ---
 title: Errata Dials
 version: 1.4.6
-links: []
+category: ["ERRATA"]
+tags: ["TANTIVE IV"]
+desc: "This section contains the official errata that have been made to individual cards and other game components in Star Wars: X-Wing."
 ---
 
 The dials included in the first printing of the **Tantive IV** expansion are incorrect. The incorrect dials can be identified by the "RDR" text printed in the center (instead of the correct "C90.") The correct dial is as follows:

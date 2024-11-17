@@ -1,7 +1,9 @@
 ---
 title: Abilties
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: "Some of the text on condition, damage, ship, and upgrade cards describe ABILITIES. These abilities consist of a timing and an effect"
+tags: ["INTRODUCTION", "PILOT ABILTY"]
 ---
 
 Some of the text on condition, damage, ship, and upgrade cards describe **ABILITIES**. These abilities consist of a timing and an effect.

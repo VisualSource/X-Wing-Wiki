@@ -1,7 +1,9 @@
 ---
 title: Attack
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["DEFEND"]
+desc: Ships can perform attacks which thematically represents the ship firing its blaster cannons, ordnance, or other weapons.
 ---
 
 Ships can perform attacks which thematically represents the ship firing its blaster cannons, ordnance, or other weapons.

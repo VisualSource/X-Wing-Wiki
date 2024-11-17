@@ -1,7 +1,8 @@
 ---
 title: Id Marker
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: ID markers relate ships in the play area to their respective ship card and any locks they have.
 ---
 
 ID markers relate ships in the play area to their respective ship card and any [locks](/rules/Lock) they have. Players must assign ID markers to each of their ships during [setup](/rules/Setup).

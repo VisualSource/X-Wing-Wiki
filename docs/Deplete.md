@@ -1,7 +1,8 @@
 ---
 title: Deplete
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A ship is depleted while it has at least one deplete token.
 ---
 
 A ship is **DEPLETED** while it has at least one deplete token. While a depleted ship performs an attack, it rolls one fewer attack die. Deplete tokens are red tokens.

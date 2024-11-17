@@ -1,19 +1,35 @@
 ---
 title: "Objects: Bombs And Mines"
 version: 1.4.4
+category: ["APPENDIX", "RULES"]
 links: [
     { title: "Bomblet", id: "Bomblet" },
-			{ title: "Concussion Bomb", id: "Concussion-Bomb" },
-			{ title: "Electro-Proton Bomb", id: "Electro-Proton-Bomb" },
-			{ title: "Cluster Mine", id: "Cluster-Mine" },
-			{ title: "Conner Net", id: "Conner-Net" },
-			{ title: "Ion Bomb", id: "Ion-Bomb" },
-			{ title: "Proton Bomb", id: "Proton-Bomb" },
-			{ title: "Seismic Charge", id: "Seismic-Charge" },
-			{ title: "Proximity Mine", id: "Proximity-Mine" },
-			{ title: "Thermal Detonator", id: "Thermal-Detonator" },
-			{ title: "Blazer Bomb", id: "Blazer-Bomb" },
+	{ title: "Concussion Bomb", id: "Concussion-Bomb" },
+	{ title: "Electro-Proton Bomb", id: "Electro-Proton-Bomb" },
+	{ title: "Cluster Mine", id: "Cluster-Mine" },
+	{ title: "Conner Net", id: "Conner-Net" },
+	{ title: "Ion Bomb", id: "Ion-Bomb" },
+	{ title: "Proton Bomb", id: "Proton-Bomb" },
+	{ title: "Seismic Charge", id: "Seismic-Charge" },
+	{ title: "Proximity Mine", id: "Proximity-Mine" },
+	{ title: "Thermal Detonator", id: "Thermal-Detonator" },
+	{ title: "Blazer Bomb", id: "Blazer-Bomb" },
 ]
+tags: [
+      "OBJECTS: BOMBS AND MINES",
+      "BOMBLET",
+      "CLUSTER MINE",
+      "CONCUSSION BOMB",
+      "CONNER NET",
+      "ELECTRO-PROTON BOMB",
+      "ION BOMB",
+      "PROTON BOMB",
+      "THERMAL DETONATOR",
+      "SEISMIC CHARGE",
+      "BLAZER BOMB",
+      "PROZIMITY MINE",
+      "ELECTRO-CHAFF CLOUD",
+    ]
 ---
 
 ## Bomblet {#bomblet}

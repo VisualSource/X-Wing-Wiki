@@ -1,7 +1,7 @@
 ---
 title: Victory Counters
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 ---
 
 Some scenarios have **VICTORY COUNTERS** that are used as markers in the

@@ -1,7 +1,8 @@
 ---
 title: Special Weapon
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Special weapons appear as “attack:” headers in card text.
 ---
 
 Special weapons appear as **“Attack:”** headers in card text. They provide additional types of attacks other than a ship's [primary weapon](/rules/Primary_Weapon)(s).

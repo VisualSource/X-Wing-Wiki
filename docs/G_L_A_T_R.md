@@ -1,7 +1,7 @@
 ---
 title: Game Length And Tracking Rounds
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 ---
 
 Standard games are played over twelve rounds. Players track completed rounds with charge markers. At the start of the game, place twelve charge markers, flipped to their active sides, near the play area. At the end of each round, the players flip one charge marker to its inactive side. At the end of the twelfth round, the game ends.

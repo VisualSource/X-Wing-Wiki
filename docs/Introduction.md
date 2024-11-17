@@ -1,7 +1,8 @@
 ---
 title: Introduction
 version: 1.4.6
-links: []
+category: ["RULES"]
+desc: "This reference is the definitive source for all Star Wars: X-Wing rules."
 ---
 
 This reference is the definitive source for all **Star Wars: X-Wing rules.** Unlike the Rulebook, this reference addresses complex and unusual gameplay situations. The main component of this guide is a glossary of important game terms, organized alphabetically.

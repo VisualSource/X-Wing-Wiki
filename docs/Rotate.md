@@ -1,8 +1,9 @@
 ---
 title: Route
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 icons: ["rotate-arc"]
+desc: Pilots can rotate to alert a gunner or aim one of the ship's turret-mounted armaments.
 ---
 
 Pilots can rotate to alert a gunner or aim one of the ship's turret-mounted

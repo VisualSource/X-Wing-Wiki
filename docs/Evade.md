@@ -1,7 +1,8 @@
 ---
 title: Evade
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Pilots can evade to fly defensively.
 ---
 
 Pilots can evade to fly defensively. When a ship performs an :evade: action, it gains one evade token.

@@ -1,7 +1,9 @@
 ---
 title: Planning Phase
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["OVERLAP", "STRESS MANEUVER"]
+desc: The Planning Phase is the first phase of the round.
 ---
 
 The Planning Phase is the first phase of the [round](/rules/Round). During the Planning Phase, each player secretly sets a [maneuver](/rules/Maneuver) for each of their ships. To set a ship's maneuver, the player takes a [dial](/rules/Dial) matching the ship's type and rotates the dial until the arrow points at the desired maneuver. Then the dial is placed facedown in the play area next to the matching ship. After all ships have dials assigned to them, players roll to determine player order as follows:

@@ -1,7 +1,8 @@
 ---
 title: Allied
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Some ships/devices controlled by the same player are ALLIED to each other instead of being friendly. Allied ships are use by their player much like friendly ships, but do not interact with effects that affect "friendly ships.
 ---
 
 Some ships/[devices](/rules/Device) controlled by the same player are **ALLIED** to each other instead of being [friendly](/rules/Friendly). Allied ships are use by their player much like friendly ships, but do not interact with effects that affect "friendly ships.".

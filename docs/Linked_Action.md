@@ -1,7 +1,8 @@
 ---
 title: Linked Action
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Linked actions allow a ship to perform an action after performing another action.
 ---
 
 Linked actions allow a ship to perform an [action](/rules/Action) after performing another action. Linked actions can appear on a ship or upgrade card in the linked action bar just to the right of the action bar. After the ship performs the action from its action bar, it can perform the attached action listed on the linked action bar.

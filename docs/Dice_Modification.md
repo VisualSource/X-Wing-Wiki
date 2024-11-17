@@ -1,7 +1,8 @@
 ---
 title: Dice Modification
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Players can modify dice by spending various tokens and by resolving abilities.
 ---
 
 Players can modify dice by spending various tokens and by resolving abilities. Dice can be modified in the following ways:

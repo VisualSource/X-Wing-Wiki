@@ -16,6 +16,7 @@
   },
   "scripts": {
     "start": "expo start",
+    "build": "eas build -p android --profile development-local",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -28,7 +29,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.4",
-    "@react-navigation/native": "7.0.3",
+    "@react-navigation/native": "^7.0.3",
     "@shopify/flash-list": "1.7.2",
     "expo": "~52.0.7",
     "expo-asset": "~11.0.1",

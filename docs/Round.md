@@ -1,7 +1,8 @@
 ---
 title: Round
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A single Round consists of five phases.
 ---
 
 A single RoUnd consists of five phases resolved in the following order:

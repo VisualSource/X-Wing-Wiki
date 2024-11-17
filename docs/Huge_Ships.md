@@ -1,24 +1,44 @@
 ---
 title: Huge Ships
 version: 1.4.6
+category: ["RULES"]
 links: [
-  { title: "Attacks", id: "attacks" },
-			{ title: "Damage Cards", id: "damage-cards" },
-			{ title: "Docking With Huge Ships", id: "docking-with-huge-ships" },
-			{ title: "Energy", id: "energy" },
-			{ title: "Engagement Value", id: "engagement-value" },
-			{ title: "Ion", id: "ion" },
-			{ title: "Movement", id: "movement" },
-			{ title: "Move And Rotate Effects", id: "move-and-rotate-effects" },
-			{ title: "Overlapping Objects", id: "overlapping-objects" },
-			{ title: "Obstruction By Huge Ships", id: "obstruction-by-huge-ships" },
-			{ title: "Red Maneuvers", id: "red-maneuvers" },
-			{ title: "Resource Trackers", id: "resource-trackers" },
-			{ title: "Setup", id: "setup" },
-			{ title: "Stress", id: "stress" },
-			{ title: "Tractor", id: "tractor" },
-			{ title: "Turrect Arc Indicators", id: "turrect-arc-indicators" }
+	{title: "Attacks", id: "attacks" },
+	{title: "Damage Cards", id: "damage-cards" },
+	{title: "Docking With Huge Ships", id: "docking-with-huge-ships" },
+	{title: "Energy", id: "energy" },
+	{title: "Engagement Value", id: "engagement-value" },
+	{title: "Ion", id: "ion" },
+	{title: "Movement", id: "movement" },
+	{title: "Move And Rotate Effects", id: "move-and-rotate-effects" },
+	{title: "Overlapping Objects", id: "overlapping-objects" },
+	{title: "Obstruction By Huge Ships", id: "obstruction-by-huge-ships" },
+	{title: "Red Maneuvers", id: "red-maneuvers" },
+	{title: "Resource Trackers", id: "resource-trackers" },
+	{title: "Setup", id: "setup" },
+	{title: "Stress", id: "stress" },
+	{title: "Tractor", id: "tractor" },
+	{title: "Turrect Arc Indicators", id: "turrect-arc-indicators" }
 ]
+tags: [
+      "ATTACKS",
+      "DAMAGE CARDS",
+      "MOVEMENT",
+      "DOCKING WITH HUGE SHIPS",
+      "ENERGY",
+      "ENGAGEMENT VALUE",
+      "ION",
+      '"MOVE" AND "ROTATE" EFFECTS',
+      "OVERLAPPING OBJECTS",
+      "OBSTRUCTION BY HUGE SHIPS",
+      "PRECSION SHOT",
+      "RED MANEUVERS",
+      "RESOURCE TACKERS",
+      "TURRET ARC INDICATORS",
+      "SETUP",
+      "STRESS",
+      "TRACTOR",
+    ]
 ---
 
 **The rules for Huge Ships have not been updated alongside the core rules. They will be updated in the future**

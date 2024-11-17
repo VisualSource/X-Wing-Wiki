@@ -1,7 +1,7 @@
 ---
 title: Calculate
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 icons: ["calculate"]
 ---
 

@@ -1,7 +1,9 @@
 ---
 title: Destroying Ships
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["DESTROYED"]
+desc: A ship is destroyed after it has a number of damage cards that equals or exceeds its hull value.
 ---
 
 A ship is **DESTROYED** after it has a number of damage cards that equals or exceeds its hull value. A destroyed ship is placed on its ship card.

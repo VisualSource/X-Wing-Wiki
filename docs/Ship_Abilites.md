@@ -1,7 +1,8 @@
 ---
 title: Ship abilites
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Some ships have ship abilities on their ship cards listed below a pilot ability or flavor text.
 ---
 
 Some ships have **SHIP ABILITIES** on their ship cards listed below a pilot ability

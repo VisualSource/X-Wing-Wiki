@@ -1,7 +1,8 @@
 ---
 title: Ship Type
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Each ship has a ship type that is identified by the name of the type of ship listed on the bottom of its ship cards.
 ---
 
 Each ship has a ship type that is identified by the name of the type of ship

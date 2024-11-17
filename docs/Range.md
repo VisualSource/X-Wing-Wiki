@@ -1,7 +1,8 @@
 ---
 title: Range
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: The Range is the distance between two objects as measured by the range ruler.
 ---
 
 The **RANGE** is the distance between two [objects](/rules/Objects) as measured by the range ruler. The range ruler is divided into three numbered range bands.

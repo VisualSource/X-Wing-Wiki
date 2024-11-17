@@ -1,7 +1,8 @@
 ---
 title: Stress
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A ship is stressed while it has at least one stress token.
 ---
 
 A ship is **STRESSED** while it has at least one stress token. A stressed ship cannot execute red [maneuvers](/rules/Maneuver) or perform [actions](/rules/Action). The stress token is a red [token](/rules/Tokens).

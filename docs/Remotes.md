@@ -7,6 +7,8 @@ links: [
 	{ title: "Damaging Remotes", id: "Damaging-Remotes" },
 	{ title: "Relocating Remotes", id: "Relocating-Remotes" }
 ]
+category: ["GLOSSARY"]
+desc: Remotes are devices that have initiative, agility, and hull values, and can be attacked.
 ---
 
 Remotes are devices that have initiative, agility, and hull values, and can be attacked. Ships can [move through](/rules/Move), [overlap](/rules/Overlap), or be at range 0 of remotes.

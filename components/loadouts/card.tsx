@@ -5,14 +5,14 @@ import { XWingIcon } from "../XwingIcon";
 import { useTheme } from "@/hooks/useTheme";
 import { Loadout } from "@/constants/Loadouts";
 
-export const Card: React.FC<{ builds: Loadout[0]["builds"] }> = ({ builds }) => {
+export const Card: React.FC<{ builds: Loadout["builds"] }> = ({ builds }) => {
     const len = builds.length - 1;
     const scheme = useTheme();
     return (
         <View style={styles.container}>
             {builds.map((pilot, i) => (
                 <View key={i} style={len === i ? styles.card_end : styles.card}>
-                    <Text style={{ color: scheme.text, fontSize: 20, textAlign: "center", fontFamily: "BankGthd" }}>{pilot.limited > 0 ? Array.from({ length: pilot.limited }).fill("*").join(" ") + " " : ""}{pilot.name}</Text>
+                    <Text style={{ color: scheme.text, fontSize: 20, textAlign: "center", fontFamily: "BankGthd" }}>{pilot.limited > 0 ? Array.from({ length: pilot.limited }).fill("•").join(" ") + " " : ""}{pilot.name}</Text>
                     <View style={styles.threat_container}>
                         {pilot.threat > 5 ? (
                             <View>
@@ -30,10 +30,10 @@ export const Card: React.FC<{ builds: Loadout[0]["builds"] }> = ({ builds }) => 
                         )}
                     </View>
                     <View style={styles.upgrades_container}>
-                        {Object.entries(pilot.upgrades ?? []).flatMap(([key, values]) => values.map((config, idx) => (
+                        {Object.entries(pilot.upgrades ?? []).flatMap(([key, values]) => values?.map((config, idx) => (
                             <View style={styles.upgrade_container} key={`upgrade_${key}_${idx}`}>
                                 <XWingIcon useDef icon={key} />
-                                <Text style={{ fontSize: 13, color: scheme.text, marginTop: 2, fontFamily: "EurostileOblique" }}>{config}</Text>
+                                <Text style={StyleSheet.compose(styles.upgrade_text, { color: scheme.text })}>{config}</Text>
                             </View>
                         )))}
                     </View>
@@ -67,6 +67,12 @@ const styles = StyleSheet.create({
         flex: 1,
         borderBottomColor: "gray",
         borderBottomWidth: 1,
+    },
+    upgrade_text: {
+        flex: 1,
+        fontSize: 12,
+        marginTop: 2,
+        fontFamily: "EurostileOblique"
     },
     upgrade_container: {
         display: "flex",

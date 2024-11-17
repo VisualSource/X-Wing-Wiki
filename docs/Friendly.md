@@ -1,7 +1,8 @@
 ---
 title: Friendly
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: All ships/devices controlled by the same player are friendly to each other unless a card, game mode, scenario, or other effect states otherwise.
 ---
 
 All ships/[devices](/rules/Device) controlled by the same player are **FRIENDLY** to each other

@@ -1,7 +1,8 @@
 ---
 title: Removed From Game
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: After a ship is destroyed or flees,it is removed from the game.
 ---
 
 After a ship is [destroyed](/rules/Destoryed) or [flees](/rules/Flee),it is **REMOVED FROM THE GAME**. If a ship is removed from the game, it returns all of its [tokens](/rules/Tokens) to the [supply](/rules/Supply), its ship card is flipped facedown, and the ship is placed on top of its ship card.

@@ -1,8 +1,9 @@
 ---
 title: Coordinate
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 icons: ["coordinate"]
+desc: Pilots can coordinate to assist their allies.
 ---
 
 Pilots can coordinate to assist their allies. When a ship performs the :coordinate: action, it coordinates. A **COORDINATING** ship is a ship that is attempting to coordinate by performing the following steps:

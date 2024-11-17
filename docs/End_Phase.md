@@ -1,7 +1,8 @@
 ---
 title: End Phase
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: The End Phase is the fifth phase of the round.
 ---
 
 The End Phase is the fifth phase of the [round](/rules/Round). During the End Phase, the following occur in this order:

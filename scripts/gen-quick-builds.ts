@@ -66,11 +66,28 @@ const parseFactionShipList = async (data: Manifest["pilots"][0]) => {
         fetchJson<QuickBuilds>(`/data/quick-builds/${faction}.json`),
         readLocal<QuickBuilds>(`loadouts/${faction}.json`)
     ]);
-    debugger;
-    const builds = [
-        ...network["quick-builds"],
-        ...local["quick-builds"]
-    ];
+
+    // remove dups
+    const builds = network["quick-builds"];
+    const seen = new Set(builds.flatMap(e => e.pilots.map(e => e.id)));
+    for (const build of local["quick-builds"]) {
+        let remove = [];
+
+        for (let index = 0; index < build.pilots.length; index++) {
+            if (seen.has(build.pilots[index].id)) {
+                remove.push(build.pilots[index].id);
+                continue;
+            }
+        }
+
+        for (const id of remove) {
+            const idx = build.pilots.findIndex(e => e.id === id);
+            if (idx === -1) continue;
+            build.pilots.splice(idx, 1);
+        }
+
+        if (build.pilots.length > 1) builds.push(build);
+    }
 
     const shipsdata: Record<string, {
         builds: {

@@ -1,7 +1,7 @@
 ---
 title: Miniatures
 version: 1.4.6
-links: []
+category: ["RULES"]
 ---
 
 Each player must have the miniatures for each ship in their squad. Players are allowed to customize their miniatures as they like but must follow these guidelines:

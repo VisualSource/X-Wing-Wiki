@@ -1,7 +1,41 @@
 ---
 title: "Errata: Ship Cards"
 version: 1.4.6
-links: []
+category: ["ERRATA"]
+tags: [
+      "SHIP CARDS",
+      "COUNTDOWN (TIE/SK STRIKER)",
+      "DUCHESS (TIE/SK STRIKER)",
+      "PURE SABACC (TIE/SK SSTRIKER)",
+      "VAGABOND (TIE/SK STRIKER)",
+      "VIZIER (TIE REAPER)",
+      "ALEXANDR KALLUS (VCX-100)",
+      "ARLIZ HARASSIAN (SUCM, BTL-A4 W-WING)",
+      "AREVEL CRYNYD (REBEL, RZ-1 A-WING)",
+      "BLACK SQUADRON SCOUT (TIE/SK STRIKER)",
+      "BERWER KRET (SEPARATIST NANTEX-CLASS STARFIGHTER)",
+      "CAPTAIN FEROPH (TIE REAPER)",
+      "CAPTAIN OICUNN (IMPERIAL VT-49 DECIMATOR)",
+      "CHERTEK (SEPARATIST NANTEX-CLASS STARFIGHTER)",
+      "COMMANDANT GORAN (IMPERIAL TIE/IN INTERCEPTOR)",
+      "COMMANDER MALARUS (FIRST ORDER XI-CLASS LIGHT SHUTTLE)",
+      "BDS-404 (SEPARATIST HYENA-CLASS DROID BOMER)",
+      "FENN RAU (REBEL SHEATHIPEDE-CLASS SHUTTLE)",
+      "GOJI (REPUBLIC BTL-B Y-WING)",
+      "GORGOL (SEPARATIST NANTEX-CLASS STARFIGHTER)",
+      "HERA SYNDULLA (REBEL A/SP-01 B-WING)",
+      "HERA SYNDULLA (REBEL RZ-1 A-WING)",
+      "LIEUTENANT DORMITZ (FIRST ORDER UPSILON-CLASS SHUTTLE)",
+      "MAJOR VERMIL (TIE REAPER)",
+      "NORRA WEXLEY (REBEL ARC-170)",
+      "ODD BALL (REPUBLIC BTL-B Y-WING)",
+      "PETRAMAKI ARENA ACE (SEPARATIST NANTEX-CLASS STARFIGHTER)",
+      "PLANETARY SENTINEL (TIE/SK STRIKER)",
+      "SCARIF BASE PILOT (TIE REAPER)",
+      "SUN FAC (SEPARATIST NATEX-CLASS STARFIGHTER)",
+      "STALGASIN HIVE GUARD (SEPARATIST NATEX-CLASS STARFIGHTER)",
+    ]
+desc: "This section contains the official errata that have been made to individual cards and other game components in Star Wars: X-Wing."
 ---
 
 This section contains the official errata that have been made to individual cards and other game components in **Star Wars: X-Wing**. Errata overrides the originally printed information on the game component it applies to. Unless errata from a game component appears below, the original English printing of that component is considered accurate, and overrides all other printings. This includes translated cards, promotional cards, and printings which may appear in other products.

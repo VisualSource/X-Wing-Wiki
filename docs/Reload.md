@@ -1,8 +1,9 @@
 ---
 title: Reload
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 icons: ["reload"]
+desc: Pilots can reload to rearm ordnance tubes by moving around ammo on their ship.
 ---
 
 Pilots can reload to rearm ordnance tubes by moving around ammo on their ship. When a ship performs the :reload: action, it reloads by performing the following steps:

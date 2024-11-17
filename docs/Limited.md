@@ -1,14 +1,20 @@
 ---
 title: Limited
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+tags: ["LIMITED 2", "LIMITED 3"]
+desc: Some ship cards and upgrade cards have limitations.
 ---
 
 Some ship cards and upgrade cards have limitations. These **LIMITED** cards are identified by a number of bullets (•) to the left of their names. During [squad building](/rules/Squad_Bulding), a player cannot field more copies of cards that share that name than the number of bullets in front of the name.
 
-- For example, if one bullet appears in front of a card's name, it can be included only once in a squad. Likewise, if two bullets appear in front of a card's name, it can be included up to twice in a squad.
-
 - This restriction also applies across card types. For example, if a name has two bullets in front of it, the player could field two ship cards with that name, two upgrades with that name, one ship card and one upgrade with that name, etc.
+
+Examples:
+
+- If one bullet appears in front of a card's name, it can be included only once in a squad. Likewise, if two bullets appear in front of a card's name, it can be included up to twice in a squad.
+
+- •"Luke Skywalker" has one bullet in front of his name, so only one card named "Luke Skywalker" in theri list, either as a ship or upgrade card.
 
 ## LIMITED 2 (••) AND 3 (•••)
 

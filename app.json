@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icons/android/mipmap-mdpi/ic_launcher_round.png",
+        "foregroundImage": "./assets/icons/android/mipmap-xxxhdpi/ic_launcher_round.png",
         "backgroundColor": "#333333"
       },
       "package": "com.visualsource.xwikiwiki"

@@ -1,7 +1,8 @@
 ---
 title: Reserve
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Ships can sometimes be placed in reserve from card effects.
 ---
 
 Ships can sometimes be placed in reserve from card effects. A ship that is

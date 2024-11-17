@@ -1,7 +1,8 @@
 ---
 title: Card Anatomies
 version: 1.4.6
-links: []
+category: ["APPENDIX"]
+tags: ["CARD ANATOMIES", "SHIP CARDS", "UPGRADE CARDS"]
 ---
 
 ## Ship Cards

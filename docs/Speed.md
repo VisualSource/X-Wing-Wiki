@@ -1,7 +1,7 @@
 ---
 title: Speed
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 ---
 
 Each maneuver has three components: speed (a number 0-5), difficulty (red, white, or blue), and bearing (an arrow or other symbol).

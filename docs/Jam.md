@@ -1,8 +1,9 @@
 ---
 title: Jam
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 icons: ["jam"]
+desc: Pilots can jam to conduct electronic warfare and confuse other ships' systems.
 ---
 
 Pilots can jam to conduct electronic warfare and confuse other ships' systems. When a ship performs the :jam: action, it jams. A **JAMMING** ship is a ship that is attempting to jam by performing the following steps:

@@ -1,7 +1,8 @@
 ---
 title: Standarized
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Some upgrade cards have the standardized restriction.
 ---
 
 Some upgrade cards have the **STANDARDIZED** restriction. During squad

@@ -1,7 +1,8 @@
 ---
 title: Strain
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A ship is strained while it has at least one strain token.
 ---
 
 A ship is **STRAINED** while it has at least one strain token. While

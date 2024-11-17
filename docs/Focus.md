@@ -1,8 +1,9 @@
 ---
 title: Focus
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
 icons: ["focus"]
+desc: Pilots can focus to concentrate and expand their combat prowess.
 ---
 
 Pilots can focus to concentrate and expand their combat prowess.

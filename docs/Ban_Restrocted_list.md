@@ -1,7 +1,7 @@
 ---
 title: Ban Restrocted List
 version: 1.4.6
-links: []
+category: ["BAN"]
 ---
 
 ## Ban List

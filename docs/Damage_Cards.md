@@ -1,7 +1,8 @@
 ---
 title: Damage Cards
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: Damage cards are used to track how much damage a ship has suffered.
 ---
 
 Damage cards are used to track how much damage a ship has suffered. When a ship needs to be dealt damage cards, the player uses their own damage deck. After a ship is destroyed, its damage cards remain on that ship.

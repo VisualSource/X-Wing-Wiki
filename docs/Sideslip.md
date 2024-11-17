@@ -1,7 +1,8 @@
 ---
 title: Sideslip
 version: 1.4.6
-links: []
+category: ["GLOSSARY"]
+desc: A sideslip is an advanced maneuver.
 ---
 
 A sideslip is an advanced maneuver using a turn (:left-turn: or :right-turn:) or bank (:bank-left: or :bank-right:)
