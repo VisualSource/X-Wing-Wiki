@@ -6,7 +6,8 @@ A quick and simple way to seach the rules of the [X-Wing: The Miniatures Game (S
 
 ## Prerequisites
 
-- node 18._._
+- node >= 18.x.x
+- bun
 - pnpm
 
 
@@ -17,9 +18,8 @@ Give a ⭐️ if this project helped you!
 ## Acknowledgements
 
 - [guidokessels: 2nd Edition X Wing Data](https://github.com/guidokessels/xwing-data2)
+- [geordanr: Icon Font](https://github.com/geordanr/xwing-miniatures-font)
 
 ---
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
 
 Star Wars: X-Wing and all related properties, images and text are owned by Atomic Mass Games, Lucasfilm Ltd., and/or Disney.
