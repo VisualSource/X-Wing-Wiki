@@ -18,3 +18,10 @@ web-build/
 
 expo-env.d.ts
 # @end expo-cli
+
+# Ignore native folders (if you are using EAS Build)
+/android
+/ios
+
+# Ignore test coverage reports
+/coverage
