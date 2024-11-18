@@ -81,16 +81,13 @@ const loadDocFile = async (path: string) => {
     }
 }
 
-async function* scanDir(target: string, dir: string) {
+async function scanDir(target: string, dir: string) {
     const glob = new Glob(target);
     const scan = glob.scan({ absolute: true, cwd: dir });
-    for await (const entiry of scan) {
-        yield entiry;
-    }
+    return Array.fromAsync(scan);
 }
 
-const scan = scanDir("*.md", join(import.meta.dirname, "../docs"));
-const files = await Array.fromAsync(scan);
+const files = await scanDir("*.md", join(import.meta.dirname, "../docs"));
 const items = await Promise.all(files.map(file => loadDocFile(file)));
 
 const docs: Record<string, string> = {};
