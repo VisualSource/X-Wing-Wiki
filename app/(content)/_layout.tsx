@@ -1,5 +1,5 @@
-import { Stack } from "expo-router";
 import { useKeepAwake } from "expo-keep-awake";
+import { Stack } from "expo-router";
 
 export default function ContentLayout() {
     useKeepAwake();

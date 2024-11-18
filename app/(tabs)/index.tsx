@@ -1,9 +1,11 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Image, StyleSheet } from 'react-native';
+import { Link } from 'expo-router';
 
-import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { HelloWave } from '@/components/HelloWave';
+import { useTheme } from '@/hooks/useTheme';
 
 export default function HomeScreen() {
   return (
@@ -20,12 +22,25 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Welcome to X Wing Wiki</ThemedText>
+        <ThemedText type="subtitle">Welcome to Star War: X-Wing Wiki</ThemedText>
         <ThemedText>
           Search the rules to the left or search quick build loadouts to the right.
         </ThemedText>
       </ThemedView>
-
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Good Starting places</ThemedText>
+        <ThemedView>
+          <ThemedText>
+            <Link style={{ textDecorationLine: "underline" }} href={{ pathname: "/(content)/rules/[id]", params: { id: "Introduction" } }}>Introduction</Link>
+          </ThemedText>
+          <ThemedText>
+            <Link style={{ textDecorationLine: "underline" }} href={{ pathname: "/(content)/rules/[id]", params: { id: "Quick_Reference" } }}>Quick Reference</Link>
+          </ThemedText>
+          <ThemedText>
+            <Link style={{ textDecorationLine: "underline" }} href={{ pathname: "/(content)/rules/[id]", params: { id: "Wings" } }}>Wings</Link>
+          </ThemedText>
+        </ThemedView>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }
