@@ -3,7 +3,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { useState } from "react";
 import { useThemeColor } from "@/hooks/useThemeColor";
 
-export default function ThemedSearch<T>({ placeholder = "Search", onSearch }: { onSearch: (value: string) => void, placeholder?: string }) {
+export default function ThemedSearch({ placeholder = "Search", onSearch }: { onSearch: (value: string) => void, placeholder?: string }) {
     const [text, setText] = useState<string>();
     const color = useThemeColor({}, 'text');
 
