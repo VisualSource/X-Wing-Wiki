@@ -2,6 +2,9 @@
   "name": "x-wiki-wiki",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=18.12.0"
+  },
   "expo": {
     "doctor": {
       "reactNativeDirectoryCheck": {
