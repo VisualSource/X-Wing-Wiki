@@ -13,7 +13,7 @@ export const Card: React.FC<{ builds: Loadout["builds"] }> = ({ builds }) => {
         <View style={styles.container}>
             {builds.map((pilot, i) => (
                 <View key={i} style={len === i ? styles.card_end : styles.card}>
-                    <Text style={{ color: scheme.text, fontSize: 20, textAlign: "center", fontFamily: "BankGthd" }}>{pilot.limited > 0 ? Array.from({ length: pilot.limited }).fill("•").join(" ") + " " : ""}{pilot.name}</Text>
+                    <Text style={{ color: scheme.text, fontSize: 20, textAlign: "center", fontFamily: "BankGthd" }}>{pilot.limited > 0 ? <Text style={{ marginTop: 1 }}>{Array.from({ length: pilot.limited }).fill("•").join(" ")}</Text> : null}{pilot.name}</Text>
                     <View style={styles.threat_container}>
                         {pilot.threat > 5 ? (
                             <View>

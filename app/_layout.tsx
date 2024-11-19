@@ -13,6 +13,10 @@ import { Colors } from '@/constants/Colors';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
+SplashScreen.setOptions({
+  fade: true,
+  duration: 1000,
+});
 if (Platform.OS !== "web") NavigationBar.setVisibilityAsync("hidden");
 
 export default function RootLayout() {

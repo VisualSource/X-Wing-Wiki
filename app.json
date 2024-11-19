@@ -8,11 +8,6 @@
     "icon": "./assets/icons/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/images/splash2.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#333333"
-    },
     "ios": {
       "supportsTablet": true
     },
@@ -30,6 +25,14 @@
     },
     "plugins": [
       "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash2.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#333333"
+        }
+      ],
       [
         "expo-font",
         {
