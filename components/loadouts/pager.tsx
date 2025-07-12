@@ -1,5 +1,5 @@
 import { GestureDetector, Gesture, Directions, GestureHandlerRootView } from "react-native-gesture-handler";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import { useState } from "react";
 
 import type { Loadout } from "@/constants/Loadouts";

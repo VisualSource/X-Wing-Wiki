@@ -1,20 +1,21 @@
 {
+  "$schema": "https://www.schemastore.org/expo-52.0.0.json",
   "expo": {
     "name": "Star Wars: X-Wing Wiki",
     "slug": "x-wiki-wiki",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "newArchEnabled": true,
     "orientation": "portrait",
     "icon": "./assets/icons/icon.png",
     "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icons/android/mipmap-xxxhdpi/ic_launcher_round.png",
-        "backgroundColor": "#333333"
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#000000"
       },
       "package": "com.visualsource.xwikiwiki"
     },
@@ -28,16 +29,19 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash2.png",
+          "image": "./assets/images/adaptive-icon.png",
           "resizeMode": "contain",
-          "backgroundColor": "#333333"
+          "backgroundColor": "#000000"
         }
       ],
       [
         "expo-font",
         {
           "fonts": [
-            "./assets/fonts/xwing-miniatures.ttf"
+            "./assets/fonts/XWingIcons.ttf",
+            "./assets/fonts/BankGthd.ttf",
+            "./assets/fonts/EurostileDemiOblique.ttf",
+            "./assets/fonts/kimberley.otf"
           ]
         }
       ],
@@ -48,10 +52,12 @@
             "./assets/images/docs"
           ]
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "reactCanary": true
     },
     "extra": {
       "eas": {

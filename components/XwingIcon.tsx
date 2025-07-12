@@ -1,11 +1,11 @@
-import { Text, TextProps } from "react-native";
+import { Text, type TextProps } from "react-native";
 
 import ICONS, { type XWing } from "@/constants/Icons";
 import { useThemeColor } from "@/hooks/useThemeColor";
 
 type Props = TextProps & { icon: XWing | string, useDef?: boolean };
 
-export const XWingIcon: React.FC<Props> = ({ icon, useDef, style }) => {
+export const XWingIcon: React.FC<Props> = ({ icon, useDef }) => {
     const color = useThemeColor({}, "text");
     let displayIcon = icon;
     if (useDef) {

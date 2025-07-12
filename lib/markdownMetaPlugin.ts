@@ -1,12 +1,17 @@
-import MarkdownIt, { ParserBlock, StateBlock } from "markdown-it";
+import type MarkdownIt from "markdown-it";
+import type { PluginSimple } from "markdown-it"
 import { load } from "js-yaml";
+import type { RuleBlock } from "markdown-it/lib/parser_block.mjs";
+import type { StateBlock } from "markdown-it/index.js";
 
 const METABLOCK = /^---$/;
 
-export default function (md: MarkdownIt) {
-    md.renderer.rules.metadata = (tokens, idx) => "<br/>";
+const plugin: PluginSimple = (md: MarkdownIt) => {
+    md.renderer.rules.metadata = (_tokens, _idx) => "<br/>";
     md.block.ruler.before('code', "meta", metadata_parser, { alt: [] });
 }
+
+export default plugin;
 
 function get(state: StateBlock, line: number) {
     const ps = state.bMarks[line];
@@ -24,7 +29,7 @@ const loadYAML = (data: string[]) => {
     }
 }
 
-const metadata_parser: ParserBlock.RuleBlock = (state, start, end) => {
+const metadata_parser: RuleBlock = (state, start, end) => {
     if (start !== 0 || state.blkIndent !== 0) return false;
     if (state.tShift[start] < 0) return false;
 

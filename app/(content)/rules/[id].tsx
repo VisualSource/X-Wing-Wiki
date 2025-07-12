@@ -1,4 +1,4 @@
-import Markdown, { MarkdownIt, RenderRules } from "react-native-markdown-display";
+import Markdown, { MarkdownIt, type RenderRules } from "react-native-markdown-display";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { ScrollView, StyleSheet, View } from "react-native";
 import { bare as MarkdownEmoji } from "markdown-it-emoji";
@@ -8,7 +8,7 @@ import { Metadata } from "@/components/markdown/Metadata";
 import markdownMeta from "@/lib/markdownMetaPlugin";
 
 import { XWingIcon } from "@/components/XwingIcon";
-import Icons, { XWing } from "@/constants/Icons";
+import Icons, { type XWing } from "@/constants/Icons";
 import { useTheme } from "@/hooks/useTheme";
 import IMAGE_REFS from "@/lib/imageRefs";
 import DOCS from "@/assets/docs.json";

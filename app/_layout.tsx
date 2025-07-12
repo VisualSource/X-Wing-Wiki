@@ -11,32 +11,8 @@ import { useColorScheme } from '@/hooks/useColorScheme';
 import { StatusBar } from 'expo-status-bar';
 import { Colors } from '@/constants/Colors';
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
-SplashScreen.preventAutoHideAsync();
-SplashScreen.setOptions({
-  fade: true,
-  duration: 1000,
-});
-if (Platform.OS !== "web") NavigationBar.setVisibilityAsync("hidden");
-
 export default function RootLayout() {
   const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    BankGthd: require("../assets/fonts/BankGthd.ttf"),
-    EurostileOblique: require("../assets/fonts/EurostileDemiOblique.ttf"),
-    Kimberley: require("../assets/fonts/kimberley.otf"),
-    XWingIcons: require("../assets/fonts/xwing-miniatures.ttf"),
-  });
-
-  useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
-    }
-  }, [loaded]);
-
-  if (!loaded) {
-    return null;
-  }
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
