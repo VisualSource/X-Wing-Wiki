@@ -1,20 +1,21 @@
 {
   "$schema": "https://www.schemastore.org/expo-52.0.0.json",
   "expo": {
-    "name": "Star Wars: X-Wing Wiki",
+    "name": "X-Wing Wiki",
     "slug": "x-wiki-wiki",
     "version": "1.1.0",
     "newArchEnabled": true,
     "orientation": "portrait",
-    "icon": "./assets/icons/icon.png",
-    "scheme": "myapp",
+    "icon": "./src/assets/icons/icon.png",
+    "scheme": "xwing",
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "edgeToEdgeEnabled": true,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "foregroundImage": "./src/assets/icons/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
       "package": "com.visualsource.xwikiwiki"
@@ -22,14 +23,15 @@
     "web": {
       "bundler": "metro",
       "output": "single",
-      "favicon": "./assets/icons/icon.png"
+      "favicon": "./src/assets/icons/icon.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/adaptive-icon.png",
+          "imageWidth": 200,
+          "image": "./src/assets/icons/adaptive-icon.png",
           "resizeMode": "contain",
           "backgroundColor": "#000000"
         }
@@ -38,18 +40,10 @@
         "expo-font",
         {
           "fonts": [
-            "./assets/fonts/XWingIcons.ttf",
-            "./assets/fonts/BankGthd.ttf",
-            "./assets/fonts/EurostileDemiOblique.ttf",
-            "./assets/fonts/kimberley.otf"
-          ]
-        }
-      ],
-      [
-        "expo-asset",
-        {
-          "assets": [
-            "./assets/images/docs"
+            "./src/assets/fonts/XWingIcons.ttf",
+            "./src/assets/fonts/BankGthd.ttf",
+            "./src/assets/fonts/EurostileDemiOblique.ttf",
+            "./src/assets/fonts/kimberley.otf"
           ]
         }
       ],
