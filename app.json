@@ -54,8 +54,9 @@
       "reactCanary": true
     },
     "extra": {
+      "router": {},
       "eas": {
-        "projectId": "45a37985-af8e-4e21-bc26-39eddb7516e6"
+        "projectId": "54bd40b6-961d-43f7-902a-7807cfa9135c"
       }
     },
     "owner": "visualsource"
